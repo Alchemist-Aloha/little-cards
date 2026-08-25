@@ -7,9 +7,8 @@ export const languages = [
 
 // Add sets here: { id, name (per language), cards }
 // card.word = word per language
-// card.art = 'apple'|'banana'|'orange'|'strawberry'|'grape'|'cat'|'dog'|'bunny'|'bird'|'fish'|'elephant'
+// card.art = a named motif implemented in CardArt.vue,
 //         or { n: 1..10 } for numbers, or { c: 'red'|'blue'|'yellow'|'green'|'purple' } for colors
-// New motifs need a branch in CardArt.vue.
 export const sets = [
   {
     id: 'numbers',
@@ -36,6 +35,8 @@ export const sets = [
       { word: { en: 'orange', zh: '橙子', es: 'naranja' }, art: 'orange' },
       { word: { en: 'strawberry', zh: '草莓', es: 'fresa' }, art: 'strawberry' },
       { word: { en: 'grape', zh: '葡萄', es: 'uva' }, art: 'grape' },
+      { word: { en: 'pear', zh: '梨', es: 'pera' }, art: 'pear' },
+      { word: { en: 'watermelon', zh: '西瓜', es: 'sandía' }, art: 'watermelon' },
     ],
   },
   {
@@ -48,6 +49,8 @@ export const sets = [
       { word: { en: 'bird', zh: '鸟', es: 'pájaro' }, art: 'bird' },
       { word: { en: 'fish', zh: '鱼', es: 'pez' }, art: 'fish' },
       { word: { en: 'elephant', zh: '大象', es: 'elefante' }, art: 'elephant' },
+      { word: { en: 'turtle', zh: '乌龟', es: 'tortuga' }, art: 'turtle' },
+      { word: { en: 'penguin', zh: '企鹅', es: 'pingüino' }, art: 'penguin' },
     ],
   },
   {
@@ -59,6 +62,36 @@ export const sets = [
       { word: { en: 'yellow', zh: '黄色', es: 'amarillo' }, art: { c: 'yellow' } },
       { word: { en: 'green', zh: '绿色', es: 'verde' }, art: { c: 'green' } },
       { word: { en: 'purple', zh: '紫色', es: 'morado' }, art: { c: 'purple' } },
+    ],
+  },
+  {
+    id: 'food',
+    name: { en: 'Food', zh: '食物', es: 'Comida' },
+    cards: [
+      { word: { en: 'bread', zh: '面包', es: 'pan' }, art: 'bread' },
+      { word: { en: 'egg', zh: '鸡蛋', es: 'huevo' }, art: 'egg' },
+      { word: { en: 'milk', zh: '牛奶', es: 'leche' }, art: 'milk' },
+      { word: { en: 'cheese', zh: '奶酪', es: 'queso' }, art: 'cheese' },
+    ],
+  },
+  {
+    id: 'vehicles',
+    name: { en: 'Vehicles', zh: '交通工具', es: 'Vehículos' },
+    cards: [
+      { word: { en: 'car', zh: '汽车', es: 'coche' }, art: 'car' },
+      { word: { en: 'bus', zh: '公共汽车', es: 'autobús' }, art: 'bus' },
+      { word: { en: 'train', zh: '火车', es: 'tren' }, art: 'train' },
+      { word: { en: 'bicycle', zh: '自行车', es: 'bicicleta' }, art: 'bicycle' },
+    ],
+  },
+  {
+    id: 'nature',
+    name: { en: 'Nature', zh: '自然', es: 'Naturaleza' },
+    cards: [
+      { word: { en: 'tree', zh: '树', es: 'árbol' }, art: 'tree' },
+      { word: { en: 'flower', zh: '花', es: 'flor' }, art: 'flower' },
+      { word: { en: 'sun', zh: '太阳', es: 'sol' }, art: 'sun' },
+      { word: { en: 'moon', zh: '月亮', es: 'luna' }, art: 'moon' },
     ],
   },
 ]

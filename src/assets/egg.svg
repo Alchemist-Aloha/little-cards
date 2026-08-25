@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+  <style>svg {
+  color-scheme: light dark;
+  --bg: light-dark(#fbf3e8, #171526);
+  --card: light-dark(#fffdf7, #241f38);
+  --ink: light-dark(#6b543f, #f0e9db);
+  --ink-soft: light-dark(#a08a72, #8f8176);
+  --chip: light-dark(#efe3d0, #37304f);
+  --chip-on: light-dark(#e8a87c, #b97f57);
+  --chip-on-text: #fff;
+  --outline: light-dark(#e5d5bf, #3a3455);
+  --c-apple: light-dark(#f5a09a, #d97e76);
+  --c-banana: light-dark(#f7d774, #e2b64e);
+  --c-orange: light-dark(#f8b46e, #e09a52);
+  --c-straw: light-dark(#f28f92, #d56a6e);
+  --c-grape: light-dark(#b9a3db, #937bc0);
+  --c-pear: light-dark(#bdd487, #8ca45e);
+  --c-watermelon: light-dark(#f28c91, #d36167);
+  --c-watermelon-rind: light-dark(#78aa72, #537d50);
+  --c-leaf: light-dark(#9ec98f, #79a76c);
+  --c-stem: light-dark(#b98a6a, #a37a5d);
+  --c-line: light-dark(#96745a, #8c6f5b);
+  --c-tip: light-dark(#8f6a4e, #7c5c45);
+  --c-seed: light-dark(#fdf3ec, #f0dcc6);
+  --c-hi: light-dark(rgba(255, 255, 255, .65), rgba(255, 255, 255, .16));
+  --c-shadow: light-dark(rgba(122, 82, 50, .10), rgba(0, 0, 0, .38));
+  --c-eyes: light-dark(#5f4b3b, #2b2536);
+  --c-pink: light-dark(#e8a0a0, #c98181);
+  --c-cat: light-dark(#e6ded2, #948a80);
+  --c-dog: light-dark(#eed9b8, #b39468);
+  --c-dog-ear: light-dark(#d9bd96, #96764f);
+  --c-dog-patch: light-dark(#fbf0df, #c9b393);
+  --c-bunny: light-dark(#ecd5d8, #b9a5a3);
+  --c-bird: light-dark(#a3c8ec, #6f95c4);
+  --c-bird-wing: light-dark(#8fb4dc, #5c82b0);
+  --c-fish: light-dark(#f7c37c, #db994f);
+  --c-fish-fin: light-dark(#e8a95f, #c98a47);
+  --c-elephant: light-dark(#bfb2e0, #8778b5);
+  --c-turtle: light-dark(#94c7a0, #679476);
+  --c-turtle-shell: light-dark(#7eaa78, #527e55);
+  --c-penguin: light-dark(#4f5966, #353b45);
+  --c-penguin-belly: light-dark(#f4f0e8, #d6d2cb);
+  --c-bread: light-dark(#e6b979, #b98550);
+  --c-egg: light-dark(#fffaf0, #ded8cd);
+  --c-milk: light-dark(#dcecf4, #9eb9cd);
+  --c-milk-label: light-dark(#fffdf7, #e7e0d5);
+  --c-cheese: light-dark(#f2cf65, #d3a746);
+  --c-car: light-dark(#d98276, #a95b55);
+  --c-bus: light-dark(#e7b85f, #bd8740);
+  --c-train: light-dark(#8eb6d4, #628eaf);
+  --c-wheel: light-dark(#5c5754, #35333b);
+  --c-tree: light-dark(#83b77d, #5d8e5a);
+  --c-tree-trunk: light-dark(#a97955, #7d5740);
+  --c-flower: light-dark(#e99ca9, #bd7182);
+  --c-sun: light-dark(#f4cf60, #d7a73f);
+  --c-moon: light-dark(#b4b9d9, #858caf);
+  --c-red: light-dark(#ef8e83, #d4695d);
+  --c-blue: light-dark(#a3c8ec, #6f95c4);
+  --c-yellow: light-dark(#f6d76c, #dfb14c);
+  --c-green: light-dark(#9ec98f, #79a76c);
+  --c-purple: light-dark(#b9a3db, #937bc0);
+  --n1: light-dark(#fbe9b4, #6d5c2e);
+  --n2: light-dark(#cdeeda, #38614a);
+  --n3: light-dark(#fde0bd, #6e4c2c);
+  --n4: light-dark(#e6dcf7, #4d4170);
+  --n5: light-dark(#d2ecf9, #365f7b);
+  --n6: light-dark(#f6d3e0, #6b3c50);
+  --n7: light-dark(#cfe8e3, #37605a);
+  --n8: light-dark(#f3ead0, #685e34);
+  --n9: light-dark(#d6d9f4, #3f4374);
+  --n10: light-dark(#fbd9c7, #6b4636);
+  --num-ink: light-dark(#7a6248, #f6efe2);
+}
+/* ── SVG art fills ── */
+.shadow { fill: var(--c-shadow); }
+.c-apple  { fill: var(--c-apple);  stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-banana { fill: var(--c-banana); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-orange { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2.5; }
+.c-straw  { fill: var(--c-straw);  stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-grape  { fill: var(--c-grape);  stroke: var(--c-line); stroke-width: 2.5; }
+.c-pear { fill: var(--c-pear); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-stem-line { fill: none; stroke: var(--c-stem); stroke-width: 5; stroke-linecap: round; }
+.c-freckle { fill: var(--c-line); opacity: .35; }
+.c-watermelon { fill: var(--c-watermelon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-watermelon-rind { fill: var(--c-watermelon-rind); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rind-line { fill: none; stroke: var(--c-seed); stroke-width: 4; opacity: .8; }
+.c-watermelon-seed { fill: var(--c-tip); }
+.c-leaf   { fill: var(--c-leaf);   stroke: var(--c-line); stroke-width: 2; }
+.c-stem   { stroke: var(--c-stem); }
+.c-tip    { fill: var(--c-tip); }
+.c-ridge  { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .45; stroke-linecap: round; }
+.c-dimple { fill: var(--c-line); opacity: .35; }
+.c-seed   { fill: var(--c-seed); }
+.hi       { fill: var(--c-hi); }
+.c-eyes   { fill: var(--c-eyes); }
+.c-eyeline { fill: none; stroke: var(--c-eyes); stroke-width: 4.5; stroke-linecap: round; }
+.c-whisker { fill: none; stroke: var(--c-eyes); stroke-width: 2.5; stroke-linecap: round; opacity: .75; }
+.c-pink   { fill: var(--c-pink); }
+.c-cat    { fill: var(--c-cat); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-dog    { fill: var(--c-dog); stroke: var(--c-line); stroke-width: 2.5; }
+.c-dog-ear { fill: var(--c-dog-ear); stroke: var(--c-line); stroke-width: 2.5; }
+.c-dog-patch { fill: var(--c-dog-patch); }
+.c-bunny  { fill: var(--c-bunny); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bird   { fill: var(--c-bird); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bird-wing { fill: var(--c-bird-wing); stroke: var(--c-line); stroke-width: 2.5; }
+.c-beak   { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2; stroke-linejoin: round; }
+.c-feather { fill: none; stroke: var(--c-bird); stroke-width: 7; stroke-linecap: round; }
+.c-fish   { fill: var(--c-fish); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-fish-fin { fill: var(--c-fish-fin); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bubble { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .45; }
+.c-elephant { fill: var(--c-elephant); stroke: var(--c-line); stroke-width: 2.5; }
+.c-trunk-line { fill: none; stroke: var(--c-line); stroke-width: 25; stroke-linecap: round; }
+.c-trunk { fill: none; stroke: var(--c-elephant); stroke-width: 19; stroke-linecap: round; }
+.c-turtle { fill: var(--c-turtle); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-turtle-shell { fill: var(--c-turtle-shell); stroke: var(--c-line); stroke-width: 2.5; }
+.c-turtle-limb { fill: none; stroke: var(--c-turtle); stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.c-shell-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .55; stroke-linejoin: round; }
+.c-penguin { fill: var(--c-penguin); stroke: var(--c-line); stroke-width: 2.5; }
+.c-penguin-belly { fill: var(--c-penguin-belly); }
+.c-penguin-wing { fill: none; stroke: var(--c-penguin); stroke-width: 19; stroke-linecap: round; }
+.c-penguin-foot { fill: var(--c-orange); }
+.c-bread { fill: var(--c-bread); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bread-score { fill: none; stroke: var(--c-seed); stroke-width: 4; stroke-linecap: round; opacity: .8; }
+.c-bread-crust { fill: none; stroke: var(--c-stem); stroke-width: 5; stroke-linecap: round; }
+.c-egg { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-milk { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-milk-top { fill: var(--c-milk-label); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-milk-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .65; }
+.c-milk-label { fill: var(--c-milk-label); stroke: var(--c-line); stroke-width: 1.5; }
+.c-milk-drop { fill: var(--c-blue); }
+.c-milk-shine { fill: none; stroke: var(--c-hi); stroke-width: 5; stroke-linecap: round; }
+.c-cheese { fill: var(--c-cheese); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cheese-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .55; stroke-linejoin: round; }
+.c-cheese-hole { fill: var(--c-orange); opacity: .6; }
+.c-cheese-shine { fill: none; stroke: var(--c-hi); stroke-width: 4; stroke-linecap: round; }
+.c-car { fill: var(--c-car); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-car-window, .c-bus-window { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-car-line, .c-bus-line, .c-train-line { fill: none; stroke: var(--c-line); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.c-wheel { fill: var(--c-wheel); stroke: var(--c-line); stroke-width: 2.5; }
+.c-hub { fill: var(--c-milk-label); }
+.c-headlight { fill: var(--c-seed); }
+.c-bus { fill: var(--c-bus); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-train { fill: var(--c-train); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-train-light { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2; }
+.c-track { fill: none; stroke: var(--c-line); stroke-width: 3; opacity: .6; stroke-linecap: round; }
+.c-bike-wheel { fill: none; stroke: var(--c-wheel); stroke-width: 5; }
+.c-bike { fill: none; stroke: var(--c-car); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.c-tree { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2.5; }
+.c-tree-trunk { fill: var(--c-tree-trunk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-flower-stem { fill: none; stroke: var(--c-tree); stroke-width: 6; stroke-linecap: round; }
+.c-flower-leaf { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2; stroke-linejoin: round; }
+.c-flower-petal { fill: var(--c-flower); stroke: var(--c-line); stroke-width: 2.5; }
+.c-flower-center { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2; }
+.c-sun { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2.5; }
+.c-sun-ray { fill: none; stroke: var(--c-sun); stroke-width: 6; stroke-linecap: round; }
+.c-moon { fill: var(--c-moon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-moon-crater { fill: var(--c-line); opacity: .2; }
+.c-star { fill: none; stroke: var(--c-sun); stroke-width: 3; stroke-linecap: round; }
+.blob { stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-red { fill: var(--c-red); }
+.c-blue { fill: var(--c-blue); }
+.c-yellow { fill: var(--c-yellow); }
+.c-green { fill: var(--c-green); }
+.c-purple { fill: var(--c-purple); }
+.num-bg { stroke: var(--c-line); stroke-width: 2.5; }
+.num-bg.n1 { fill: var(--n1); }
+.num-bg.n2 { fill: var(--n2); }
+.num-bg.n3 { fill: var(--n3); }
+.num-bg.n4 { fill: var(--n4); }
+.num-bg.n5 { fill: var(--n5); }
+.num-bg.n6 { fill: var(--n6); }
+.num-bg.n7 { fill: var(--n7); }
+.num-bg.n8 { fill: var(--n8); }
+.num-bg.n9 { fill: var(--n9); }
+.num-bg.n10 { fill: var(--n10); }
+.num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
+.num-dot { fill: var(--num-ink); }
+</style>
+<g>
+      <ellipse cx="100" cy="169" rx="36" ry="7" class="shadow" />
+      <path d="M100 47 C77 70 61 101 63 126 C65 152 80 165 100 165 C120 165 135 152 137 126 C139 101 123 70 100 47 Z" class="c-egg" />
+      <ellipse cx="85" cy="100" rx="8" ry="16" transform="rotate(-20 85 100)" class="hi" />
+    </g>
+</svg>
