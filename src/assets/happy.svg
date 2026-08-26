@@ -1,0 +1,569 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<style>svg {
+  color-scheme: light dark;
+  --bg: light-dark(#fbf3e8, #171526);
+  --card: light-dark(#fffdf7, #241f38);
+  --ink: light-dark(#6b543f, #f0e9db);
+  --ink-soft: light-dark(#a08a72, #8f8176);
+  --chip: light-dark(#efe3d0, #37304f);
+  --chip-on: light-dark(#e8a87c, #b97f57);
+  --chip-on-text: #fff;
+  --outline: light-dark(#e5d5bf, #3a3455);
+  --c-apple: light-dark(#f5a09a, #d97e76);
+  --c-banana: light-dark(#f7d774, #e2b64e);
+  --c-orange: light-dark(#f8b46e, #e09a52);
+  --c-straw: light-dark(#f28f92, #d56a6e);
+  --c-grape: light-dark(#b9a3db, #937bc0);
+  --c-pear: light-dark(#bdd487, #8ca45e);
+  --c-watermelon: light-dark(#f28c91, #d36167);
+  --c-watermelon-rind: light-dark(#78aa72, #537d50);
+  --c-leaf: light-dark(#9ec98f, #79a76c);
+  --c-stem: light-dark(#b98a6a, #a37a5d);
+  --c-line: light-dark(#96745a, #8c6f5b);
+  --c-tip: light-dark(#8f6a4e, #7c5c45);
+  --c-seed: light-dark(#fdf3ec, #f0dcc6);
+  --c-hi: light-dark(rgba(255, 255, 255, .65), rgba(255, 255, 255, .16));
+  --c-shadow: light-dark(rgba(122, 82, 50, .10), rgba(0, 0, 0, .38));
+  --c-eyes: light-dark(#5f4b3b, #2b2536);
+  --c-pink: light-dark(#e8a0a0, #c98181);
+  --c-cat: light-dark(#e6ded2, #948a80);
+  --c-dog: light-dark(#eed9b8, #b39468);
+  --c-dog-ear: light-dark(#d9bd96, #96764f);
+  --c-dog-patch: light-dark(#fbf0df, #c9b393);
+  --c-bunny: light-dark(#ecd5d8, #b9a5a3);
+  --c-bird: light-dark(#a3c8ec, #6f95c4);
+  --c-bird-wing: light-dark(#8fb4dc, #5c82b0);
+  --c-fish: light-dark(#f7c37c, #db994f);
+  --c-fish-fin: light-dark(#e8a95f, #c98a47);
+  --c-elephant: light-dark(#bfb2e0, #8778b5);
+  --c-turtle: light-dark(#94c7a0, #679476);
+  --c-turtle-shell: light-dark(#7eaa78, #527e55);
+  --c-penguin: light-dark(#4f5966, #353b45);
+  --c-penguin-belly: light-dark(#f4f0e8, #d6d2cb);
+  --c-bread: light-dark(#e6b979, #b98550);
+  --c-egg: light-dark(#fffaf0, #ded8cd);
+  --c-milk: light-dark(#dcecf4, #9eb9cd);
+  --c-milk-label: light-dark(#fffdf7, #e7e0d5);
+  --c-cheese: light-dark(#f2cf65, #d3a746);
+  --c-car: light-dark(#d98276, #a95b55);
+  --c-bus: light-dark(#e7b85f, #bd8740);
+  --c-train: light-dark(#8eb6d4, #628eaf);
+  --c-wheel: light-dark(#5c5754, #35333b);
+  --c-tree: light-dark(#83b77d, #5d8e5a);
+  --c-tree-trunk: light-dark(#a97955, #7d5740);
+  --c-flower: light-dark(#e99ca9, #bd7182);
+  --c-sun: light-dark(#f4cf60, #d7a73f);
+  --c-moon: light-dark(#b4b9d9, #858caf);
+  --c-red: light-dark(#ef8e83, #d4695d);
+  --c-blue: light-dark(#a3c8ec, #6f95c4);
+  --c-yellow: light-dark(#f6d76c, #dfb14c);
+  --c-green: light-dark(#9ec98f, #79a76c);
+  --c-purple: light-dark(#b9a3db, #937bc0);
+  --n1: light-dark(#fbe9b4, #6d5c2e);
+  --n2: light-dark(#cdeeda, #38614a);
+  --n3: light-dark(#fde0bd, #6e4c2c);
+  --n4: light-dark(#e6dcf7, #4d4170);
+  --n5: light-dark(#d2ecf9, #365f7b);
+  --n6: light-dark(#f6d3e0, #6b3c50);
+  --n7: light-dark(#cfe8e3, #37605a);
+  --n8: light-dark(#f3ead0, #685e34);
+  --n9: light-dark(#d6d9f4, #3f4374);
+  --n10: light-dark(#fbd9c7, #6b4636);
+  --num-ink: light-dark(#7a6248, #f6efe2);
+}
+/* ── numbers 11-20 ── */
+svg {
+  --n11: light-dark(#e3d7f5, #4d3f6b);
+  --n12: light-dark(#f5d7d7, #6b3f3f);
+  --n13: light-dark(#d7f1e4, #3f6b55);
+  --n14: light-dark(#f1e6d7, #6b5a3f);
+  --n15: light-dark(#d7e6f5, #3f5a6b);
+  --n16: light-dark(#f5e6d7, #6b4a3f);
+  --n17: light-dark(#e6f5d7, #4a6b3f);
+  --n18: light-dark(#f5d7e6, #6b3f5a);
+  --n19: light-dark(#d7f1f1, #3f6b6b);
+  --n20: light-dark(#f1d7d1, #6b4a42);
+}
+/* ── extra palettes (shapes/produce/food/drinks/vehicles/animals/sea/bugs/nature/clothes/body/toys/home/music/helpers/places/seasons/emotions/breakfast) ── */
+svg {
+  --c-circle: light-dark(#a3c8ec, #6f95c4);
+  --c-square: light-dark(#f2cf65, #d3a746);
+  --c-triangle: light-dark(#94c7a0, #679476);
+  --c-star: light-dark(#f4cf60, #d7a73f);
+  --c-heart: light-dark(#e99ca9, #bd7182);
+  --c-diamond: light-dark(#b9a3db, #937bc0);
+  --c-oval: light-dark(#d7f1e4, #6fae92);
+  --c-rect: light-dark(#f0b6a4, #cf8571);
+  --c-crescent: light-dark(#f4e3b8, #c9a94e);
+  --c-arrow: light-dark(#8eb6d4, #628eaf);
+  --c-carrot: light-dark(#f2a55c, #d1834a);
+  --c-tomato: light-dark(#ef8e83, #d4695d);
+  --c-broccoli: light-dark(#83b77d, #5d8e5a);
+  --c-corn: light-dark(#e9b34e, #c98f39);
+  --c-pumpkin: light-dark(#f8b46e, #e09a52);
+  --c-cucumber: light-dark(#94c7a0, #679476);
+  --c-mushroom: light-dark(#f5e9dc, #a8937f);
+  --c-mushroom-cap: light-dark(#d98276, #a95b55);
+  --c-eggplant: light-dark(#b9a3db, #937bc0);
+  --c-potato: light-dark(#e6c99c, #a9825a);
+  --c-onion: light-dark(#f5e9dc, #a8937f);
+  --c-garlic: light-dark(#f5e9dc, #a8937f);
+  --c-pizza: light-dark(#f8b46e, #e09a52);
+  --c-burger-patty: light-dark(#8a6a55, #6e4d3c);
+  --c-donut: light-dark(#f5a09a, #d97e76);
+  --c-icecream: light-dark(#e99ca9, #bd7182);
+  --c-bowl: light-dark(#8eb6d4, #628eaf);
+  --c-juice: light-dark(#f2cf65, #d3a746);
+  --c-tea: light-dark(#e6b979, #b98550);
+  --c-coffee: light-dark(#9a7458, #6e4d3c);
+  --c-lemonade: light-dark(#f4cf60, #d7a73f);
+  --c-cola: light-dark(#d98276, #a95b55);
+  --c-milkshake: light-dark(#e99ca9, #bd7182);
+  --c-plane: light-dark(#d7f1e4, #6fae92);
+  --c-boat: light-dark(#d98276, #a95b55);
+  --c-rocket: light-dark(#f4f0e8, #d6d2cb);
+  --c-helicopter: light-dark(#8eb6d4, #628eaf);
+  --c-tractor: light-dark(#e7b85f, #bd8740);
+  --c-truck: light-dark(#e9b34e, #c98f39);
+  --c-pig: light-dark(#e99ca9, #bd7182);
+  --c-cow: light-dark(#f4f0e8, #d6d2cb);
+  --c-cow-spot: light-dark(#4f5966, #353b45);
+  --c-hen: light-dark(#e6b979, #b98550);
+  --c-sheep-face: light-dark(#7d7770, #5f5a54);
+  --c-horse: light-dark(#d98276, #a95b55);
+  --c-duck: light-dark(#f4cf60, #d7a73f);
+  --c-goat: light-dark(#d7d3c9, #8a8477);
+  --c-monkey: light-dark(#e6b979, #b98550);
+  --c-lion: light-dark(#e9b34e, #c98f39);
+  --c-giraffe: light-dark(#f4cf60, #d7a73f);
+  --c-snake: light-dark(#94c7a0, #679476);
+  --c-hippo: light-dark(#9a9db5, #6f7288);
+  --c-tiger: light-dark(#f2a55c, #d1834a);
+  --c-camel: light-dark(#e6b979, #b98550);
+  --c-whale: light-dark(#8eb6d4, #628eaf);
+  --c-octopus: light-dark(#e99ca9, #bd7182);
+  --c-crab: light-dark(#ef8e83, #d4695d);
+  --c-starfish: light-dark(#f4a26b, #d98358);
+  --c-shell: light-dark(#f5d7ba, #d8ae87);
+  --c-butterfly: light-dark(#f2a55c, #d1834a);
+  --c-ladybug: light-dark(#ef8e83, #d4695d);
+  --c-bee: light-dark(#f4cf60, #d7a73f);
+  --c-snail: light-dark(#94c7a0, #679476);
+  --c-caterpillar: light-dark(#94c7a0, #679476);
+  --c-dragonfly: light-dark(#a3c8ec, #6f95c4);
+  --c-worm: light-dark(#e99ca9, #bd7182);
+  --c-cloud: light-dark(#f4f0e8, #d6d2cb);
+  --c-cloth-blue: light-dark(#a3c8ec, #6f95c4);
+  --c-cloth-navy: light-dark(#8eb6d4, #628eaf);
+  --c-cloth-red: light-dark(#ef8e83, #d4695d);
+  --c-cloth-yellow: light-dark(#f2cf65, #d3a746);
+  --c-cloth-green: light-dark(#94c7a0, #679476);
+  --c-cloth-purple: light-dark(#b9a3db, #937bc0);
+  --c-boots: light-dark(#9a9db5, #6f7288);
+  --c-skin: light-dark(#f6d7bf, #c69572);
+  --c-hair: light-dark(#8a6a55, #6e4d3c);
+  --c-teddy: light-dark(#e6b979, #b98550);
+  --c-kite: light-dark(#ef8e83, #d4695d);
+  --c-balloon: light-dark(#ef8e83, #d4695d);
+  --c-slide: light-dark(#8eb6d4, #628eaf);
+  --c-swing: light-dark(#e7b85f, #bd8740);
+  --c-puppet: light-dark(#d98276, #a95b55);
+  --c-robot: light-dark(#d7f1e4, #6fae92);
+  --c-house: light-dark(#e99ca9, #bd7182);
+  --c-roof: light-dark(#d98276, #a95b55);
+  --c-bed: light-dark(#8eb6d4, #628eaf);
+  --c-chair: light-dark(#e7b85f, #bd8740);
+  --c-table: light-dark(#e7b85f, #bd8740);
+  --c-lamp: light-dark(#f4cf60, #d7a73f);
+  --c-book: light-dark(#ef8e83, #d4695d);
+  --c-cup: light-dark(#a3c8ec, #6f95c4);
+  --c-plate: light-dark(#f4f0e8, #d6d2cb);
+  --c-spoon: light-dark(#d7d3c9, #8a8477);
+  --c-sofa: light-dark(#a3c8ec, #6f95c4);
+  --c-mirror: light-dark(#a3c8ec, #6f95c4);
+  --c-guitar: light-dark(#e7b85f, #bd8740);
+  --c-drum: light-dark(#ef8e83, #d4695d);
+  --c-trumpet: light-dark(#f4cf60, #d7a73f);
+  --c-violin: light-dark(#d98276, #a95b55);
+  --c-tambourine: light-dark(#e7b85f, #bd8740);
+  --c-flute: light-dark(#a3c8ec, #6f95c4);
+  --c-maracas: light-dark(#f2a55c, #d1834a);
+  --c-xylo: light-dark(#8eb6d4, #628eaf);
+  --c-mic: light-dark(#9a9db5, #6f7288);
+  --c-peach: light-dark(#f6b3ba, #d98a92);
+  --c-lemon: light-dark(#f4cf60, #d7a73f);
+  --c-mango: light-dark(#f2a55c, #d1834a);
+  --c-cherry: light-dark(#ef8e83, #d4695d);
+  --c-pineapple: light-dark(#f4cf60, #d7a73f);
+  --c-kiwi: light-dark(#83b77d, #5d8e5a);
+  --c-coconut: light-dark(#a3896b, #7d664c);
+  --c-plum: light-dark(#b9a3db, #937bc0);
+  --c-bear: light-dark(#e6b979, #b98550);
+  --c-fox: light-dark(#f2a55c, #d1834a);
+  --c-frog: light-dark(#94c7a0, #679476);
+  --c-owl: light-dark(#9a9db5, #6f7288);
+  --c-parrot: light-dark(#f2a55c, #d1834a);
+  --c-squirrel: light-dark(#e6b979, #b98550);
+  --c-hedgehog: light-dark(#8a8477, #635e54);
+  --c-deer: light-dark(#e6b979, #b98550);
+  --c-sand: light-dark(#f2e3c4, #b39a6b);
+  --c-autumn: light-dark(#e8875a, #b85e3b);
+  --c-face: light-dark(#f2cf65, #d3a746);
+  --c-pancake: light-dark(#e9b34e, #c98f39);
+  --c-candy: light-dark(#f6a5c0, #cf7fa0);
+}
+/* ── SVG art fills (base) ── */
+.shadow { fill: var(--c-shadow); }
+.c-apple  { fill: var(--c-apple);  stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-banana { fill: var(--c-banana); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-orange { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2.5; }
+.c-straw  { fill: var(--c-straw);  stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-grape  { fill: var(--c-grape);  stroke: var(--c-line); stroke-width: 2.5; }
+.c-pear { fill: var(--c-pear); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-stem-line { fill: none; stroke: var(--c-stem); stroke-width: 5; stroke-linecap: round; }
+.c-freckle { fill: var(--c-line); opacity: .35; }
+.c-watermelon { fill: var(--c-watermelon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-watermelon-rind { fill: var(--c-watermelon-rind); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rind-line { fill: none; stroke: var(--c-seed); stroke-width: 4; opacity: .8; }
+.c-watermelon-seed { fill: var(--c-tip); }
+.c-leaf   { fill: var(--c-leaf);   stroke: var(--c-line); stroke-width: 2; }
+.c-stem   { stroke: var(--c-stem); }
+.c-tip    { fill: var(--c-tip); }
+.c-ridge  { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .45; stroke-linecap: round; }
+.c-dimple { fill: var(--c-line); opacity: .35; }
+.c-seed   { fill: var(--c-seed); }
+.hi       { fill: var(--c-hi); }
+.c-eyes   { fill: var(--c-eyes); }
+.c-eyeline { fill: none; stroke: var(--c-eyes); stroke-width: 4.5; stroke-linecap: round; }
+.c-whisker { fill: none; stroke: var(--c-eyes); stroke-width: 2.5; stroke-linecap: round; opacity: .75; }
+.c-pink   { fill: var(--c-pink); }
+.c-cat    { fill: var(--c-cat); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-dog    { fill: var(--c-dog); stroke: var(--c-line); stroke-width: 2.5; }
+.c-dog-ear { fill: var(--c-dog-ear); stroke: var(--c-line); stroke-width: 2.5; }
+.c-dog-patch { fill: var(--c-dog-patch); }
+.c-bunny  { fill: var(--c-bunny); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bird   { fill: var(--c-bird); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bird-wing { fill: var(--c-bird-wing); stroke: var(--c-line); stroke-width: 2.5; }
+.c-beak   { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2; stroke-linejoin: round; }
+.c-feather { fill: none; stroke: var(--c-bird); stroke-width: 7; stroke-linecap: round; }
+.c-fish   { fill: var(--c-fish); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-fish-fin { fill: var(--c-fish-fin); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bubble { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .45; }
+.c-elephant { fill: var(--c-elephant); stroke: var(--c-line); stroke-width: 2.5; }
+.c-trunk-line { fill: none; stroke: var(--c-line); stroke-width: 25; stroke-linecap: round; }
+.c-trunk { fill: none; stroke: var(--c-elephant); stroke-width: 19; stroke-linecap: round; }
+.c-turtle { fill: var(--c-turtle); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-turtle-shell { fill: var(--c-turtle-shell); stroke: var(--c-line); stroke-width: 2.5; }
+.c-turtle-limb { fill: none; stroke: var(--c-turtle); stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.c-shell-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .55; stroke-linejoin: round; }
+.c-penguin { fill: var(--c-penguin); stroke: var(--c-line); stroke-width: 2.5; }
+.c-penguin-belly { fill: var(--c-penguin-belly); }
+.c-penguin-wing { fill: none; stroke: var(--c-penguin); stroke-width: 19; stroke-linecap: round; }
+.c-penguin-foot { fill: var(--c-orange); }
+.c-bread { fill: var(--c-bread); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bread-score { fill: none; stroke: var(--c-seed); stroke-width: 4; stroke-linecap: round; opacity: .8; }
+.c-bread-crust { fill: none; stroke: var(--c-stem); stroke-width: 5; stroke-linecap: round; }
+.c-egg { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-milk { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-milk-top { fill: var(--c-milk-label); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-milk-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .65; }
+.c-milk-label { fill: var(--c-milk-label); stroke: var(--c-line); stroke-width: 1.5; }
+.c-milk-drop { fill: var(--c-blue); }
+.c-milk-shine { fill: none; stroke: var(--c-hi); stroke-width: 5; stroke-linecap: round; }
+.c-cheese { fill: var(--c-cheese); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cheese-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .55; stroke-linejoin: round; }
+.c-cheese-hole { fill: var(--c-orange); opacity: .6; }
+.c-cheese-shine { fill: none; stroke: var(--c-hi); stroke-width: 4; stroke-linecap: round; }
+.c-car { fill: var(--c-car); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-car-window, .c-bus-window { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-car-line, .c-bus-line, .c-train-line { fill: none; stroke: var(--c-line); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.c-wheel { fill: var(--c-wheel); stroke: var(--c-line); stroke-width: 2.5; }
+.c-hub { fill: var(--c-milk-label); }
+.c-headlight { fill: var(--c-seed); }
+.c-bus { fill: var(--c-bus); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-train { fill: var(--c-train); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-train-light { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2; }
+.c-track { fill: none; stroke: var(--c-line); stroke-width: 3; opacity: .6; stroke-linecap: round; }
+.c-bike-wheel { fill: none; stroke: var(--c-wheel); stroke-width: 5; }
+.c-bike { fill: none; stroke: var(--c-car); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.c-tree { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2.5; }
+.c-tree-trunk { fill: var(--c-tree-trunk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-flower-stem { fill: none; stroke: var(--c-tree); stroke-width: 6; stroke-linecap: round; }
+.c-flower-leaf { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2; stroke-linejoin: round; }
+.c-flower-petal { fill: var(--c-flower); stroke: var(--c-line); stroke-width: 2.5; }
+.c-flower-center { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2; }
+.c-sun { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2.5; }
+.c-sun-ray { fill: none; stroke: var(--c-sun); stroke-width: 6; stroke-linecap: round; }
+.c-moon { fill: var(--c-moon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-moon-crater { fill: var(--c-line); opacity: .2; }
+.c-star { fill: none; stroke: var(--c-sun); stroke-width: 3; stroke-linecap: round; }
+.blob { stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-red { fill: var(--c-red); }
+.c-blue { fill: var(--c-blue); }
+.c-yellow { fill: var(--c-yellow); }
+.c-green { fill: var(--c-green); }
+.c-purple { fill: var(--c-purple); }
+.num-bg { stroke: var(--c-line); stroke-width: 2.5; }
+.num-bg.n1 { fill: var(--n1); }
+.num-bg.n2 { fill: var(--n2); }
+.num-bg.n3 { fill: var(--n3); }
+.num-bg.n4 { fill: var(--n4); }
+.num-bg.n5 { fill: var(--n5); }
+.num-bg.n6 { fill: var(--n6); }
+.num-bg.n7 { fill: var(--n7); }
+.num-bg.n8 { fill: var(--n8); }
+.num-bg.n9 { fill: var(--n9); }
+.num-bg.n10 { fill: var(--n10); }
+.num-bg.n11 { fill: var(--n11); }
+.num-bg.n12 { fill: var(--n12); }
+.num-bg.n13 { fill: var(--n13); }
+.num-bg.n14 { fill: var(--n14); }
+.num-bg.n15 { fill: var(--n15); }
+.num-bg.n16 { fill: var(--n16); }
+.num-bg.n17 { fill: var(--n17); }
+.num-bg.n18 { fill: var(--n18); }
+.num-bg.n19 { fill: var(--n19); }
+.num-bg.n20 { fill: var(--n20); }
+.num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
+.num-dot { fill: var(--num-ink); }
+/* ── extra fills (stroked like the base set) ── */
+.c-circle { fill: var(--c-circle); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-square { fill: var(--c-square); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-triangle { fill: var(--c-triangle); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-star { fill: var(--c-star); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-heart { fill: var(--c-heart); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-diamond { fill: var(--c-diamond); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-oval { fill: var(--c-oval); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rect { fill: var(--c-rect); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-crescent { fill: var(--c-crescent); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-arrow { fill: var(--c-arrow); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-carrot { fill: var(--c-carrot); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-carrot-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-tomato { fill: var(--c-tomato); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-stem2 { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2; }
+.c-broccoli { fill: var(--c-broccoli); stroke: var(--c-line); stroke-width: 2.5; }
+.c-corn { fill: var(--c-corn); stroke: var(--c-line); stroke-width: 2.5; }
+.c-corn-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-pumpkin { fill: var(--c-pumpkin); stroke: var(--c-line); stroke-width: 2.5; }
+.c-pumpkin-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .55; }
+.c-cucumber { fill: var(--c-cucumber); stroke: var(--c-line); stroke-width: 2.5; }
+.c-cucumber-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-mushroom { fill: var(--c-mushroom); stroke: var(--c-line); stroke-width: 2.5; }
+.c-mushroom-cap { fill: var(--c-mushroom-cap); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-eggplant { fill: var(--c-eggplant); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-potato { fill: var(--c-potato); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-potato-dot { fill: var(--c-line); opacity: .35; }
+.c-onion { fill: var(--c-onion); stroke: var(--c-line); stroke-width: 2.5; }
+.c-onion-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-garlic { fill: var(--c-garlic); stroke: var(--c-line); stroke-width: 2.5; }
+.c-pizza { fill: var(--c-pizza); stroke: var(--c-line); stroke-width: 2.5; }
+.c-pizza-pep { fill: var(--c-tomato); }
+.c-pizza-cheese { fill: var(--c-cheese); }
+.c-burger { fill: var(--c-bread); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-burger-patty { fill: var(--c-burger-patty); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-donut { fill: var(--c-donut); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-donut-hole { fill: var(--card); }
+.c-icecream { fill: var(--c-icecream); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cone { fill: var(--c-bread); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bowl { fill: var(--c-bowl); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-juice { fill: var(--c-juice); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-tea { fill: var(--c-tea); stroke: var(--c-line); stroke-width: 2.5; }
+.c-coffee { fill: var(--c-coffee); stroke: var(--c-line); stroke-width: 2.5; }
+.c-lemonade { fill: var(--c-lemonade); stroke: var(--c-line); stroke-width: 2.5; }
+.c-cola { fill: var(--c-cola); stroke: var(--c-line); stroke-width: 2.5; }
+.c-milkshake { fill: var(--c-milkshake); stroke: var(--c-line); stroke-width: 2.5; }
+.c-glass { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-straw { fill: var(--c-pink); stroke: var(--c-line); stroke-width: 2; }
+.c-plane { fill: var(--c-plane); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-boat { fill: var(--c-boat); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-boat-hull { fill: var(--c-boat); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-sail { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rocket { fill: var(--c-rocket); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rocket-window { fill: var(--c-blue); stroke: var(--c-line); stroke-width: 2.5; }
+.c-fire { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-fire-inner { fill: var(--c-star); }
+.c-helicopter { fill: var(--c-helicopter); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rotor { fill: none; stroke: var(--c-line); stroke-width: 5; stroke-linecap: round; }
+.c-tractor { fill: var(--c-tractor); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-truck { fill: var(--c-truck); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-window { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-pig { fill: var(--c-pig); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cow { fill: var(--c-cow); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cow-spot { fill: var(--c-cow-spot); }
+.c-cow-muzzle { fill: var(--c-pink); stroke: var(--c-line); stroke-width: 2; }
+.c-hen { fill: var(--c-hen); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-comb { fill: var(--c-tomato); stroke: var(--c-line); stroke-width: 2; }
+.c-sheep-face { fill: var(--c-sheep-face); stroke: var(--c-line); stroke-width: 2.5; }
+.c-horse { fill: var(--c-horse); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-mane { fill: none; stroke: var(--c-tip); stroke-width: 6; stroke-linecap: round; }
+.c-duck { fill: var(--c-duck); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-goat { fill: var(--c-goat); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-horn { fill: none; stroke: var(--c-bread); stroke-width: 5; stroke-linecap: round; }
+.c-monkey { fill: var(--c-monkey); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-monkey-face { fill: var(--c-potato); stroke: var(--c-line); stroke-width: 2.5; }
+.c-ear-inner { fill: var(--c-potato); }
+.c-lion { fill: var(--c-lion); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-lion-mane { fill: var(--c-orange); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-giraffe { fill: var(--c-giraffe); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-giraffe-spot { fill: var(--c-bread); }
+.c-zebra { fill: var(--c-cow); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-zebra-stripe { fill: var(--c-cow-spot); }
+.c-snake { fill: var(--c-snake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-snake-spot { fill: var(--c-mushroom); }
+.c-hippo { fill: var(--c-hippo); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-tiger { fill: var(--c-tiger); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-tiger-stripe { fill: var(--c-cow-spot); }
+.c-camel { fill: var(--c-camel); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-whale { fill: var(--c-whale); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-dolphin { fill: var(--c-blue); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-octopus { fill: var(--c-octopus); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-crab { fill: var(--c-crab); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-starfish { fill: var(--c-starfish); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-starfish-dot { fill: var(--c-tip); opacity: .4; }
+.c-jelly { fill: var(--c-octopus); stroke: var(--c-line); stroke-width: 2.5; }
+.c-shell { fill: var(--c-shell); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-butterfly { fill: var(--c-butterfly); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-butterfly-wing { fill: var(--c-butterfly); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-butterfly-wing2 { fill: var(--c-blue); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-ladybug { fill: var(--c-ladybug); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-spot { fill: var(--c-wheel); }
+.c-bee { fill: var(--c-bee); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bee-stripe { fill: var(--c-wheel); }
+.c-bee-wing { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2; }
+.c-snail { fill: var(--c-snail); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-snail-body { fill: var(--c-mushroom); stroke: var(--c-line); stroke-width: 2.5; }
+.c-snail-shell { fill: var(--c-square); stroke: var(--c-line); stroke-width: 2.5; }
+.c-snail-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-caterpillar { fill: var(--c-caterpillar); stroke: var(--c-line); stroke-width: 2.5; }
+.c-caterpillar-head { fill: var(--c-tomato); stroke: var(--c-line); stroke-width: 2.5; }
+.c-dragonfly { fill: var(--c-dragonfly); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-dragonfly-wing { fill: var(--c-milk); stroke: var(--c-line); stroke-width: 2; }
+.c-ant { fill: var(--c-wheel); stroke: var(--c-line); stroke-width: 2.5; }
+.c-worm { fill: var(--c-worm); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cloud { fill: var(--c-cloud); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-rain { fill: var(--c-blue); }
+.c-snowflake { fill: none; stroke: var(--c-cloud); stroke-width: 3; stroke-linecap: round; }
+.c-rainbow-band-1 { fill: none; stroke: var(--c-red); stroke-width: 10; }
+.c-rainbow-band-2 { fill: none; stroke: var(--c-yellow); stroke-width: 10; }
+.c-rainbow-band-3 { fill: none; stroke: var(--c-green); stroke-width: 10; }
+.c-rainbow-band-4 { fill: none; stroke: var(--c-blue); stroke-width: 10; }
+.c-rainbow-band-5 { fill: none; stroke: var(--c-purple); stroke-width: 10; }
+.c-wind { fill: none; stroke: var(--c-blue); stroke-width: 5; stroke-linecap: round; }
+.c-lightning { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-shirt { fill: var(--c-cloth-blue); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-pants { fill: var(--c-cloth-navy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-dress { fill: var(--c-cloth-red); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-hat { fill: var(--c-cloth-yellow); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-socks { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-socks-line { fill: none; stroke: var(--c-cloth-purple); stroke-width: 4; }
+.c-shoes { fill: var(--c-boots); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-scarf { fill: var(--c-cloth-red); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-glove { fill: var(--c-cloth-green); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-sweater { fill: var(--c-cloth-purple); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-boots { fill: var(--c-boots); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-skin { fill: var(--c-skin); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-skin-shade { fill: var(--c-hair); opacity: .3; }
+.c-hair { fill: var(--c-hair); }
+.c-teddys-limb { fill: var(--c-teddy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-teddy { fill: var(--c-teddy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-teddy-tummy { fill: var(--c-egg); }
+.c-teddy-nose { fill: var(--c-tip); }
+.c-kite { fill: var(--c-kite); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-kite-line { fill: none; stroke: var(--c-line); stroke-width: 2.5; opacity: .7; }
+.c-balloon { fill: var(--c-balloon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-balloon-string { fill: none; stroke: var(--c-line); stroke-width: 2; }
+.c-slide { fill: var(--c-slide); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-ladder { fill: none; stroke: var(--c-tip); stroke-width: 4; }
+.c-swing { fill: var(--c-swing); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-swing-rope { fill: none; stroke: var(--c-tip); stroke-width: 3; }
+.c-puppet { fill: var(--c-puppet); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-robot { fill: var(--c-robot); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-robot-face { fill: var(--c-bird-wing); stroke: var(--c-line); stroke-width: 2.5; }
+.c-puzzle { fill: var(--c-cloth-purple); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-house { fill: var(--c-house); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-house-roof { fill: var(--c-roof); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-house-door { fill: var(--c-tip); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bed { fill: var(--c-bed); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bed-blanket { fill: var(--c-cloth-red); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-chair { fill: var(--c-chair); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-table { fill: var(--c-table); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-lamp { fill: var(--c-lamp); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-lamp-base { fill: var(--c-tip); }
+.c-book { fill: var(--c-book); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-book-page { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-cup { fill: var(--c-cup); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-plate { fill: var(--c-plate); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-spoon { fill: var(--c-spoon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-sofa { fill: var(--c-sofa); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-mirror { fill: var(--c-mirror); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-mirror-frame { fill: var(--c-bread); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-piano { fill: var(--c-cow-spot); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-key { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 1.5; }
+.c-guitar { fill: var(--c-guitar); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-guitar-hole { fill: var(--c-tip); }
+.c-drum { fill: var(--c-drum); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-drum-tip { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-trumpet { fill: var(--c-trumpet); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-violin { fill: var(--c-violin); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-tambourine { fill: var(--c-tambourine); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-jingle { fill: var(--c-star); }
+.c-flute { fill: var(--c-flute); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-maracas { fill: var(--c-maracas); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-maracas-handle { fill: var(--c-tip); }
+.c-xylo { fill: var(--c-xylo); stroke: var(--c-line); stroke-width: 2.5; }
+.c-xylo-bar-1 { fill: var(--c-red); }
+.c-xylo-bar-2 { fill: var(--c-milkshake); }
+.c-xylo-bar-3 { fill: var(--c-sun); }
+.c-xylo-bar-4 { fill: var(--c-tree); }
+.c-xylo-bar-5 { fill: var(--c-purple); }
+.c-mic { fill: var(--c-mic); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-peach { fill: var(--c-peach); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-peach-dip { fill: var(--c-mushroom-cap); opacity: .8; }
+.c-lemon { fill: var(--c-lemon); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-lemon-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-mango { fill: var(--c-mango); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cherry { fill: var(--c-cherry); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cherry-stem { fill: none; stroke: var(--c-stem); stroke-width: 4; stroke-linecap: round; }
+.c-pineapple { fill: var(--c-pineapple); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-pineapple-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .5; }
+.c-pineleaf { fill: var(--c-leaf); stroke: var(--c-line); stroke-width: 2; }
+.c-pineleaf2 { fill: var(--c-tree); stroke: var(--c-line); stroke-width: 2; }
+.c-kiwi { fill: var(--c-kiwi); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-kiwi-inner { fill: var(--c-cheese); }
+.c-kiwi-seed { fill: var(--c-tip); }
+.c-coconut { fill: var(--c-coconut); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-coconut-line { fill: none; stroke: var(--c-line); stroke-width: 2; opacity: .4; }
+.c-plum { fill: var(--c-plum); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bear { fill: var(--c-bear); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-bear-muzzle { fill: var(--c-potato); stroke: var(--c-line); stroke-width: 2.5; }
+.c-bear-paw { fill: var(--c-bear); }
+.c-fox { fill: var(--c-fox); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-fox-chest { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-fox-tip { fill: var(--c-egg); }
+.c-frog { fill: var(--c-frog); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-owl { fill: var(--c-owl); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-owl-belly { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
+.c-owl-eye { fill: var(--c-sun); stroke: var(--c-line); stroke-width: 2; }
+.c-parrot { fill: var(--c-parrot); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-squirrel { fill: var(--c-squirrel); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-squirrel-tail { fill: var(--c-squirrel); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-squirrel-belly { fill: var(--c-egg); }
+.c-hedgehog { fill: var(--c-hedgehog); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-hedgehog-spike { fill: var(--c-tip); }
+.c-deer { fill: var(--c-deer); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-antler { fill: none; stroke: var(--c-tip); stroke-width: 4; stroke-linecap: round; }
+.c-sand { fill: var(--c-sand); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-autumn { fill: var(--c-autumn); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-face { fill: var(--c-face); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-cheek { fill: var(--c-pink); opacity: .55; }
+.c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-pancake-syrup { fill: var(--c-coffee); }
+.c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+</style>
+<ellipse class="shadow" cx="100" cy="172" rx="46" ry="7"/>
+<circle cx="100" cy="102" r="56" class="c-face"/>
+<path class="c-hair" d="M84 50 q16 -12 32 0" fill="none" stroke-width="6" stroke-linecap="round"/>
+<path class="c-eyeline" d="M72 96 Q80 86 88 96"/><path class="c-eyeline" d="M112 96 Q120 86 128 96"/>
+<path class="c-eyeline" d="M78 114 Q100 136 122 114"/>
+<ellipse class="c-cheek" cx="66" cy="112" rx="7" ry="4.5"/><ellipse class="c-cheek" cx="134" cy="112" rx="7" ry="4.5"/>
+</svg>

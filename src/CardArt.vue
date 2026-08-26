@@ -11,5 +11,5 @@ const src = computed(() => assets[`./assets/${name.value}.svg`])
 </script>
 
 <template>
-  <img :src="src" alt="" />
+  <img class="art" :src="src" alt="" />
 </template>
