@@ -569,4 +569,7 @@ svg {
     <circle cx="120" cy="120" r="4" class="c-mushroom"/>
     <circle cx="124" cy="104" r="4" class="c-hi"/>
   </g>
+      <path d="M100 114 V150" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <circle cx="76" cy="126" r="3" fill="var(--c-seed)" opacity=".75"/><circle cx="124" cy="126" r="3" fill="var(--c-seed)" opacity=".75"/>
+      <circle cx="92" cy="140" r="2.5" fill="var(--c-seed)" opacity=".7"/><circle cx="108" cy="140" r="2.5" fill="var(--c-seed)" opacity=".7"/>
 </svg>

@@ -567,5 +567,7 @@ svg {
       <path d="M112 60 C118 96 118 132 110 162" class="c-onion-line" />
       <path d="M92 166 L88 178 M100 166 L100 180 M108 166 L112 178" class="c-whisker" />
       <ellipse cx="80" cy="100" rx="8" ry="14" transform="rotate(-20 80 100)" class="hi" />
+      <path d="M100 48 Q94 86 96 160 M100 48 Q106 86 104 160" class="c-ridge" />
+      <path d="M82 56 Q100 68 118 56" class="c-onion-line" />
 </g>
 </svg>

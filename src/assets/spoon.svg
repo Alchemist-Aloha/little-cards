@@ -566,4 +566,7 @@ svg {
       <path d="M92 84 C90 120 96 150 100 166 C104 150 110 120 108 84 Z" class="c-spoon" />
       <path d="M92 50 q-6 16 4 30" class="c-milk-shine" />
   </g>
+      <ellipse cx="100" cy="58" rx="13" ry="18" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".75"/>
+      <path d="M96 92 Q100 112 104 136" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="100" cy="150" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

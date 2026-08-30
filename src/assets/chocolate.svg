@@ -567,6 +567,8 @@ svg {
       <rect x="57" y="57" width="27" height="38.5" rx="3" class="hi"/>
       <path d="M85 55 V140 M115 55 V140" class="c-car-line"/>
       <path d="M55 96.5 H145" class="c-car-line"/>
+      <circle cx="70" cy="76" r="4" class="c-pancake"/><circle cx="100" cy="76" r="4" class="c-pancake"/><circle cx="130" cy="76" r="4" class="c-pancake"/>
+      <path d="M64 112 H78 M92 112 H108 M122 112 H136" class="c-ridge"/>
 
   </g>
 </svg>

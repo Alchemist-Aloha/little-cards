@@ -573,4 +573,9 @@ svg {
       <path d="M42 170 Q62 164 82 170 T122 170 T162 170" class="c-car-line"/>
       <path d="M52 180 Q72 174 92 180 T132 180 T172 180" class="c-car-line"/>
     </g>
+      <path d="M108 118 Q126 112 140 122 Q126 130 112 128 Z" fill="var(--c-whale)" stroke="var(--c-line)" stroke-width="2.5" />
+      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45">
+        <path d="M76 136 Q84 142 92 144 M88 134 Q96 140 104 142" />
+        <path d="M184 92 Q190 96 194 100 M184 104 Q190 108 194 112" />
+      </g>
 </svg>

@@ -183,4 +183,7 @@
       <path d="M87 77 H108 M133 64 H152" class="c-bike" />
       <circle cx="110" cy="128" r="5" class="c-hub" />
     </g>
+      <path d="M62 128 L74 119 M62 128 L54 117 M141 128 L151 120 M141 128 L149 137" fill="none" stroke="var(--c-milk)" stroke-width="2"/>
+      <circle cx="110" cy="128" r="10" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+      <path d="M110 128 L102 120 M110 128 L118 136" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

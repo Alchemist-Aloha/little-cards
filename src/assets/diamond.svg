@@ -566,4 +566,6 @@ svg {
       <path d="M100 108 L100 42 M100 108 L100 172 M100 108 L48 108 M100 108 L152 108" class="c-cheese-line" />
       <ellipse cx="80" cy="82" rx="6" ry="10" transform="rotate(-20 80 82)" class="hi" />
     </g>
+      <path d="M100 58 L134 108 L100 158 L66 108 Z" fill="none" stroke="var(--c-hi)" stroke-width="2.5" opacity=".65"/>
+      <circle cx="100" cy="108" r="5" fill="var(--c-hi)" opacity=".7"/><circle cx="82" cy="108" r="3" fill="var(--c-hi)" opacity=".7"/><circle cx="118" cy="108" r="3" fill="var(--c-hi)" opacity=".7"/>
 </svg>

@@ -569,4 +569,7 @@ svg {
     <line x1="120" y1="50" x2="118" y2="118"/>
   </g>
   <rect x="76" y="118" width="48" height="10" rx="4" class="c-swing"/>
+  <circle cx="80" cy="50" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <circle cx="120" cy="50" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M80 128 H120 M86 124 V132 M114 124 V132" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
 </svg>

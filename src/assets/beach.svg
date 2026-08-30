@@ -567,4 +567,8 @@ svg {
   <path d="M48 80 A52 40 0 0 1 152 80 Z" class="c-red" />
   <path d="M100 80 V44" class="c-tip" stroke-width="5" />
   <path d="M24 160 Q40 150 56 160 T88 160 T120 160 T152 160 T184 160" fill="none" class="c-blue" stroke-width="6" />
-</g></svg>
+</g>
+  <path d="M42 150 Q58 142 74 150 M118 150 Q134 142 150 150" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M56 166 Q64 158 72 166 M78 166 Q86 158 94 166" fill="none" stroke="var(--c-sand)" stroke-width="2"/>
+  <circle cx="54" cy="148" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

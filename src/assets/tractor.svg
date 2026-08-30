@@ -570,4 +570,7 @@ svg {
       <circle cx="146" cy="138" r="22" class="c-wheel" /><circle cx="146" cy="138" r="9" class="c-hub" />
       <circle cx="74" cy="142" r="14" class="c-wheel" /><circle cx="74" cy="142" r="6" class="c-hub" />
   </g>
+      <path d="M78 106 H90 V132 H78 Z" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2"/>
+      <circle cx="102" cy="108" r="9" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M50 152 H166 M136 126 L152 126" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

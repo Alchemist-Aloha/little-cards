@@ -571,4 +571,8 @@ svg {
   <rect x="58" y="104" width="28" height="42" class="c-book-page" />
   <rect x="108" y="96" width="40" height="58" class="c-book-page" />
   <rect x="114" y="104" width="28" height="42" class="c-book" />
-</g></svg>
+</g>
+  <path d="M46 86 H154" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M72 112 V140 M128 112 V140" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="100" cy="116" r="6" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

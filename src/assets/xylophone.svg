@@ -574,4 +574,7 @@ svg {
       <path d="M160 56 L166 96" class="c-mane" />
       <circle cx="167" cy="98" r="7" class="c-purple" />
     </g>
+      <path d="M54 84 H138 M52 100 H136" fill="none" stroke="var(--c-seed)" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+      <path d="M44 60 L68 150 M156 60 L132 150" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+      <circle cx="74" cy="144" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/><circle cx="126" cy="144" r="5" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

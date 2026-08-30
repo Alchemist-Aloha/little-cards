@@ -576,5 +576,7 @@ svg {
       <ellipse cx="100.0" cy="62.0" rx="2.6" ry="4" transform="rotate(270 100.0 62.0)" class="c-kiwi-seed" />
       <ellipse cx="119.0" cy="67.1" rx="2.6" ry="4" transform="rotate(300 119.0 67.1)" class="c-kiwi-seed" />
       <ellipse cx="132.9" cy="81.0" rx="2.6" ry="4" transform="rotate(330 132.9 81.0)" class="c-kiwi-seed" />
+      <path d="M100 84 Q88 92 84 100 Q88 108 100 116 M100 84 Q112 92 116 100 Q112 108 100 116" class="c-ridge" />
+      <circle cx="70" cy="72" r="2" class="c-freckle" /><circle cx="132" cy="66" r="2" class="c-freckle" /><circle cx="144" cy="104" r="2" class="c-freckle" />
 </g>
 </svg>

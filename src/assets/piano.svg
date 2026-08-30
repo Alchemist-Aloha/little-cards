@@ -568,4 +568,7 @@ svg {
       <path d="M44 64 H156 V80 H44 Z" class="c-key" />
       <rect x="92" y="40" width="16" height="26" rx="3" class="c-piano" />
     </g>
+      <path d="M52 92 H148" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M78 150 V160 M100 150 V162 M122 150 V160" fill="none" stroke="var(--c-tip)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="60" cy="76" r="3" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

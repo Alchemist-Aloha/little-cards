@@ -184,4 +184,11 @@
       <path d="M106 142 C 108 164 118 178 132 180 C 144 182 150 172 144 164 C 138 156 130 158 126 150" class="c-trunk" />
       <circle cx="126" cy="94" r="5" class="c-eyes" />
     </g>
+      <g fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
+        <path d="M82 130 Q70 140 80 150 Q88 145 88 134 Z" />
+        <path d="M119 143 Q130 153 125 162 Q117 157 115 148 Z" />
+      </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5">
+        <path d="M119 134 Q126 140 132 140 M122 141 Q130 147 136 146" />
+      </g>
 </svg>

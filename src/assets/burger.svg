@@ -571,6 +571,8 @@ svg {
       <ellipse cx="100" cy="71" rx="4" ry="2.6" class="c-seed" />
       <ellipse cx="116" cy="76" rx="4" ry="2.6" transform="rotate(20 116 76)" class="c-seed" />
       <ellipse cx="74" cy="84" rx="3" ry="2" transform="rotate(15 74 84)" class="c-seed" />
+      <path d="M50 108 Q70 100 88 108 Q100 114 112 108 Q130 100 150 108 L148 116 Q100 122 52 116 Z" class="c-cheese" />
+      <circle cx="66" cy="111" r="2" class="c-tomato" /><circle cx="134" cy="111" r="2" class="c-tomato" />
 
 </g>
 </svg>

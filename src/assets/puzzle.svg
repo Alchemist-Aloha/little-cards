@@ -563,4 +563,7 @@ svg {
   <ellipse cx="100" cy="178" rx="42" ry="7" class="shadow"/>
   <path d="M140 160 L140 80 L116 80 Q100 58 84 80 L60 80 L60 104 Q44 120 60 136 L60 160 Z" class="c-puzzle"/>
   <ellipse cx="84" cy="104" rx="12" ry="16" transform="rotate(-15 84 104)" class="hi"/>
+  <path d="M76 80 V104 M76 128 V152 M100 80 V96 M100 136 V160 M124 80 V104 M124 128 V152" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <circle cx="100" cy="120" r="5" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M60 104 H84 M116 104 H140" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7"/>
 </svg>

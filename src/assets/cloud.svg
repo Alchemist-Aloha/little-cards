@@ -570,4 +570,6 @@ svg {
       <circle cx="112" cy="84" r="3.2" class="c-eyes" />
       <path d="M89 94 Q100 103 111 94" class="c-eyeline" />
     </g>
+      <path d="M59 101 Q76 108 91 101 M109 102 Q125 109 142 101" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".3" stroke-linecap="round"/>
+      <path d="M53 116 q-8 6 0 12 M147 116 q8 6 0 12" fill="none" stroke="var(--c-cloud)" stroke-width="3" opacity=".65" stroke-linecap="round"/>
 </svg>

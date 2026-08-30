@@ -568,4 +568,7 @@ svg {
       <path d="M78 150 H122" class="c-mane" />
       <ellipse cx="100" cy="154" rx="34" ry="8" class="c-tip" />
     </g>
+      <path d="M82 52 Q100 44 118 52 M82 88 Q100 96 118 88" fill="none" stroke="var(--c-seed)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="88" cy="70" r="3" fill="var(--c-line)"/><circle cx="100" cy="70" r="3" fill="var(--c-line)"/><circle cx="112" cy="70" r="3" fill="var(--c-line)"/>
+      <rect x="96" y="126" width="8" height="6" rx="2" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

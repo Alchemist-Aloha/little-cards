@@ -570,4 +570,6 @@ svg {
       <ellipse cx="132" cy="106" rx="7" ry="5" class="c-cheek" />
       <ellipse cx="62" cy="70" rx="7" ry="11" transform="rotate(-24 62 70)" class="hi" />
     </g>
+      <rect x="42" y="56" width="116" height="96" rx="12" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".35"/>
+      <path d="M50 62 L62 74 M150 62 L138 74 M50 146 L62 134 M150 146 L138 134" fill="none" stroke="var(--c-hi)" stroke-width="3" opacity=".7" stroke-linecap="round"/>
 </svg>

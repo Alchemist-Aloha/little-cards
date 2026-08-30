@@ -572,4 +572,7 @@ svg {
       <circle cx="170" cy="66" r="5" class="c-bubble" />
       <path d="M150 81 v27 M153 81 v27" class="c-bubble" />
     </g>
+      <path d="M82 98 H128" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="92" cy="100" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/><circle cx="108" cy="100" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M144 44 Q160 52 164 68 M148 48 Q158 56 160 68" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round"/>
 </svg>

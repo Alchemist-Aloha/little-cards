@@ -567,4 +567,6 @@ svg {
 <path class="c-pancake-syrup" d="M60 76 h80 v6 q0 6 -8 6 h-64 q-8 0 -8 -6 Z M70 96 v10 q0 5 -5 5 t-5 -5 v-10 M126 96 v12 q0 5 -5 5 t-5 -5 v-12" />
 <rect x="88" y="62" width="24" height="12" rx="3" class="c-cheese"/>
 <circle class="c-cherry" cx="76" cy="138" r="4"/><circle class="c-cherry" cx="120" cy="142" r="4"/>
+<circle cx="70" cy="106" r="2" class="c-freckle"/><circle cx="108" cy="84" r="2" class="c-freckle"/><circle cx="132" cy="128" r="2" class="c-freckle"/>
+<path d="M76 126 Q86 130 96 126 M104 104 Q116 108 128 104" class="c-ridge"/>
 </svg>

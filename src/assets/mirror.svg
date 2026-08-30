@@ -566,4 +566,7 @@ svg {
       <circle cx="100" cy="100" r="46" class="c-mirror" />
       <polygon points="70,64 82,60 96,132 84,136" class="hi" />
   </g>
+      <path d="M72 58 Q100 44 128 58" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+      <path d="M78 150 Q100 162 122 150" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="100" cy="42" r="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

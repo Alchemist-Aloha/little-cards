@@ -570,4 +570,8 @@ svg {
       <circle cx="128" cy="182" r="2.6" class="c-freckle"/>
       <circle cx="100" cy="188" r="2.6" class="c-freckle"/>
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".45">
+        <path d="M48 110 Q72 120 100 114 Q128 120 152 110" />
+        <path d="M56 132 Q78 142 100 136 Q122 142 144 132" />
+      </g>
 </svg>

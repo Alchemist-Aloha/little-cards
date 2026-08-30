@@ -575,4 +575,8 @@ svg {
       <ellipse cx="134" cy="122" rx="9" ry="6" class="c-cheek" />
       <ellipse cx="100" cy="162" rx="13" ry="9" class="c-bear-paw" />
   </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
+        <path d="M92 158 L96 164 M100 157 L100 165 M108 158 L104 164" />
+        <path d="M62 108 Q68 112 72 116 M138 108 Q132 112 128 116" />
+      </g>
 </svg>

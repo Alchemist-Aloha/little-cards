@@ -562,8 +562,11 @@ svg {
 </style><g>
       <ellipse cx="100" cy="78" rx="44" ry="40" class="c-octopus"/>
       <path d="M64 110 C58 132 46 138 52 152 C56 146 60 142 64 142 C68 148 76 144 73 132 C71 124 70 116 70 110 Z" class="c-octopus"/>
+      <path d="M74 112 C68 132 56 146 62 158 C66 152 70 148 74 148 C80 154 86 150 84 138 C82 128 80 118 80 112 Z" class="c-octopus"/>
       <path d="M80 116 C76 138 66 146 72 160 C76 154 80 150 84 150 C88 156 95 152 92 140 C90 132 90 122 90 116 Z" class="c-octopus"/>
+      <path d="M90 118 C88 140 80 152 86 164 C90 158 94 154 98 154 C104 160 110 156 106 144 C104 134 100 124 98 118 Z" class="c-octopus"/>
       <path d="M98 118 C96 142 88 150 94 164 C98 158 102 154 106 154 C110 160 117 156 114 144 C112 136 112 124 112 118 Z" class="c-octopus"/>
+      <path d="M108 118 C106 138 112 150 108 162 C114 158 118 154 122 154 C126 160 132 154 128 144 C124 134 122 124 122 118 Z" class="c-octopus"/>
       <path d="M118 116 C116 138 124 146 120 160 C116 154 112 150 108 150 C104 156 97 152 100 140 C102 132 102 122 102 116 Z" class="c-octopus"/>
       <path d="M136 110 C142 132 154 138 148 152 C144 146 140 142 136 142 C132 148 124 144 127 132 C129 124 130 116 130 110 Z" class="c-octopus"/>
       <circle cx="86" cy="74" r="8" class="c-eyes"/><circle cx="114" cy="74" r="8" class="c-eyes"/>
@@ -571,4 +574,9 @@ svg {
       <path d="M86 94 Q100 104 114 94" class="c-eyeline"/>
       <ellipse cx="72" cy="92" rx="7" ry="5" class="c-cheek"/><ellipse cx="128" cy="92" rx="7" ry="5" class="c-cheek"/>
     </g>
+      <g fill="var(--c-tip)" opacity=".75">
+        <circle cx="64" cy="130" r="2.5" /><circle cx="69" cy="143" r="2.5" /><circle cx="82" cy="132" r="2.5" />
+        <circle cx="88" cy="146" r="2.5" /><circle cx="106" cy="138" r="2.5" /><circle cx="120" cy="140" r="2.5" />
+        <circle cx="132" cy="130" r="2.5" /><circle cx="142" cy="140" r="2.5" />
+      </g>
 </svg>

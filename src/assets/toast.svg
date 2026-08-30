@@ -563,6 +563,8 @@ svg {
 <ellipse class="shadow" cx="100" cy="172" rx="40" ry="7"/>
 <path class="c-bread" d="M52 58 h96 q8 0 8 8 v78 q0 8 -8 8 h-96 q-8 0 -8 -8 v-78 q0 -8 8 -8 Z"/>
 <path class="c-bread-crust" d="M52 150 h96" fill="none"/>
-<path class="c-tomato" d="M56 66 h48 v78 h-44 q-4 0 -4 -4 Z" opacity=".85"/>
+<path class="c-bread-crust" d="M60 144 V78 Q60 68 72 68 H128 Q140 68 140 78 V144" fill="none"/>
 <circle cx="80" cy="96" r="4" class="c-seed"/><circle cx="92" cy="120" r="4" class="c-seed"/>
+<circle cx="116" cy="88" r="3" class="c-freckle"/><circle cx="126" cy="112" r="2.5" class="c-freckle"/><circle cx="108" cy="132" r="2.5" class="c-freckle"/>
+<path class="c-bread-score" d="M72 84 Q82 90 90 84 M108 120 Q118 126 128 120"/>
 </svg>

@@ -566,4 +566,6 @@ svg {
 <path class="c-eyeline" d="M72 96 Q80 86 88 96"/><path class="c-eyeline" d="M112 96 Q120 86 128 96"/>
 <path class="c-eyeline" d="M78 114 Q100 136 122 114"/>
 <ellipse class="c-cheek" cx="66" cy="112" rx="7" ry="4.5"/><ellipse class="c-cheek" cx="134" cy="112" rx="7" ry="4.5"/>
+  <circle cx="76" cy="95" r="2.5" class="hi"/><circle cx="124" cy="95" r="2.5" class="hi"/>
+  <path d="M72 124 q-5 5 -9 2 M128 124 q5 5 9 2" fill="none" stroke="var(--c-eyes)" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
 </svg>

@@ -184,5 +184,7 @@
       <rect x="77" y="96" width="46" height="38" rx="5" class="c-milk-label" />
       <path d="M100 102 C91 112 91 123 100 128 C109 123 109 112 100 102 Z" class="c-milk-drop" />
       <path d="M83 70 V151" class="c-milk-shine" />
+      <path d="M89 42 V58 M111 42 V58 M89 42 H111" class="c-milk-line" />
+      <path d="M82 140 H118 M82 146 H118" class="c-milk-line" />
     </g>
 </svg>

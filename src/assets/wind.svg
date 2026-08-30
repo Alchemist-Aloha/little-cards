@@ -569,4 +569,6 @@ svg {
       <path class="c-leaf" transform="translate(150 92) rotate(42) scale(0.85)" d="M0 -11 C7 -5 7 5 0 11 C-7 5 -7 -5 0 -11 Z" />
 
     </g>
+      <path d="M164 62 l10 0 M160 98 l10 0 M166 134 l10 0" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".55" stroke-linecap="round"/>
+      <path d="M174 62 l-6 -4 M174 62 l-6 4 M170 98 l-6 -4 M170 98 l-6 4 M176 134 l-6 -4 M176 134 l-6 4" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".55" stroke-linecap="round"/>
 </svg>

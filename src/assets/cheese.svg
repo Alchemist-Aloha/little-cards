@@ -182,5 +182,7 @@
       <path d="M91 69 V108 L156 143 M48 143 L91 108 H156" class="c-cheese-line" />
       <circle cx="85" cy="126" r="6" class="c-cheese-hole" /><circle cx="118" cy="123" r="5" class="c-cheese-hole" /><circle cx="108" cy="91" r="5" class="c-cheese-hole" />
       <path d="M62 137 L82 102" class="c-cheese-shine" />
+      <circle cx="68" cy="136" r="3.5" class="c-cheese-hole" /><circle cx="138" cy="133" r="3.5" class="c-cheese-hole" />
+      <path d="M52 143 H156" class="c-cheese-line" />
     </g>
 </svg>

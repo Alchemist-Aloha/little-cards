@@ -568,4 +568,6 @@ svg {
       <circle cx="100.0" cy="128" r="6" class="c-sun"/>
       <circle cx="54" cy="52" r="3" class="c-egg"/><circle cx="146" cy="52" r="3" class="c-egg"/>
   </g>
+       <path d="M55 78 H145 M55 99 H145 M77 78 V114 M100 78 V114 M123 78 V114" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
+       <path d="M137 42 V58 H153" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5" stroke-linejoin="round"/>
 </svg>

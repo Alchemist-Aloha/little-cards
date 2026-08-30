@@ -574,5 +574,7 @@ svg {
   <circle cx="100" cy="106" r="3" class="c-bubble" />
   <path d="M84 72 V150" class="c-milk-shine" />
   <ellipse cx="88" cy="82" rx="6" ry="10" transform="rotate(-18 88 82)" class="hi" />
+  <path d="M78 92 Q100 98 122 92" class="c-ridge" />
+  <circle cx="88" cy="132" r="2" class="c-dimple" /><circle cx="116" cy="120" r="2" class="c-dimple" /><circle cx="96" cy="146" r="1.8" class="c-dimple" />
 </g>
 </svg>

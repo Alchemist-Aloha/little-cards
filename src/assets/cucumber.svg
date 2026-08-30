@@ -565,5 +565,7 @@ svg {
       <rect x="82" y="36" width="36" height="124" rx="18" class="c-cucumber" />
       <path d="M86 70 L114 78 M86 96 L114 104 M86 122 L114 130" class="c-cucumber-line" />
       <ellipse cx="92" cy="80" rx="5" ry="18" transform="rotate(-8 92 80)" class="hi" />
+      <path d="M92 42 V154 M108 42 V154" class="c-ridge" />
+      <circle cx="88" cy="58" r="2.2" class="c-dimple" /><circle cx="110" cy="68" r="2.2" class="c-dimple" /><circle cx="90" cy="142" r="2.2" class="c-dimple" /><circle cx="110" cy="132" r="2.2" class="c-dimple" />
 </g>
 </svg>

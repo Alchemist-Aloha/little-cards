@@ -574,6 +574,8 @@ svg {
       <path d="M70 98 L86 92" class="c-bread-score" />
       <path d="M118 96 L134 104" class="c-bread-score" />
       <ellipse cx="76" cy="74" rx="11" ry="16" transform="rotate(-22 76 74)" class="hi" />
+      <circle cx="104" cy="78" r="5.5" class="c-tip" /><circle cx="88" cy="108" r="5.5" class="c-tip" /><circle cx="116" cy="112" r="5.5" class="c-tip" />
+      <path d="M54 102 Q62 92 70 88 M130 88 Q140 98 144 110" class="c-bread-score" />
 
 </g>
 </svg>

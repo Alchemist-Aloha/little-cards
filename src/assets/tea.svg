@@ -570,5 +570,7 @@ svg {
   <path d="M90 74 Q82 64 90 54 Q98 44 90 34" class="c-bubble" />
   <path d="M110 74 Q118 64 110 54 Q102 44 110 34" class="c-bubble" />
   <ellipse cx="78" cy="110" rx="5" ry="11" transform="rotate(-12 78 110)" class="hi" />
+  <path d="M72 146 Q100 154 128 146" class="c-ridge" />
+  <path d="M118 96 V120" class="c-track" /><path d="M118 120 L128 128 L118 134 Z" class="c-pancake" />
 </g>
 </svg>

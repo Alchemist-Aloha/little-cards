@@ -570,4 +570,6 @@ svg {
 <path class="c-tree-trunk" d="M96 118 L80 100 M104 116 L122 98" fill="none" stroke-width="6" stroke-linecap="round"/>
 <path class="c-flower-petal" d="M44 164 m0 -7 a7 7 0 1 1 -.1 0 M44 164 m7 0 a7 7 0 1 0 .1 0 M44 164 m0 7 a7 7 0 1 1 -.1 0 M44 164 m-7 0 a7 7 0 1 0 .1 0" stroke-width="0"/>
 <circle cx="44" cy="158" r="6" class="c-flower-petal"/><circle cx="44" cy="170" r="6" class="c-flower-petal"/><circle cx="38" cy="164" r="6" class="c-flower-petal"/><circle cx="50" cy="164" r="6" class="c-flower-petal"/><circle cx="44" cy="164" r="4.5" class="c-flower-center"/>
+  <path d="M49 50 H66 M134 50 H151 M54 40 H66 M134 40 H146" fill="none" stroke="var(--c-sun)" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+  <path d="M72 142 q8 -10 16 0 M112 142 q8 -10 16 0" fill="none" stroke="var(--c-leaf)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
 </svg>

@@ -573,4 +573,8 @@ svg {
       <circle cx="136" cy="106" r="9" class="c-cheek"/>
       <path d="M88 138 Q100 148 112 138" class="c-eyeline"/>
 </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
+        <path d="M48 52 Q52 58 56 62 M152 52 Q148 58 144 62" />
+        <path d="M78 132 Q88 138 94 136 M122 136 Q112 138 106 132" />
+      </g>
 </svg>

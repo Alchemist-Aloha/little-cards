@@ -571,4 +571,7 @@ svg {
       <circle cx="58" cy="70" r="5" class="c-tip" />
       <circle cx="142" cy="70" r="5" class="c-tip" />
     </g>
+      <path d="M58 96 H142 M70 112 H130" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+      <circle cx="72" cy="104" r="4" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/><circle cx="128" cy="104" r="4" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M64 136 H136" fill="none" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

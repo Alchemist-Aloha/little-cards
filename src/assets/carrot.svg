@@ -570,5 +570,7 @@ svg {
       <path d="M91 96 Q100 101 109 96" class="c-carrot-line" />
       <path d="M93 110 Q100 114 107 110" class="c-carrot-line" />
       <path d="M95 118 Q100 124 105 118" class="c-eyeline" />
+      <circle cx="91" cy="90" r="2" class="c-freckle" /><circle cx="109" cy="104" r="2" class="c-freckle" /><circle cx="96" cy="136" r="1.8" class="c-freckle" />
+      <path d="M78 74 Q88 68 100 70 Q112 68 122 74" class="c-ridge" />
 </g>
 </svg>

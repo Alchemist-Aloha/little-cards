@@ -579,4 +579,7 @@ svg {
   <path d="M100 95 Q100 106 90 108 M100 95 Q100 106 110 108" class="c-eyeline"/>
   <ellipse cx="68" cy="90" rx="8" ry="6" class="c-cheek"/>
   <ellipse cx="132" cy="90" rx="8" ry="6" class="c-cheek"/>
+  <path d="M84 146 Q100 154 116 146" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="78" cy="172" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <circle cx="122" cy="172" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

@@ -564,4 +564,8 @@ svg {
   <path class="c-car-line" d="M58 144 L160 144"/>
   <circle class="c-star" cx="86" cy="78" r="5"/>
   <circle class="c-star" cx="86" cy="102" r="5"/>
+  <path d="M74 60 H102" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="86" cy="90" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <circle cx="98" cy="90" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M66 138 H152 M72 132 V142 M90 132 V142 M108 132 V142 M126 132 V142" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
 </svg>

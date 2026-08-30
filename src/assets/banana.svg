@@ -183,5 +183,7 @@
       <circle cx="52" cy="150" r="5" class="c-tip" />
       <path d="M120 76 C110 92 104 100 96 114" class="c-ridge" />
       <ellipse cx="118" cy="58" rx="7" ry="4" transform="rotate(-40 118 58)" class="hi" />
+      <path d="M139 64 Q150 94 137 119" class="c-ridge" />
+      <circle cx="126" cy="83" r="2" class="c-freckle" /><circle cx="118" cy="110" r="1.8" class="c-freckle" /><circle cx="92" cy="130" r="2" class="c-freckle" /><circle cx="68" cy="140" r="1.7" class="c-freckle" />
     </g>
 </svg>

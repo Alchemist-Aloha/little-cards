@@ -568,4 +568,6 @@ svg {
       <path class="c-rain" d="M140 70 C145 76 145 83 140 86 C135 83 135 76 140 70 Z" />
       <path class="c-rain" d="M158 86 C163 92 163 99 158 102 C153 99 153 92 158 86 Z" />
     </g>
+      <path d="M105 40 L70 105 L95 105 L75 165 L132 90 L105 90 Z" fill="none" stroke="var(--c-hi)" stroke-width="6" opacity=".35" stroke-linejoin="round"/>
+      <path d="M126 42 q10 5 17 0 M132 54 q8 4 14 0" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".45" stroke-linecap="round"/>
 </svg>

@@ -180,5 +180,8 @@
       <ellipse cx="100" cy="169" rx="36" ry="7" class="shadow" />
       <path d="M100 47 C77 70 61 101 63 126 C65 152 80 165 100 165 C120 165 135 152 137 126 C139 101 123 70 100 47 Z" class="c-egg" />
       <ellipse cx="85" cy="100" rx="8" ry="16" transform="rotate(-20 85 100)" class="hi" />
+      <ellipse cx="104" cy="116" rx="23" ry="19" class="c-orange" />
+      <ellipse cx="98" cy="110" rx="7" ry="5" class="c-sun" />
+      <path d="M78 137 Q100 149 122 137" class="c-ridge" />
     </g>
 </svg>

@@ -566,4 +566,7 @@ svg {
       <rect x="120" y="56" width="14" height="92" rx="2" class="c-book-page" />
       <rect x="92" y="52" width="8" height="36" rx="1" class="c-cloth-yellow" />
   </g>
+      <path d="M104 60 V142" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M72 76 H86 M72 88 H86 M72 100 H86 M108 76 H118 M108 88 H118 M108 100 H118" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M104 52 V92 L112 86 L120 92 V56" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

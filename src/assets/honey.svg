@@ -568,6 +568,8 @@ svg {
       <rect x="62" y="58" width="76" height="15" rx="6" class="c-cow-spot"/>
       <rect x="118" y="42" width="7" height="66" rx="3" class="c-tip"/>
       <circle cx="121" cy="110" r="6" class="c-pancake"/>
+      <path d="M78 108 H122 M78 120 H122 M78 132 H122" class="c-ridge"/>
+      <path d="M92 72 Q100 82 108 72" class="c-pancake-syrup" fill="none" stroke="var(--c-line)" stroke-width="3"/>
 
   </g>
 </svg>

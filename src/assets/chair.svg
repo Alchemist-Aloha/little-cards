@@ -572,4 +572,7 @@ svg {
       <rect x="78" y="120" width="8" height="40" rx="2" class="c-chair" />
       <rect x="114" y="120" width="8" height="40" rx="2" class="c-chair" />
   </g>
+      <path d="M66 112 H134" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+      <path d="M76 144 H124" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="76" cy="124" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

@@ -185,4 +185,7 @@
       <circle cx="135" cy="137" r="15" class="c-wheel" /><circle cx="135" cy="137" r="6" class="c-hub" />
       <rect x="46" y="112" width="10" height="8" rx="3" class="c-headlight" />
     </g>
+      <rect x="68" y="57" width="62" height="8" rx="2" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M80 104 V136 M94 104 V136" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M45 126 H56" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

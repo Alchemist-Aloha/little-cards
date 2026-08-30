@@ -570,6 +570,8 @@ svg {
       <path d="M60 108 Q70 100 80 108 Q90 116 100 108 Q110 100 120 108 Q130 116 140 108" class="c-cheese-line" />
       <ellipse cx="74" cy="78" rx="7" ry="11" class="c-bubble" />
       <ellipse cx="104" cy="70" rx="6" ry="10" class="c-bubble" />
+      <path d="M68 98 Q82 86 94 100 Q106 114 118 98 Q130 84 142 98" class="c-ridge" />
+      <circle cx="76" cy="108" r="4" class="c-carrot" /><circle cx="124" cy="108" r="4" class="c-leaf" />
 
 </g>
 </svg>

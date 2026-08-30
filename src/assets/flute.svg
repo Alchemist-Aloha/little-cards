@@ -571,4 +571,7 @@ svg {
       <ellipse cx="44" cy="100" rx="6" ry="9" class="c-flute" />
       <path d="M52 78 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z" class="hi" />
     </g>
+      <path d="M84 96 V104 M102 96 V104 M120 96 V104 M138 96 V104" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M48 92 Q56 100 48 108" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M154 92 V108" fill="none" stroke="var(--c-line)" stroke-width="3"/>
 </svg>

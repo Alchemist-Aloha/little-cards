@@ -569,4 +569,8 @@ svg {
   <rect x="70" y="96" width="22" height="22" class="c-window" />
   <rect x="108" y="96" width="22" height="22" class="c-window" />
   <rect x="88" y="138" width="24" height="36" class="c-house-door" />
-</g></svg>
+</g>
+  <path d="M60 88 H140" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M78 120 V132 M122 120 V132" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="116" cy="152" r="3" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

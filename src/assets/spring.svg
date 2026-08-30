@@ -571,4 +571,6 @@ svg {
 <path class="c-tree-trunk" d="M92 172 C94 140 90 120 88 104 L112 104 C108 122 106 142 110 172 Z"/>
 <path class="c-tree-trunk" d="M96 118 L80 100 M104 116 L122 98" fill="none" stroke-width="6" stroke-linecap="round"/>
 <path class="c-leaf" d="M46 168 q6 -12 14 0 q-7 6 -14 0 Z"/><path class="c-leaf" d="M148 168 q6 -12 14 0 q-7 6 -14 0 Z"/>
+  <path d="M62 82 q8 -7 16 0 M122 82 q8 -7 16 0" fill="none" stroke="var(--c-pink)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
+  <path d="M50 116 q-5 8 0 14 M150 112 q-5 8 0 14" fill="none" stroke="var(--c-blue)" stroke-width="2.5" opacity=".5" stroke-linecap="round"/>
 </svg>

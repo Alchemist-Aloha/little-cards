@@ -572,5 +572,7 @@ svg {
   <path d="M128 46 V66 M118 56 H138" class="c-lemon-line" />
   <path d="M84 74 V150" class="c-milk-shine" />
   <ellipse cx="88" cy="84" rx="6" ry="10" transform="rotate(-18 88 84)" class="hi" />
+  <path d="M78 94 Q100 100 122 94" class="c-ridge" />
+  <rect x="86" y="110" width="12" height="10" rx="2" class="c-blue" opacity=".65" /><rect x="106" y="126" width="12" height="10" rx="2" class="c-blue" opacity=".65" />
 </g>
 </svg>

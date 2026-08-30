@@ -573,6 +573,8 @@ svg {
       <circle cx="100" cy="64" r="4.5" class="c-stem2" />
       <circle cx="100" cy="136" r="4.5" class="c-stem2" />
       <ellipse cx="78" cy="74" rx="10" ry="15" transform="rotate(-24 78 74)" class="hi" />
+      <path d="M100 42 V158 M42 100 H158" class="c-pizza-cheese" opacity=".45" fill="none" stroke="var(--c-line)" stroke-width="2" />
+      <circle cx="90" cy="90" r="3" class="c-leaf" /><circle cx="112" cy="112" r="3" class="c-leaf" /><circle cx="84" cy="132" r="2.5" class="c-leaf" />
 
 </g>
 </svg>

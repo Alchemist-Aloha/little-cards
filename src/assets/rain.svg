@@ -575,4 +575,6 @@ svg {
       <path class="c-rain" d="M152 116 C159 127 162 135 152 138 C142 135 145 127 152 116 Z" />
       <path d="M52 180 Q100 171 148 180" class="c-wind" />
     </g>
+      <path d="M74 112 l-5 11 M98 112 l-5 11 M122 112 l-5 11" fill="none" stroke="var(--c-blue)" stroke-width="2.5" opacity=".55" stroke-linecap="round"/>
+      <ellipse cx="100" cy="170" rx="48" ry="7" fill="none" stroke="var(--c-blue)" stroke-width="2" opacity=".45"/>
 </svg>

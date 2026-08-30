@@ -568,4 +568,6 @@ svg {
       <path d="M94 132 Q100 138 106 132" class="c-eyeline" />
       <ellipse cx="82" cy="80" rx="6" ry="10" transform="rotate(-20 82 80)" class="hi" />
     </g>
+      <path d="M100 67 L66 143 H134 Z" fill="none" stroke="var(--c-hi)" stroke-width="2.5" opacity=".65" stroke-linejoin="round"/>
+      <circle cx="100" cy="53" r="3" fill="var(--c-line)" opacity=".55"/><circle cx="48" cy="153" r="3" fill="var(--c-line)" opacity=".55"/><circle cx="152" cy="153" r="3" fill="var(--c-line)" opacity=".55"/>
 </svg>

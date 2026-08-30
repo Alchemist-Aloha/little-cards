@@ -188,4 +188,8 @@
       <path d="M100 130 L100 136" class="c-eyeline" />
       <path d="M92 136 Q100 150 108 136 Z" class="c-pink" />
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".55">
+        <path d="M53 137 Q100 157 147 137" />
+        <path d="M94 151 L100 158 L106 151" />
+      </g>
 </svg>

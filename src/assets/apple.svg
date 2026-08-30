@@ -182,5 +182,7 @@
       <line x1="100" y1="60" x2="100" y2="44" class="c-stem" stroke-width="5" stroke-linecap="round" />
       <ellipse cx="112" cy="41" rx="14" ry="8" transform="rotate(-28 112 41)" class="c-leaf" />
       <ellipse cx="79" cy="81" rx="9" ry="13" transform="rotate(-24 79 81)" class="hi" />
+      <path d="M58 108 Q70 116 82 112 M118 141 Q132 136 140 124" class="c-ridge" />
+      <circle cx="112" cy="96" r="2" class="c-freckle" /><circle cx="126" cy="112" r="1.8" class="c-freckle" /><circle cx="92" cy="139" r="1.6" class="c-freckle" />
     </g>
 </svg>

@@ -574,4 +574,8 @@ svg {
       <path d="M33 154 Q40 160 47 154" class="c-whisker" />
       <path d="M178 168 C178 158 188 154 194 160 C200 166 192 172 186 168" class="c-leaf" />
   </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
+        <path d="M58 124 Q64 132 70 124 M86 136 Q92 144 98 136 M114 132 Q120 140 126 132 M142 118 Q148 126 154 118" />
+        <path d="M48 164 Q72 170 96 166 T144 164 T184 168" />
+      </g>
 </svg>

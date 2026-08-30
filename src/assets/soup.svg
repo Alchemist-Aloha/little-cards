@@ -569,6 +569,8 @@ svg {
       <ellipse cx="72" cy="76" rx="7" ry="11" class="c-bubble" />
       <ellipse cx="100" cy="68" rx="6" ry="10" class="c-bubble" />
       <ellipse cx="126" cy="76" rx="7" ry="11" class="c-bubble" />
+      <circle cx="78" cy="102" r="5" class="c-carrot" /><circle cx="112" cy="101" r="5" class="c-leaf" /><circle cx="128" cy="106" r="4" class="c-carrot" />
+      <path d="M56 112 Q74 120 92 112 M108 112 Q126 120 144 112" class="c-ridge" />
 
 </g>
 </svg>

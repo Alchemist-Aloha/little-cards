@@ -179,4 +179,6 @@
 <rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n1"/>
   <text x="100" y="126" text-anchor="middle" class="num-digit">1</text>
   <circle class="num-dot" cx="100" cy="163" r="9"/>
+  <rect x="24" y="140" width="152" height="36" rx="12" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".22"/>
+  <path d="M32 145 H168 M32 177 H168" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".18"/>
 </svg>

@@ -186,5 +186,7 @@
       <ellipse cx="132" cy="121" rx="2.4" ry="4.3" transform="rotate(18 132 121)" class="c-watermelon-seed" />
       <ellipse cx="78" cy="128" rx="2.4" ry="4.3" transform="rotate(-12 78 128)" class="c-watermelon-seed" />
       <ellipse cx="69" cy="108" rx="7" ry="10" transform="rotate(-22 69 108)" class="hi" />
+      <path d="M58 133 Q86 86 142 91 M64 143 Q95 98 158 108" class="c-ridge" />
+      <ellipse cx="103" cy="121" rx="2.4" ry="4.3" transform="rotate(8 103 121)" class="c-watermelon-seed" /><ellipse cx="146" cy="126" rx="2.4" ry="4.3" transform="rotate(22 146 126)" class="c-watermelon-seed" />
     </g>
 </svg>

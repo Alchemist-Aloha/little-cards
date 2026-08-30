@@ -576,4 +576,7 @@ svg {
       <circle cx="108" cy="124" r="2.6" class="c-cow-spot"/>
       <path d="M122 136 C116 130 114 126 118 123 C121 121 122 124 122 126 C122 124 123 121 126 123 C130 126 128 130 122 136 Z" class="c-heart"/>
   </g>
+      <path d="M74 116 H90 M110 116 H126" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="80" cy="148" r="4" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M72 158 H128" fill="none" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

@@ -563,4 +563,7 @@ svg {
   <ellipse class="c-hat" cx="100" cy="112" rx="72" ry="15"/>
   <path class="c-hat" d="M60 110 Q58 64 100 60 Q142 64 140 110 Z"/>
   <path class="c-car-line" d="M61 100 Q100 106 139 100"/>
+  <path d="M64 88 Q100 96 136 88" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="70" r="4" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M76 76 L72 84 M124 76 L128 84" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
 </svg>

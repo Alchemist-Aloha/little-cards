@@ -190,5 +190,7 @@
       <ellipse cx="72" cy="122" rx="2.4" ry="4.4" class="c-seed" />
       <ellipse cx="128" cy="126" rx="2.4" ry="4.4" class="c-seed" />
       <ellipse cx="74" cy="98" rx="7" ry="10" transform="rotate(-18 74 98)" class="hi" />
+      <path d="M100 44 L100 62 M84 48 Q92 56 96 64 M116 48 Q108 56 104 64" class="c-ridge" />
+      <ellipse cx="108" cy="145" rx="2.4" ry="4.4" transform="rotate(12 108 145)" class="c-seed" /><ellipse cx="88" cy="142" rx="2.4" ry="4.4" transform="rotate(-12 88 142)" class="c-seed" />
     </g>
 </svg>

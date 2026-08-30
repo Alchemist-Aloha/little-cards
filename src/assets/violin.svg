@@ -570,4 +570,7 @@ svg {
       <path d="M150 50 L178 130" class="c-mane" />
       <path d="M148 50 L152 50 M176 130 L180 130" class="c-antler" />
     </g>
+      <path d="M100 82 V142 M96 82 V142 M104 82 V142" fill="none" stroke="var(--c-seed)" stroke-width="1.5" opacity=".85"/>
+      <path d="M88 116 H112" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M92 138 Q100 144 108 138" fill="none" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

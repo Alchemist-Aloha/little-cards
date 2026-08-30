@@ -567,4 +567,6 @@ svg {
 </g>
 <circle cx="96" cy="140" r="7" class="c-flower-petal"/><circle cx="108" cy="148" r="7" class="c-flower-petal"/><circle cx="88" cy="150" r="7" class="c-flower-petal"/><circle cx="100" cy="158" r="7" class="c-flower-petal"/><circle cx="99" cy="149" r="5" class="c-flower-center"/>
 <path class="c-hippo" d="M170 166 q10 -14 -2 -22 q-12 6 -8 22 Z"/>
+  <path d="M82 166 q-4 -17 4 -28 M94 166 q4 -20 0 -32 M106 166 q-4 -18 4 -30 M118 166 q4 -17 0 -28" fill="none" stroke="var(--c-leaf)" stroke-width="4" opacity=".8" stroke-linecap="round"/>
+  <circle cx="62" cy="145" r="3" fill="var(--c-hi)" opacity=".8"/><circle cx="144" cy="143" r="3" fill="var(--c-hi)" opacity=".8"/>
 </svg>

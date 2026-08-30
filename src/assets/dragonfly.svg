@@ -573,4 +573,8 @@ svg {
       <path d="M94 58 Q100 64 106 58" class="c-whisker" />
       <ellipse cx="100" cy="44" rx="6" ry="3" transform="rotate(-15 100 44)" class="hi" />
   </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5">
+        <path d="M100 70 L100 82 M100 90 L100 102 M100 110 L100 122" />
+        <path d="M78 54 L54 62 M122 54 L146 62 M76 122 L54 128 M124 122 L146 128" />
+      </g>
 </svg>

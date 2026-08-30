@@ -570,4 +570,7 @@ svg {
   <g transform="rotate(7 100 52)">
     <polygon points="100,24 128,74 72,74" class="c-triangle"/>
   </g>
+  <circle cx="86" cy="148" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <rect x="92" y="82" width="16" height="4" rx="2" fill="var(--c-seed)" opacity=".8"/>
+  <path d="M82 128 H118" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7"/>
 </svg>

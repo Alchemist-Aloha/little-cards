@@ -574,4 +574,7 @@ svg {
       <ellipse cx="118" cy="77" rx="5" ry="3.5" class="c-cheek"/>
       <path d="M138 118 C152 128 152 150 138 162" class="c-car-line"/>
   </g>
+      <path d="M72 118 H128 M72 140 H128" fill="none" stroke="var(--c-yellow)" stroke-width="4" stroke-linecap="round"/>
+      <rect x="116" y="148" width="12" height="10" rx="2" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M142 126 Q154 132 146 146" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
 </svg>

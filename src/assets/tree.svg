@@ -182,4 +182,6 @@
       <circle cx="75" cy="82" r="31" class="c-tree" /><circle cx="106" cy="61" r="35" class="c-tree" /><circle cx="134" cy="90" r="31" class="c-tree" /><circle cx="105" cy="103" r="35" class="c-tree" />
       <ellipse cx="84" cy="61" rx="10" ry="15" transform="rotate(-27 84 61)" class="hi" />
     </g>
+      <path d="M95 128 L101 119 L107 128 M95 145 L101 136 L107 145" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
+      <path d="M64 87 Q75 78 84 87 M112 66 Q123 57 134 67 M119 104 Q130 95 140 103" fill="none" stroke="var(--c-leaf)" stroke-width="3" opacity=".6" stroke-linecap="round"/>
 </svg>

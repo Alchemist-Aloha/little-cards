@@ -567,4 +567,7 @@ svg {
       <rect x="80" y="138" width="40" height="10" rx="4" class="c-lamp-base" />
       <circle cx="100" cy="44" r="5" class="c-star" />
   </g>
+      <path d="M72 78 H128 M68 86 H132" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M100 96 V134" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+      <circle cx="112" cy="126" r="4" fill="var(--c-line)"/>
 </svg>

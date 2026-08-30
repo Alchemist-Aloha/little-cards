@@ -570,4 +570,7 @@ svg {
       <rect x="52" y="96" width="32" height="16" rx="6" class="c-egg" />
       <rect x="92" y="104" width="76" height="24" rx="4" class="c-bed-blanket" />
   </g>
+      <path d="M42 118 H164" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M58 102 Q68 94 82 102 M98 110 Q116 116 148 108" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+      <circle cx="42" cy="74" r="4" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.5"/>
 </svg>

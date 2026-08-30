@@ -567,4 +567,7 @@ svg {
     <circle cx="88" cy="120" r="4.5" class="c-eyes"/>
     <circle cx="112" cy="120" r="4.5" class="c-eyes"/>
   </g>
+      <ellipse cx="88" cy="114" rx="5" ry="3" fill="var(--c-line)" opacity=".7"/>
+      <ellipse cx="112" cy="114" rx="5" ry="3" fill="var(--c-line)" opacity=".7"/>
+      <path d="M100 76 V106" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
 </svg>

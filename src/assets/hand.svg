@@ -571,4 +571,7 @@ svg {
     <path d="M78 112 Q100 120 124 112" class="c-car-line"/>
     <path d="M82 130 Q100 136 120 130" class="c-car-line"/>
   </g>
+      <path d="M76 112 Q100 126 126 112" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M88 132 Q100 140 112 132" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M96 46 V64 M112 48 V66 M128 54 V70 M144 62 V76" fill="none" stroke="var(--c-seed)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

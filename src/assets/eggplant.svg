@@ -567,5 +567,7 @@ svg {
       <path d="M100 60 L100 48" class="c-stem2" />
       <ellipse cx="80" cy="110" rx="8" ry="16" transform="rotate(-18 80 110)" class="hi" />
       <path d="M88 132 Q100 142 112 132" class="c-eyeline" />
+      <path d="M76 88 Q90 102 82 126 M124 88 Q110 102 118 126" class="c-ridge" />
+      <path d="M86 54 L100 60 L114 54" class="c-leaf" fill="none" stroke-width="3" />
 </g>
 </svg>

@@ -571,4 +571,8 @@ svg {
       <circle cx="150" cy="34" r="3" class="c-bubble"/>
       <circle cx="140" cy="50" r="2.5" class="c-bubble"/>
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45">
+        <path d="M72 70 Q84 78 96 70 M104 70 Q116 78 128 70" />
+        <path d="M70 110 L70 136 M90 108 L90 140 M110 108 L110 140 M130 110 L130 136" />
+      </g>
 </svg>

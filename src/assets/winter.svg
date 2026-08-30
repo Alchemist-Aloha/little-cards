@@ -570,4 +570,6 @@ svg {
 <path d="M40 130 v14 M34 137 h12 M158 122 v14 M152 129 h12 M96 150 v14 M90 157 h12 M146 156 v12 M141 162 h10"/>
 </g>
 <circle cx="58" cy="142" r="3" class="c-cloud"/><circle cx="132" cy="140" r="3" class="c-cloud"/><circle cx="176" cy="146" r="3" class="c-cloud"/>
+  <path d="M88 104 Q100 112 112 104" fill="none" stroke="var(--c-cloud)" stroke-width="4" opacity=".75" stroke-linecap="round"/>
+  <path d="M78 150 l-6 8 M122 150 l6 8 M92 158 l-4 7 M108 158 l4 7" fill="none" stroke="var(--c-cloud)" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
 </svg>

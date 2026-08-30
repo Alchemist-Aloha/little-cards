@@ -562,11 +562,16 @@ svg {
 </style><g>
       <path d="M58 150 Q40 100 90 72 Q120 58 150 66 L168 60 Q150 78 132 86 Q120 92 118 104 Q100 140 72 152 Q62 156 58 150 Z" class="c-dolphin"/>
       <path d="M95 70 Q103 48 116 66 Z" class="c-dolphin"/>
-      <path d="M58 150 Q42 146 46 158 Q54 152 60 156 Z" class="c-dolphin"/>
+      <path d="M60 150 Q48 140 38 144 Q46 152 56 154 Q46 158 40 166 Q52 164 62 156 Z" class="c-dolphin"/>
+      <path d="M108 102 Q124 108 132 120 Q116 118 106 110 Z" class="c-dolphin"/>
       <circle cx="138" cy="80" r="3.8" class="c-eyes"/>
       <path d="M150 78 Q160 82 166 76" class="c-eyeline"/>
       <path d="M45 174 Q75 158 100 174 Q125 190 155 174 Q130 182 100 168 Q70 156 45 174 Z" class="c-crescent"/>
       <circle cx="40" cy="60" r="3.5" class="c-bubble"/>
       <circle cx="170" cy="52" r="3" class="c-bubble"/>
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
+        <path d="M83 77 Q95 82 106 78" />
+        <path d="M129 84 Q140 90 148 88" />
+      </g>
 </svg>

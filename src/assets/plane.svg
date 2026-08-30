@@ -562,13 +562,16 @@ svg {
 </style>
 <g>
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M38 150 L82 150 L126 110 L160 110 L138 150 L162 150 L162 168 L138 168 L138 150 L60 150 L60 168 L38 168 Z" class="c-plane" />
-      <path d="M70 150 L96 168 L150 168 L122 150 Z" class="c-plane" />
-      <path d="M104 116 L132 90 L142 90 L120 116 Z" class="c-plane" />
-      <path d="M60 92 L58 60 L72 60 L74 92 Z" class="c-plane" />
-      <circle cx="98" cy="124" r="8" class="c-window" />
-      <circle cx="124" cy="124" r="8" class="c-window" />
-      <path d="M40 150 L52 150" class="c-milk-line" />
-      <rect x="100" y="92" width="40" height="8" rx="4" class="c-window" />
+      <path d="M34 104 L54 96 H112 L154 82 Q164 80 170 88 L160 104 L170 120 Q164 128 154 126 L112 112 H54 Z" class="c-plane" />
+      <path d="M92 100 L72 60 H86 L108 96 Z" class="c-plane" />
+      <path d="M92 116 L72 156 H86 L108 120 Z" class="c-plane" />
+      <path d="M54 98 L42 78 H56 L66 98 Z" class="c-plane" />
+      <path d="M54 112 L42 132 H56 L66 112 Z" class="c-plane" />
+      <circle cx="122" cy="103" r="7" class="c-window" />
+      <circle cx="142" cy="103" r="7" class="c-window" />
+      <path d="M38 104 H54" class="c-milk-line" />
   </g>
+      <path d="M112 96 H132 V110 H112" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+      <path d="M154 88 L160 92 M154 120 L160 116" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M82 78 L98 98 M82 148 L98 118" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".7"/>
 </svg>

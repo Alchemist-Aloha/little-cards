@@ -567,4 +567,6 @@ svg {
 <path class="c-boat-hull" d="M96 148 q22 8 44 0 l-6 14 h-32 Z"/>
 <line x1="118" y1="128" x2="118" y2="148" class="c-car-line"/>
 <path class="c-red" d="M118 128 l16 6 -16 6 Z"/>
+  <path d="M34 158 q18 -8 36 0 t36 0 t36 0 t36 0" fill="none" stroke="var(--c-hi)" stroke-width="3" opacity=".65" stroke-linecap="round"/>
+  <path d="M46 169 q14 -6 28 0 M132 166 q12 -5 24 0" fill="none" stroke="var(--c-blue)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
 </svg>

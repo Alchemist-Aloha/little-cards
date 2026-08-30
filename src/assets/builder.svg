@@ -577,4 +577,7 @@ svg {
       <path d="M64 150 L136 150" class="c-car-line"/>
       <rect x="95" y="146" width="10" height="8" rx="1.5" class="c-jingle"/>
   </g>
+      <path d="M72 118 H128 M72 140 H128" fill="none" stroke="var(--c-yellow)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="80" cy="154" r="4" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M146 88 V112" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round"/>
 </svg>

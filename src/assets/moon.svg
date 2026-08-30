@@ -182,4 +182,6 @@
       <circle cx="99" cy="102" r="7" class="c-moon-crater" /><circle cx="119" cy="130" r="5" class="c-moon-crater" /><circle cx="91" cy="126" r="3" class="c-moon-crater" />
       <path d="M150 50 V65 M143 57 H157 M159 81 V91 M154 86 H164" class="c-star" />
     </g>
+      <circle cx="110" cy="74" r="7" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".35"/><circle cx="127" cy="109" r="5" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".35"/>
+      <path d="M48 55 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z M165 116 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 Z" fill="none" stroke="var(--c-sun)" stroke-width="2"/>
 </svg>

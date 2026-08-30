@@ -575,4 +575,8 @@ svg {
     <rect x="119" y="104" width="5" height="46" />
     <rect x="131" y="104" width="5" height="46" />
   </g>
-</g></svg>
+</g>
+  <path d="M54 152 H146" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M78 104 V148 M100 104 V148 M122 104 V148" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="150" cy="128" r="7" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

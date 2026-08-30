@@ -570,4 +570,7 @@ svg {
       <path d="M40 160 Q60 150 80 160 T120 160 T160 160" class="c-wind" />
       <path d="M50 168 Q70 158 90 168 T130 168 T160 168" class="c-wind" />
   </g>
+      <path d="M54 140 H146" fill="none" stroke="var(--c-red)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="72" cy="128" r="6" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2"/>
+      <path d="M134 134 Q142 140 136 146" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

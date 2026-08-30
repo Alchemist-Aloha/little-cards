@@ -569,5 +569,7 @@ svg {
       <ellipse cx="116" cy="36" rx="13" ry="7" transform="rotate(-30 116 36)" class="c-leaf" />
       <path d="M88 122 Q100 132 112 122" class="c-eyeline" />
       <ellipse cx="78" cy="92" rx="9" ry="13" transform="rotate(-24 78 92)" class="hi" />
+      <path d="M88 52 Q82 78 86 101 M112 52 Q118 78 114 101" class="c-ridge" />
+      <circle cx="122" cy="94" r="1.8" class="c-freckle" /><circle cx="130" cy="112" r="1.6" class="c-freckle" /><circle cx="76" cy="126" r="1.5" class="c-freckle" />
 </g>
 </svg>

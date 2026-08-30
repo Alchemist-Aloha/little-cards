@@ -562,4 +562,8 @@ svg {
 </style>  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
   <path class="c-dress" d="M84 56 L116 56 L110 100 L152 165 Q138 158 126 166 Q113 158 100 166 Q87 158 74 166 Q61 158 48 165 L90 100 Z"/>
   <path class="c-car-line" d="M90 100 Q100 106 110 100"/>
+  <path d="M86 64 Q100 72 114 64" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M72 112 H128" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="100" cy="84" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M62 154 Q100 146 138 154" fill="none" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

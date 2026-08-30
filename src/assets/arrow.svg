@@ -565,4 +565,6 @@ svg {
       <path d="M52 80 Q40 80 40 92 L40 108 Q40 120 52 120 L104 120 L104 144 Q172 100 104 56 L104 80 Z" class="c-arrow" />
       <ellipse cx="70" cy="90" rx="6" ry="9" transform="rotate(-20 70 90)" class="hi" />
     </g>
+      <path d="M56 100 H112" fill="none" stroke="var(--c-hi)" stroke-width="3" opacity=".75" stroke-linecap="round"/>
+      <path d="M29 72 H54 M29 128 H54" fill="none" stroke="var(--c-line)" stroke-width="3" opacity=".5" stroke-linecap="round"/>
 </svg>

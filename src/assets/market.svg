@@ -580,4 +580,8 @@ svg {
   <path d="M30 138 l6 -26 l6 26 Z" class="c-carrot" />
   <path d="M36 112 v-8" class="c-tree" stroke-width="3" />
   <circle cx="68" cy="128" r="11" class="c-tomato" />
-</g></svg>
+</g>
+  <path d="M20 104 H84 M116 104 H180" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M42 122 V154 M62 122 V154 M138 122 V154 M158 122 V154" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="148" cy="140" r="7" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

@@ -185,4 +185,7 @@
       <circle cx="73" cy="140" r="14" class="c-wheel" /><circle cx="127" cy="140" r="14" class="c-wheel" />
       <path d="M37 159 H165 M48 174 H176 M57 159 L43 174 M87 159 L73 174 M117 159 L103 174 M147 159 L133 174" class="c-track" />
     </g>
+      <path d="M95 111 V136 M111 111 V136" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+      <path d="M54 132 H143" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M42 145 H34 V151 H28" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

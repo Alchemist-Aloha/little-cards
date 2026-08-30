@@ -567,4 +567,6 @@ svg {
 <path class="c-car-line" d="M78 118 q10 -8 20 0 t20 0" fill="none"/>
 <rect x="140" y="120" width="8" height="40" rx="4" class="c-tip" transform="rotate(24 144 140)"/>
 <ellipse cx="152" cy="120" rx="9" ry="12" class="c-tomato" transform="rotate(24 152 120)"/>
+<circle cx="84" cy="128" r="3" class="c-seed"/><circle cx="108" cy="136" r="3" class="c-seed"/><circle cx="120" cy="120" r="2.5" class="c-seed"/>
+<path d="M74 82 V102 M126 82 V102" class="c-milk-shine"/>
 </svg>

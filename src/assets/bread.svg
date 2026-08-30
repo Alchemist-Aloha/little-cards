@@ -182,5 +182,7 @@
       <path d="M76 92 Q88 105 81 121 M105 78 Q118 92 111 110 M133 91 Q145 103 138 120" class="c-bread-score" />
       <path d="M49 142 H157" class="c-bread-crust" />
       <ellipse cx="72" cy="99" rx="8" ry="12" transform="rotate(-26 72 99)" class="hi" />
+      <circle cx="96" cy="98" r="2.2" class="c-freckle" /><circle cx="122" cy="116" r="2" class="c-freckle" /><circle cx="68" cy="126" r="1.8" class="c-freckle" />
+      <path d="M58 133 Q72 138 84 134 M112 134 Q130 140 146 132" class="c-ridge" />
     </g>
 </svg>

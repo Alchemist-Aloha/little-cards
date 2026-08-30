@@ -183,4 +183,6 @@
       <ellipse cx="100" cy="70" rx="17" ry="28" class="c-flower-petal" /><ellipse cx="100" cy="70" rx="17" ry="28" transform="rotate(60 100 70)" class="c-flower-petal" /><ellipse cx="100" cy="70" rx="17" ry="28" transform="rotate(120 100 70)" class="c-flower-petal" />
       <circle cx="100" cy="70" r="15" class="c-flower-center" />
     </g>
+      <path d="M100 49 V62 M82 59 L91 66 M118 59 L109 66" fill="none" stroke="var(--c-flower)" stroke-width="2.5" opacity=".65" stroke-linecap="round"/>
+      <circle cx="94" cy="70" r="3" fill="var(--c-line)" opacity=".7"/><circle cx="106" cy="70" r="3" fill="var(--c-line)" opacity=".7"/><circle cx="100" cy="76" r="3" fill="var(--c-line)" opacity=".7"/>
 </svg>

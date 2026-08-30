@@ -579,4 +579,7 @@ svg {
       <path d="M86 98 L114 98 L122 114 L100 120 L78 114 Z" class="c-cloth-red"/>
       <circle cx="100" cy="132" r="5" class="c-jingle"/>
   </g>
+      <path d="M76 120 H124 M80 142 H120" fill="none" stroke="var(--c-egg)" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="80" cy="154" r="4" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+      <path d="M76 86 Q100 94 124 86" fill="none" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

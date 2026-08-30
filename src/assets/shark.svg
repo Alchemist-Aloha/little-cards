@@ -570,4 +570,8 @@ svg {
       <path d="M44 170 Q64 164 84 170 T124 170 T164 170" class="c-car-line"/>
       <path d="M52 180 Q72 174 92 180 T132 180 T172 180" class="c-car-line"/>
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".6">
+        <path d="M142 94 L136 108 M150 96 L144 110 M158 100 L152 112" />
+        <path d="M116 122 Q128 130 140 124" />
+      </g>
 </svg>

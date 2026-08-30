@@ -577,6 +577,8 @@ svg {
       <circle cx="103" cy="87" r="2.4" class="c-freckle"/>
       <circle cx="116" cy="80" r="12" class="c-cloud"/>
       <circle cx="120" cy="82" r="2.4" class="c-freckle"/>
+      <path d="M72 122 L78 156 M88 118 L92 158 M108 118 L106 158 M124 120 L120 156" class="c-ridge"/>
+      <circle cx="98" cy="96" r="3" class="c-freckle"/><circle cx="118" cy="108" r="3" class="c-freckle"/>
 
   </g>
 </svg>

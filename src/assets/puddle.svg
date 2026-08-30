@@ -564,4 +564,6 @@ svg {
 <path class="c-blue" d="M40 132 q10 -18 60 -18 t60 18 q-10 22 -60 22 t-60 -22 Z"/>
 <path class="c-milk-shine" d="M62 128 q16 -10 34 -10" fill="none"/>
 <g fill="none" class="c-bubble"><ellipse cx="100" cy="134" rx="26" ry="7"/><ellipse cx="100" cy="135" rx="44" ry="11"/></g>
+  <path d="M55 146 q45 18 90 0" fill="none" stroke="var(--c-hi)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
+  <circle cx="74" cy="132" r="4" fill="none" stroke="var(--c-blue)" stroke-width="2" opacity=".65"/><circle cx="137" cy="130" r="3" fill="none" stroke="var(--c-blue)" stroke-width="2" opacity=".65"/>
 </svg>

@@ -568,4 +568,7 @@ svg {
       <rect x="90" y="34" width="12" height="16" rx="3" class="c-tip" />
       <path d="M90 52 L92 140 M96 52 L96 140 M102 52 L100 140" class="c-car-line" />
     </g>
+      <path d="M100 42 V154 M96 42 V154 M104 42 V154" fill="none" stroke="var(--c-seed)" stroke-width="1.5" opacity=".8"/>
+      <path d="M84 124 H116" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M92 40 L86 32 M100 40 V30 M108 40 L114 32" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
 </svg>

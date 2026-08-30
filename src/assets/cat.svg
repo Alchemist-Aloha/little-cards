@@ -190,4 +190,8 @@
       <path d="M62 104 L34 98 M62 112 L32 112 M62 120 L34 126" class="c-whisker" />
       <path d="M138 104 L166 98 M138 112 L168 112 M138 120 L166 126" class="c-whisker" />
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".45">
+        <path d="M84 76 L89 84 M100 70 L100 80 M116 76 L111 84" />
+        <path d="M74 148 Q84 155 92 157 M108 157 Q116 155 126 148" />
+      </g>
 </svg>

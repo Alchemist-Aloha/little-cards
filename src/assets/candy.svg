@@ -571,6 +571,8 @@ svg {
       <circle cx="88" cy="95" r="3.2" class="c-eyes"/>
       <circle cx="112" cy="95" r="3.2" class="c-eyes"/>
       <path d="M90 109 Q100 119 110 109" class="c-eyeline"/>
+      <path d="M42 88 L58 100 L42 112 M158 88 L142 100 L158 112" class="c-ridge"/>
+      <circle cx="76" cy="104" r="2.5" class="c-yellow"/><circle cx="124" cy="104" r="2.5" class="c-blue"/>
 
   </g>
 </svg>

@@ -178,5 +178,7 @@
 </style>
 <rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n6"/>
   <text x="100" y="112" text-anchor="middle" class="num-digit">6</text>
-  <circle class="num-dot" cx="32" cy="148" r="8"/><circle class="num-dot" cx="66" cy="148" r="8"/><circle class="num-dot" cx="100" cy="148" r="8"/><circle class="num-dot" cx="134" cy="148" r="8"/><circle class="num-dot" cx="168" cy="148" r="8"/><circle class="num-dot" cx="32" cy="178" r="8"/>
+  <circle class="num-dot" cx="64" cy="146" r="8"/><circle class="num-dot" cx="100" cy="146" r="8"/><circle class="num-dot" cx="136" cy="146" r="8"/><circle class="num-dot" cx="64" cy="170" r="8"/><circle class="num-dot" cx="100" cy="170" r="8"/><circle class="num-dot" cx="136" cy="170" r="8"/>
+  <rect x="52" y="136" width="96" height="42" rx="12" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".22"/>
+  <path d="M56 158 H144" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".2"/>
 </svg>

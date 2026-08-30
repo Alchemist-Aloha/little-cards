@@ -570,4 +570,8 @@ svg {
       <path d="M48 118 Q34 116 30 126 Q40 122 48 126 Z" class="c-crab"/>
       <path d="M152 118 Q166 116 170 126 Q160 122 152 126 Z" class="c-crab"/>
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".55">
+        <path d="M64 126 L48 142 M72 132 L58 150 M136 132 L150 150 M144 126 L160 142" />
+        <path d="M70 108 Q84 116 92 110 M108 110 Q116 116 130 108" />
+      </g>
 </svg>

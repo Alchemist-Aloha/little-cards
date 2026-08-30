@@ -571,4 +571,8 @@ svg {
   <path d="M92 82 Q100 90 108 82" class="c-eyeline"/>
   <line x1="100" y1="44" x2="100" y2="26" class="c-ladder"/>
   <circle cx="100" cy="20" r="7" class="c-star"/>
+  <rect x="78" y="118" width="44" height="26" rx="5" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="88" cy="132" r="4" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <circle cx="112" cy="132" r="4" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M62 124 H52 M138 124 H148" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
 </svg>

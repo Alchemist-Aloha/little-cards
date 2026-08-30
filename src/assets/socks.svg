@@ -565,4 +565,7 @@ svg {
   <path class="c-socks-line" d="M80 70 Q91 74 100 70"/>
   <path class="c-socks-line" d="M80 86 Q91 90 100 86"/>
   <path class="c-socks-line" d="M80 102 Q91 106 100 102"/>
+  <path d="M78 112 Q88 118 100 112" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M118 128 Q130 130 138 136" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M102 118 Q112 122 124 128" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
 </svg>

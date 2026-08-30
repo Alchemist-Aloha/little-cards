@@ -572,4 +572,7 @@ svg {
       <circle cx="70" cy="62" r="6" class="c-rotor" />
       <path d="M58 130 H132 M64 138 H126" class="c-car-line" />
   </g>
+      <path d="M72 124 L66 140 H126 L120 124" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M132 98 L146 88 L154 96" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M116 112 H128" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
 </svg>

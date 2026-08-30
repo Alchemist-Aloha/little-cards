@@ -570,4 +570,8 @@ svg {
   <rect x="112" y="124" width="11" height="32" class="c-tree-trunk" />
   <circle cx="117" cy="116" r="24" class="c-tree" />
   <ellipse cx="88" cy="166" rx="48" ry="11" class="c-blue" />
-</g></svg>
+</g>
+  <path d="M40 154 H156" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M70 148 Q88 136 106 148 M108 158 Q126 146 144 158" fill="none" stroke="var(--c-green)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="152" cy="132" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</svg>

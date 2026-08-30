@@ -184,4 +184,8 @@
       <circle cx="45" cy="119" r="3" class="c-eyes" />
       <path d="M72 90 L102 75 L132 90 L142 112 L124 140 H81 L62 112 Z M102 75 V140 M62 112 H142 M72 90 L124 140 M132 90 L81 140" class="c-shell-line" />
     </g>
+      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".55">
+        <path d="M48 103 L54 108 M151 103 L145 108 M72 148 L78 145 M128 148 L122 145" />
+        <path d="M79 83 Q89 88 95 96 M107 96 Q113 88 123 83" />
+      </g>
 </svg>

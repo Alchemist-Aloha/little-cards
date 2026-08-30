@@ -195,5 +195,7 @@
         <circle cx="113" cy="135" r="15" />
       </g>
       <ellipse cx="86" cy="86" rx="6" ry="9" transform="rotate(-22 86 86)" class="hi" />
+      <path d="M114 56 L90 70 M114 56 L126 70 M114 56 L103 66" class="c-stem-line" stroke-width="2" />
+      <circle cx="96" cy="82" r="2" class="c-freckle" /><circle cx="119" cy="104" r="1.8" class="c-freckle" /><circle cx="89" cy="126" r="1.8" class="c-freckle" />
     </g>
 </svg>

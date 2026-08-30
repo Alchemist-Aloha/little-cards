@@ -570,5 +570,7 @@ svg {
       <path d="M104 66 L120 40 L108 64 Z" class="c-pineleaf2" />
       <path d="M110 70 L134 52 L114 70 Z" class="c-pineleaf" />
       <ellipse cx="82" cy="100" rx="8" ry="14" transform="rotate(-18 82 100)" class="hi" />
+      <circle cx="82" cy="96" r="2.5" class="c-tip" /><circle cx="100" cy="112" r="2.5" class="c-tip" /><circle cx="118" cy="128" r="2.5" class="c-tip" /><circle cx="86" cy="144" r="2.5" class="c-tip" />
+      <path d="M80 42 Q86 56 90 64 M120 42 Q114 56 110 64" class="c-ridge" />
 </g>
 </svg>

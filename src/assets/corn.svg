@@ -568,5 +568,7 @@ svg {
       <path d="M100 64 C84 50 70 44 64 52 C74 64 88 72 100 70 Z" class="c-leaf" />
       <path d="M100 64 C116 50 130 44 136 52 C126 64 112 72 100 70 Z" class="c-leaf" />
       <ellipse cx="84" cy="96" rx="7" ry="12" transform="rotate(-18 84 96)" class="hi" />
+      <g class="c-dimple"><circle cx="84" cy="84" r="3" /><circle cx="100" cy="84" r="3" /><circle cx="116" cy="84" r="3" /><circle cx="84" cy="104" r="3" /><circle cx="100" cy="104" r="3" /><circle cx="116" cy="104" r="3" /><circle cx="84" cy="124" r="3" /><circle cx="100" cy="124" r="3" /><circle cx="116" cy="124" r="3" /></g>
+      <path d="M96 66 Q90 54 84 48 M104 66 Q110 54 116 48" class="c-ridge" />
 </g>
 </svg>

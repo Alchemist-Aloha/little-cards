@@ -564,4 +564,7 @@ svg {
   <path d="M100 144 L94 156 L106 156 Z" class="c-balloon"/>
   <path d="M100 156 Q110 168 100 178 Q90 188 100 196" class="c-balloon-string"/>
   <ellipse cx="84" cy="72" rx="12" ry="18" transform="rotate(-20 84 72)" class="hi"/>
+  <path d="M82 58 Q100 68 118 58 M76 78 Q100 90 124 78" fill="none" stroke="var(--c-seed)" stroke-width="2.5" opacity=".65"/>
+  <path d="M94 150 L100 156 L106 150" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="100" cy="96" r="3" fill="var(--c-seed)" opacity=".65"/>
 </svg>

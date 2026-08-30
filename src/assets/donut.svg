@@ -571,6 +571,9 @@ svg {
       <g transform="rotate(-15 121 136)"><rect x="114" y="133.5" width="14" height="5" rx="2.5" class="c-blue" /></g>
 
       <ellipse cx="74" cy="72" rx="11" ry="16" transform="rotate(-22 74 72)" class="hi" />
+      <path d="M42 100 Q54 72 82 64 Q112 56 146 76" class="c-icecream" fill="none" stroke-width="7" />
+      <g class="c-red"><rect x="88" y="68" width="13" height="5" rx="2.5" transform="rotate(18 94 70)" /></g>
+      <g class="c-yellow"><rect x="130" y="98" width="13" height="5" rx="2.5" transform="rotate(42 136 100)" /></g>
 
 </g>
 </svg>
