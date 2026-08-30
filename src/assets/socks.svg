@@ -559,7 +559,13 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style>  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
+</style>
+  <!-- Pairing two socks reinforces the plural word while keeping the front sock dominant. -->
+  <g opacity=".62">
+    <path class="c-socks" d="M54 56 L78 56 L78 108 L106 124 Q116 130 112 140 L68 140 Q54 138 54 126 Z"/>
+    <path class="c-socks-line" d="M56 74 Q66 78 76 74 M56 90 Q66 94 76 90"/>
+  </g>
+  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
   <path class="c-socks" d="M78 52 L102 52 L102 110 L132 128 Q142 132 140 142 L92 142 Q78 142 78 128 Z"/>
   <path class="c-car-line" d="M78 128 Q70 136 84 140"/>
   <path class="c-socks-line" d="M80 70 Q91 74 100 70"/>

@@ -442,7 +442,7 @@ svg {
 .c-worm { fill: var(--c-worm); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-cloud { fill: var(--c-cloud); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-rain { fill: var(--c-blue); }
-.c-snowflake { fill: none; stroke: var(--c-cloud); stroke-width: 3; stroke-linecap: round; }
+.c-snowflake { fill: none; stroke: var(--c-blue); stroke-width: 3.5; stroke-linecap: round; }
 .c-rainbow-band-1 { fill: none; stroke: var(--c-red); stroke-width: 10; }
 .c-rainbow-band-2 { fill: none; stroke: var(--c-yellow); stroke-width: 10; }
 .c-rainbow-band-3 { fill: none; stroke: var(--c-green); stroke-width: 10; }

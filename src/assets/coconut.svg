@@ -562,12 +562,13 @@ svg {
 </style><g>
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
       <path d="M62 120 C62 84 82 64 100 64 C118 64 138 84 138 120 C138 150 122 162 100 162 C78 162 62 150 62 120 Z" class="c-coconut" />
-      <circle cx="88" cy="76" r="4" class="c-cow-spot" />
-      <circle cx="100" cy="71" r="4" class="c-cow-spot" />
-      <circle cx="112" cy="76" r="4" class="c-cow-spot" />
+      <circle cx="88" cy="76" r="4" class="c-tip" />
+      <circle cx="100" cy="71" r="4" class="c-tip" />
+      <circle cx="112" cy="76" r="4" class="c-tip" />
       <path d="M80 100 q6 4 12 0 M92 116 q6 4 12 0 M76 124 q6 4 12 0 M104 104 q6 4 12 0 M110 126 q6 4 12 0 M88 134 q6 4 12 0" class="c-coconut-line" />
       <ellipse cx="82" cy="104" rx="8" ry="13" transform="rotate(-20 82 104)" class="hi" />
       <path d="M72 84 Q86 94 82 112 M128 84 Q114 94 118 112" class="c-ridge" />
+      <path d="M84 82 Q100 92 116 82 M78 150 Q100 158 122 150" class="c-coconut-line" />
       <circle cx="74" cy="140" r="2" class="c-freckle" /><circle cx="126" cy="140" r="2" class="c-freckle" /><circle cx="100" cy="150" r="1.8" class="c-freckle" />
 </g>
 </svg>

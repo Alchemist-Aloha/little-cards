@@ -559,7 +559,13 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style>  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
+</style>
+  <!-- A visible second shoe makes the plural word concrete for early learners. -->
+  <g opacity=".62">
+    <path class="c-shoes" d="M36 148 L38 118 Q40 106 54 104 L82 104 Q88 105 94 113 L116 124 Q128 130 126 140 L122 148 Z"/>
+    <path class="c-car-line" d="M48 112 L62 122 M64 110 L50 122"/>
+  </g>
+  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
   <path class="c-egg" d="M38 152 Q36 168 54 168 L150 168 Q168 168 164 150 Q150 158 140 158 L52 158 Q44 158 38 152 Z"/>
   <path class="c-shoes" d="M48 148 L48 112 Q50 96 70 94 L104 94 Q110 94 114 104 L140 116 Q162 122 160 140 L156 148 Z"/>
   <path class="c-car-line" d="M58 104 L74 116"/>

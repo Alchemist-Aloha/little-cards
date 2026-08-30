@@ -563,6 +563,7 @@ svg {
 <g>
 
       <ellipse cx="100" cy="172" rx="58" ry="7" class="shadow" />
+      <path d="M58 60 L134 110 M72 56 L142 104" class="c-stem-line" stroke-width="3" />
       <path d="M44 104 Q44 160 100 160 Q156 160 156 104 Z" class="c-bowl" />
       <ellipse cx="100" cy="104" rx="56" ry="15" class="c-bowl" />
       <ellipse cx="100" cy="104" rx="48" ry="11" class="c-egg" />

@@ -567,9 +567,6 @@ svg {
       <circle cx="84" cy="86" r="7" class="c-seed" />
       <circle cx="116" cy="84" r="6" class="c-seed" />
       <circle cx="100" cy="74" r="5" class="c-seed" />
-      <circle cx="90" cy="124" r="4.5" class="c-eyes" />
-      <circle cx="110" cy="124" r="4.5" class="c-eyes" />
-      <path d="M92 138 Q100 145 108 138" class="c-eyeline" />
       <path d="M84 106 Q88 112 92 106 M96 106 Q100 112 104 106 M108 106 Q112 112 116 106" class="c-ridge" />
       <path d="M88 132 Q100 128 112 132" class="c-mushroom-cap" fill="none" stroke="var(--c-line)" stroke-width="2" />
 </g>

@@ -566,7 +566,6 @@ svg {
       <path d="M100 48 L88 32 L96 44 L100 40 L104 44 L112 32 Z" class="c-stem2" />
       <path d="M100 48 L100 38" class="c-stem2" />
       <ellipse cx="78" cy="86" rx="9" ry="13" transform="rotate(-24 78 86)" class="hi" />
-      <path d="M93 104 Q100 111 107 104" class="c-eyeline" />
       <path d="M58 110 Q72 118 86 112 M114 112 Q130 118 142 108" class="c-ridge" />
       <circle cx="82" cy="126" r="2" class="c-freckle" /><circle cx="118" cy="128" r="2" class="c-freckle" /><circle cx="132" cy="94" r="1.8" class="c-freckle" />
 </g>

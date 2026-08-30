@@ -567,10 +567,11 @@ svg {
   <path d="M64 96 L64 134 Q64 158 100 158 Q136 158 136 134 L136 96 Z" class="c-glass" />
   <ellipse class="c-tea" cx="100" cy="96" rx="29" ry="8" />
   <path d="M136 106 Q165 108 160 130 Q156 148 134 144" class="c-track" />
+  <path d="M118 96 V120" class="c-track" />
+  <path d="M118 120 L128 128 L118 134 Z" class="c-pancake" />
   <path d="M90 74 Q82 64 90 54 Q98 44 90 34" class="c-bubble" />
   <path d="M110 74 Q118 64 110 54 Q102 44 110 34" class="c-bubble" />
   <ellipse cx="78" cy="110" rx="5" ry="11" transform="rotate(-12 78 110)" class="hi" />
   <path d="M72 146 Q100 154 128 146" class="c-ridge" />
-  <path d="M118 96 V120" class="c-track" /><path d="M118 120 L128 128 L118 134 Z" class="c-pancake" />
 </g>
 </svg>
