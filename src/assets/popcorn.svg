@@ -560,25 +560,17 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-
-      <ellipse cx="100" cy="166" rx="40" ry="7" class="shadow"/>
-      <path d="M66 108 L134 108 L124 160 L76 160 Z" class="c-tomato"/>
-      <rect x="82" y="110" width="5" height="48" class="c-egg"/>
-      <rect x="100" y="110" width="5" height="48" class="c-egg"/>
-      <rect x="118" y="110" width="5" height="48" class="c-egg"/>
-<circle cx="84" cy="98" r="15" class="c-cloud"/>
-      <circle cx="88" cy="101" r="2.4" class="c-freckle"/>
-      <circle cx="108" cy="92" r="17" class="c-cloud"/>
-      <circle cx="113" cy="95" r="2.4" class="c-freckle"/>
-      <circle cx="126" cy="100" r="14" class="c-cloud"/>
-      <circle cx="130" cy="103" r="2.4" class="c-freckle"/>
-      <circle cx="98" cy="84" r="16" class="c-cloud"/>
-      <circle cx="103" cy="87" r="2.4" class="c-freckle"/>
-      <circle cx="116" cy="80" r="12" class="c-cloud"/>
-      <circle cx="120" cy="82" r="2.4" class="c-freckle"/>
-      <path d="M72 122 L78 156 M88 118 L92 158 M108 118 L106 158 M124 120 L120 156" class="c-ridge"/>
-      <circle cx="98" cy="96" r="3" class="c-freckle"/><circle cx="118" cy="108" r="3" class="c-freckle"/>
-
+  <g stroke="var(--c-line)" stroke-linejoin="round">
+    <ellipse cx="100" cy="169" rx="43" ry="7" class="shadow" stroke="none"/>
+    <path d="M61 104 H139 L128 163 Q127 168 122 168 H78 Q73 168 72 163 Z" fill="var(--c-milk-label)" stroke-width="3"/>
+    <path d="M62 105 H78 L84 166 H72 Z M93 105 H107 L107 168 H93 Z M122 105 H138 L128 166 H116 Z" class="c-tomato" stroke-width="1.5"/>
+    <path d="M60 104 Q100 95 140 104 L138 114 Q100 106 62 114 Z" fill="var(--c-egg)" stroke-width="3"/>
+    <g fill="var(--c-egg)" stroke-width="2.5">
+      <path d="M66 109 Q55 95 66 83 Q74 74 83 83 Q91 70 103 80 Q113 69 123 80 Q137 76 141 90 Q145 102 133 111 Z"/>
+      <path d="M78 103 Q69 87 82 78 Q94 71 102 84 Q113 72 125 83 Q136 94 125 106 Z"/>
+      <path d="M92 96 Q84 82 96 74 Q108 67 116 81 Q128 75 135 87 Q140 99 128 107 Z"/>
+    </g>
+    <g fill="none" stroke="var(--c-stem)" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M72 92 q5 -6 10 0 M92 88 q5 -7 10 0 M113 90 q5 -7 10 0 M124 99 q4 -5 8 0"/></g>
+    <path d="M72 124 H128 M75 146 H125" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".28"/>
   </g>
 </svg>

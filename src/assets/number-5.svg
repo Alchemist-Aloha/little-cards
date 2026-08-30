@@ -177,8 +177,6 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n5"/>
-  <text x="100" y="126" text-anchor="middle" class="num-digit">5</text>
-  <circle class="num-dot" cx="32" cy="163" r="9"/><circle class="num-dot" cx="66" cy="163" r="9"/><circle class="num-dot" cx="100" cy="163" r="9"/><circle class="num-dot" cx="134" cy="163" r="9"/><circle class="num-dot" cx="168" cy="163" r="9"/>
-  <rect x="24" y="140" width="152" height="36" rx="12" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".22"/>
-  <path d="M32 145 H168 M32 177 H168" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".18"/>
+  <text x="100" y="112" text-anchor="middle" class="num-digit">5</text>
+  <g fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".36"><rect x="40" y="130" width="120" height="52" rx="8"/><path d="M64 130V182 M88 130V182 M112 130V182 M136 130V182 M40 156H160"/></g><circle class="num-dot" cx="52" cy="143" r="7"/><circle class="num-dot" cx="76" cy="143" r="7"/><circle class="num-dot" cx="100" cy="143" r="7"/><circle class="num-dot" cx="124" cy="143" r="7"/><circle class="num-dot" cx="148" cy="143" r="7"/>
 </svg>

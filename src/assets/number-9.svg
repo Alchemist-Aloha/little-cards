@@ -178,7 +178,5 @@
 </style>
 <rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n9"/>
   <text x="100" y="112" text-anchor="middle" class="num-digit">9</text>
-  <circle class="num-dot" cx="44" cy="146" r="8"/><circle class="num-dot" cx="72" cy="146" r="8"/><circle class="num-dot" cx="100" cy="146" r="8"/><circle class="num-dot" cx="128" cy="146" r="8"/><circle class="num-dot" cx="156" cy="146" r="8"/><circle class="num-dot" cx="56" cy="170" r="8"/><circle class="num-dot" cx="85" cy="170" r="8"/><circle class="num-dot" cx="115" cy="170" r="8"/><circle class="num-dot" cx="144" cy="170" r="8"/>
-  <rect x="38" y="136" width="124" height="42" rx="12" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".22"/>
-  <path d="M42 158 H158" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".2"/>
+  <g fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".36"><rect x="40" y="130" width="120" height="52" rx="8"/><path d="M64 130V182 M88 130V182 M112 130V182 M136 130V182 M40 156H160"/></g><circle class="num-dot" cx="52" cy="143" r="7"/><circle class="num-dot" cx="76" cy="143" r="7"/><circle class="num-dot" cx="100" cy="143" r="7"/><circle class="num-dot" cx="124" cy="143" r="7"/><circle class="num-dot" cx="148" cy="143" r="7"/><circle class="num-dot" cx="52" cy="169" r="7"/><circle class="num-dot" cx="76" cy="169" r="7"/><circle class="num-dot" cx="100" cy="169" r="7"/><circle class="num-dot" cx="124" cy="169" r="7"/>
 </svg>
