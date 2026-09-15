@@ -560,13 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<circle cx="164" cy="42" r="13" class="c-sun"/>
-<path class="c-blue" d="M20 178 q30 -22 60 -12 t60 -14 q24 -9 44 -4 v34 Z" opacity=".9"/>
-<path class="c-leaf" d="M8 176 q26 -18 54 -10 l-6 14 q-24 -6 -48 4 Z"/>
-<path class="c-leaf" d="M192 174 q-26 -16 -52 -8 l4 14 q22 -6 48 2 Z"/>
-<path class="c-boat-hull" d="M96 148 q22 8 44 0 l-6 14 h-32 Z"/>
-<line x1="118" y1="128" x2="118" y2="148" class="c-car-line"/>
-<path class="c-red" d="M118 128 l16 6 -16 6 Z"/>
-  <path d="M34 158 q18 -8 36 0 t36 0 t36 0 t36 0" fill="none" stroke="var(--c-hi)" stroke-width="3" opacity=".65" stroke-linecap="round"/>
-  <path d="M46 169 q14 -6 28 0 M132 166 q12 -5 24 0" fill="none" stroke="var(--c-blue)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
+<path d="M18 178 Q53 153 82 158 Q112 164 139 137 Q159 118 182 125 V180Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3"/><path d="M18 107 L58 55 L97 108 L125 76 L180 132" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M57 55 L43 75 L58 69 L68 82 L79 73 L97 108" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><path d="M30 145 Q58 133 82 142 M105 157 Q132 145 160 151" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/><path d="M28 174 V129 M38 174 V140" stroke="var(--c-tree-trunk)" stroke-width="5"/><circle cx="33" cy="123" r="16" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2"/><circle cx="164" cy="47" r="14" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

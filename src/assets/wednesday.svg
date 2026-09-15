@@ -560,14 +560,6 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-
-      <ellipse cx="100" cy="164" rx="56" ry="7" class="shadow"/>
-      <rect x="45" y="42" width="110" height="110" rx="16" class="c-milk-label"/>
-      <circle cx="70" cy="38" r="4" class="c-cow-spot"/><circle cx="100" cy="38" r="4" class="c-cow-spot"/><circle cx="130" cy="38" r="4" class="c-cow-spot"/>
-      <circle cx="87.0" cy="128" r="6" class="c-sun"/><circle cx="100.0" cy="128" r="6" class="c-sun"/><circle cx="113.0" cy="128" r="6" class="c-sun"/>
-      <circle cx="54" cy="52" r="3" class="c-egg"/><circle cx="146" cy="52" r="3" class="c-egg"/>
-  </g>
-       <path d="M55 78 H145 M55 99 H145 M77 78 V114 M100 78 V114 M123 78 V114" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
-       <path d="M137 42 V58 H153" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5" stroke-linejoin="round"/>
+<ellipse cx="100" cy="180" rx="74" ry="7" fill="var(--c-shadow)"/>
+<rect x="32" y="45" width="136" height="120" rx="12" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><rect x="32" y="45" width="136" height="31" rx="12" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3"/><path d="M58 37 V54 M142 37 V54" stroke="var(--c-line)" stroke-width="6" stroke-linecap="round"/><path d="M49 88 H151" stroke="var(--c-line)" stroke-width="3" opacity=".5"/><circle cx="62" cy="103" r="7" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2"/><circle cx="88" cy="103" r="7" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2"/><circle cx="114" cy="103" r="7" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2"/><path d="M151 53 q8 -8 16 0 q-8 8 -16 0Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/><path d="M48 148 H152" stroke="var(--c-line)" stroke-width="3" opacity=".45"/><circle cx="57" cy="58" r="5" fill="var(--c-egg)"/><circle cx="143" cy="58" r="5" fill="var(--c-egg)"/>
 </svg>

@@ -560,23 +560,8 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-      <ellipse cx="100" cy="176" rx="40" ry="6" class="shadow" />
-      <path d="M64 108 Q64 98 100 98 Q136 98 136 108 L138 168 Q138 174 132 174 L68 174 Q62 174 62 168 Z" class="c-egg"/>
-      <circle cx="100" cy="68" r="27" class="c-skin" />
-      <circle cx="90" cy="68" r="3.5" class="c-eyes"/>
-      <circle cx="110" cy="68" r="3.5" class="c-eyes"/>
-      <ellipse cx="100" cy="77" rx="3" ry="2" class="c-pink"/>
-      <path d="M92 83 Q100 91 108 83" class="c-eyeline"/>
-      <ellipse cx="82" cy="77" rx="5" ry="3.5" class="c-cheek"/>
-      <ellipse cx="118" cy="77" rx="5" ry="3.5" class="c-cheek"/>
-      <ellipse cx="100" cy="134" rx="7" ry="6" class="c-cow-spot"/>
-      <circle cx="92" cy="124" r="2.6" class="c-cow-spot"/>
-      <circle cx="100" cy="121" r="2.6" class="c-cow-spot"/>
-      <circle cx="108" cy="124" r="2.6" class="c-cow-spot"/>
-      <path d="M122 136 C116 130 114 126 118 123 C121 121 122 124 122 126 C122 124 123 121 126 123 C130 126 128 130 122 136 Z" class="c-heart"/>
-  </g>
-      <path d="M74 116 H90 M110 116 H126" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-      <circle cx="80" cy="148" r="4" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="1.5"/>
-      <path d="M72 158 H128" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+<ellipse cx="100" cy="181" rx="64" ry="7" fill="var(--c-shadow)"/>
+<path d="M62 108 Q64 98 80 96 H120 Q136 98 138 108 L144 175 H56 Z" fill="var(--c-cloth-green)" stroke="var(--c-line)" stroke-width="3"/><path d="M83 101 L100 117 L117 101 L112 154 H88Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+<circle cx="100" cy="69" r="28" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="3"/><path d="M73 64 Q76 39 100 39 Q124 39 127 64 Q112 54 100 57 Q88 54 73 64Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/><circle cx="90" cy="71" r="3.5" fill="var(--c-eyes)"/><circle cx="110" cy="71" r="3.5" fill="var(--c-eyes)"/><path d="M92 84 Q100 89 108 84" fill="none" stroke="var(--c-line)" stroke-width="2.5"/><path d="M63 112 Q47 126 60 145 M137 112 Q153 126 140 145" fill="none" stroke="var(--c-cloth-green)" stroke-width="12" stroke-linecap="round"/><path d="M63 112 Q47 126 60 145 M137 112 Q153 126 140 145" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+<circle cx="116" cy="132" r="17" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="3"/><path d="M103 121 L94 110 L107 116 M129 121 L138 110 L125 116" fill="var(--c-dog-ear)" stroke="var(--c-line)" stroke-width="2.5"/><circle cx="110" cy="130" r="2.5" fill="var(--c-eyes)"/><circle cx="122" cy="130" r="2.5" fill="var(--c-eyes)"/><ellipse cx="116" cy="137" rx="4" ry="3" fill="var(--c-line)"/><path d="M73 125 C65 139 74 150 86 149" fill="none" stroke="var(--c-blue)" stroke-width="3"/>
 </svg>

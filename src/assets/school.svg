@@ -559,18 +559,7 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-  <ellipse cx="100" cy="178" rx="70" ry="9" class="shadow" />
-  <rect x="50" y="96" width="100" height="76" class="c-house" />
-  <path d="M44 98 L100 56 L156 98 Z" class="c-house-roof" />
-  <circle cx="100" cy="56" r="13" class="c-egg" />
-  <circle cx="100" cy="56" r="9" class="c-window" />
-  <path d="M100 49 V63 M93 56 H107" class="c-tip" stroke-width="2.5" />
-  <rect x="64" y="116" width="22" height="22" class="c-window" />
-  <rect x="114" y="116" width="22" height="22" class="c-window" />
-  <rect x="90" y="142" width="20" height="30" class="c-house-door" />
-</g>
-  <path d="M58 102 H142" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M72 142 V160 M128 142 V160" fill="none" stroke="var(--c-line)" stroke-width="2"/>
-  <circle cx="104" cy="158" r="3" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.5"/>
+</style>
+<ellipse cx="100" cy="180" rx="76" ry="7" fill="var(--c-shadow)"/><path d="M28 171 V83 H172 V171Z" fill="var(--c-cloth-yellow)" stroke="var(--c-line)" stroke-width="3"/><path d="M20 84 L100 39 L180 84Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M88 39 H112 V29 H88Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5"/><path d="M100 29 V16" stroke="var(--c-line)" stroke-width="3"/><path d="M100 17 L119 24 L100 30Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/>
+<rect x="81" y="120" width="38" height="51" rx="3" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/><circle cx="112" cy="146" r="3" fill="var(--c-sun)"/><g fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"><rect x="40" y="101" width="28" height="23" rx="2"/><rect x="132" y="101" width="28" height="23" rx="2"/></g><path d="M47 111 H61 M139 111 H153" stroke="var(--c-egg)" stroke-width="2"/><path d="M42 151 Q52 140 62 151" fill="none" stroke="var(--c-green)" stroke-width="4"/><path d="M138 151 Q148 140 158 151" fill="none" stroke="var(--c-green)" stroke-width="4"/>
 </svg>

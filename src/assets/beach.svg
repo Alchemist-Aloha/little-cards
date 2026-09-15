@@ -559,16 +559,7 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-  <ellipse cx="100" cy="180" rx="76" ry="9" class="shadow" />
-  <path d="M20 168 Q100 130 180 168 Z" class="c-sand" />
-  <circle cx="160" cy="42" r="18" class="c-sun" />
-  <rect x="96" y="78" width="6" height="86" class="c-tip" />
-  <path d="M48 80 A52 40 0 0 1 152 80 Z" class="c-red" />
-  <path d="M100 80 V44" class="c-tip" stroke-width="5" />
-  <path d="M24 160 Q40 150 56 160 T88 160 T120 160 T152 160 T184 160" fill="none" class="c-blue" stroke-width="6" />
-</g>
-  <path d="M42 150 Q58 142 74 150 M118 150 Q134 142 150 150" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M56 166 Q64 158 72 166 M78 166 Q86 158 94 166" fill="none" stroke="var(--c-sand)" stroke-width="2"/>
-  <circle cx="54" cy="148" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</style>
+<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M18 145 Q52 132 88 145 T180 145 V174 H18Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="3"/><path d="M18 145 Q49 132 80 145 T145 145 T180 145" fill="none" stroke="var(--c-blue)" stroke-width="9"/>
+<path d="M139 143 L139 83" stroke="var(--c-hair)" stroke-width="5"/><path d="M95 85 Q139 51 169 85Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M139 84 L139 143" stroke="var(--c-line)" stroke-width="3"/><circle cx="45" cy="152" r="15" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3"/><path d="M32 152 H58 M45 139 V165" stroke="var(--c-tomato)" stroke-width="3"/><path d="M30 170 Q47 161 64 170 M80 170 Q97 161 114 170" fill="none" stroke="var(--c-blue)" stroke-width="4" stroke-linecap="round"/><circle cx="163" cy="42" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

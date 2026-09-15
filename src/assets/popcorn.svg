@@ -560,17 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g stroke="var(--c-line)" stroke-linejoin="round">
-    <ellipse cx="100" cy="169" rx="43" ry="7" class="shadow" stroke="none"/>
-    <path d="M61 104 H139 L128 163 Q127 168 122 168 H78 Q73 168 72 163 Z" fill="var(--c-milk-label)" stroke-width="3"/>
-    <path d="M62 105 H78 L84 166 H72 Z M93 105 H107 L107 168 H93 Z M122 105 H138 L128 166 H116 Z" class="c-tomato" stroke-width="1.5"/>
-    <path d="M60 104 Q100 95 140 104 L138 114 Q100 106 62 114 Z" fill="var(--c-egg)" stroke-width="3"/>
-    <g fill="var(--c-egg)" stroke-width="2.5">
-      <path d="M66 109 Q55 95 66 83 Q74 74 83 83 Q91 70 103 80 Q113 69 123 80 Q137 76 141 90 Q145 102 133 111 Z"/>
-      <path d="M78 103 Q69 87 82 78 Q94 71 102 84 Q113 72 125 83 Q136 94 125 106 Z"/>
-      <path d="M92 96 Q84 82 96 74 Q108 67 116 81 Q128 75 135 87 Q140 99 128 107 Z"/>
-    </g>
-    <g fill="none" stroke="var(--c-stem)" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M72 92 q5 -6 10 0 M92 88 q5 -7 10 0 M113 90 q5 -7 10 0 M124 99 q4 -5 8 0"/></g>
-    <path d="M72 124 H128 M75 146 H125" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".28"/>
-  </g>
+<ellipse cx="100" cy="180" rx="60" ry="7" fill="var(--c-shadow)"/><path d="M45 95 H155 L141 172 H59Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M63 99 L72 169 M91 98 L94 173 M119 98 L112 173 M147 98 L132 169" stroke="var(--c-egg)" stroke-width="9"/><path d="M44 96 Q43 77 61 79 Q61 58 78 66 Q84 43 100 63 Q116 43 122 66 Q139 58 139 79 Q157 77 156 96 Q145 106 134 96 Q123 106 112 96 Q100 107 88 96 Q77 106 66 96 Q55 106 44 96Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M67 78 Q74 69 82 78 M91 69 Q99 58 107 69 M119 77 Q127 67 135 78" fill="none" stroke="var(--c-sun)" stroke-width="6" stroke-linecap="round"/><path d="M78 44 q8 -13 16 0 M112 45 q8 -13 16 0" fill="none" stroke="var(--c-egg)" stroke-width="7" stroke-linecap="round"/>
 </svg>

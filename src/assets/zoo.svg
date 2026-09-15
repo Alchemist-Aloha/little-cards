@@ -559,25 +559,7 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-  <ellipse cx="100" cy="178" rx="70" ry="9" class="shadow" />
-  <circle cx="100" cy="120" r="29" class="c-lion-mane" />
-  <circle cx="100" cy="120" r="21" class="c-lion" />
-  <circle cx="92" cy="116" r="3" class="c-eyes" />
-  <circle cx="108" cy="116" r="3" class="c-eyes" />
-  <path d="M94 128 Q100 133 106 128" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" />
-  <ellipse cx="100" cy="124" rx="5" ry="4" class="c-potato" />
-  <rect x="56" y="92" width="16" height="80" class="c-egg" />
-  <rect x="128" y="92" width="16" height="80" class="c-egg" />
-  <path d="M56 96 Q100 56 144 96" fill="none" class="c-egg" stroke-width="14" stroke-linecap="round" />
-  <g class="c-cow-spot">
-    <rect x="64" y="104" width="5" height="46" />
-    <rect x="76" y="104" width="5" height="46" />
-    <rect x="119" y="104" width="5" height="46" />
-    <rect x="131" y="104" width="5" height="46" />
-  </g>
-</g>
-  <path d="M54 152 H146" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M78 104 V148 M100 104 V148 M122 104 V148" fill="none" stroke="var(--c-line)" stroke-width="2"/>
-  <circle cx="150" cy="128" r="7" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+</style>
+<ellipse cx="100" cy="180" rx="76" ry="7" fill="var(--c-shadow)"/><path d="M27 169 V91 Q27 73 45 73 H155 Q173 73 173 91 V169" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3"/><path d="M20 92 H180" stroke="var(--c-line)" stroke-width="6"/><path d="M43 91 V169 M67 91 V169 M91 91 V169 M115 91 V169 M139 91 V169 M163 91 V169" stroke="var(--c-line)" stroke-width="3"/><path d="M84 73 Q100 48 116 73" fill="none" stroke="var(--c-tomato)" stroke-width="9"/><circle cx="100" cy="54" r="10" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/>
+<path d="M52 151 Q52 124 65 115 Q78 124 78 151Z" fill="var(--c-giraffe)" stroke="var(--c-line)" stroke-width="3"/><path d="M60 120 V93" stroke="var(--c-giraffe)" stroke-width="10"/><circle cx="60" cy="88" r="9" fill="var(--c-giraffe)" stroke="var(--c-line)" stroke-width="2"/><path d="M54 84 L49 77 M66 84 L71 77" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/><circle cx="57" cy="88" r="2" fill="var(--c-eyes)"/><circle cx="64" cy="88" r="2" fill="var(--c-eyes)"/>
 </svg>

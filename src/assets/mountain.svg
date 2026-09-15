@@ -560,12 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<circle cx="162" cy="40" r="13" class="c-sun"/>
-<path class="c-hippo" d="M18 168 L74 66 L118 168 Z"/>
-<path class="c-hippo" d="M84 168 L134 84 L184 168 Z"/>
-<path class="c-cloud" d="M62 84 L74 66 L86 84 q-6 8 -12 4 q-6 4 -12 -4 Z M122 102 L134 84 L146 102 q-6 8 -12 4 q-6 4 -12 -4 Z"/>
-<g class="c-tree"><path d="M40 168 l10 -20 10 20 Z"/><path d="M148 168 l9 -18 9 18 Z"/></g>
-<ellipse class="shadow" cx="100" cy="171" rx="80" ry="6"/>
-  <path d="M74 66 L86 88 L98 75 L110 96 L118 84" fill="none" stroke="var(--c-cloud)" stroke-width="5" opacity=".85" stroke-linejoin="round"/>
-  <path d="M38 148 L74 88 L92 128 M104 132 L134 102 L166 154" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".45" stroke-linejoin="round"/>
+<ellipse cx="100" cy="180" rx="80" ry="7" fill="var(--c-shadow)"/><path d="M12 171 L67 64 L101 115 L132 79 L188 171Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M67 64 L48 102 L66 94 L77 107 L88 94 L101 115Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M132 79 L115 111 L130 103 L141 116 L152 102 L170 141" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M79 171 Q100 147 120 171" fill="none" stroke="var(--c-blue)" stroke-width="8" stroke-linecap="round"/><circle cx="161" cy="43" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/><path d="M30 150 q10 -14 20 0 M151 154 q10 -14 20 0" fill="none" stroke="var(--c-tree)" stroke-width="5"/>
 </svg>
