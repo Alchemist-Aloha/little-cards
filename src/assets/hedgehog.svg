@@ -561,21 +561,20 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="180" rx="46" ry="8" class="shadow" />
-      <ellipse cx="52" cy="173" rx="8" ry="7" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <ellipse cx="68" cy="173" rx="8" ry="7" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <ellipse cx="132" cy="173" rx="8" ry="7" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <ellipse cx="148" cy="173" rx="8" ry="7" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <path d="M32 152 L21 123 L45 120 L36 98 L59 103 L58 79 L78 92 L85 69 L100 88 L115 69 L122 92 L142 79 L141 103 L164 98 L155 120 L170 148 Q174 168 150 172 Q100 178 50 172 Q26 168 32 152 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
-      <path d="M42 156 Q46 108 100 86 Q154 108 158 156 Q150 174 100 176 Q50 174 42 156 Z" class="c-hedgehog" />
-      <path d="M60 122 Q40 126 30 136 Q22 143 26 149 Q40 156 58 152 Q68 148 70 138 Z" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <ellipse cx="64" cy="138" rx="25" ry="21" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" />
-      <path d="M36 146 Q43 152 50 148" fill="none" stroke="var(--c-eyes)" stroke-width="2.6" stroke-linecap="round" opacity=".75" />
-      <circle cx="79" cy="117" r="7" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2" />
-      <circle cx="79" cy="117" r="3" fill="var(--c-tip)" opacity=".5" />
-      <ellipse cx="28" cy="144" rx="5" ry="4.2" class="c-tip" />
-      <circle cx="62" cy="128" r="4.5" class="c-eyes" />
-      <circle cx="63.6" cy="126.6" r="1.6" class="hi" />
-      <path d="M74 96 L88 92 M92 82 L102 78 M112 78 L122 84 M132 88 L142 92" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".3" />
-    </g>
+  <ellipse cx="100" cy="177" rx="58" ry="8" class="shadow"/>
+  <!-- one clean spiny silhouette, softened with an inner body -->
+  <path d="M29 145 L20 126 L40 124 L30 106 L51 108 L47 88 L68 97 L72 76 L90 91 L102 70 L115 91 L134 77 L137 99 L158 90 L154 112 L176 108 L164 130 L180 140 C174 163 148 174 105 174 C63 174 34 164 29 145 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path class="c-hedgehog" d="M48 146 C50 112 76 91 110 91 C143 91 163 116 164 148 C154 166 132 173 99 173 C72 173 54 164 48 146 Z"/>
+  <!-- long wedge-shaped face is the hedgehog's defining feature -->
+  <path d="M102 105 C83 101 67 108 58 121 C49 134 38 141 24 145 C34 158 54 162 76 155 C91 150 101 132 102 105 Z" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="86" cy="112" r="8" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="25" cy="145" rx="6" ry="5" class="c-tip"/>
+  <circle cx="70" cy="126" r="5" class="c-eyes"/>
+  <circle cx="71.5" cy="124.5" r="1.7" class="hi"/>
+  <path d="M34 148 Q44 155 55 149" class="c-eyeline"/>
+  <ellipse cx="116" cy="168" rx="9" ry="6" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="145" cy="166" rx="9" ry="6" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M91 92 L101 82 M112 91 L122 81 M135 98 L146 89 M154 113 L166 108" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+  <ellipse cx="118" cy="104" rx="12" ry="6" class="hi"/>
+</g>
 </svg>

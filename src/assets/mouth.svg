@@ -561,15 +561,15 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="174" rx="48" ry="7"/>
-  <path d="M26 86 Q100 124 174 86 Q100 190 26 86 Z" fill="var(--c-eyes)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path class="c-egg" d="M44 94 Q100 122 156 94 Q100 150 44 94 Z"/>
-  <path d="M76 105 V116 M100 108 V122 M124 105 V116" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>
-  <path d="M68 120 C82 112 118 112 132 120 C136 132 120 144 100 144 C80 144 64 132 68 120 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M100 122 V140" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4"/>
-  <path d="M26 86 C40 66 60 62 74 70 C86 76 94 82 100 84 C106 82 114 76 126 70 C140 62 160 66 174 86 Q100 124 26 86 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M26 86 Q100 190 174 86 Q100 246 26 86 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M100 146 V162" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".35"/>
-  <ellipse class="hi" cx="86" cy="148" rx="13" ry="6"/>
+  <ellipse class="shadow" cx="100" cy="174" rx="50" ry="7"/>
+  <!-- paired lip silhouette around a clearly open mouth -->
+  <path d="M26 96 C42 68 62 64 78 73 C88 79 95 84 100 84 C105 84 112 79 122 73 C138 64 158 68 174 96 C154 122 132 132 100 132 C68 132 46 122 26 96 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M42 96 Q100 72 158 96 Q146 144 100 148 Q54 144 42 96 Z" fill="var(--c-eyes)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path class="c-egg" d="M48 94 Q100 80 152 94 Q142 108 100 108 Q58 108 48 94 Z"/>
+  <path d="M73 90 V105 M100 87 V108 M127 90 V105" class="c-ridge"/>
+  <path d="M66 132 C78 116 122 116 134 132 C124 143 114 148 100 148 C86 148 76 143 66 132 Z" fill="var(--c-pink)"/>
+  <path d="M100 124 V145" class="c-ridge"/>
+  <path d="M31 96 Q100 119 169 96" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  <ellipse class="hi" cx="62" cy="82" rx="11" ry="5"/>
 </g>
 </svg>
