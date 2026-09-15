@@ -560,10 +560,24 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="54" ry="7"/>
-    <path class="c-socks" d="M45 43 H78 V115 L91 128 Q99 137 89 148 H45 Q32 145 35 134 L45 121 Z"/>
-    <path class="c-socks" d="M106 43 H139 V115 L152 128 Q160 137 150 148 H106 Q93 145 96 134 L106 121 Z"/>
-    <path class="c-socks-line" d="M45 70 H78 M45 87 H78 M106 70 H139 M106 87 H139"/>
-    <path class="c-car-line" d="M48 116 Q60 122 75 116 M109 116 Q121 122 136 116 M45 147 H88 M106 147 H149"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="172" rx="64" ry="7.5"/>
+  <!-- left sock: leg turned into a foot -->
+  <path class="c-socks" d="M44 60 H84 L84 140 C84 156 76 164 62 164 L34 163 C18 162 14 146 26 140 C33 135 40 132 44 128 Z"/>
+  <path class="c-socks" d="M44 60 H84 V78 H44 Z"/>
+  <path class="c-socks-line" d="M46 68 H82"/>
+  <path class="c-ridge" d="M52 70 V76 M60 70 V76 M68 70 V76 M76 70 V76"/>
+  <!-- right sock (mirror) -->
+  <path class="c-socks" d="M156 60 H116 L116 140 C116 156 124 164 138 164 L166 163 C182 162 186 146 174 140 C167 135 160 132 156 128 Z"/>
+  <path class="c-socks" d="M116 60 H156 V78 H116 Z"/>
+  <path class="c-socks-line" d="M118 68 H154"/>
+  <path class="c-ridge" d="M124 70 V76 M132 70 V76 M140 70 V76 M148 70 V76"/>
+  <!-- heel bends -->
+  <path class="c-ridge" d="M74 132 Q72 150 58 157 M126 132 Q128 150 142 157"/>
+  <!-- toe seams -->
+  <path class="c-ridge" d="M37 139 Q28 150 32 162 M163 139 Q172 150 168 162"/>
+  <!-- soft sheen down each leg -->
+  <path d="M54 88 Q52 112 56 128" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M146 88 Q148 112 144 128" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

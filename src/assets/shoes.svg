@@ -560,10 +560,23 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="63" ry="7"/>
-    <path class="c-shoes" d="M30 141 Q35 118 54 111 L72 83 H97 L101 127 L130 137 Q140 141 140 153 H43 Q28 152 30 141 Z"/>
-    <path class="c-shoes" d="M94 141 Q99 118 118 111 L136 83 H161 L165 127 L194 137 Q201 141 194 153 H107 Q92 152 94 141 Z"/>
-    <path class="c-egg" d="M35 146 H136 Q126 157 112 158 H43 Q34 156 35 146 Z"/><path class="c-egg" d="M99 146 H190 Q180 157 166 158 H107 Q98 156 99 146 Z"/>
-    <path class="c-car-line" d="M65 99 L83 115 M83 99 L65 115 M128 99 L146 115 M146 99 L128 115"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="175" rx="66" ry="8"/>
+  <!-- left shoe: low toe, tall ankle collar at the back -->
+  <path class="c-shoes" d="M22 158 C14 144 20 132 36 128 C56 124 70 118 80 110 C92 106 96 112 96 122 C97 136 98 148 96 158 Z"/>
+  <!-- sole with a thicker heel -->
+  <path class="c-egg" d="M20 155 L76 155 C90 154 98 153 98 150 C100 158 100 164 98 167 C97 169 93 170 89 170 L27 170 C21 170 16 167 16 163 C16 158 18 155 20 155 Z"/>
+  <path class="c-ridge" d="M80 112 Q88 118 94 116 M31 157 Q24 142 39 128 M84 157 Q82 136 83 120"/>
+  <path class="c-ridge" d="M62 122 L70 130 M68 117 L76 125 M74 112 L82 120"/>
+  <path class="c-ridge" d="M34 165 V170 M60 165 V170 M86 165 V170"/>
+  <!-- right shoe (mirror) -->
+  <path class="c-shoes" d="M178 158 C186 144 180 132 164 128 C144 124 130 118 120 110 C108 106 104 112 104 122 C103 136 102 148 104 158 Z"/>
+  <path class="c-egg" d="M180 155 L124 155 C110 154 102 153 102 150 C100 158 100 164 102 167 C103 169 107 170 111 170 L173 170 C179 170 184 167 184 163 C184 158 182 155 180 155 Z"/>
+  <path class="c-ridge" d="M120 112 Q112 118 106 116 M169 157 Q176 142 161 128 M116 157 Q118 136 117 120"/>
+  <path class="c-ridge" d="M138 122 L130 130 M132 117 L124 125 M126 112 L118 120"/>
+  <path class="c-ridge" d="M166 165 V170 M140 165 V170 M114 165 V170"/>
+  <!-- soft sheen on each shoe -->
+  <path d="M48 140 Q44 132 48 126" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M152 140 Q156 132 152 126" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

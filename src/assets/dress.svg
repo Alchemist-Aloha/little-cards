@@ -560,10 +560,25 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="57" ry="7"/>
-    <path class="c-dress" d="M78 52 H122 L118 96 L158 165 Q143 156 128 166 Q114 157 100 166 Q86 157 72 166 Q57 156 42 165 L82 96 Z"/>
-    <path class="c-dress" d="M78 52 H122 V83 Q100 94 78 83 Z"/>
-    <path class="c-car-line" d="M82 54 Q86 72 100 79 Q114 72 118 54 M82 98 Q100 108 118 98 M61 143 Q100 130 139 143"/>
-    <circle class="c-egg" cx="100" cy="68" r="5"/><path d="M72 118 H128" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="177" rx="57" ry="7.5"/>
+  <!-- bodice, waist and flared skirt in one silhouette -->
+  <path class="c-dress" d="M77 58 Q100 75 123 58 L128 63 C131 74 126 84 120 94 L118 100 L162 164 Q100 172 38 164 L82 100 L80 94 C74 84 69 74 72 63 Z"/>
+  <!-- short puff sleeves -->
+  <path class="c-dress" d="M75 62 C62 64 54 76 52 88 Q52 96 62 96 L74 96 Q78 80 82 66 Z"/>
+  <path class="c-dress" d="M125 62 C138 64 146 76 148 88 Q148 96 138 96 L126 96 Q122 80 118 66 Z"/>
+  <!-- neck opening and round collar -->
+  <path d="M77 58 Q100 75 123 58 Z" fill="var(--c-line)" opacity=".28"/>
+  <path d="M78 57 Q100 74 122 57 Q100 88 78 57 Z" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- waist sash -->
+  <path class="c-dress" d="M79 92 H121 V107 H79 Z"/>
+  <!-- bodice buttons -->
+  <circle cx="100" cy="80" r="3.4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.8"/>
+  <!-- skirt pleats -->
+  <path class="c-ridge" d="M86 109 Q80 136 73 162 M114 109 Q120 136 127 162 M100 109 Q102 138 100 165"/>
+  <!-- hem band -->
+  <path class="c-ridge" d="M47 157 Q100 165 153 157"/>
+  <!-- soft sheen on the skirt -->
+  <path d="M70 118 Q64 140 57 157" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

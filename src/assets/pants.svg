@@ -560,11 +560,22 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="50" ry="7"/>
-    <path class="c-pants" d="M57 51 H143 L139 83 L132 169 H103 L99 111 L96 169 H67 L61 83 Z"/>
-    <path class="c-pants" d="M57 51 H143 V82 H57 Z"/>
-    <path class="c-car-line" d="M63 73 H137 M76 91 Q87 102 97 92 M124 91 Q113 102 103 92"/>
-    <path d="M99 82 V111" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/><path d="M69 169 H96 M104 169 H132" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
-    <path class="c-car-line" d="M70 116 Q81 109 91 116 M109 116 Q119 109 130 116"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="181" rx="52" ry="7.5"/>
+  <!-- waistband -->
+  <path class="c-pants" d="M58 46 H142 V65 H58 Z"/>
+  <!-- legs, crotch notch between them -->
+  <path class="c-pants" d="M58 46 H142 L135 172 H104 L100 108 L96 172 H65 Z"/>
+  <!-- fly and crotch seam -->
+  <path class="c-ridge" d="M100 65 V88 Q94 97 87 93 M100 65 V92"/>
+  <!-- front pocket openings -->
+  <path class="c-ridge" d="M64 70 Q77 77 86 69 M136 70 Q123 77 114 69"/>
+  <!-- belt loops over the waistband -->
+  <rect x="70" y="47" width="7" height="17" rx="2.5" fill="var(--c-cloth-navy)" stroke="var(--c-line)" stroke-width="2"/>
+  <rect x="123" y="47" width="7" height="17" rx="2.5" fill="var(--c-cloth-navy)" stroke="var(--c-line)" stroke-width="2"/>
+  <!-- leg hems -->
+  <path class="c-ridge" d="M66 160 Q81 156 95 160 M105 160 Q119 156 134 160"/>
+  <!-- soft sheen down the left leg -->
+  <path d="M74 84 Q72 112 76 136" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

@@ -560,9 +560,18 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="45" ry="7"/>
-    <path class="c-glove" d="M77 133 V73 Q77 66 84 66 Q91 66 91 73 V45 Q91 37 98 37 Q105 37 105 45 V72 V38 Q105 31 112 31 Q119 31 119 39 V74 V48 Q119 41 126 41 Q133 41 133 49 V88 Q133 119 114 132 V151 H80 Z"/>
-    <path class="c-glove" d="M80 103 Q70 94 62 99 Q54 104 61 113 L77 128"/>
-    <path class="c-car-line" d="M91 77 V110 M105 77 V111 M119 78 V110 M80 145 H114 M80 153 H114"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="178" rx="44" ry="7.5"/>
+  <!-- palm with four fingers of different lengths -->
+  <path class="c-glove" d="M76 132 V78 Q76 52 84 52 Q92 52 92 78 Q92 42 100 42 Q108 42 108 78 Q108 46 116 46 Q124 46 124 78 Q124 60 132 60 Q140 60 140 78 V96 C140 118 132 132 126 140 L126 156 H78 V140 Z"/>
+  <!-- thumb, angled sideways off the palm -->
+  <rect class="c-glove" x="44" y="88" width="42" height="23" rx="11.5" transform="rotate(-20 65 99)"/>
+  <!-- wrist cuff -->
+  <rect class="c-glove" x="76" y="144" width="52" height="20" rx="5"/>
+  <path class="c-ridge" d="M84 149 V159 M92 149 V159 M100 149 V159 M108 149 V159 M116 149 V159 M124 149 V159"/>
+  <!-- finger seams -->
+  <path class="c-ridge" d="M92 80 V130 M108 80 V126 M124 78 V120"/>
+  <!-- soft sheen on the palm -->
+  <path d="M84 112 Q82 128 86 138" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>
