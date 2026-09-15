@@ -559,16 +559,19 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M100 161 C68 161 45 139 45 107 C45 77 65 53 88 55 C94 55 98 59 100 64 C102 59 106 55 112 55 C135 53 155 77 155 107 C155 139 132 161 100 161 Z" class="c-peach" />
-      <path d="M100 50 C108 82 108 124 100 158 C96 124 96 82 100 50 Z" class="c-peach-dip" />
-      <ellipse cx="100" cy="60" rx="11" ry="6" class="c-dimple" />
-      <ellipse cx="100" cy="150" rx="11" ry="6" class="c-dimple" />
-      <path d="M100 47 C102 40 104 36 103 30" class="c-stem-line" />
-      <ellipse cx="116" cy="36" rx="13" ry="7" transform="rotate(-30 116 36)" class="c-leaf" />
-      <ellipse cx="78" cy="92" rx="9" ry="13" transform="rotate(-24 78 92)" class="hi" />
-      <path d="M88 52 Q82 78 86 101 M112 52 Q118 78 114 101" class="c-ridge" />
-      <circle cx="122" cy="94" r="1.8" class="c-freckle" /><circle cx="130" cy="112" r="1.6" class="c-freckle" /><circle cx="76" cy="126" r="1.5" class="c-freckle" />
-</g>
+</style>
+<g>
+      <ellipse cx="100" cy="181" rx="44" ry="8" class="shadow" />
+      <path d="M100 62 C96 59 92 57.5 86 58 C70 62 56 74 48 92 C40 110 40 134 52 148 C64 162 80 168 100 168 C120 168 136 162 148 148 C160 134 160 110 152 92 C144 74 130 62 114 58 C108 57.5 104 59 100 62 Z" class="c-peach" />
+      <path d="M100 64 C102.5 94 102.5 132 100.5 165 C98.5 132 97.5 94 100 64 Z" class="c-peach-dip" />
+      <ellipse cx="100" cy="61" rx="7.5" ry="2.6" class="c-dimple" />
+      <path d="M100 60 C100 51 101 45 100 37" class="c-stem-line" />
+      <path d="M101 47 C106 37 115 30 128 29 C126 40 117 49 103 51 Z" class="c-leaf" />
+      <path d="M103 50 C111 43 120 35 127 30" class="c-ridge" />
+      <ellipse cx="76" cy="106" rx="8.5" ry="12" transform="rotate(-24 76 106)" class="hi" />
+      <circle cx="124" cy="96" r="1.6" class="c-freckle" /><circle cx="133" cy="116" r="1.4" class="c-freckle" />
+      <circle cx="80" cy="138" r="1.4" class="c-freckle" /><circle cx="112" cy="146" r="1.4" class="c-freckle" />
+      <circle cx="60" cy="118" r="1.3" class="c-freckle" /><circle cx="96" cy="152" r="1.3" class="c-freckle" />
+      <circle cx="140" cy="136" r="1.3" class="c-freckle" />
+    </g>
 </svg>

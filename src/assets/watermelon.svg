@@ -177,17 +177,26 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <g>
-      <ellipse cx="101" cy="166" rx="53" ry="7" class="shadow" />
-      <path d="M38 146 Q58 57 112 58 Q160 60 177 146 Z" class="c-watermelon-rind" />
-      <path d="M47 138 Q65 70 112 70 Q151 72 168 138 Z" class="c-watermelon" />
-      <path d="M40 146 H176" class="c-rind-line" />
-      <path d="M60 137 Q76 82 104 75 M91 138 Q106 82 127 75 M124 139 Q138 88 149 85" class="c-ridge" />
-      <ellipse cx="88" cy="105" rx="2.4" ry="4.3" transform="rotate(-20 88 105)" class="c-watermelon-seed" />
-      <ellipse cx="116" cy="99" rx="2.4" ry="4.3" transform="rotate(16 116 99)" class="c-watermelon-seed" />
-      <ellipse cx="132" cy="121" rx="2.4" ry="4.3" transform="rotate(18 132 121)" class="c-watermelon-seed" />
-      <ellipse cx="78" cy="128" rx="2.4" ry="4.3" transform="rotate(-12 78 128)" class="c-watermelon-seed" />
-      <ellipse cx="69" cy="108" rx="7" ry="10" transform="rotate(-22 69 108)" class="hi" />
-      <path d="M58 133 Q86 86 142 91 M64 143 Q95 98 158 108" class="c-ridge" />
-      <ellipse cx="103" cy="121" rx="2.4" ry="4.3" transform="rotate(8 103 121)" class="c-watermelon-seed" /><ellipse cx="146" cy="126" rx="2.4" ry="4.3" transform="rotate(22 146 126)" class="c-watermelon-seed" />
+      <ellipse cx="100" cy="182" rx="54" ry="8" class="shadow" />
+      <g transform="rotate(-18 100 104)">
+        <path d="M22 92 C22 135.079 56.9206 170 100 170 C143.079 170 178 135.079 178 92 Z" class="c-watermelon-rind" />
+        <path d="M32 92 C32 129.556 62.4436 160 100 160 C137.556 160 168 129.556 168 92 Z" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+        <path d="M39 92 C39 125.69 66.3097 153 100 153 C133.69 153 161 125.69 161 92 Z" class="c-watermelon" />
+        <path d="M33.0 133.9 L44.0 127.0" class="c-ridge" stroke-width="2.5" />
+        <path d="M61.7 161.1 L68.0 149.7" class="c-ridge" stroke-width="2.5" />
+        <path d="M100.0 171.0 L100.0 158.0" class="c-ridge" stroke-width="2.5" />
+        <path d="M138.3 161.1 L132.0 149.7" class="c-ridge" stroke-width="2.5" />
+        <path d="M167.0 133.9 L156.0 127.0" class="c-ridge" stroke-width="2.5" />
+        <ellipse cx="69.6" cy="122.4" rx="2.6" ry="4.6" transform="rotate(-45 69.6 122.4)" class="c-watermelon-seed" />
+        <ellipse cx="83.9" cy="131.9" rx="2.6" ry="4.6" transform="rotate(-22 83.9 131.9)" class="c-watermelon-seed" />
+        <ellipse cx="100.0" cy="135.0" rx="2.6" ry="4.6" transform="rotate(0 100.0 135.0)" class="c-watermelon-seed" />
+        <ellipse cx="116.1" cy="131.9" rx="2.6" ry="4.6" transform="rotate(22 116.1 131.9)" class="c-watermelon-seed" />
+        <ellipse cx="130.4" cy="122.4" rx="2.6" ry="4.6" transform="rotate(45 130.4 122.4)" class="c-watermelon-seed" />
+        <ellipse cx="87.3" cy="115.8" rx="2.6" ry="4.6" transform="rotate(-28 87.3 115.8)" class="c-watermelon-seed" />
+        <ellipse cx="100.0" cy="119.0" rx="2.6" ry="4.6" transform="rotate(0 100.0 119.0)" class="c-watermelon-seed" />
+        <ellipse cx="112.7" cy="115.8" rx="2.6" ry="4.6" transform="rotate(28 112.7 115.8)" class="c-watermelon-seed" />
+        <ellipse cx="100.0" cy="105.0" rx="2.6" ry="4.6" transform="rotate(0 100.0 105.0)" class="c-watermelon-seed" />
+        <ellipse cx="66" cy="114" rx="7.5" ry="11" transform="rotate(-26 66 114)" class="hi" />
+      </g>
     </g>
 </svg>

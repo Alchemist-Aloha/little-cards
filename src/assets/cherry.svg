@@ -559,15 +559,26 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M100 56 C100 80 88 96 78 104 M100 56 C100 84 116 104 124 114" class="c-cherry-stem" />
-      <path d="M100 52 C96 44 86 44 86 52 C86 60 100 66 100 66 C100 66 114 60 114 52 C114 44 104 44 100 52 Z" class="c-leaf" />
-      <path d="M78 103 C62 103 51 114 52 130 C53 147 64 158 80 158 C96 157 105 145 103 130 C101 114 93 103 78 103 Z" class="c-cherry" />
-      <path d="M124 113 C108 113 99 124 100 140 C101 156 112 167 128 167 C144 166 153 154 151 139 C149 123 140 113 124 113 Z" class="c-cherry" />
-      <ellipse cx="69" cy="118" rx="4" ry="6" transform="rotate(-20 69 118)" class="hi" />
-      <ellipse cx="115" cy="128" rx="4" ry="6" transform="rotate(-20 115 128)" class="hi" />
-      <circle cx="88" cy="139" r="2" class="c-dimple" /><circle cx="134" cy="149" r="2" class="c-dimple" />
-      <path d="M87 108 Q78 116 76 124 M133 118 Q124 126 123 134" class="c-ridge" />
-</g>
+</style>
+<g>
+      <ellipse cx="100" cy="176" rx="47" ry="7.5" class="shadow" />
+      <!-- single stem node: short spur up + two branches splitting out of it -->
+      <path d="M100 48 L99 30" fill="none" stroke="var(--c-tree)" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M100 49 C94 66 80 86 67 100" fill="none" stroke="var(--c-tree)" stroke-width="4.5" stroke-linecap="round" />
+      <path d="M100 49 C106 67 122 91 136 108" fill="none" stroke="var(--c-tree)" stroke-width="4.5" stroke-linecap="round" />
+      <path d="M100 47 Q126 51 151 27 Q122 23 100 47 Z" class="c-leaf" />
+      <path d="M104 46 Q126 42 146 31" class="c-ridge" />
+      <ellipse cx="64" cy="132" rx="31.5" ry="33.5" class="c-cherry" />
+      <ellipse cx="136" cy="140" rx="31.5" ry="33.5" class="c-cherry" />
+      <ellipse cx="68" cy="101" rx="5.5" ry="2.8" transform="rotate(-26 68 101)" class="c-dimple" />
+      <ellipse cx="136" cy="108" rx="5.5" ry="2.8" transform="rotate(24 136 108)" class="c-dimple" />
+      <ellipse cx="52" cy="121" rx="8" ry="13" transform="rotate(-22 52 121)" class="hi" />
+      <ellipse cx="124" cy="129" rx="8" ry="13" transform="rotate(-22 124 129)" class="hi" />
+      <path d="M73 105 Q68 114 66 124 M130 113 Q135 122 137 132" class="c-ridge" />
+      <circle cx="84" cy="150" r="1.9" class="c-freckle" />
+      <circle cx="46" cy="122" r="1.8" class="c-freckle" />
+      <circle cx="108" cy="124" r="1.9" class="c-freckle" />
+      <circle cx="152" cy="128" r="1.7" class="c-freckle" />
+      <circle cx="112" cy="162" r="1.8" class="c-freckle" />
+    </g>
 </svg>

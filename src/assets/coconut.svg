@@ -559,17 +559,20 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M55 116 C57 77 77 52 100 52 C123 52 143 77 145 116 C146 150 127 170 100 170 C73 170 54 150 55 116 Z" class="c-coconut" />
-      <path d="M72 69 Q100 52 128 69" fill="none" class="c-ridge" />
-      <circle cx="88" cy="76" r="4" class="c-tip" />
-      <circle cx="100" cy="71" r="4" class="c-tip" />
-      <circle cx="112" cy="76" r="4" class="c-tip" />
-      <path d="M80 100 q6 4 12 0 M92 116 q6 4 12 0 M76 124 q6 4 12 0 M104 104 q6 4 12 0 M110 126 q6 4 12 0 M88 134 q6 4 12 0" class="c-coconut-line" />
-      <ellipse cx="82" cy="104" rx="8" ry="13" transform="rotate(-20 82 104)" class="hi" />
-      <path d="M72 84 Q86 94 82 112 M128 84 Q114 94 118 112" class="c-ridge" />
-      <path d="M84 82 Q100 92 116 82 M78 150 Q100 158 122 150" class="c-coconut-line" />
-      <circle cx="74" cy="140" r="2" class="c-freckle" /><circle cx="126" cy="140" r="2" class="c-freckle" /><circle cx="100" cy="150" r="1.8" class="c-freckle" />
-</g>
+</style>
+<g>
+      <ellipse cx="100" cy="180" rx="48" ry="8" class="shadow" />
+      <path d="M100 42 C126 42 150 64 152 102 C153 134 142 158 124 168 C115 173 108 176 100 176 C92 176 85 173 76 168 C58 158 48 134 49 102 C51 64 74 42 100 42 Z" class="c-coconut" />
+      <path d="M95.6 116.3 Q92.9 120.7 90.1 125.0 M101.1 124.8 Q98.3 128.8 97.9 132.7 M114.2 123.1 Q116.1 126.7 117.7 130.4 M131.5 111.3 Q131.5 116.5 129.6 121.7 M131.3 134.4 Q131.1 138.8 133.5 143.2 M90.8 151.3 Q93.9 157.6 92.8 163.9 M137.7 105.3 Q132.2 109.4 131.8 113.4 M111.9 143.0 Q112.2 147.0 114.4 151.0 M64.9 78.1 Q68.7 81.6 69.0 85.2 M70.3 116.2 Q72.0 120.7 71.0 125.2 M66.0 126.5 Q66.8 130.9 71.0 135.4 M127.9 85.1 Q125.1 89.1 123.5 93.0 M132.6 126.3 Q134.2 131.9 139.1 137.5 M77.8 142.3 Q76.3 146.9 79.9 151.5 M62.3 119.1 Q63.4 124.3 66.0 129.5 M95.7 165.0 Q98.0 170.4 95.9 175.9 M70.8 66.8 Q66.2 72.0 64.6 77.2 M71.5 138.2 Q71.7 142.0 66.5 145.7 M135.2 121.6 Q132.8 125.9 136.0 130.1 M129.8 120.8 Q132.3 125.0 132.2 129.3 M105.5 152.0 Q107.3 156.6 104.0 161.3 M78.8 102.4 Q80.4 106.1 83.7 109.8 M87.3 156.7 Q85.1 161.2 80.6 165.8 M137.7 133.5 Q136.2 136.8 133.1 140.1 M98.4 137.1 Q97.4 143.4 101.5 149.7 M104.2 137.9 Q102.5 143.0 98.3 148.0" class="c-coconut-line" />
+      <path d="M88 50 Q84 49 82 47 M96 46 Q93 45 91 43 M104 46 Q107 45 109 43 M112 50 Q116 49 118 47" class="c-coconut-line" />
+            <circle cx="93.5" cy="71" r="4.2" class="c-eyes" />
+      <circle cx="106.5" cy="71" r="4.2" class="c-eyes" />
+      <circle cx="100" cy="81" r="3.8" class="c-eyes" />
+      <ellipse cx="70" cy="110" rx="9" ry="15" transform="rotate(-18 70 110)" class="hi" />
+            <circle cx="78" cy="128" r="2" class="c-freckle" />
+      <circle cx="124" cy="132" r="2" class="c-freckle" />
+      <circle cx="100" cy="146" r="1.8" class="c-freckle" />
+      <circle cx="66" cy="100" r="1.7" class="c-freckle" />
+      <circle cx="134" cy="98" r="1.7" class="c-freckle" />
+    </g>
 </svg>

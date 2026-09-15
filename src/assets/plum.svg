@@ -559,14 +559,21 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M100 56 C132 55 157 76 157 109 C157 143 133 166 100 166 C67 166 43 143 43 109 C43 76 68 55 100 56 Z" class="c-plum" />
-      <path d="M100 58 C106 90 106 130 100 162 C96 130 96 90 100 58 Z" class="c-moon-crater" />
-      <path d="M100 56 C102 48 104 44 103 38" class="c-stem-line" />
-      <ellipse cx="114" cy="44" rx="11" ry="6" transform="rotate(-32 114 44)" class="c-leaf" />
-      <ellipse cx="80" cy="96" rx="9" ry="14" transform="rotate(-22 80 96)" class="hi" />
-      <path d="M74 124 Q90 138 100 140 Q112 138 126 124" class="c-ridge" />
-      <circle cx="118" cy="94" r="1.8" class="c-freckle" /><circle cx="130" cy="112" r="1.5" class="c-freckle" /><circle cx="90" cy="146" r="1.6" class="c-freckle" />
-</g>
+</style>
+<g>
+      <ellipse cx="100" cy="178" rx="46" ry="8" class="shadow" />
+      <path d="M100 52 C132 52 158 76 158 110 C158 145 133 170 100 170 C67 170 42 145 42 110 C42 76 68 52 100 52 Z" class="c-plum" />
+      <path d="M42.8 101 C44 76 68 52 100 52 C132 52 156 76 157.2 101 C146 82 124 60 100 60 C76 60 54 82 42.8 101 Z" class="c-moon-crater" />
+      <ellipse cx="100" cy="56" rx="9" ry="4.5" class="c-dimple" />
+      <path d="M103 56 C101 48 104 42 103 36" class="c-stem-line" />
+      <path d="M104 40 Q130 46 152 26 Q122 24 104 40 Z" class="c-leaf" />
+      <path d="M109 39 Q129 35 147 29" class="c-ridge" />
+      <path d="M100 62 C105 88 105 124 99 152" class="c-ridge" />
+      <ellipse cx="74" cy="102" rx="9" ry="15" transform="rotate(-22 74 102)" class="hi" />
+      <circle cx="120" cy="92" r="1.9" class="c-freckle" />
+      <circle cx="134" cy="116" r="1.7" class="c-freckle" />
+      <circle cx="88" cy="150" r="1.8" class="c-freckle" />
+      <circle cx="60" cy="128" r="1.7" class="c-freckle" />
+      <circle cx="126" cy="142" r="1.6" class="c-freckle" />
+    </g>
 </svg>
