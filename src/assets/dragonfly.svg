@@ -561,20 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-      <ellipse cx="100" cy="172" rx="46" ry="8" class="shadow" />
-      <ellipse cx="100" cy="96" rx="13" ry="54" class="c-dragonfly" />
-      <ellipse cx="48" cy="58" rx="40" ry="17" transform="rotate(-22 48 58)" class="c-dragonfly-wing" />
-      <ellipse cx="152" cy="58" rx="40" ry="17" transform="rotate(22 152 58)" class="c-dragonfly-wing" />
-      <ellipse cx="46" cy="126" rx="34" ry="14" transform="rotate(18 46 126)" class="c-dragonfly-wing" />
-      <ellipse cx="154" cy="126" rx="34" ry="14" transform="rotate(-18 154 126)" class="c-dragonfly-wing" />
-      <circle cx="100" cy="50" r="14" class="c-dragonfly" />
-      <circle cx="94" cy="48" r="6" class="c-eyes" />
-      <circle cx="106" cy="48" r="6" class="c-eyes" />
-      <path d="M94 58 Q100 64 106 58" class="c-whisker" />
-      <ellipse cx="100" cy="44" rx="6" ry="3" transform="rotate(-15 100 44)" class="hi" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5">
-        <path d="M100 70 L100 82 M100 90 L100 102 M100 110 L100 122" />
-        <path d="M78 54 L54 62 M122 54 L146 62 M76 122 L54 128 M124 122 L146 128" />
-      </g>
-</svg>
+    <ellipse class="shadow" cx="100" cy="177" rx="48" ry="7"/>
+    <ellipse class="c-dragonfly-wing" cx="57" cy="70" rx="44" ry="18" transform="rotate(-20 57 70)"/><ellipse class="c-dragonfly-wing" cx="143" cy="70" rx="44" ry="18" transform="rotate(20 143 70)"/>
+    <ellipse class="c-dragonfly-wing" cx="55" cy="119" rx="38" ry="15" transform="rotate(19 55 119)"/><ellipse class="c-dragonfly-wing" cx="145" cy="119" rx="38" ry="15" transform="rotate(-19 145 119)"/>
+    <path class="c-dragonfly" d="M100 48 Q114 74 108 104 Q106 130 100 160 Q94 130 92 104 Q86 74 100 48 Z"/>
+    <circle class="c-dragonfly" cx="100" cy="47" r="17"/><circle class="c-eyes" cx="93" cy="45" r="6"/><circle class="c-eyes" cx="107" cy="45" r="6"/>
+    <path class="c-whisker" d="M94 32 Q84 20 75 22 M106 32 Q116 20 125 22"/><path class="c-car-line" d="M96 78 H104 M94 101 H106 M92 124 H108"/>
+  </g> </svg>

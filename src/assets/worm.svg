@@ -561,21 +561,8 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-      <ellipse cx="100" cy="172" rx="46" ry="8" class="shadow" />
-      <ellipse cx="64" cy="138" rx="24" ry="20" class="c-worm" />
-      <ellipse cx="92" cy="150" rx="24" ry="20" class="c-worm" />
-      <ellipse cx="120" cy="146" rx="24" ry="20" class="c-worm" />
-      <ellipse cx="148" cy="132" rx="22" ry="19" class="c-worm" />
-      <ellipse cx="170" cy="114" rx="20" ry="17" class="c-worm" />
-      <path d="M76 140 Q80 146 84 140 M104 148 Q108 154 112 148 M132 138 Q136 144 140 138 M152 122 Q156 128 160 122" class="c-car-line" />
-      <circle cx="40" cy="150" r="17" class="c-worm" />
-      <circle cx="33" cy="146" r="3" class="c-eyes" />
-      <circle cx="45" cy="146" r="3" class="c-eyes" />
-      <path d="M33 154 Q40 160 47 154" class="c-whisker" />
-      <path d="M178 168 C178 158 188 154 194 160 C200 166 192 172 186 168" class="c-leaf" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M58 124 Q64 132 70 124 M86 136 Q92 144 98 136 M114 132 Q120 140 126 132 M142 118 Q148 126 154 118" />
-        <path d="M48 164 Q72 170 96 166 T144 164 T184 168" />
-      </g>
-</svg>
+    <ellipse class="shadow" cx="100" cy="177" rx="62" ry="7"/>
+    <path class="c-worm" d="M33 141 Q39 112 65 123 Q83 131 98 145 Q113 159 129 145 Q144 132 159 121 Q181 106 190 126 Q197 142 179 151 Q157 160 141 168 Q113 181 88 165 Q65 150 46 160 Q28 168 33 141 Z"/>
+    <circle class="c-worm" cx="42" cy="141" r="24"/><circle class="c-eyes" cx="35" cy="136" r="4"/><circle class="c-eyes" cx="49" cy="136" r="4"/><path class="c-whisker" d="M36 151 Q42 157 49 151"/>
+    <path class="c-car-line" d="M66 129 Q74 140 66 149 M91 142 Q99 153 91 162 M119 149 Q127 159 119 168 M147 135 Q155 145 148 154 M169 121 Q177 131 170 140"/>
+  </g> </svg>

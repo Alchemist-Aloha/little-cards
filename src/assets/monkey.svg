@@ -559,21 +559,15 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-      <circle cx="50" cy="92" r="22" class="c-monkey"/>
-      <circle cx="150" cy="92" r="22" class="c-monkey"/>
-      <circle cx="50" cy="92" r="11" class="c-ear-inner"/>
-      <circle cx="150" cy="92" r="11" class="c-ear-inner"/>
-      <circle cx="100" cy="100" r="58" class="c-monkey"/>
-      <ellipse cx="100" cy="108" rx="40" ry="44" class="c-monkey-face"/>
-      <path d="M70 96 Q78 88 86 96" class="c-eyeline"/>
-      <path d="M114 96 Q122 88 130 96" class="c-eyeline"/>
-      <ellipse cx="100" cy="110" rx="7" ry="5" class="c-pink"/>
-      <path d="M88 124 Q100 134 112 124" class="c-eyeline"/>
-</g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".45">
-        <path d="M84 62 Q92 54 100 62 M116 62 Q108 54 100 62" />
-        <path d="M68 122 Q76 128 82 134 M132 122 Q124 128 118 134" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
+    <path class="c-monkey" d="M63 145 Q47 133 53 113 Q58 97 75 104 Q83 78 100 76 Q117 78 125 104 Q142 97 147 113 Q153 133 137 145 Q126 158 100 160 Q74 158 63 145 Z"/>
+    <circle class="c-monkey" cx="70" cy="78" r="23"/><circle class="c-monkey" cx="130" cy="78" r="23"/>
+    <circle class="c-ear-inner" cx="70" cy="78" r="11"/><circle class="c-ear-inner" cx="130" cy="78" r="11"/>
+    <ellipse class="c-monkey-face" cx="100" cy="108" rx="35" ry="39"/>
+    <circle class="c-eyes" cx="87" cy="98" r="5"/><circle class="c-eyes" cx="113" cy="98" r="5"/>
+    <ellipse class="c-pink" cx="100" cy="114" rx="8" ry="6"/><path class="c-eyeline" d="M88 130 Q100 140 112 130"/>
+    <path class="c-monkey" d="M132 143 Q174 145 158 111 Q151 102 144 111 Q157 126 139 128"/>
+    <path class="c-monkey" d="M76 143 L67 166 Q64 174 74 174 Q82 173 85 163 L89 148 M124 148 L128 163 Q131 174 140 174 Q146 172 141 164 L133 143"/>
+  </g> </svg>

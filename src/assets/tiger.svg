@@ -559,23 +559,13 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-      <rect x="92" y="42" width="9" height="34" rx="4" transform="rotate(-12 96 58)" class="c-tiger-stripe"/>
-      <rect x="99" y="42" width="9" height="34" rx="4" transform="rotate(12 104 58)" class="c-tiger-stripe"/>
-      <rect x="50" y="86" width="14" height="9" rx="4" transform="rotate(-30 57 90)" class="c-tiger-stripe"/>
-      <rect x="136" y="86" width="14" height="9" rx="4" transform="rotate(30 143 90)" class="c-tiger-stripe"/>
-      <circle cx="100" cy="100" r="56" class="c-tiger"/>
-      <ellipse cx="100" cy="118" rx="30" ry="24" class="c-mushroom"/>
-      <path d="M70 92 Q78 84 86 92" class="c-eyeline"/>
-      <path d="M114 92 Q122 84 130 92" class="c-eyeline"/>
-      <ellipse cx="100" cy="108" rx="8" ry="6" class="c-tip"/>
-      <path d="M88 124 Q100 134 112 124" class="c-eyeline"/>
-      <circle cx="62" cy="110" r="9" class="c-cheek"/>
-      <circle cx="138" cy="110" r="9" class="c-cheek"/>
-</g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".5">
-        <path d="M62 104 L78 108 M60 116 L76 118 M138 108 L154 104 M124 118 L140 116" />
-        <path d="M76 132 L64 136 M124 132 L136 136" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
+    <circle class="c-tiger" cx="100" cy="108" r="61"/>
+    <path class="c-tiger" d="M52 72 L49 38 L76 57 M148 72 L151 38 L124 57"/>
+    <path class="c-tiger-stripe" d="M83 52 L94 58 L86 80 L76 73 Z M105 58 L117 52 L124 73 L114 80 Z M48 91 L72 95 L69 106 L47 102 Z M128 95 L152 91 L153 102 L131 106 Z M49 119 L73 113 L76 124 L53 131 Z M127 113 L151 119 L147 131 L124 124 Z"/>
+    <ellipse class="c-mushroom" cx="100" cy="125" rx="32" ry="25"/><circle class="c-eyes" cx="81" cy="100" r="5"/><circle class="c-eyes" cx="119" cy="100" r="5"/>
+    <ellipse class="c-tip" cx="100" cy="118" rx="8" ry="6"/><path class="c-eyeline" d="M88 133 Q100 143 112 133"/>
+    <path class="c-tiger" d="M69 147 L64 168 Q63 176 75 176 Q83 173 82 163 L86 149 M131 149 L135 163 Q135 173 144 176 Q156 176 151 168 L146 147"/>
+  </g> </svg>

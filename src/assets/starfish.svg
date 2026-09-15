@@ -559,19 +559,11 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <path d="M100 40 L116.5 77.4 L157 81.5 L126.6 108.7 L135.3 148.5 L100 128 L64.7 148.5 L73.4 108.7 L42.9 81.5 L83.5 77.4 Z" class="c-starfish"/>
-      <circle cx="100" cy="68" r="4" class="c-starfish-dot"/>
-      <circle cx="120" cy="92" r="4" class="c-starfish-dot"/>
-      <circle cx="83" cy="92" r="4" class="c-starfish-dot"/>
-      <circle cx="128" cy="128" r="4" class="c-starfish-dot"/>
-      <circle cx="72" cy="128" r="4" class="c-starfish-dot"/>
-      <circle cx="92" cy="104" r="3.2" class="c-eyes"/><circle cx="108" cy="104" r="3.2" class="c-eyes"/>
-      <path d="M91 114 Q100 121 109 114" class="c-eyeline"/>
-      <ellipse cx="78" cy="58" rx="6" ry="9" transform="rotate(-25 78 58)" class="hi"/>
-    </g>
-      <g fill="var(--c-tip)" opacity=".75">
-        <circle cx="100" cy="52" r="2.5" /><circle cx="112" cy="78" r="2.5" /><circle cx="142" cy="84" r="2.5" />
-        <circle cx="122" cy="116" r="2.5" /><circle cx="78" cy="116" r="2.5" /><circle cx="58" cy="84" r="2.5" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="177" rx="47" ry="7"/>
+    <path class="c-starfish" d="M100 30 L118 76 L168 78 L129 108 L143 157 L100 128 L57 157 L71 108 L32 78 L82 76 Z"/>
+    <path class="c-starfish-dot" d="M100 51 l4 13 l-4 10 l-4 -10z M130 88 l14 2 l-9 9 l-11 -3z M113 119 l10 7 l-12 2 l-7 -9z M76 127 l13 -8 l-1 13 l-11 5z M64 88 l14 -1 l6 10 l-12 2z"/>
+    <circle class="c-eyes" cx="91" cy="101" r="4"/><circle class="c-eyes" cx="109" cy="101" r="4"/><path class="c-eyeline" d="M91 113 Q100 121 109 113"/>
+    <path class="c-shell-line" d="M100 41 V84 M45 80 L82 88 M155 80 L118 88 M66 145 L88 111 M134 145 L112 111"/>
+  </g> </svg>

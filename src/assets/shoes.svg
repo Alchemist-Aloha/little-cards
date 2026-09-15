@@ -560,21 +560,10 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <!-- A visible second shoe makes the plural word concrete for early learners. -->
-  <g opacity=".62">
-    <path class="c-shoes" d="M36 148 L38 118 Q40 106 54 104 L82 104 Q88 105 94 113 L116 124 Q128 130 126 140 L122 148 Z"/>
-    <path class="c-car-line" d="M48 112 L62 122 M64 110 L50 122"/>
-  </g>
-  <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-  <path class="c-egg" d="M38 152 Q36 168 54 168 L150 168 Q168 168 164 150 Q150 158 140 158 L52 158 Q44 158 38 152 Z"/>
-  <path class="c-shoes" d="M48 148 L48 112 Q50 96 70 94 L104 94 Q110 94 114 104 L140 116 Q162 122 160 140 L156 148 Z"/>
-  <path class="c-car-line" d="M58 104 L74 116"/>
-  <path class="c-car-line" d="M74 104 L58 116"/>
-  <path class="c-car-line" d="M82 104 L98 116"/>
-  <path class="c-car-line" d="M98 104 L82 116"/>
-  <path class="c-car-line" d="M138 117 Q140 132 142 146"/>
-  <path d="M48 136 H156" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="112" cy="108" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
-  <circle cx="122" cy="112" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
-  <path d="M56 158 L66 158 M78 158 L88 158 M100 158 L110 158 M122 158 L132 158" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
-</svg>
+  <g>
+    <ellipse class="shadow" cx="100" cy="177" rx="63" ry="7"/>
+    <path class="c-shoes" d="M30 141 Q35 118 54 111 L72 83 H97 L101 127 L130 137 Q140 141 140 153 H43 Q28 152 30 141 Z"/>
+    <path class="c-shoes" d="M94 141 Q99 118 118 111 L136 83 H161 L165 127 L194 137 Q201 141 194 153 H107 Q92 152 94 141 Z"/>
+    <path class="c-egg" d="M35 146 H136 Q126 157 112 158 H43 Q34 156 35 146 Z"/><path class="c-egg" d="M99 146 H190 Q180 157 166 158 H107 Q98 156 99 146 Z"/>
+    <path class="c-car-line" d="M65 99 L83 115 M83 99 L65 115 M128 99 L146 115 M146 99 L128 115"/>
+  </g> </svg>

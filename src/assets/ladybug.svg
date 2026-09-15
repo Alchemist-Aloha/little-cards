@@ -561,23 +561,11 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-      <ellipse cx="100" cy="172" rx="46" ry="8" class="shadow" />
-      <circle cx="100" cy="112" r="56" class="c-ladybug" />
-      <path d="M100 64 L100 166" class="c-car-line" />
-      <circle cx="84" cy="104" r="7" class="c-spot" />
-      <circle cx="116" cy="104" r="7" class="c-spot" />
-      <circle cx="86" cy="142" r="7" class="c-spot" />
-      <circle cx="114" cy="142" r="7" class="c-spot" />
-      <path d="M78 64 A22 22 0 0 1 122 64 Z" class="c-cow-spot" />
-      <circle cx="92" cy="60" r="3" class="c-eyes" />
-      <circle cx="108" cy="60" r="3" class="c-eyes" />
-      <path d="M90 50 C86 42 84 38 80 36" class="c-whisker" />
-      <path d="M110 50 C114 42 116 38 120 36" class="c-whisker" />
-      <circle cx="80" cy="34" r="3" class="c-eyes" />
-      <circle cx="120" cy="34" r="3" class="c-eyes" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".55">
-        <path d="M64 122 L48 132 M66 136 L52 150 M136 122 L152 132 M134 136 L148 150" />
-        <path d="M94 70 Q100 76 106 70" />
-      </g>
-</svg>
+    <ellipse class="shadow" cx="100" cy="177" rx="49" ry="7"/>
+    <path class="c-ladybug" d="M47 115 A53 53 0 0 1 153 115 L147 151 Q100 174 53 151 Z"/>
+    <path class="c-cow-spot" d="M77 68 Q100 55 123 68 Q119 81 100 86 Q81 81 77 68 Z"/>
+    <path d="M100 74 V162" fill="none" stroke="var(--c-line)" stroke-width="4"/>
+    <circle class="c-spot" cx="73" cy="108" r="8"/><circle class="c-spot" cx="127" cy="108" r="8"/><circle class="c-spot" cx="67" cy="139" r="7"/><circle class="c-spot" cx="133" cy="139" r="7"/>
+    <circle class="c-eyes" cx="91" cy="63" r="4"/><circle class="c-eyes" cx="109" cy="63" r="4"/><path class="c-whisker" d="M91 58 Q84 45 76 43 M109 58 Q116 45 124 43"/>
+    <path class="c-car-line" d="M56 122 L38 115 M54 137 L35 140 M144 122 L162 115 M146 137 L165 140"/>
+  </g> </svg>
