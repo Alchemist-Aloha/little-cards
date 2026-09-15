@@ -560,6 +560,13 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
+<g>
 <ellipse cx="100" cy="180" rx="74" ry="7" fill="var(--c-shadow)"/>
-<rect x="32" y="45" width="136" height="120" rx="12" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><rect x="32" y="45" width="136" height="31" rx="12" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="3"/><path d="M58 37 V54 M142 37 V54" stroke="var(--c-line)" stroke-width="6" stroke-linecap="round"/><path d="M49 88 H151" stroke="var(--c-line)" stroke-width="3" opacity=".5"/><circle cx="62" cy="103" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="88" cy="103" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="114" cy="103" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="138" cy="103" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="62" cy="129" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="88" cy="129" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="114" cy="129" r="7" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><path d="M158 42 V63 M148 52 H168" stroke="var(--c-moon)" stroke-width="4" stroke-linecap="round"/><path d="M48 148 H152" stroke="var(--c-line)" stroke-width="3" opacity=".45"/><circle cx="57" cy="58" r="5" fill="var(--c-egg)"/><circle cx="143" cy="58" r="5" fill="var(--c-egg)"/>
+<rect x="32" y="45" width="136" height="120" rx="12" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+<path d="M44 45H156A12 12 0 0 1 168 57V76H32V57A12 12 0 0 1 44 45Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+<path d="M57 37V54 M143 37V54" fill="none" stroke="var(--c-line)" stroke-width="6" stroke-linecap="round"/>
+<circle cx="57" cy="58" r="5" fill="var(--c-egg)"/>
+<circle cx="143" cy="58" r="5" fill="var(--c-egg)"/>
+<circle cx="48" cy="106" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="74" cy="106" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="100" cy="106" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="126" cy="106" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="152" cy="106" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="87" cy="134" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/><circle cx="113" cy="134" r="8" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+</g>
 </svg>
