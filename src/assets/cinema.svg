@@ -560,5 +560,42 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="77" ry="7" fill="var(--c-shadow)"/><path d="M25 171 V75 H175 V171Z" fill="var(--c-cloth-navy)" stroke="var(--c-line)" stroke-width="3"/><path d="M25 75 H175" stroke="var(--c-tomato)" stroke-width="12"/><path d="M39 75 V88 M61 75 V88 M83 75 V88 M105 75 V88 M127 75 V88 M149 75 V88" stroke="var(--c-sun)" stroke-width="6"/><rect x="45" y="99" width="110" height="57" rx="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><path d="M60 144 L84 119 L103 139 L120 124 L140 145Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5"/><circle cx="126" cy="115" r="8" fill="var(--c-sun)"/><path d="M50 164 H150" stroke="var(--c-tomato)" stroke-width="5"/><circle cx="52" cy="52" r="5" fill="var(--c-sun)"/><circle cx="100" cy="43" r="7" fill="var(--c-sun)"/><circle cx="151" cy="52" r="5" fill="var(--c-sun)"/><path d="M75 171 V158 H98 V171 M102 171 V158 H125 V171" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <!-- CINEMA: marquee, screen, two rows of seats facing it (raked floor) -->
+  <ellipse cx="100" cy="176" rx="76" ry="7" class="shadow"/>
+  <rect x="22" y="18" width="156" height="158" rx="4" fill="var(--c-cloth-navy)" stroke="var(--c-line)" stroke-width="3"/>
+  <path d="M22 150 H178 V176 H22 Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M26 134 H174 V152 H26 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="26" y="12" width="148" height="34" rx="5" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/>
+  <rect x="36" y="19" width="128" height="20" rx="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M48 29 H76 M86 29 H108 M118 29 H140" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="31" cy="29" r="4.2" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.8"/>
+  <circle cx="169" cy="29" r="4.2" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.8"/>
+  <path d="M28 50 H44 Q34 76 40 102 H28 Z" fill="var(--c-cloth-purple)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M172 50 H156 Q166 76 160 102 H172 Z" fill="var(--c-cloth-purple)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="46" y="48" width="108" height="52" rx="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/>
+  <circle cx="130" cy="63" r="5.5" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M56 94 L76 70 L92 86 L106 72 L132 94 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M62 94 H138" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="50.8" y="100.0" width="16.5" height="6" rx="3.0" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="44.0" y="106.0" width="30.0" height="20.0" rx="6.0" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M59.0 113.0 V123.0" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".3"/>
+  <rect x="41.0" y="126.0" width="36.0" height="8" rx="4" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="91.8" y="100.0" width="16.5" height="6" rx="3.0" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="85.0" y="106.0" width="30.0" height="20.0" rx="6.0" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M100.0 113.0 V123.0" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".3"/>
+  <rect x="82.0" y="126.0" width="36.0" height="8" rx="4" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="132.8" y="100.0" width="16.5" height="6" rx="3.0" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="126.0" y="106.0" width="30.0" height="20.0" rx="6.0" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M141.0 113.0 V123.0" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".3"/>
+  <rect x="123.0" y="126.0" width="36.0" height="8" rx="4" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="40.8" y="132.0" width="26.4" height="8" rx="4.0" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="30.0" y="140.0" width="48.0" height="28.0" rx="9.6" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M54.0 147.0 V165.0" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".3"/>
+  <rect x="26.0" y="168.0" width="56.0" height="8" rx="4" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="132.8" y="132.0" width="26.4" height="8" rx="4.0" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="122.0" y="140.0" width="48.0" height="28.0" rx="9.6" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M146.0 147.0 V165.0" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".3"/>
+  <rect x="118.0" y="168.0" width="56.0" height="8" rx="4" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
 </svg>

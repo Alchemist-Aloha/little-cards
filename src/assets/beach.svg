@@ -560,6 +560,37 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M18 145 Q52 132 88 145 T180 145 V174 H18Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="3"/><path d="M18 145 Q49 132 80 145 T145 145 T180 145" fill="none" stroke="var(--c-blue)" stroke-width="9"/>
-<path d="M139 143 L139 83" stroke="var(--c-hair)" stroke-width="5"/><path d="M95 85 Q139 51 169 85Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M139 84 L139 143" stroke="var(--c-line)" stroke-width="3"/><circle cx="45" cy="152" r="15" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3"/><path d="M32 152 H58 M45 139 V165" stroke="var(--c-tomato)" stroke-width="3"/><path d="M30 170 Q47 161 64 170 M80 170 Q97 161 114 170" fill="none" stroke="var(--c-blue)" stroke-width="4" stroke-linecap="round"/><circle cx="163" cy="42" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <!-- sky: sun with rays -->
+  <path d="M176 42 H183 M170.7 54.7 L175.7 59.7 M158 60 V67 M145.3 54.7 L140.3 59.7 M140 42 H133 M145.3 29.3 L140.3 24.3 M158 24 V17 M170.7 29.3 L175.7 24.3" fill="none" stroke="var(--c-sun)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="158" cy="42" r="13" class="c-sun"/>
+  <!-- sea: level horizon, flat water behind -->
+  <path d="M16 120 H184 V152 H16 Z" fill="var(--c-blue)"/>
+  <path d="M26 131 q9 -6 18 0 M62 141 q9 -6 18 0 M104 128 q9 -6 18 0 M138 143 q9 -6 18 0 M52 122 q9 -6 18 0" fill="none" stroke="var(--c-egg)" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+  <!-- sand in front, its top edge is the wavy water line -->
+  <path d="M16 152 Q40 146 62 150 Q86 155 108 149 Q132 143 156 150 Q172 154 184 150 V186 Q100 194 16 186 Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M16 152 Q40 146 62 150 Q86 155 108 149 Q132 143 156 150 Q172 154 184 150" fill="none" stroke="var(--c-egg)" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+  <path d="M128 178 A8 8 0 0 1 144 178 Z" fill="var(--c-shell)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M136 178 V171 M131 178 L134 173 M141 178 L138 173" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <path d="M152 186 A6 6 0 0 1 164 186 Z" fill="var(--c-shell)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- ground shadow on the sand -->
+  <ellipse cx="100" cy="182" rx="74" ry="7" class="shadow"/>
+  <!-- tilted parasol: pole down into the sand, canopy leaning, scalloped edge -->
+  <path d="M139 112 L133 178" fill="none" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M139 112 L133 178" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M148 78 V72" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="148" cy="69" r="4.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M96 124 A46 46 0 0 1 182 100 Q173 111 164 105 Q155.5 115 147 109 Q138.5 120 130 114.5 Q121.5 125 113 120 Q104.5 130 96 124 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M148 78 L113 120 M148 78 L130 114.5 M148 78 L164 105" class="c-ridge"/>
+  <path d="M108 110 Q124 84 146 79" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+  <!-- beach ball and sand pail sitting on the sand -->
+  <circle cx="52" cy="166" r="15" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M52 155 Q30 166 52 177" fill="none" stroke="var(--c-red)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 155 Q74 166 52 177" fill="none" stroke="var(--c-blue)" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="46" cy="157" rx="3.5" ry="5" transform="rotate(-30 46 157)" class="hi"/>
+  <rect x="73" y="163" width="30" height="7" rx="3.5" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M76 168 H100 L96 186 H80 Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M77 175 H99" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
+  <path d="M78 166 Q88 145 98 166" fill="none" stroke="var(--c-line)" stroke-width="3.5" stroke-linecap="round"/>
+</g>
 </svg>

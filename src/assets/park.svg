@@ -560,7 +560,57 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M20 170 Q68 150 108 166 Q150 181 180 160" fill="none" stroke="var(--c-green)" stroke-width="11" stroke-linecap="round"/>
-<path d="M35 166 V88 M68 166 V88 M32 90 H71" fill="none" stroke="var(--c-hair)" stroke-width="6" stroke-linecap="round"/><path d="M35 95 L68 95" stroke="var(--c-line)" stroke-width="3"/><path d="M42 127 H61 L65 150 H38Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M44 150 V166 M59 150 V166" stroke="var(--c-hair)" stroke-width="4"/>
-<path d="M132 166 V105" stroke="var(--c-tree-trunk)" stroke-width="11"/><circle cx="132" cy="87" r="30" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="3"/><circle cx="110" cy="100" r="20" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="3"/><circle cx="153" cy="105" r="19" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="3"/><path d="M30 57 Q100 25 170 57" fill="none" stroke="var(--c-blue)" stroke-width="6" stroke-linecap="round"/><circle cx="164" cy="43" r="13" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <!-- sky: sun with rays, one soft cloud -->
+  <path d="M176 40 H183 M170.7 52.7 L175.7 57.7 M158 58 V65 M145.3 52.7 L140.3 57.7 M140 40 H133 M145.3 27.3 L140.3 22.3 M158 22 V15 M170.7 27.3 L175.7 22.3" fill="none" stroke="var(--c-sun)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="158" cy="40" r="13" class="c-sun"/>
+  <path d="M40 51 A11 11 0 0 1 38 30 A16 16 0 0 1 65 21 A12 12 0 0 1 79 34 A10 10 0 0 1 74 51 Z" fill="var(--c-cloud)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M48 42 Q54 31 64 28" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <!-- the lawn the whole park stands on -->
+  <path d="M16 152 H184 V182 Q100 190 16 182 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- ground shadow of the standing objects -->
+  <ellipse cx="100" cy="183" rx="74" ry="7" class="shadow"/>
+  <!-- big tree, left: branches behind the trunk, trunk rooted in the lawn -->
+  <path d="M66 146 L46 112" fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M66 146 L46 112" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M70 146 L94 114" fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M70 146 L94 114" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M58 138 C55 152 51 162 46 174 L38 178 C48 181 90 181 98 178 L92 174 C87 162 83 152 80 138 Z" class="c-tree-trunk"/>
+  <path d="M64 148 Q62 160 62 172 M74 156 Q76 166 74 176" class="c-ridge"/>
+  <circle cx="72" cy="100" r="34" class="c-tree"/>
+  <circle cx="40" cy="116" r="22" class="c-tree"/>
+  <circle cx="104" cy="116" r="22" class="c-tree"/>
+  <circle cx="56" cy="78" r="22" class="c-tree"/>
+  <circle cx="90" cy="80" r="21" class="c-tree"/>
+  <circle cx="72" cy="124" r="23" class="c-leaf"/>
+  <circle cx="44" cy="106" r="8" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M44 97 Q45 92 49 90" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="104" cy="82" r="7.5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M104 74 Q105 70 108 68" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M52 76 Q66 60 84 58" fill="none" stroke="var(--c-hi)" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  <!-- park bench, right: back legs, then seat, then backrest -->
+  <rect x="124" y="152" width="8" height="20" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="156" y="152" width="8" height="20" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="112" y="164" width="10" height="14" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="166" y="164" width="10" height="14" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="108" y="152" width="72" height="12" rx="4" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="114" y="120" width="7" height="36" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="170" y="120" width="7" height="36" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="110" y="118" width="72" height="11" rx="4" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="112" y="134" width="68" height="10" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- flowers and a ball on the lawn -->
+  <path d="M30 182 V172" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M48 182 V171" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M66 182 V172" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="30" cy="168" r="7" fill="var(--c-flower)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="48" cy="167" r="7" fill="var(--c-flower)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="66" cy="168" r="7" fill="var(--c-flower)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="30" cy="168" r="2.5" fill="var(--c-sun)"/>
+  <circle cx="48" cy="167" r="2.5" fill="var(--c-sun)"/>
+  <circle cx="66" cy="168" r="2.5" fill="var(--c-sun)"/>
+  <path d="M20 176 Q24 166 28 176 M74 178 Q78 168 82 178" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="166" r="12" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M91 158 C95 162 95 170 91 174" fill="none" stroke="var(--c-egg)" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="106" cy="160" rx="3.5" ry="5" transform="rotate(-30 106 160)" class="hi"/>
+</g>
 </svg>

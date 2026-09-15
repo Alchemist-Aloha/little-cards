@@ -560,5 +560,40 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M26 171 Q100 151 174 171" fill="none" stroke="var(--c-green)" stroke-width="12" stroke-linecap="round"/><path d="M44 166 L61 78 H78 L95 166" fill="none" stroke="var(--c-tomato)" stroke-width="7"/><path d="M61 78 H78" stroke="var(--c-line)" stroke-width="5"/><path d="M61 92 H78" stroke="var(--c-sun)" stroke-width="7"/><path d="M112 166 V79 M158 166 V79 M112 82 H158" stroke="var(--c-hair)" stroke-width="6" stroke-linecap="round"/><path d="M122 88 V130 M148 88 V130" stroke="var(--c-line)" stroke-width="3"/><path d="M115 130 Q135 150 155 130" fill="none" stroke="var(--c-cloth-blue)" stroke-width="8"/><path d="M105 78 H138 Q144 78 148 88 L174 166 H153 L126 96 H105Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="3"/><circle cx="100" cy="42" r="14" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <!-- PLAYGROUND: slide with ladder + chute, ball and bucket on the ground -->
+  <ellipse cx="100" cy="176" rx="76" ry="7" class="shadow"/>
+
+  <!-- ground toys -->
+  <path d="M18 170 L36 170 L33 150 L21 150 Z" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M21 150 q6 -9 12 0" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 160 H32" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
+  <circle cx="174" cy="159" r="10.5" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M163.5 159 a10.5 10.5 0 0 1 6 -9" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M118 170 V157 M118 162 Q112 162 110 157 M118 162 Q124 162 126 157" fill="none" stroke="var(--c-green)" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="118" cy="152" r="5" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="118" cy="152" r="1.8" fill="var(--c-sun)"/>
+
+  <!-- ladder leaning on the platform (drawn first, deck covers the joint) -->
+  <path d="M36 170 L58 71 M54 170 L76 71" fill="none" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M36 170 L58 71 M54 170 L76 71" fill="none" stroke="var(--c-bread)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M37.8 158 H55.8 M41.4 146 H59.4 M45 134 H63 M48.6 122 H66.6 M52.2 110 H70.2 M55.8 98 H73.8"
+        fill="none" stroke="var(--c-line)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M37.8 158 H55.8 M41.4 146 H59.4 M45 134 H63 M48.6 122 H66.6 M52.2 110 H70.2 M55.8 98 H73.8"
+        fill="none" stroke="var(--c-bread)" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- platform posts -->
+  <rect x="56" y="70" width="10" height="100" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="86" y="70" width="10" height="100" rx="2" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5"/>
+
+  <!-- platform deck + safety rail -->
+  <rect x="54" y="62" width="44" height="10" rx="2" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M59 62 V50 M93 62 V50" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <rect x="53" y="44" width="46" height="7" rx="3.5" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+
+  <!-- chute from the platform to the ground -->
+  <path d="M96 62 H108 Q120 62 126 76 L160 170 H134 L102 84 Q96 76 96 62 Z"
+        fill="var(--c-slide)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M104 68 H112 Q120 68 125 79 L152 158 L141 158 L107 78 Z" class="hi"/>
+</g>
 </svg>

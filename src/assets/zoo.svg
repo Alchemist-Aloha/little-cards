@@ -560,6 +560,55 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="76" ry="7" fill="var(--c-shadow)"/><path d="M27 169 V91 Q27 73 45 73 H155 Q173 73 173 91 V169" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3"/><path d="M20 92 H180" stroke="var(--c-line)" stroke-width="6"/><path d="M43 91 V169 M67 91 V169 M91 91 V169 M115 91 V169 M139 91 V169 M163 91 V169" stroke="var(--c-line)" stroke-width="3"/><path d="M84 73 Q100 48 116 73" fill="none" stroke="var(--c-tomato)" stroke-width="9"/><circle cx="100" cy="54" r="10" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/>
-<path d="M52 151 Q52 124 65 115 Q78 124 78 151Z" fill="var(--c-giraffe)" stroke="var(--c-line)" stroke-width="3"/><path d="M60 120 V93" stroke="var(--c-giraffe)" stroke-width="10"/><circle cx="60" cy="88" r="9" fill="var(--c-giraffe)" stroke="var(--c-line)" stroke-width="2"/><path d="M54 84 L49 77 M66 84 L71 77" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/><circle cx="57" cy="88" r="2" fill="var(--c-eyes)"/><circle cx="64" cy="88" r="2" fill="var(--c-eyes)"/>
+<g>
+  <!-- sandy enclosure floor: everything stands on this one ground plane -->
+  <path d="M16 118 H184 V184 Q100 192 16 184 Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- the enclosure's far fence (small = far away), bushes in front of it -->
+  <path d="M30 138 H162 M30 148 H162" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M36 132 V156 M60 132 V156 M84 132 V156 M108 132 V156 M132 132 V156 M156 132 V156" fill="none" stroke="var(--c-line)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M36 132 V156 M60 132 V156 M84 132 V156 M108 132 V156 M132 132 V156 M156 132 V156" fill="none" stroke="var(--c-tree-trunk)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 150 A13 13 0 0 1 54 150 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M146 150 A13 13 0 0 1 172 150 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- the elephant inside the enclosure, feet on the ground plane -->
+  <ellipse cx="100" cy="183" rx="72" ry="8" class="shadow"/>
+  <g transform="translate(22 31) scale(0.78)">
+    <path d="M58 130 Q40 130 38 142 Q37 152 47 153" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M58 130 Q40 130 38 142 Q37 152 47 153" fill="none" stroke="var(--c-elephant)" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M44 148 Q53 152 49 161 Q40 158 38 151 Z" fill="var(--c-tip)"/>
+    <rect x="56" y="128" width="30" height="50" rx="13" class="c-elephant"/>
+    <rect x="114" y="128" width="30" height="50" rx="13" class="c-elephant"/>
+    <ellipse cx="100" cy="110" rx="52" ry="44" class="c-elephant"/>
+    <ellipse cx="55" cy="88" rx="25" ry="33" transform="rotate(14 55 88)" class="c-elephant"/>
+    <ellipse cx="145" cy="88" rx="25" ry="33" transform="rotate(-14 145 88)" class="c-elephant"/>
+    <path d="M50 72 Q58 98 54 122" class="c-ridge"/>
+    <path d="M150 72 Q142 98 146 122" class="c-ridge"/>
+    <circle cx="100" cy="74" r="42" class="c-elephant"/>
+    <rect x="66" y="146" width="30" height="32" rx="13" class="c-elephant"/>
+    <rect x="104" y="146" width="30" height="32" rx="13" class="c-elephant"/>
+    <path d="M76 168 V176 M87 168 V176" class="c-ridge"/>
+    <path d="M113 168 V176 M124 168 V176" class="c-ridge"/>
+    <path d="M80 106 Q72 120 74 134 Q84 130 88 112 Z" class="c-egg"/>
+    <path d="M120 106 Q128 120 126 134 Q116 130 112 112 Z" class="c-egg"/>
+    <path d="M100 100 C100 124 88 138 92 154 C96 168 110 170 118 160" class="c-trunk-line"/>
+    <path d="M100 100 C100 124 88 138 92 154 C96 168 110 170 118 160" class="c-trunk"/>
+    <path d="M90 118 Q99 123 108 118 M84 134 Q93 139 102 134" class="c-ridge"/>
+    <circle cx="84" cy="70" r="5.5" class="c-eyes"/>
+    <circle cx="116" cy="70" r="5.5" class="c-eyes"/>
+    <circle cx="86" cy="68" r="1.8" class="hi"/>
+    <circle cx="118" cy="68" r="1.8" class="hi"/>
+    <ellipse cx="74" cy="46" rx="13" ry="8" transform="rotate(-18 74 46)" class="hi"/>
+  </g>
+  <!-- near fence, standing between the viewer and the animal -->
+  <path d="M32 158 H172" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M32 158 H172" fill="none" stroke="var(--c-bread)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M32 173 H172" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M32 173 H172" fill="none" stroke="var(--c-bread)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M32 152 V188 M60 152 V188 M88 152 V188 M116 152 V188 M144 152 V188 M172 152 V188" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M32 152 V188 M60 152 V188 M88 152 V188 M116 152 V188 M144 152 V188 M172 152 V188" fill="none" stroke="var(--c-bread)" stroke-width="5" stroke-linecap="round"/>
+  <!-- gate posts, taller, with red finials -->
+  <rect x="20" y="140" width="11" height="50" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="169" y="140" width="11" height="50" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="25.5" cy="134" r="8" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="174.5" cy="134" r="8" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
 </svg>
