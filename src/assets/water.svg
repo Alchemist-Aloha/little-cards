@@ -561,12 +561,17 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="48" ry="7" />
-  <path d="M62 54 H138 L132 160 Q100 174 68 160 Z" class="c-glass" />
-  <path d="M67 88 Q82 78 100 88 Q118 98 133 88 L128 156 Q100 166 72 156 Z" class="c-blue" />
-  <path d="M86 116 C86 106 100 96 100 96 S114 106 114 116 Q114 132 100 136 Q86 132 86 116 Z" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2" />
-  <path d="M78 74 V150" class="c-milk-shine" />
-  <circle cx="88" cy="142" r="3" class="c-bubble" /><circle cx="118" cy="126" r="3" class="c-bubble" /><circle cx="96" cy="102" r="2.5" class="c-bubble" />
-  <path d="M72 98 Q100 108 128 98" class="c-ridge" />
+  <ellipse class="shadow" cx="100" cy="176" rx="48" ry="7"/>
+  <path d="M58 64 L66 158 Q100 174 134 158 L142 64 Z" class="c-glass"/>
+  <path d="M62 88 Q100 100 138 88 L134 152 Q100 167 66 152 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M62 88 A 38 10 0 0 1 138 88" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5"/>
+  <ellipse cx="100" cy="64" rx="42" ry="11" class="c-glass"/>
+  <ellipse cx="100" cy="64.5" rx="37" ry="8.6" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M100 106 C 100 106, 112 116, 112 126 C 112 136, 106 142, 100 142 C 94 142, 88 136, 88 126 C 88 116, 100 106, 100 106 Z" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="112" cy="122" r="3" class="c-bubble"/>
+  <circle cx="86" cy="144" r="3.5" class="c-bubble"/>
+  <circle cx="120" cy="98" r="2.5" class="c-bubble"/>
+  <path d="M74 82 L80 150" class="c-milk-shine"/>
+  <ellipse cx="92" cy="94" rx="16" ry="3.5" class="hi"/>
 </g>
 </svg>

@@ -560,9 +560,29 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="169" rx="55" ry="6" class="shadow"/>
-  <path d="M35 79 H137 Q157 79 157 65 Q157 53 143 53 Q132 53 127 63" fill="none" stroke="var(--c-blue)" stroke-width="8" stroke-linecap="round"/>
-  <path d="M30 105 H164 Q178 105 178 118 Q178 130 164 130 Q153 130 149 119" fill="none" stroke="var(--c-blue)" stroke-width="8" stroke-linecap="round"/>
-  <path d="M48 137 H119 Q132 137 132 149 Q132 159 121 159" fill="none" stroke="var(--c-green)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M47 63 L34 79 L47 95" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="169" rx="54" ry="6"/>
+  <g fill="none" stroke="var(--c-line)" stroke-width="12" stroke-linecap="round">
+    <path d="M30 56 C 62 52 86 60 110 56 Q 140 52 140 38 Q 140 24 124 24 Q 110 24 108 36"/>
+    <path d="M20 104 C 56 100 92 110 128 104 Q 160 100 160 82 Q 160 64 140 64 Q 122 64 120 78"/>
+    <path d="M36 150 C 62 146 86 154 106 150 Q 132 146 132 132 Q 132 118 116 118 Q 102 118 100 130"/>
+  </g>
+  <g fill="none" stroke="var(--c-blue)" stroke-width="8" stroke-linecap="round">
+    <path d="M30 56 C 62 52 86 60 110 56 Q 140 52 140 38 Q 140 24 124 24 Q 110 24 108 36"/>
+    <path d="M20 104 C 56 100 92 110 128 104 Q 160 100 160 82 Q 160 64 140 64 Q 122 64 120 78"/>
+    <path d="M36 150 C 62 146 86 154 106 150 Q 132 146 132 132 Q 132 118 116 118 Q 102 118 100 130"/>
+  </g>
+  <g transform="translate(70 80) rotate(-14)">
+    <path d="M-12 0 C -8 -8 1 -11 13 0 C 1 11 -8 8 -12 0 Z" class="c-leaf"/>
+    <path d="M-11 0 L 5 0" fill="none" stroke="var(--c-stem)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(150 122) rotate(-12)">
+    <path d="M-12 0 C -8 -8 1 -11 13 0 C 1 11 -8 8 -12 0 Z" class="c-leaf"/>
+    <path d="M-11 0 L 5 0" fill="none" stroke="var(--c-stem)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(98 174) rotate(-6)">
+    <path d="M-12 0 C -8 -8 1 -11 13 0 C 1 11 -8 8 -12 0 Z" class="c-leaf"/>
+    <path d="M-11 0 L 5 0" fill="none" stroke="var(--c-stem)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</g>
 </svg>

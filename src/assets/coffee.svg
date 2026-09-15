@@ -561,14 +561,19 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="50" ry="7" />
-  <ellipse class="c-glass" cx="100" cy="82" rx="42" ry="12" />
-  <path d="M58 82 V146 Q58 166 100 166 Q142 166 142 146 V82 Z" class="c-glass" />
-  <ellipse class="c-coffee" cx="100" cy="82" rx="34" ry="8" />
-  <path d="M142 98 Q176 96 172 126 Q168 150 140 146" fill="none" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round" />
-  <path d="M82 62 Q72 50 82 38 Q92 26 82 16 M100 62 Q90 50 100 38 Q110 26 100 16 M118 62 Q108 50 118 38 Q128 26 118 16" class="c-bubble" />
-  <ellipse cx="100" cy="82" rx="24" ry="4" class="c-pancake-syrup" opacity=".5" />
-  <path d="M72 136 Q100 148 128 136" class="c-ridge" />
-  <ellipse cx="76" cy="104" rx="6" ry="13" transform="rotate(-12 76 104)" class="hi" />
+  <ellipse class="shadow" cx="100" cy="170" rx="50" ry="7"/>
+  <path d="M134 84 C 174 84, 174 136, 134 136 C 156 136, 160 112, 134 88 Z" class="c-red" stroke-width="2.5" stroke="var(--c-line)"/>
+  <path d="M60 72 L66 150 Q100 166 134 150 L140 72 Z" class="c-red" stroke-width="2.5" stroke="var(--c-line)"/>
+  <ellipse cx="100" cy="72" rx="40" ry="10.5" class="c-red" stroke-width="2.5" stroke="var(--c-line)"/>
+  <ellipse cx="100" cy="72.5" rx="35" ry="8.2" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="100" cy="76" rx="32" ry="7.8" class="c-coffee"/>
+  <ellipse cx="100" cy="77" rx="24" ry="5.4" fill="var(--c-tip)" opacity=".5"/>
+  <ellipse cx="100" cy="76" rx="28.5" ry="6.6" fill="none" stroke="var(--c-tea)" stroke-width="2.5" opacity=".55"/>
+  <g fill="none" stroke="var(--c-line)" stroke-width="3.5" opacity=".4" stroke-linecap="round">
+    <path d="M82 76 C 75 66, 89 58, 82 48 C 75 38, 89 32, 82 24 C 78 18, 86 14, 86 20"/>
+    <path d="M100 76 C 93 65, 107 57, 100 46 C 93 35, 107 28, 100 20 C 96 14, 104 10, 104 16"/>
+    <path d="M118 76 C 111 66, 125 58, 118 48 C 111 38, 125 32, 118 24 C 114 18, 122 14, 122 20"/>
+  </g>
+  <ellipse cx="72" cy="112" rx="6" ry="14" transform="rotate(-8 72 112)" class="hi"/>
 </g>
 </svg>
