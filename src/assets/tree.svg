@@ -176,12 +176,9 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<g>
-      <ellipse cx="101" cy="172" rx="47" ry="7" class="shadow" />
-      <path d="M91 165 L95 116 L77 99 L96 112 L101 77 L106 112 L128 94 L108 120 L115 165 Z" class="c-tree-trunk" />
-      <circle cx="75" cy="82" r="31" class="c-tree" /><circle cx="106" cy="61" r="35" class="c-tree" /><circle cx="134" cy="90" r="31" class="c-tree" /><circle cx="105" cy="103" r="35" class="c-tree" />
-      <ellipse cx="84" cy="61" rx="10" ry="15" transform="rotate(-27 84 61)" class="hi" />
-    </g>
-      <path d="M95 128 L101 119 L107 128 M95 145 L101 136 L107 145" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
-      <path d="M64 87 Q75 78 84 87 M112 66 Q123 57 134 67 M119 104 Q130 95 140 103" fill="none" stroke="var(--c-leaf)" stroke-width="3" opacity=".6" stroke-linecap="round"/>
+<ellipse cx="100" cy="173" rx="54" ry="7" class="shadow"/>
+  <path d="M83 164 L87 111 L68 94 L91 106 L100 66 L109 106 L135 91 L113 115 L119 164Z" class="c-tree-trunk"/>
+  <circle cx="70" cy="82" r="30" class="c-tree"/><circle cx="104" cy="63" r="37" class="c-tree"/><circle cx="137" cy="87" r="29" class="c-tree"/><circle cx="101" cy="101" r="37" class="c-tree"/>
+  <circle cx="77" cy="103" r="6" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><circle cx="128" cy="73" r="6" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 66 Q92 55 103 57" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".7"/>
 </svg>
