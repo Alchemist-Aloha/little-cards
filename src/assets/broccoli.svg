@@ -561,12 +561,14 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
-  <path d="M84 112 Q78 128 82 168 Q100 178 118 168 Q122 128 116 112 Z" class="c-mushroom" />
-  <path d="M42 108 Q38 88 56 80 Q52 58 76 60 Q88 35 106 54 Q124 34 135 61 Q160 60 155 84 Q173 92 158 112 Q142 126 120 120 Q100 134 80 120 Q58 126 42 108 Z" class="c-broccoli" />
-  <path d="M70 76 Q78 92 72 108 M98 64 Q100 86 96 116 M128 72 Q120 92 126 110" class="c-ridge" />
-  <circle cx="72" cy="78" r="3" class="c-dimple" /><circle cx="103" cy="70" r="3" class="c-dimple" /><circle cx="136" cy="86" r="3" class="c-dimple" />
-  <ellipse cx="78" cy="65" rx="8" ry="11" transform="rotate(-20 78 65)" class="hi" />
-  <path d="M100 120 V164 M100 140 L90 154 M100 140 L110 154" class="c-ridge" />
+<ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
+<path class="c-mushroom" d="M89 136 C79.8 136.6 71.7 144.4 70 152 C77.8 151.6 86.8 145 89 136 Z" /><circle class="c-broccoli" cx="66" cy="155" r="9.5" />
+<path class="c-mushroom" d="M111 128 C114.2 136.8 124.2 142.4 132 142 C129.3 134.6 120.4 127.6 111 128 Z" /><circle class="c-broccoli" cx="136" cy="144" r="9.5" />
+<path class="c-mushroom" d="M88 104 C84 124 82 146 83 162 Q100 174 117 162 C118 146 116 124 112 104 Z" />
+<path class="c-broccoli" d="M48 100 C34 96 36 76 50 70 C46 52 62 40 76 46 C82 28 102 26 110 40 C122 30 142 38 140 54 C156 56 162 78 148 92 C152 108 138 118 124 112 C116 124 96 126 86 116 C74 126 56 116 48 100 Z" />
+<circle class="c-broccoli" cx="58" cy="64" r="12" /><circle class="c-broccoli" cx="80" cy="44" r="13" /><circle class="c-broccoli" cx="104" cy="40" r="13" /><circle class="c-broccoli" cx="128" cy="48" r="13" /><circle class="c-broccoli" cx="146" cy="70" r="12" /><circle class="c-broccoli" cx="68" cy="90" r="8" /><circle class="c-broccoli" cx="134" cy="88" r="8" /><circle class="c-broccoli" cx="94" cy="100" r="7" /><circle class="c-broccoli" cx="114" cy="104" r="7" />
+<path class="c-ridge" d="M94 112 C92 130 92 148 94 162" /><path class="c-ridge" d="M108 112 C110 130 110 148 108 162" />
+<circle class="c-dimple" cx="72" cy="76" r="3" /><circle class="c-dimple" cx="96" cy="62" r="3.2" /><circle class="c-dimple" cx="120" cy="68" r="3" /><circle class="c-dimple" cx="86" cy="96" r="2.8" /><circle class="c-dimple" cx="112" cy="92" r="2.8" /><circle class="c-dimple" cx="54" cy="84" r="2.6" /><circle class="c-dimple" cx="146" cy="84" r="2.6" /><circle class="c-dimple" cx="100" cy="88" r="2.6" />
+<ellipse cx="80" cy="70" rx="7" ry="9.5" transform="rotate(-20 80 70)" class="hi" />
 </g>
 </svg>
