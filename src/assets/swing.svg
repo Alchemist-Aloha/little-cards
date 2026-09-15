@@ -561,11 +561,25 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="58" ry="7"/>
-  <path d="M40 166 L67 48 H133 L160 166" fill="none" stroke="var(--c-tip)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M55 54 H145" fill="none" stroke="var(--c-tip)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M82 54 V125 M118 54 V125" class="c-swing-rope" stroke-width="4"/>
-  <rect x="73" y="123" width="54" height="13" rx="5" class="c-swing"/>
-  <path d="M77 129 H123" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <ellipse class="shadow" cx="100" cy="181" rx="62" ry="8"/>
+  <!-- far A-frames drawn first, then the near legs, so the frame reads as two A's -->
+  <path d="M24 172 L50 46 M78 172 L50 46 M122 172 L150 46 M176 172 L150 46" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 172 L50 46 M78 172 L50 46 M122 172 L150 46 M176 172 L150 46" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- cross braces between each pair of legs -->
+  <path d="M37 112 H64 M163 112 H136" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M37 112 H64 M163 112 H136" fill="none" stroke="var(--c-tip)" stroke-width="5" stroke-linecap="round"/>
+  <!-- top beam joining the two A-frames -->
+  <path d="M44 48 H156" fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M44 48 H156" fill="none" stroke="var(--c-tip)" stroke-width="9" stroke-linecap="round"/>
+  <!-- two chains, vertical and equal length, hanging from the beam -->
+  <path d="M78 50 V126 M122 50 V126" fill="none" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M78 50 V126 M122 50 V126" fill="none" stroke="var(--c-wheel)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M74 66 H82 M74 84 H82 M74 102 H82 M74 120 H82 M118 66 H126 M118 84 H126 M118 102 H126 M118 120 H126" fill="none" stroke="var(--c-milk-label)" stroke-width="2" opacity=".7" stroke-linecap="round"/>
+  <!-- seat hanging at the bottom ends of the chains -->
+  <rect x="70" y="124" width="60" height="14" rx="5" class="c-swing"/>
+  <path d="M76 132 H124" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".5" stroke-linecap="round"/>
+  <!-- soft sheen on the beam and the seat -->
+  <path d="M64 44 H86" fill="none" stroke="var(--c-hi)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 128 H92" fill="none" stroke="var(--c-hi)" stroke-width="4" stroke-linecap="round"/>
 </g>
 </svg>

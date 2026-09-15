@@ -561,12 +561,46 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="50" ry="7"/>
-  <rect x="57" y="101" width="86" height="70" rx="13" class="c-robot"/><rect x="71" y="42" width="58" height="57" rx="12" class="c-robot"/>
-  <rect x="80" y="54" width="40" height="32" rx="7" class="c-robot-face"/><circle cx="91" cy="70" r="5" class="c-eyes"/><circle cx="109" cy="70" r="5" class="c-eyes"/><path d="M91 80 Q100 87 109 80" class="c-eyeline"/>
-  <path d="M100 42 V24" class="c-ladder"/><circle cx="100" cy="18" r="7" class="c-star"/>
-  <rect x="76" y="116" width="48" height="28" rx="5" fill="none" stroke="var(--c-line)" stroke-width="3"/><circle cx="89" cy="130" r="5" class="c-red"/><circle cx="111" cy="130" r="5" class="c-green"/>
-  <path d="M57 116 H42 M143 116 H158" fill="none" stroke="var(--c-line)" stroke-width="5" stroke-linecap="round"/><circle cx="39" cy="116" r="6" class="c-robot"/><circle cx="161" cy="116" r="6" class="c-robot"/>
-  <rect x="68" y="170" width="24" height="12" rx="4" class="c-robot"/><rect x="108" y="170" width="24" height="12" rx="4" class="c-robot"/>
+  <ellipse class="shadow" cx="100" cy="181" rx="56" ry="8"/>
+  <!-- antennae behind the head -->
+  <path d="M86 40 L78 24 M114 40 L122 24" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M86 40 L78 24 M114 40 L122 24" fill="none" stroke="var(--c-wheel)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="78" cy="21" r="7" class="c-red"/>
+  <circle cx="122" cy="21" r="7" class="c-star"/>
+  <!-- legs: two segments each with a knee joint -->
+  <path d="M76 140 L70 160 L68 174 M124 140 L130 160 L132 174" fill="none" stroke="var(--c-line)" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M76 140 L70 160 L68 174 M124 140 L130 160 L132 174" fill="none" stroke="var(--c-robot)" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="160" r="7.5" class="c-robot"/>
+  <circle cx="130" cy="160" r="7.5" class="c-robot"/>
+  <!-- feet -->
+  <rect x="52" y="168" width="32" height="14" rx="5" class="c-robot"/>
+  <rect x="116" y="168" width="32" height="14" rx="5" class="c-robot"/>
+  <!-- arms: upper arm + forearm with elbow and hand -->
+  <path d="M64 106 L36 124 L30 146 M136 106 L164 124 L170 146" fill="none" stroke="var(--c-line)" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M64 106 L36 124 L30 146 M136 106 L164 124 L170 146" fill="none" stroke="var(--c-robot)" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="36" cy="124" r="7" class="c-robot"/>
+  <circle cx="164" cy="124" r="7" class="c-robot"/>
+  <circle cx="30" cy="150" r="9" class="c-robot"/>
+  <circle cx="170" cy="150" r="9" class="c-robot"/>
+  <!-- body -->
+  <rect x="58" y="92" width="84" height="56" rx="12" class="c-robot"/>
+  <circle cx="76" cy="147" r="7" class="c-robot"/>
+  <circle cx="124" cy="147" r="7" class="c-robot"/>
+  <!-- control panel -->
+  <rect x="74" y="104" width="52" height="34" rx="6" fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="86" cy="115" r="5" class="c-red"/>
+  <circle cx="100" cy="115" r="5" class="c-green"/>
+  <circle cx="114" cy="115" r="5" class="c-star"/>
+  <rect x="84" y="126" width="32" height="6" rx="3" fill="var(--c-line)" opacity=".3"/>
+  <!-- neck -->
+  <rect x="90" y="84" width="20" height="12" rx="4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- head -->
+  <rect x="72" y="36" width="56" height="50" rx="10" class="c-robot"/>
+  <rect x="82" y="46" width="36" height="30" rx="7" class="c-robot-face"/>
+  <circle cx="92" cy="58" r="5" class="c-eyes"/>
+  <circle cx="108" cy="58" r="5" class="c-eyes"/>
+  <path d="M92 68 Q100 75 108 68" fill="none" stroke="var(--c-eyes)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- soft sheen down the body -->
+  <path d="M68 112 Q66 102 69 96" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round"/>
 </g>
 </svg>

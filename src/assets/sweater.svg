@@ -560,11 +560,33 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="57" ry="7"/>
-    <path class="c-sweater" d="M78 49 Q100 68 122 49 L139 59 L166 78 L155 150 H136 L134 169 H66 L64 150 H45 L34 78 L61 59 Z"/>
-    <path class="c-sweater" d="M78 49 Q100 71 122 49 L117 79 Q100 89 83 79 Z"/>
-    <path class="c-car-line" d="M47 137 H65 M153 137 H135 M70 157 H130 M70 164 H130"/>
-    <path d="M68 93 H132 M68 109 H132 M81 125 H119" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" opacity=".85"/>
-    <circle class="c-star" cx="100" cy="102" r="12"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="184" rx="58" ry="7"/>
+  <!-- both long sleeves hang from the shoulders; the torso is drawn over their roots -->
+  <path class="c-sweater" d="M139 57 L173 121 L152 132 L117 70 Z"/>
+  <path class="c-sweater" d="M61 57 L27 121 L48 132 L83 70 Z"/>
+  <!-- torso: shoulders + body to the ribbed hem -->
+  <path class="c-sweater" d="M84 46 Q100 62 116 46 L134 56 L144 100 L144 164 L56 164 L56 100 L66 56 Z"/>
+  <!-- sleeve seams where the sleeves join the body -->
+  <path class="c-ridge" d="M66 58 Q78 76 80 98 M134 58 Q122 76 120 98"/>
+  <!-- neck hole + ribbed crew collar -->
+  <path d="M84 46 Q100 62 116 46 Q100 72 84 46 Z" fill="var(--c-line)" opacity=".3"/>
+  <path d="M82 43 Q100 60 118 43 Q100 84 82 43 Z" fill="var(--c-cloth-purple)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M90 48 V56 M96 51 V59 M104 51 V59 M110 48 V56" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <!-- cuffs: joining seam + knit ribs -->
+  <path d="M166 110 L146 121 M34 110 L54 121" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5" stroke-linecap="round"/>
+  <path d="M167 110 L173 121 M160 113 L166 125 M153 117 L159 128 M146 121 L152 132" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
+  <path d="M33 110 L27 121 M40 113 L34 125 M47 117 L41 128 M54 121 L48 132" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
+  <!-- hem: seam + vertical ribs -->
+  <path d="M56 150 H144" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".5" stroke-linecap="round"/>
+  <path d="M62 152 V161 M70 152 V161 M78 152 V161 M86 152 V161 M94 152 V161 M102 152 V161 M110 152 V161 M118 152 V161 M126 152 V161 M134 152 V161" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
+  <!-- knit chevrons on the chest -->
+  <g fill="none" stroke="var(--c-line)" stroke-width="2.2" opacity=".33" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 84 L88 92 L98 84 M102 84 L112 92 L122 84"/>
+    <path d="M78 104 L88 112 L98 104 M102 104 L112 112 L122 104"/>
+    <path d="M78 124 L88 132 L98 124 M102 124 L112 132 L122 124"/>
+  </g>
+  <!-- soft sheen down the left chest -->
+  <path d="M72 90 Q70 78 76 68" fill="none" stroke="var(--c-hi)" stroke-width="4.5" stroke-linecap="round"/>
+</g>
+</svg>

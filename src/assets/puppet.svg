@@ -561,12 +561,36 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <path d="M55 168 Q64 137 75 116 Q100 128 125 116 Q136 137 145 168 Q100 181 55 168 Z" class="c-puppet"/>
-  <path d="M73 116 Q100 98 127 116 L137 126 Q100 143 63 126 Z" fill="var(--c-eyes)" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M77 118 Q100 109 123 118 Q115 129 100 130 Q85 129 77 118 Z" class="c-pink"/>
-  <circle cx="100" cy="67" r="43" class="c-puppet"/><circle cx="68" cy="38" r="15" class="c-puppet"/><circle cx="132" cy="38" r="15" class="c-puppet"/>
-  <circle cx="84" cy="61" r="6" class="c-eyes"/><circle cx="116" cy="61" r="6" class="c-eyes"/><circle cx="100" cy="75" r="6" class="c-teddy-nose"/>
-  <path d="M100 82 V94 M100 93 Q88 102 84 93 M100 93 Q112 102 116 93" class="c-eyeline"/>
+  <ellipse class="shadow" cx="100" cy="186" rx="46" ry="7"/>
+  <!-- ears behind the head -->
+  <circle cx="64" cy="36" r="13" class="c-puppet"/>
+  <circle cx="136" cy="36" r="13" class="c-puppet"/>
+  <!-- head -->
+  <circle cx="100" cy="62" r="40" class="c-puppet"/>
+  <!-- arms, drawn before the body so they sprout from the shoulders -->
+  <path d="M76 118 Q50 112 38 94" fill="none" stroke="var(--c-line)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M76 118 Q50 112 38 94" fill="none" stroke="var(--c-puppet)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M124 118 Q150 112 162 94" fill="none" stroke="var(--c-line)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M124 118 Q150 112 162 94" fill="none" stroke="var(--c-puppet)" stroke-width="20" stroke-linecap="round"/>
+  <!-- mitten hands -->
+  <circle cx="36" cy="90" r="13" class="c-puppet"/>
+  <circle cx="164" cy="90" r="13" class="c-puppet"/>
+  <!-- body -->
+  <path class="c-puppet" d="M74 104 Q100 116 126 104 L140 150 L140 156 Q100 170 60 156 L60 150 Z"/>
+  <!-- sleeve and the opening where the hand goes in -->
+  <path d="M60 150 Q100 164 140 150 L144 172 Q100 187 56 172 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="168" rx="33" ry="7.5" fill="var(--c-line)" opacity=".38"/>
+  <ellipse cx="100" cy="168" rx="33" ry="7.5" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".6"/>
+  <!-- face -->
+  <circle cx="84" cy="58" r="6" class="c-eyes"/>
+  <circle cx="116" cy="58" r="6" class="c-eyes"/>
+  <circle cx="86" cy="55" r="2" class="hi"/>
+  <circle cx="118" cy="55" r="2" class="hi"/>
+  <circle cx="76" cy="72" r="7" class="c-pink"/>
+  <circle cx="124" cy="72" r="7" class="c-pink"/>
+  <circle cx="100" cy="70" r="5.5" class="c-teddy-nose"/>
+  <path d="M88 82 Q100 94 112 82" fill="none" stroke="var(--c-eyes)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- soft sheen on the head -->
+  <path d="M74 40 Q64 52 66 64" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round"/>
 </g>
 </svg>

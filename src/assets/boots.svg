@@ -560,11 +560,33 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="62" ry="7"/>
-    <path class="c-boots" d="M34 44 H76 V117 L91 132 Q99 141 91 153 H32 Q24 149 29 137 L35 124 Z"/>
-    <path class="c-boots" d="M106 44 H148 V117 L163 132 Q171 141 163 153 H104 Q96 149 101 137 L107 124 Z"/>
-    <path class="c-car-line" d="M35 72 H76 M107 72 H148 M35 143 H91 M107 143 H163"/>
-    <path d="M40 91 H71 M112 91 H143 M40 109 H71 M112 109 H143" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M39 129 H77 M111 129 H149" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="180" rx="64" ry="8"/>
+  <!-- pull loop, then the shaft drawn over its base -->
+  <path d="M66 52 C64 28 86 20 90 42 L84 45 C82 32 70 34 72 52 Z" class="c-boots"/>
+  <path d="M134 52 C136 28 114 20 110 42 L116 45 C118 32 130 34 128 52 Z" class="c-boots"/>
+  <!-- left boot: tall shaft, rounded toe -->
+  <path class="c-boots" d="M46 46 H82 C85 70 86 92 86 112 Q88 130 88 150 H32 Q25 147 23 140 Q21 132 27 127 Q37 122 42 113 L46 94 Z"/>
+  <!-- right boot -->
+  <path class="c-boots" d="M154 46 H118 C115 70 114 92 114 112 Q112 130 112 150 H168 Q175 147 177 140 Q179 132 173 127 Q163 122 158 113 L154 94 Z"/>
+  <!-- shaft cuff bands -->
+  <path d="M46 58 H82 M118 58 H154" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <path d="M50 62 V70 M58 62 V70 M66 62 V70 M74 62 V70 M126 62 V70 M134 62 V70 M142 62 V70 M150 62 V70" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".35" stroke-linecap="round"/>
+  <!-- buckle strap across each ankle -->
+  <rect x="44" y="100" width="45" height="11" rx="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+  <rect x="42" y="95" width="15" height="21" rx="4" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M49.5 96 V115" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".6" stroke-linecap="round"/>
+  <rect x="111" y="100" width="45" height="11" rx="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+  <rect x="143" y="95" width="15" height="21" rx="4" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M150.5 96 V115" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".6" stroke-linecap="round"/>
+  <!-- thick soles, drawn over the boot bottoms so they meet the ground line -->
+  <path d="M23 145 L89 145 C93 145 94 152 93 160 Q92 171 84 171 L28 171 Q20 171 19 162 Q18 152 20 147 Q21 145 23 145 Z" class="c-egg"/>
+  <path d="M177 145 L111 145 C107 145 106 152 107 160 Q108 171 116 171 L172 171 Q180 171 181 162 Q182 152 180 147 Q179 145 177 145 Z" class="c-egg"/>
+  <!-- tread: mid-sole groove + notches -->
+  <path d="M22 157 H91 M109 157 H178" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5" stroke-linecap="round"/>
+  <path d="M30 159 V168 M40 159 V168 M50 159 V168 M60 159 V168 M70 159 V168 M80 159 V168 M120 159 V168 M130 159 V168 M140 159 V168 M150 159 V168 M160 159 V168 M170 159 V168" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <!-- soft sheen on each shaft -->
+  <path d="M55 88 Q53 74 57 64" fill="none" stroke="var(--c-hi)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M145 88 Q147 74 143 64" fill="none" stroke="var(--c-hi)" stroke-width="4.5" stroke-linecap="round"/>
+</g>
+</svg>

@@ -561,10 +561,26 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="7"/>
-  <path d="M47 64 H80 V166 H47 Z" class="c-ladder" stroke-width="4"/><path d="M47 83 H80 M47 104 H80 M47 125 H80 M47 146 H80" class="c-ladder"/>
-  <path d="M72 58 Q74 106 91 124 Q108 142 157 155 L157 171 Q103 158 79 137 Q60 120 58 76 Z" class="c-slide"/>
-  <path d="M141 154 H172 Q178 154 178 162 Q178 170 170 170 H142 Z" class="c-slide"/>
-  <path d="M79 69 Q77 109 96 126 Q119 146 151 155" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <ellipse class="shadow" cx="100" cy="180" rx="60" ry="8"/>
+  <!-- support posts (behind everything) -->
+  <path d="M72 70 V172 M126 126 V172" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M72 70 V172 M126 126 V172" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round"/>
+  <!-- ladder uprights -->
+  <path d="M30 174 L42 64 M48 174 L58 64" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M30 174 L42 64 M48 174 L58 64" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round"/>
+  <!-- ladder rungs -->
+  <path d="M38 88 H57 M36 110 H55 M33 132 H53 M31 154 H51" fill="none" stroke="var(--c-tip)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M38 88 H57 M36 110 H55 M33 132 H53 M31 154 H51" fill="none" stroke="var(--c-milk-label)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <!-- chute: smooth band from the platform down to the ground -->
+  <path class="c-slide" d="M88 70 C116 100 136 126 168 140 L178 144 C182 146 182 152 180 157 C178 167 172 172 163 172 C140 159 112 128 84 94 Z"/>
+  <!-- raised side rails of the chute -->
+  <path d="M95 79 C120 106 138 128 166 141 M89 92 C116 122 142 148 164 160" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".4" stroke-linecap="round"/>
+  <!-- platform deck sits over the ladder and the top of the chute -->
+  <rect x="34" y="58" width="58" height="15" rx="6" class="c-slide"/>
+  <!-- guard rail on the platform -->
+  <path d="M40 60 V42 M64 60 V42 M36 42 H68" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 60 V42 M64 60 V42 M36 42 H68" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- soft sheen sliding down the chute -->
+  <path d="M100 84 C122 108 142 130 166 143" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
 </g>
 </svg>
