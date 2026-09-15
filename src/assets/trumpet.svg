@@ -504,6 +504,13 @@ svg {
 .c-drum { fill: var(--c-drum); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-drum-tip { fill: var(--c-egg); stroke: var(--c-line); stroke-width: 2.5; }
 .c-trumpet { fill: var(--c-trumpet); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
+.c-trumpet-tube { fill: none; stroke: var(--c-trumpet); stroke-width: 13; stroke-linecap: round; stroke-linejoin: round; }
+.c-trumpet-tube-out { fill: none; stroke: var(--c-line); stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+.c-trumpet-slide { fill: none; stroke: var(--c-trumpet); stroke-width: 11; stroke-linecap: round; stroke-linejoin: round; }
+.c-trumpet-slide-out { fill: none; stroke: var(--c-line); stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }
+.c-trumpet-mouth { fill: var(--c-tip); stroke: var(--c-line); stroke-width: 2.5; }
+.c-trumpet-inner { fill: var(--c-orange); }
+.c-trumpet-wave { fill: none; stroke: var(--c-line); stroke-width: 4; stroke-linecap: round; opacity: .55; }
 .c-violin { fill: var(--c-violin); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-tambourine { fill: var(--c-tambourine); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-jingle { fill: var(--c-star); }
@@ -562,9 +569,50 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="176" rx="56" ry="7"/>
-  <path d="M32 95 H111 Q123 95 129 86 L143 69" fill="none" stroke="var(--c-trumpet)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M120 84 Q143 77 165 83 L165 117 Q143 123 120 116 Z" class="c-trumpet"/><ellipse cx="164" cy="100" rx="10" ry="22" class="c-trumpet"/>
-  <circle cx="31" cy="95" r="8" class="c-tip"/><path d="M82 95 V72 M99 95 V72 M116 95 V76" fill="none" stroke="var(--c-tip)" stroke-width="7" stroke-linecap="round"/><circle cx="82" cy="69" r="5" class="c-egg"/><circle cx="99" cy="69" r="5" class="c-egg"/><circle cx="116" cy="73" r="5" class="c-egg"/>
-  <path d="M173 70 Q188 78 190 91 M178 56 Q196 65 199 80" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(3,12) scale(.94)" stroke-linecap="round" stroke-linejoin="round">
+  <path class="c-trumpet-slide-out" d="M106 92 V108 Q106 114 114 114 Q122 114 122 108 V92"/><path class="c-trumpet-slide" d="M106 92 V108 Q106 114 114 114 Q122 114 122 108 V92"/>
+  <path class="c-trumpet-slide-out" d="M124 86 H132 Q146 86 146 104 V122 Q146 140 128 140 H55 Q38 140 38 123 Q38 108 54 108 H96"/>
+  <path class="c-trumpet-slide" d="M124 86 H132 Q146 86 146 104 V122 Q146 140 128 140 H55 Q38 140 38 123 Q38 108 54 108 H96"/>
+  <path d="M45 124 Q45 137 56 137 H125" fill="none" stroke="var(--c-hi)" stroke-width="3"/>
+  <!-- Slide sleeves, brace, and water key. -->
+  <g class="c-trumpet">
+    <rect x="60" y="133" width="7" height="14" rx="2"/>
+    <rect x="120" y="133" width="7" height="14" rx="2"/>
+    <rect x="109" y="120" width="5" height="13" rx="2"/>
+  </g>
+  <path d="M133 145 L142 149 L147 143" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+  <ellipse class="c-trumpet" cx="147" cy="142" rx="4" ry="2.5"/>
+  <path class="c-trumpet-tube-out" d="M22 86 H138"/><path class="c-trumpet-tube" d="M22 86 H138"/>
+  <path d="M33 82 H119" fill="none" stroke="var(--c-hi)" stroke-width="2.5"/>
+  <rect class="c-trumpet" x="33" y="78" width="6" height="16" rx="2"/>
+  <path class="c-trumpet" d="M121 79 C145 78 158 68 170 49 L170 123 C158 104 145 94 121 93 Z"/>
+  <path d="M124 89 C145 90 157 99 167 114 L166 105 C151 91 139 87 124 87 Z" fill="var(--c-tip)" opacity=".18"/>
+  <path d="M129 83 C145 81 154 76 161 68" fill="none" stroke="var(--c-hi)" stroke-width="4"/>
+  <ellipse class="c-trumpet" cx="170" cy="86" rx="11" ry="37"/>
+  <ellipse class="c-trumpet-mouth" cx="172" cy="86" rx="6.5" ry="29"/>
+  <path d="M172 64 Q179 86 172 108" fill="none" stroke="var(--c-orange)" stroke-width="3"/>
+  <path d="M168 54 C158 65 158 104 168 118" fill="none" stroke="var(--c-hi)" stroke-width="2.5"/>
+  <path d="M172 61 Q168 70 168 83" fill="none" stroke="var(--c-trumpet)" stroke-width="1.5" opacity=".65"/>
+  <path class="c-egg" d="M12 78 H18 L25 82 H31 V90 H25 L18 94 H12 Z"/>
+  <rect class="c-egg" x="10" y="77" width="6" height="18" rx="3"/>
+  <rect class="c-trumpet" x="47.5" y="76" width="13" height="38" rx="6"/><rect class="c-trumpet" x="68.5" y="76" width="13" height="38" rx="6"/><rect class="c-trumpet" x="89.5" y="76" width="13" height="38" rx="6"/>
+  <rect class="c-trumpet" x="50" y="58" width="8" height="22" rx="3"/><rect class="c-trumpet" x="71" y="58" width="8" height="22" rx="3"/><rect class="c-trumpet" x="92" y="58" width="8" height="22" rx="3"/>
+  <rect class="c-egg" x="46" y="51" width="16" height="7" rx="3.5"/>
+  <rect class="c-egg" x="67" y="51" width="16" height="7" rx="3.5"/>
+  <rect class="c-egg" x="88" y="51" width="16" height="7" rx="3.5"/>
+  <!-- Pearl button insets and machined valve collars. -->
+  <path d="M50 53.5 H58 M71 53.5 H79 M92 53.5 H100" fill="none" stroke="var(--c-hi)" stroke-width="2"/>
+  <g class="c-trumpet" stroke-width="1.5">
+    <rect x="47" y="75" width="14" height="5" rx="2"/>
+    <rect x="68" y="75" width="14" height="5" rx="2"/>
+    <rect x="89" y="75" width="14" height="5" rx="2"/>
+    <rect x="48" y="109" width="12" height="6" rx="2"/>
+    <rect x="69" y="109" width="12" height="6" rx="2"/>
+    <rect x="90" y="109" width="12" height="6" rx="2"/>
+  </g>
+  <path d="M52 84 V103 M73 84 V103 M94 84 V103 M53 62 V70 M74 62 V70 M95 62 V70" fill="none" stroke="var(--c-hi)" stroke-width="2.5"/>
+  <path d="M57 85 V104 M78 85 V104 M99 85 V104" fill="none" stroke="var(--c-tip)" stroke-width="1.5" opacity=".25"/>
+  <path class="c-trumpet-wave" d="M189 74 Q195 86 189 98 M196 64 Q207 86 196 108"/>
+  </g>
 </g>
 </svg>
