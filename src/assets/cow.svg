@@ -561,15 +561,51 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="102" cy="178" rx="68" ry="7" class="shadow" />
-  <path d="M48 104 Q48 82 72 78 Q88 62 116 76 Q142 78 150 104 L148 138 Q140 158 112 162 H76 Q52 154 48 132 Z" class="c-cow" />
-  <path d="M50 92 L28 72 L40 110 Z M132 84 L158 68 L150 108 Z" class="c-cow" />
-  <path d="M66 84 Q52 102 64 118 Q78 112 84 94 Z M118 82 Q130 98 124 114 Q138 116 144 96 Z" class="c-cow-spot" />
-  <path d="M64 132 V178 H78 V140 M112 142 V178 H126 V138" class="c-cow" />
-  <path d="M146 122 Q168 112 174 126 Q166 138 148 134" class="c-cow" />
-  <ellipse cx="160" cy="128" rx="17" ry="13" class="c-cow-muzzle" />
-  <circle cx="157" cy="127" r="2.5" class="c-eyes" /><circle cx="167" cy="127" r="2.5" class="c-eyes" /><circle cx="114" cy="98" r="4" class="c-eyes" />
-  <path d="M82 98 Q92 88 102 98" class="c-eyeline" /><ellipse cx="80" cy="84" rx="10" ry="6" class="hi" />
-  <path d="M76 158 Q88 168 102 160" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".5" />
+  <ellipse cx="100" cy="182" rx="62" ry="7.5" class="shadow" />
+  <!-- tufted tail, attached at the rump -->
+  <path d="M54 124 C44 136 38 148 37 160" fill="none" stroke="var(--c-cow)" stroke-width="8" stroke-linecap="round" />
+  <path d="M54 124 C44 136 38 148 37 160" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".4" />
+  <ellipse cx="37" cy="167" rx="7" ry="9.5" class="c-cow-spot" />
+  <!-- far legs -->
+  <rect x="52" y="136" width="17" height="44" rx="8" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="2.5" opacity=".72" />
+  <rect x="108" y="134" width="17" height="44" rx="8" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="2.5" opacity=".72" />
+  <path d="M52 170 h17 v4 q0 6 -8.5 6 q-8.5 0 -8.5 -6 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2" opacity=".72" />
+  <path d="M108 168 h17 v4 q0 6 -8.5 6 q-8.5 0 -8.5 -6 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2" opacity=".72" />
+  <!-- far ear, flapping out to the left -->
+  <path d="M112 70 C102 62 92 60 86 66 C88 74 100 78 110 76 Z" class="c-cow" opacity=".72" />
+  <!-- horns -->
+  <path d="M114 66 C105 60 101 50 105 42" class="c-horn" stroke-width="4.5" />
+  <path d="M134 62 C143 56 147 46 143 38" class="c-horn" stroke-width="4.5" />
+  <!-- near legs -->
+  <rect x="72" y="140" width="18" height="40" rx="8" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="2.5" />
+  <rect x="128" y="138" width="18" height="42" rx="8" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="2.5" />
+  <path d="M72 169 h18 v5 q0 6 -9 6 q-9 0 -9 -6 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.5" />
+  <path d="M128 169 h18 v5 q0 6 -9 6 q-9 0 -9 -6 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.5" />
+  <!-- fused head + body -->
+  <path d="M148 104
+           C152 88 146 72 130 66
+           C112 60 98 70 90 82
+           C74 92 58 102 50 118
+           C42 134 44 148 58 152
+           C76 160 104 160 120 150
+           C136 140 146 124 148 104 Z" class="c-cow" />
+  <!-- forehead tuft between the horns -->
+  <path d="M116 62 Q122 54 128 62 Q134 54 140 60 Q136 66 128 66 Q120 66 116 62 Z" class="c-hair" />
+  <!-- big dark spots -->
+  <path d="M64 104 C74 94 90 96 94 110 C98 124 86 136 72 134 C58 132 54 116 64 104 Z" class="c-cow-spot" />
+  <path d="M112 126 C122 120 134 126 132 136 C130 146 116 148 110 140 C105 133 106 129 112 126 Z" class="c-cow-spot" />
+  <!-- udder with two teats -->
+  <path d="M78 150 C78 164 88 170 96 170 C104 170 112 164 112 150 Z" class="c-cow-muzzle" />
+  <ellipse cx="88" cy="169" rx="3.6" ry="6" class="c-cow-muzzle" />
+  <ellipse cx="103" cy="169" rx="3.6" ry="6" class="c-cow-muzzle" />
+  <!-- near ear, flapping out to the right -->
+  <path d="M136 62 C146 54 158 54 162 60 C160 70 148 74 138 72 Z" class="c-cow" />
+  <path d="M140 63 C147 59 155 59 158 62 C156 67 149 70 142 69 Z" class="c-cheek" />
+  <!-- muzzle + face -->
+  <ellipse cx="146" cy="118" rx="19.5" ry="14.5" class="c-cow-muzzle" />
+  <circle cx="140" cy="116" r="2.8" class="c-eyes" /><circle cx="153" cy="116" r="2.8" class="c-eyes" />
+  <circle cx="116" cy="88" r="4.5" class="c-eyes" /><circle cx="137" cy="86" r="4.5" class="c-eyes" />
+  <path d="M114 108 Q124 116 134 106" class="c-eyeline" />
+  <ellipse cx="84" cy="94" rx="12" ry="6" class="hi" />
 </g>
 </svg>

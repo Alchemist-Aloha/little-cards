@@ -561,14 +561,37 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="180" rx="58" ry="7" class="shadow" />
-  <path d="M46 126 Q36 108 50 94 Q42 72 66 72 Q76 50 98 62 Q118 46 130 70 Q156 66 154 92 Q172 104 154 124 Q150 154 126 160 H72 Q50 154 46 126 Z" class="c-cow" />
-  <ellipse cx="106" cy="110" rx="34" ry="42" class="c-sheep-face" />
-  <path d="M72 92 Q54 84 50 100 Q56 112 72 108 M140 92 Q158 84 162 100 Q156 112 140 108" class="c-sheep-face" />
-  <circle cx="94" cy="102" r="4" class="c-eyes" /><circle cx="118" cy="102" r="4" class="c-eyes" />
-  <ellipse cx="106" cy="120" rx="9" ry="6" class="c-pink" /><path d="M106 126 Q98 134 92 128 M106 126 Q114 134 120 128" class="c-eyeline" />
-  <path d="M68 150 V178 H80 V152 M116 152 V178 H128 V150" class="c-sheep-face" />
-  <ellipse cx="80" cy="76" rx="10" ry="6" class="hi" />
-  <path d="M58 126 Q70 138 84 134 M128 136 Q142 140 150 126" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".4" />
+  <ellipse cx="100" cy="182" rx="58" ry="7" class="shadow" />
+  <!-- woolly tail puff at the rear -->
+  <path d="M61.1 145.4 A8.5 8.5 0 0 1 51.2 149.5 A8.5 8.5 0 0 1 42.1 144.1 A8.5 8.5 0 0 1 42.9 134.6 A8.5 8.5 0 0 1 52.8 130.5 A8.5 8.5 0 0 1 61.9 135.9 A8.5 8.5 0 0 1 61.1 145.4 Z" class="c-cow" />
+  <!-- slender dark legs with hooves -->
+  <rect x="72" y="140" width="12" height="38" rx="6" fill="var(--c-sheep-face)" stroke="var(--c-line)" stroke-width="2.2" opacity=".75" />
+  <rect x="112" y="138" width="12" height="38" rx="6" fill="var(--c-sheep-face)" stroke="var(--c-line)" stroke-width="2.2" opacity=".75" />
+  <rect x="72" y="169" width="12" height="10" rx="3" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.2" opacity=".75" />
+  <rect x="112" y="167" width="12" height="10" rx="3" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.2" opacity=".75" />
+  <rect x="88" y="144" width="13" height="34" rx="6.5" fill="var(--c-sheep-face)" stroke="var(--c-line)" stroke-width="2.2" />
+  <rect x="128" y="142" width="13" height="36" rx="6.5" fill="var(--c-sheep-face)" stroke="var(--c-line)" stroke-width="2.2" />
+  <rect x="88" y="169" width="13" height="10" rx="3" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.2" />
+  <rect x="128" y="169" width="13" height="10" rx="3" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.2" />
+  <!-- heavy fleece, a bumpy cloud outline -->
+  <path d="M144.0 114.0 A16.0 16.0 0 0 1 138.7 130.7 A16.0 16.0 0 0 1 124.1 143.6 A16.0 16.0 0 0 1 103.5 149.7 A16.0 16.0 0 0 1 81.7 147.7 A16.0 16.0 0 0 1 63.6 137.9 A16.0 16.0 0 0 1 53.3 122.6 A16.0 16.0 0 0 1 53.3 105.4 A16.0 16.0 0 0 1 63.6 90.1 A16.0 16.0 0 0 1 81.7 80.3 A16.0 16.0 0 0 1 103.5 78.3 A16.0 16.0 0 0 1 124.1 84.4 A16.0 16.0 0 0 1 138.7 97.3 A16.0 16.0 0 0 1 144.0 114.0 Z" class="c-cow" />
+  <path d="M66 108 Q74 100 84 106 M110 92 Q120 86 130 92 M70 138 Q80 132 90 138" fill="none" stroke="var(--c-line)" stroke-width="2.4" stroke-linecap="round" opacity=".22" />
+  <!-- far ear, tipped up beside the head -->
+  <path d="M136 92 C128 82 120 76 114 78 C116 88 126 96 136 96 Z" class="c-sheep-face" />
+  <!-- dark head -->
+  <ellipse cx="146" cy="108" rx="21" ry="23" class="c-sheep-face" />
+  <!-- near ear -->
+  <path d="M160 96 C170 88 178 86 182 92 C178 101 166 106 158 102 Z" class="c-sheep-face" />
+  <path d="M162 97 C169 92 175 91 178 94 C175 99 167 102 161 100 Z" fill="var(--c-pink)" opacity=".5" />
+  <!-- muzzle, nostrils, mouth -->
+  <ellipse cx="147" cy="119" rx="10.5" ry="8.5" fill="var(--c-line)" />
+  <circle cx="143" cy="117" r="2.6" class="c-eyes" /><circle cx="151" cy="117" r="2.6" class="c-eyes" />
+  <path d="M139 127 Q147 134 155 126" class="c-eyeline" />
+  <!-- eyes -->
+  <circle cx="137" cy="100" r="6" fill="var(--c-egg)" /><circle cx="155" cy="98" r="6" fill="var(--c-egg)" />
+  <circle cx="137" cy="100" r="3" class="c-eyes" /><circle cx="155" cy="98" r="3" class="c-eyes" />
+  <!-- woolly forelock over the brow -->
+  <path d="M156.2 84.7 A9.5 9.5 0 0 1 143.8 90.8 A9.5 9.5 0 0 1 127.5 88.1 A9.5 9.5 0 0 1 123.8 79.3 A9.5 9.5 0 0 1 136.2 73.2 A9.5 9.5 0 0 1 152.5 75.9 A9.5 9.5 0 0 1 156.2 84.7 Z" class="c-cow" />
+  <ellipse cx="78" cy="96" rx="12" ry="6" class="hi" />
 </g>
 </svg>

@@ -561,14 +561,37 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="104" cy="178" rx="66" ry="7" class="shadow" />
-  <path d="M50 112 Q40 94 52 76 L70 88 Q88 72 116 80 Q142 86 150 110 Q166 108 172 120 Q164 132 148 128 Q140 158 116 162 H78 Q54 154 50 132 Z" class="c-pig" />
-  <path d="M62 92 L50 62 L78 78 Z M126 84 L146 58 L148 92 Z" class="c-pig" />
-  <ellipse cx="146" cy="119" rx="22" ry="17" class="c-cow-muzzle" />
-  <circle cx="140" cy="117" r="3" class="c-eyes" /><circle cx="153" cy="117" r="3" class="c-eyes" />
-  <circle cx="110" cy="103" r="4" class="c-eyes" />
-  <path d="M92 160 V178 H106 V160 M120 160 V178 H134 V158" class="c-pig" />
-  <path d="M52 112 Q30 106 34 92 Q50 94 58 104" fill="none" stroke="var(--c-pig)" stroke-width="8" stroke-linecap="round" />
-  <path d="M78 98 Q88 90 98 98" class="c-eyeline" /><ellipse cx="82" cy="88" rx="10" ry="6" class="hi" />
+  <ellipse cx="100" cy="182" rx="58" ry="7" class="shadow" />
+  <path d="M98 84 C88 72 90 56 104 52 C114 58 114 74 108 86 Z" class="c-pig" opacity=".7" />
+  <!-- far legs -->
+  <rect x="52" y="138" width="17" height="40" rx="8" fill="var(--c-pig)" stroke="var(--c-line)" stroke-width="2.5" opacity=".7" />
+  <rect x="106" y="136" width="17" height="40" rx="8" fill="var(--c-pig)" stroke="var(--c-line)" stroke-width="2.5" opacity=".7" />
+  <path d="M52 170 h17 v4 q0 5 -8.5 5 q-8.5 0 -8.5 -5 z" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2" opacity=".7" />
+  <path d="M106 168 h17 v4 q0 5 -8.5 5 q-8.5 0 -8.5 -5 z" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2" opacity=".7" />
+  <!-- curly tail at the rump -->
+  <path d="M56 122 C44 128 30 122 30 111 C30 101 41 96 48 102 C54 107 52 116 45 116 C40 116 38 111 41 108"
+        fill="none" stroke="var(--c-pig)" stroke-width="6" stroke-linecap="round" />
+  <!-- near legs -->
+  <rect x="74" y="140" width="18" height="40" rx="8" fill="var(--c-pig)" stroke="var(--c-line)" stroke-width="2.5" />
+  <rect x="130" y="138" width="18" height="42" rx="8" fill="var(--c-pig)" stroke="var(--c-line)" stroke-width="2.5" />
+  <path d="M74 169 h18 v5 q0 6 -9 6 q-9 0 -9 -6 z" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5" />
+  <path d="M130 169 h18 v5 q0 6 -9 6 q-9 0 -9 -6 z" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5" />
+  <!-- fused head + body -->
+  <path d="M150 110
+           C154 92 146 72 128 68
+           C110 64 96 74 86 84
+           C70 88 56 100 50 116
+           C44 132 46 146 58 152
+           C74 160 100 160 116 152
+           C134 144 146 130 150 110 Z" class="c-pig" />
+  <path d="M112 80 C110 62 122 50 138 50 C150 54 152 64 144 72 C136 80 122 86 112 80 Z" class="c-pig" />
+  <path d="M119 78 C118 66 126 58 136 57 C140 61 139 68 134 73 C129 78 123 80 119 78 Z" class="c-cheek" />
+  <!-- flat snout disc -->
+  <ellipse cx="150" cy="112" rx="17.5" ry="14.5" class="c-cow-muzzle" />
+  <circle cx="144" cy="110" r="2.8" class="c-eyes" /><circle cx="156" cy="110" r="2.8" class="c-eyes" />
+  <!-- face -->
+  <circle cx="114" cy="88" r="4.5" class="c-eyes" /><circle cx="135" cy="85" r="4.5" class="c-eyes" />
+  <path d="M112 108 Q122 116 132 106" class="c-eyeline" />
+  <ellipse cx="84" cy="92" rx="12" ry="6" class="hi" />
 </g>
 </svg>
