@@ -560,15 +560,13 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <polygon points="100,40 140,90 100,140 60,90" class="c-kite"/>
-  <line x1="100" y1="40" x2="100" y2="140" class="c-kite-line"/>
-  <line x1="60" y1="90" x2="140" y2="90" class="c-kite-line"/>
-  <path d="M100 140 Q88 156 100 168 Q112 180 100 192" class="c-kite-line"/>
-  <circle cx="94" cy="156" r="5" class="c-yellow"/>
-  <circle cx="106" cy="168" r="5" class="c-yellow"/>
-  <circle cx="100" cy="182" r="5" class="c-yellow"/>
-  <ellipse cx="86" cy="68" rx="10" ry="14" transform="rotate(-25 86 68)" class="hi"/>
-  <path d="M92 148 Q82 154 88 162 Q94 168 100 160 Q106 168 112 162 Q118 154 108 148" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2"/>
-  <path d="M72 90 H128 M100 48 V132" fill="none" stroke="var(--c-seed)" stroke-width="2" opacity=".7"/>
-  <circle cx="100" cy="90" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="178" rx="42" ry="7"/>
+  <path d="M100 24 L151 91 L100 151 L49 91 Z" class="c-kite"/>
+  <path d="M100 24 V151 M49 91 H151" class="c-kite-line"/>
+  <path d="M100 151 Q81 166 101 176 Q120 186 101 198" class="c-kite-line"/>
+  <path d="M91 157 Q80 166 89 173 Q98 179 105 170 Q112 178 121 171 Q130 164 113 156" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M62 91 H138 M100 36 V140" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
+  <circle cx="100" cy="91" r="6" class="c-egg" stroke="var(--c-line)" stroke-width="2"/><ellipse cx="83" cy="61" rx="11" ry="18" transform="rotate(-25 83 61)" class="hi"/>
+</g>
 </svg>

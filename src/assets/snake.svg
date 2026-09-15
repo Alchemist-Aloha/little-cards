@@ -559,21 +559,12 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-      <path d="M90.6 54.4 L94.0 57.4 L97.2 60.4 L100.0 63.1 L102.5 65.8 L104.5 68.1 L106.1 70.3 L107.1 72.0 L107.7 73.3 L107.9 74.3 L108.0 75.0 L107.9 75.7 L107.7 76.7 L107.1 78.0 L106.1 79.7 L104.5 81.9 L102.5 84.2 L100.0 86.9 L97.2 89.6 L94.0 92.6 L90.6 95.6 L87.1 98.8 L83.6 102.0 L80.1 105.5 L76.7 109.0 L73.4 112.9 L70.5 116.9 L67.9 121.4 L65.8 126.3 L64.5 131.5 L64.0 137.0 L64.5 142.5 L65.8 147.7 L67.9 152.6 L70.5 157.1 L73.4 161.1 L76.7 165.0 L80.1 168.5 L83.6 172.0 L87.1 175.2 L90.6 178.4 L109.4 157.6 L106.0 154.6 L102.8 151.6 L100.0 148.9 L97.5 146.2 L95.5 143.9 L93.9 141.7 L92.9 140.0 L92.3 138.7 L92.1 137.7 L92.0 137.0 L92.1 136.3 L92.3 135.3 L92.9 134.0 L93.9 132.3 L95.5 130.1 L97.5 127.8 L100.0 125.1 L102.8 122.4 L106.0 119.4 L109.4 116.4 L112.9 113.2 L116.4 110.0 L119.9 106.5 L123.3 103.0 L126.6 99.1 L129.5 95.1 L132.1 90.6 L134.2 85.7 L135.5 80.5 L136.0 75.0 L135.5 69.5 L134.2 64.3 L132.1 59.4 L129.5 54.9 L126.6 50.9 L123.3 47.0 L119.9 43.5 L116.4 40.0 L112.9 36.8 L109.4 33.6 Z" class="c-snake"/>
-      <ellipse cx="120.9" cy="68.8" rx="9" ry="11" class="c-snake-spot"/>
-      <ellipse cx="112.9" cy="93.6" rx="9" ry="11" class="c-snake-spot"/>
-      <ellipse cx="87.1" cy="118.4" rx="9" ry="11" class="c-snake-spot"/>
-      <ellipse cx="79.1" cy="143.2" rx="9" ry="11" class="c-snake-spot"/>
-      <circle cx="100" cy="52" r="26" class="c-snake"/>
-      <circle cx="91" cy="48" r="4" class="c-eyes"/>
-      <circle cx="109" cy="48" r="4" class="c-eyes"/>
-      <path d="M100 60 Q106 66 100 70" class="c-eyeline"/>
-      <path d="M100 70 L100 80 M100 80 L95 86 M100 80 L105 86" class="c-pink"/>
-</g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45">
-        <path d="M108 58 Q114 64 120 62 M84 104 Q90 110 96 108 M76 132 Q82 138 88 136" />
-        <path d="M96 72 L90 78 M104 72 L110 78" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="176" rx="55" ry="7"/>
+    <path class="c-snake" d="M42 151 Q42 121 72 124 Q96 127 101 145 Q106 162 131 158 Q160 154 158 128 Q156 105 132 106 Q108 107 106 88 Q104 66 130 57" fill="none" stroke="var(--c-line)" stroke-width="30" stroke-linecap="round"/>
+    <path class="c-snake" d="M42 151 Q42 121 72 124 Q96 127 101 145 Q106 162 131 158 Q160 154 158 128 Q156 105 132 106 Q108 107 106 88 Q104 66 130 57" fill="none" stroke="var(--c-snake)" stroke-width="23" stroke-linecap="round"/>
+    <path class="c-snake-spot" d="M53 137 l13 -7 l8 11 l-13 8z M83 133 l13 7 l-4 11 l-13 -7z M119 151 l10 -9 l10 9 l-11 8z M143 119 l12 2 l-1 11 l-12 -2z"/>
+    <circle class="c-snake" cx="130" cy="55" r="20"/><circle class="c-eyes" cx="123" cy="51" r="4"/><circle class="c-eyes" cx="138" cy="51" r="4"/>
+    <path class="c-eyeline" d="M123 64 Q130 69 138 63"/><path d="M130 72 V83 M130 83 l-7 6 M130 83 l7 6" fill="none" stroke="var(--c-red)" stroke-width="2.5" stroke-linecap="round"/>
+  </g> </svg>

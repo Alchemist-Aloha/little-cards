@@ -561,18 +561,13 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-  <path d="M72 58 L128 58 L124 158 Q124 164 118 164 L82 164 Q76 164 76 158 Z" class="c-glass" />
-  <path d="M76 86 L124 86 L121 157 L79 157 Z" class="c-lemonade" />
-  <circle cx="72" cy="56" r="13" class="c-lemon" />
-  <ellipse cx="72" cy="56" rx="3" ry="6" class="c-seed" />
-  <path d="M72 46 V66 M62 56 H82" class="c-lemon-line" />
-  <circle cx="128" cy="56" r="13" class="c-lemon" />
-  <ellipse cx="128" cy="56" rx="3" ry="6" class="c-seed" />
-  <path d="M128 46 V66 M118 56 H138" class="c-lemon-line" />
-  <path d="M84 74 V150" class="c-milk-shine" />
-  <ellipse cx="88" cy="84" rx="6" ry="10" transform="rotate(-18 88 84)" class="hi" />
-  <path d="M78 94 Q100 100 122 94" class="c-ridge" />
-  <rect x="86" y="110" width="12" height="10" rx="2" class="c-blue" opacity=".65" /><rect x="106" y="126" width="12" height="10" rx="2" class="c-blue" opacity=".65" />
+  <ellipse class="shadow" cx="100" cy="176" rx="50" ry="7" />
+  <path d="M58 58 Q100 66 142 58 L134 160 Q100 174 66 160 Z" class="c-glass" />
+  <path d="M64 90 Q100 100 136 90 L130 156 Q100 166 70 156 Z" class="c-lemonade" />
+  <path d="M62 58 A17 17 0 0 0 94 58" class="c-lemon" /><path d="M106 58 A17 17 0 0 0 138 58" class="c-lemon" />
+  <path d="M78 58 V82 M62 70 H94 M122 58 V82 M106 70 H138" class="c-lemon-line" />
+  <rect x="78" y="110" width="14" height="12" rx="2" class="c-blue" opacity=".7" transform="rotate(12 85 116)" /><rect x="108" y="128" width="14" height="12" rx="2" class="c-blue" opacity=".7" transform="rotate(-10 115 134)" />
+  <circle cx="96" cy="112" r="3" class="c-bubble" /><circle cx="88" cy="142" r="2.5" class="c-bubble" />
+  <path d="M78 76 V150" class="c-milk-shine" /><ellipse cx="82" cy="84" rx="7" ry="11" transform="rotate(-18 82 84)" class="hi" />
 </g>
 </svg>

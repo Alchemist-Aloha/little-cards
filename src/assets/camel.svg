@@ -559,24 +559,13 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-      <path d="M60 86
-               C 70 60 100 52 132 64
-               C 158 74 168 100 162 126
-               C 158 150 138 162 116 160
-               C 96 158 86 146 80 132
-               C 74 118 64 110 60 100 Z" class="c-camel"/>
-      <circle cx="56" cy="78" r="22" class="c-camel"/>
-      <path d="M52 60 Q46 48 58 52" class="c-camel"/>
-      <path d="M48 54 L42 42 L54 48 Z" class="c-hair"/>
-      <path d="M56 56 L52 42 L64 50 Z" class="c-hair"/>
-      <circle cx="50" cy="74" r="5" class="c-eyes"/>
-      <ellipse cx="44" cy="90" rx="9" ry="6" class="c-tip"/>
-      <path d="M38 102 Q46 110 56 104" class="c-eyeline"/>
-</g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M72 70 Q84 60 94 70 M112 62 Q124 54 136 66" />
-        <path d="M40 86 Q48 92 56 88" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="177" rx="57" ry="7"/>
+    <path class="c-camel" d="M36 133 Q39 110 59 103 Q68 100 75 104 Q72 79 82 69 Q91 60 100 71 Q109 57 120 69 Q129 78 126 104 Q138 99 149 105 Q165 114 166 137 L155 151 L51 151 Q37 147 36 133 Z"/>
+    <path class="c-camel" d="M59 104 Q47 85 53 64 Q58 49 73 52 L83 63 Q74 78 75 103 Z"/>
+    <circle class="c-camel" cx="57" cy="56" r="18"/><path class="c-hair" d="M46 45 L42 32 L53 40 L60 29 L65 43"/>
+    <circle class="c-eyes" cx="52" cy="54" r="4"/><ellipse class="c-tip" cx="47" cy="66" rx="9" ry="5"/>
+    <path class="c-camel" d="M65 145 V171 Q65 177 75 177 Q81 174 78 166 L81 148 M127 148 L130 166 Q127 174 135 177 Q145 177 143 171 V145"/>
+    <path d="M88 67 Q94 80 100 68 M108 68 Q114 80 120 68" fill="none" stroke="var(--c-tip)" stroke-width="5" stroke-linecap="round"/>
+  </g> </svg>

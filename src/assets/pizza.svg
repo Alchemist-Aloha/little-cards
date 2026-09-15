@@ -560,21 +560,9 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g>
-
-      <ellipse cx="100" cy="172" rx="64" ry="7" class="shadow" />
-      <circle cx="100" cy="100" r="74" class="c-pizza" />
-      <circle cx="100" cy="100" r="60" class="c-pizza-cheese" />
-      <circle cx="76" cy="80" r="11" class="c-pizza-pep" />
-      <circle cx="124" cy="80" r="11" class="c-pizza-pep" />
-      <circle cx="100" cy="100" r="11" class="c-pizza-pep" />
-      <circle cx="76" cy="122" r="11" class="c-pizza-pep" />
-      <circle cx="124" cy="122" r="11" class="c-pizza-pep" />
-      <circle cx="100" cy="64" r="4.5" class="c-stem2" />
-      <circle cx="100" cy="136" r="4.5" class="c-stem2" />
-      <ellipse cx="78" cy="74" rx="10" ry="15" transform="rotate(-24 78 74)" class="hi" />
-      <path d="M100 42 V158 M42 100 H158" class="c-pizza-cheese" opacity=".45" fill="none" stroke="var(--c-line)" stroke-width="2" />
-      <circle cx="90" cy="90" r="3" class="c-leaf" /><circle cx="112" cy="112" r="3" class="c-leaf" /><circle cx="84" cy="132" r="2.5" class="c-leaf" />
-
-</g>
+<ellipse cx="100" cy="170" rx="56" ry="7" class="shadow"/>
+  <path d="M49 56 L155 147 Q160 152 153 155 L51 154 Q44 153 49 146Z" fill="var(--c-pizza)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M49 56 Q59 47 70 53 L155 147 Q160 152 153 155" fill="var(--c-cheese)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="92" cy="103" r="10" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><circle cx="119" cy="125" r="9" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><circle cx="72" cy="128" r="8" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M63 63 L143 145" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".6"/>
 </svg>

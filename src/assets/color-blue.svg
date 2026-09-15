@@ -176,10 +176,9 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="164" rx="38" ry="7" class="shadow"/>
-  <path class="c-blue blob" d="M100 74 C 126 62 156 72 160 98 C 164 124 140 148 113 149 C 88 150 63 138 58 112 C 54 88 76 84 100 74 Z"/>
-  <path class="c-blue blob" d="M166 50 C 160 58 160 66 166 70 C 172 66 172 58 166 50 Z"/>
-  <ellipse cx="84" cy="98" rx="9" ry="13" transform="rotate(-24 84 98)" class="hi"/>
-  <path d="M68 118 Q100 143 140 119 M74 88 Q100 76 132 87" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".28" stroke-linecap="round"/>
-  <circle cx="132" cy="116" r="4" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+<ellipse cx="100" cy="171" rx="43" ry="7" class="shadow"/>
+  <path d="M100 42 C100 42 53 96 53 125 C53 151 74 166 100 166 C126 166 147 151 147 125 C147 96 100 42 100 42Z" class="c-blue" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 57 C88 76 69 100 67 120" fill="none" stroke="var(--c-hi)" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <path d="M72 137 Q100 157 128 137" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+  <circle cx="119" cy="126" r="5" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

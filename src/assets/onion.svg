@@ -561,14 +561,12 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M100 44 C140 44 156 80 156 112 C156 146 130 168 100 168 C70 168 44 146 44 112 C44 80 60 44 100 44 Z" class="c-onion" />
-      <path d="M64 100 C80 80 120 80 136 100" class="c-onion-line" />
-      <path d="M58 122 C80 100 120 100 142 122" class="c-onion-line" />
-      <path d="M92 168 L88 180 M100 168 L100 182 M108 168 L112 180" class="c-whisker" />
-      <path d="M100 44 C98 30 96 22 100 18 C104 22 102 30 100 44 Z" class="c-leaf" />
-      <ellipse cx="78" cy="92" rx="9" ry="14" transform="rotate(-22 78 92)" class="hi" />
-      <path d="M76 74 Q88 90 82 122 M124 74 Q112 90 118 122" class="c-ridge" />
-      <circle cx="70" cy="126" r="2" class="c-freckle" /><circle cx="130" cy="132" r="2" class="c-freckle" /><circle cx="100" cy="148" r="1.8" class="c-freckle" />
+  <ellipse cx="100" cy="176" rx="45" ry="7" class="shadow" />
+  <path d="M100 48 C126 48 148 74 152 110 C156 144 134 170 100 170 C66 170 44 144 48 110 C52 74 74 48 100 48 Z" class="c-onion" />
+  <path d="M100 48 Q96 30 100 20 Q104 30 100 48 Z" class="c-leaf" />
+  <path d="M65 94 Q82 78 100 94 Q118 78 135 94 M56 120 Q78 102 100 120 Q122 102 144 120 M66 144 Q84 128 100 144 Q116 128 134 144" class="c-onion-line" />
+  <path d="M78 68 Q90 90 84 128 M122 68 Q110 90 116 128 M100 52 V158" class="c-ridge" />
+  <path d="M88 170 L84 182 M100 170 V184 M112 170 L116 182" class="c-whisker" />
+  <ellipse cx="74" cy="82" rx="9" ry="14" transform="rotate(-22 74 82)" class="hi" />
 </g>
 </svg>

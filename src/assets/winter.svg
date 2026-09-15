@@ -560,16 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse class="shadow" cx="100" cy="172" rx="40" ry="7"/>
-<path class="c-tree-trunk" d="M92 172 C94 140 90 120 88 104 L112 104 C108 122 106 142 110 172 Z"/>
-<path class="c-tree-trunk" d="M96 118 L80 100 M104 116 L122 98" fill="none" stroke-width="6" stroke-linecap="round"/>
-<g class="c-cloud">
-<ellipse cx="100" cy="76" rx="44" ry="24"/><circle cx="68" cy="64" r="18"/><circle cx="100" cy="54" r="20"/><circle cx="132" cy="64" r="18"/>
-</g>
-<g fill="none" class="c-snowflake">
-<path d="M40 130 v14 M34 137 h12 M158 122 v14 M152 129 h12 M96 150 v14 M90 157 h12 M146 156 v12 M141 162 h10"/>
-</g>
-<circle cx="58" cy="142" r="3" class="c-cloud"/><circle cx="132" cy="140" r="3" class="c-cloud"/><circle cx="176" cy="146" r="3" class="c-cloud"/>
-  <path d="M88 104 Q100 112 112 104" fill="none" stroke="var(--c-cloud)" stroke-width="4" opacity=".75" stroke-linecap="round"/>
-  <path d="M78 150 l-6 8 M122 150 l6 8 M92 158 l-4 7 M108 158 l4 7" fill="none" stroke="var(--c-cloud)" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
+<ellipse cx="100" cy="180" rx="77" ry="7" fill="var(--c-shadow)"/><path d="M24 166 Q57 151 91 165 Q126 180 176 161 V176 H24Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><circle cx="100" cy="127" r="29" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><circle cx="100" cy="78" r="22" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><path d="M76 105 H124" stroke="var(--c-tomato)" stroke-width="8"/><path d="M82 73 Q100 60 118 73" fill="none" stroke="var(--c-cloth-blue)" stroke-width="7"/><circle cx="92" cy="78" r="3" fill="var(--c-eyes)"/><circle cx="108" cy="78" r="3" fill="var(--c-eyes)"/><path d="M96 87 H104" stroke="var(--c-line)" stroke-width="2.5"/><path d="M87 124 H93 M107 124 H113" stroke="var(--c-eyes)" stroke-width="4" stroke-linecap="round"/><path d="M95 137 H105" stroke="var(--c-line)" stroke-width="3"/><path d="M67 125 L45 112 M133 125 L155 112 M73 151 L53 164 M127 151 L147 164" stroke="var(--c-hair)" stroke-width="5" stroke-linecap="round"/><path d="M37 54 L43 65 L55 66 L46 74 L49 86 L39 79 L29 86 L32 74 L23 66 L35 65Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/><path d="M161 98 l5 9 10 1-8 7 2 10-9-5-9 5 2-10-8-7 10-1Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
 </svg>

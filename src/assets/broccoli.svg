@@ -561,21 +561,12 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <rect x="86" y="118" width="28" height="50" rx="12" class="c-mushroom" />
-      <circle cx="100" cy="80" r="30" class="c-broccoli" />
-      <circle cx="74" cy="88" r="22" class="c-broccoli" />
-      <circle cx="126" cy="88" r="22" class="c-broccoli" />
-      <circle cx="86" cy="62" r="20" class="c-broccoli" />
-      <circle cx="116" cy="62" r="20" class="c-broccoli" />
-      <circle cx="100" cy="56" r="20" class="c-broccoli" />
-      <circle cx="90" cy="72" r="3" class="c-dimple" />
-      <circle cx="108" cy="74" r="3" class="c-dimple" />
-      <circle cx="78" cy="84" r="2.5" class="c-dimple" />
-      <circle cx="122" cy="84" r="2.5" class="c-dimple" />
-      <circle cx="100" cy="96" r="3" class="c-dimple" />
-      <ellipse cx="86" cy="62" rx="7" ry="10" transform="rotate(-20 86 62)" class="hi" />
-      <path d="M100 118 V160 M100 136 L90 148 M100 136 L110 148" class="c-ridge" />
-      <circle cx="68" cy="94" r="2.5" class="c-dimple" /><circle cx="132" cy="104" r="2.5" class="c-dimple" /><circle cx="104" cy="52" r="2.5" class="c-dimple" />
+  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
+  <path d="M84 112 Q78 128 82 168 Q100 178 118 168 Q122 128 116 112 Z" class="c-mushroom" />
+  <path d="M42 108 Q38 88 56 80 Q52 58 76 60 Q88 35 106 54 Q124 34 135 61 Q160 60 155 84 Q173 92 158 112 Q142 126 120 120 Q100 134 80 120 Q58 126 42 108 Z" class="c-broccoli" />
+  <path d="M70 76 Q78 92 72 108 M98 64 Q100 86 96 116 M128 72 Q120 92 126 110" class="c-ridge" />
+  <circle cx="72" cy="78" r="3" class="c-dimple" /><circle cx="103" cy="70" r="3" class="c-dimple" /><circle cx="136" cy="86" r="3" class="c-dimple" />
+  <ellipse cx="78" cy="65" rx="8" ry="11" transform="rotate(-20 78 65)" class="hi" />
+  <path d="M100 120 V164 M100 140 L90 154 M100 140 L110 154" class="c-ridge" />
 </g>
 </svg>

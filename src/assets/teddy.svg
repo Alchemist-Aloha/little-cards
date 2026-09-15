@@ -560,26 +560,17 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <ellipse cx="100" cy="174" rx="44" ry="7" class="shadow"/>
-  <ellipse cx="100" cy="142" rx="40" ry="38" class="c-teddy"/>
-  <ellipse cx="100" cy="146" rx="22" ry="26" class="c-teddy-tummy"/>
-  <ellipse cx="78" cy="176" rx="15" ry="14" class="c-teddys-limb"/>
-  <ellipse cx="122" cy="176" rx="15" ry="14" class="c-teddys-limb"/>
-  <ellipse cx="56" cy="138" rx="14" ry="18" transform="rotate(20 56 138)" class="c-teddys-limb"/>
-  <ellipse cx="144" cy="138" rx="14" ry="18" transform="rotate(-20 144 138)" class="c-teddys-limb"/>
-  <circle cx="62" cy="46" r="20" class="c-teddy"/>
-  <circle cx="138" cy="46" r="20" class="c-teddy"/>
-  <circle cx="62" cy="46" r="10" class="c-egg"/>
-  <circle cx="138" cy="46" r="10" class="c-egg"/>
-  <circle cx="100" cy="82" r="50" class="c-teddy"/>
-  <ellipse cx="100" cy="96" rx="22" ry="16" class="c-potato"/>
-  <circle cx="82" cy="74" r="5.5" class="c-eyes"/>
-  <circle cx="118" cy="74" r="5.5" class="c-eyes"/>
-  <ellipse cx="100" cy="90" rx="5" ry="4" class="c-teddy-nose"/>
-  <path d="M100 95 Q100 106 90 108 M100 95 Q100 106 110 108" class="c-eyeline"/>
-  <ellipse cx="68" cy="90" rx="8" ry="6" class="c-cheek"/>
-  <ellipse cx="132" cy="90" rx="8" ry="6" class="c-cheek"/>
-  <path d="M84 146 Q100 154 116 146" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="78" cy="172" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
-  <circle cx="122" cy="172" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="176" rx="50" ry="7"/>
+  <ellipse cx="100" cy="132" rx="44" ry="42" class="c-teddy"/>
+  <ellipse cx="100" cy="141" rx="24" ry="27" class="c-teddy-tummy"/>
+  <ellipse cx="57" cy="132" rx="15" ry="24" transform="rotate(25 57 132)" class="c-teddys-limb"/>
+  <ellipse cx="143" cy="132" rx="15" ry="24" transform="rotate(-25 143 132)" class="c-teddys-limb"/>
+  <ellipse cx="76" cy="172" rx="18" ry="13" class="c-teddys-limb"/><ellipse cx="124" cy="172" rx="18" ry="13" class="c-teddys-limb"/>
+  <circle cx="68" cy="48" r="22" class="c-teddy"/><circle cx="132" cy="48" r="22" class="c-teddy"/>
+  <circle cx="68" cy="48" r="10" class="c-teddy-tummy"/><circle cx="132" cy="48" r="10" class="c-teddy-tummy"/>
+  <circle cx="100" cy="82" r="48" class="c-teddy"/><ellipse cx="100" cy="97" rx="24" ry="17" class="c-potato"/>
+  <circle cx="83" cy="76" r="6" class="c-eyes"/><circle cx="117" cy="76" r="6" class="c-eyes"/><circle cx="100" cy="92" r="6" class="c-teddy-nose"/>
+  <path d="M100 98 V110 M100 109 Q89 116 84 108 M100 109 Q111 116 116 108" class="c-eyeline"/>
+</g>
 </svg>

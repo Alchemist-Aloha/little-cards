@@ -560,16 +560,8 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g>
-      <ellipse cx="100" cy="100" rx="64" ry="13" class="c-cloud" />
-      <circle cx="68" cy="86" r="26" class="c-cloud" />
-      <circle cx="100" cy="70" r="33" class="c-cloud" />
-      <circle cx="133" cy="86" r="26" class="c-cloud" />
-      <circle cx="100" cy="98" r="24" class="c-cloud" />
-      <circle cx="88" cy="84" r="3.2" class="c-eyes" />
-      <circle cx="112" cy="84" r="3.2" class="c-eyes" />
-      <path d="M89 94 Q100 103 111 94" class="c-eyeline" />
-    </g>
-      <path d="M59 101 Q76 108 91 101 M109 102 Q125 109 142 101" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".3" stroke-linecap="round"/>
-      <path d="M53 116 q-8 6 0 12 M147 116 q8 6 0 12" fill="none" stroke="var(--c-cloud)" stroke-width="3" opacity=".65" stroke-linecap="round"/>
+<ellipse cx="100" cy="159" rx="58" ry="7" class="shadow"/>
+  <path d="M44 132 Q44 109 68 106 Q76 78 104 87 Q119 65 143 83 Q154 91 154 108 Q171 111 171 130 Q171 145 152 148 H62 Q44 148 44 132Z" class="c-cloud"/>
+  <path d="M67 119 Q76 102 91 105 M112 101 Q125 84 140 101" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  <path d="M71 137 H131" fill="none" stroke="var(--c-line)" stroke-width="3" opacity=".35"/>
 </svg>

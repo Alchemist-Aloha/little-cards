@@ -176,16 +176,11 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<g>
-      <ellipse cx="101" cy="165" rx="59" ry="7" class="shadow" />
-      <path d="M45 132 V111 C45 102 52 96 62 95 H81 L97 69 H133 L150 95 H159 C169 96 175 102 175 111 V132 Z" class="c-car" />
-      <path d="M87 95 L101 76 H129 L144 95 Z" class="c-car-window" />
-      <path d="M101 76 V95" class="c-car-line" />
-      <circle cx="73" cy="132" r="16" class="c-wheel" /><circle cx="73" cy="132" r="7" class="c-hub" />
-      <circle cx="147" cy="132" r="16" class="c-wheel" /><circle cx="147" cy="132" r="7" class="c-hub" />
-      <rect x="157" y="106" width="12" height="8" rx="3" class="c-headlight" />
-    </g>
-      <path d="M112 98 V126" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-      <path d="M116 104 H126" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-      <rect x="48" y="106" width="9" height="7" rx="2" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+<ellipse cx="100" cy="169" rx="60" ry="7" class="shadow"/>
+  <path d="M42 138 V111 Q42 98 58 96 H76 L92 69 H130 Q142 69 151 96 H158 Q174 98 174 111 V138Z" class="c-car"/>
+  <path d="M86 94 L98 77 H128 L143 94Z" class="c-car-window"/>
+  <path d="M99 78 V94" class="c-car-line"/>
+  <circle cx="68" cy="138" r="17" class="c-wheel"/><circle cx="68" cy="138" r="7" class="c-hub"/><circle cx="143" cy="138" r="17" class="c-wheel"/><circle cx="143" cy="138" r="7" class="c-hub"/>
+  <rect x="153" y="109" width="13" height="9" rx="3" class="c-headlight"/>
+  <path d="M26 151 H48 M23 159 H41" class="c-car-line"/>
 </svg>

@@ -560,14 +560,12 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-    <g>
-      <ellipse cx="100" cy="172" rx="46" ry="7" class="shadow" />
-      <ellipse cx="100" cy="110" rx="68" ry="46" class="c-oval" />
-      <circle cx="86" cy="104" r="4" class="c-eyes" />
-      <circle cx="114" cy="104" r="4" class="c-eyes" />
-      <path d="M90 118 Q100 128 110 118" class="c-eyeline" />
-      <ellipse cx="76" cy="92" rx="7" ry="10" transform="rotate(-18 76 92)" class="hi" />
-    </g>
-      <ellipse cx="100" cy="110" rx="56" ry="35" fill="none" stroke="var(--c-hi)" stroke-width="2.5" opacity=".65"/>
-      <path d="M47 110 H60 M140 110 H153" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".45" stroke-linecap="round"/>
+<g>
+  <ellipse cx="100" cy="174" rx="50" ry="7" class="shadow" />
+  <ellipse cx="100" cy="108" rx="73" ry="43" class="c-oval" />
+  <path d="M29 108 Q100 82 171 108" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".4" />
+  <circle cx="85" cy="105" r="4" class="c-eyes" /><circle cx="115" cy="105" r="4" class="c-eyes" />
+  <path d="M90 119 Q100 128 110 119" class="c-eyeline" />
+  <ellipse cx="69" cy="87" rx="8" ry="11" transform="rotate(-18 69 87)" class="hi" />
+</g>
 </svg>

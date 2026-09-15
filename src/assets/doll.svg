@@ -560,21 +560,16 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <ellipse cx="100" cy="174" rx="38" ry="7" class="shadow"/>
-  <circle cx="100" cy="62" r="34" class="c-hair"/>
-  <path d="M70 105 Q100 95 130 105 L132 160 Q100 172 68 160 Z" class="c-pink"/>
-  <ellipse cx="60" cy="130" rx="11" ry="20" transform="rotate(25 60 130)" class="c-pink"/>
-  <ellipse cx="140" cy="130" rx="11" ry="20" transform="rotate(-25 140 130)" class="c-pink"/>
-  <ellipse cx="84" cy="170" rx="10" ry="16" class="c-pink"/>
-  <ellipse cx="116" cy="170" rx="10" ry="16" class="c-pink"/>
-  <circle cx="100" cy="64" r="28" class="c-skin"/>
-  <path d="M72 56 Q100 36 128 56 Q118 48 100 48 Q82 48 72 56 Z" class="c-hair"/>
-  <circle cx="90" cy="64" r="4.5" class="c-eyes"/>
-  <circle cx="110" cy="64" r="4.5" class="c-eyes"/>
-  <path d="M90 76 Q100 86 110 76" class="c-eyeline"/>
-  <ellipse cx="80" cy="72" rx="6" ry="4" class="c-cheek"/>
-  <ellipse cx="120" cy="72" rx="6" ry="4" class="c-cheek"/>
-  <path d="M82 108 Q100 116 118 108" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="100" cy="124" r="3" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
-  <path d="M76 154 H124 M86 164 H96 M104 164 H114" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="178" rx="44" ry="7"/>
+  <circle cx="64" cy="47" r="22" class="c-hair"/><circle cx="136" cy="47" r="22" class="c-hair"/>
+  <path d="M67 105 Q100 91 133 105 L146 160 Q100 178 54 160 Z" class="c-pink"/>
+  <circle cx="100" cy="66" r="34" class="c-skin"/>
+  <path d="M68 58 Q100 30 132 58 Q121 45 100 45 Q79 45 68 58 Z" class="c-hair"/>
+  <circle cx="88" cy="66" r="5" class="c-eyes"/><circle cx="112" cy="66" r="5" class="c-eyes"/><path d="M88 81 Q100 91 112 81" class="c-eyeline"/>
+  <ellipse cx="78" cy="76" rx="7" ry="4" class="c-cheek"/><ellipse cx="122" cy="76" rx="7" ry="4" class="c-cheek"/>
+  <ellipse cx="54" cy="126" rx="12" ry="22" transform="rotate(25 54 126)" class="c-skin"/><ellipse cx="146" cy="126" rx="12" ry="22" transform="rotate(-25 146 126)" class="c-skin"/>
+  <ellipse cx="82" cy="171" rx="11" ry="18" class="c-skin"/><ellipse cx="118" cy="171" rx="11" ry="18" class="c-skin"/>
+  <path d="M62 145 Q100 157 138 145 M100 111 V145" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
 </svg>

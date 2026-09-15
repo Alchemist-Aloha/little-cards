@@ -561,21 +561,15 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="176" rx="42" ry="7" class="shadow" />
-      <path d="M82 60 Q68 34 84 22" class="c-horn" />
-      <path d="M118 60 Q132 34 116 22" class="c-horn" />
-      <path d="M64 96 Q42 90 40 104 Q52 108 66 102 Z" class="c-goat" />
-      <path d="M136 96 Q158 90 160 104 Q148 108 134 102 Z" class="c-goat" />
-      <path d="M70 80 Q70 58 100 56 Q130 58 130 80 L132 120 Q130 152 100 156 Q70 152 68 120 Z" class="c-goat" />
-      <ellipse cx="100" cy="116" rx="9" ry="6" class="c-pink" />
-      <circle cx="86" cy="98" r="4" class="c-eyes" />
-      <circle cx="114" cy="98" r="4" class="c-eyes" />
-      <path d="M90 124 Q100 132 110 124" class="c-eyeline" />
-      <path d="M100 156 Q95 174 100 182 Q105 174 100 156" class="c-whisker" />
-      <ellipse cx="84" cy="86" rx="10" ry="6" class="hi" />
+  <ellipse cx="102" cy="180" rx="60" ry="7" class="shadow" />
+  <path d="M52 126 Q46 102 68 88 Q88 76 116 86 Q142 92 148 120 Q154 146 132 160 H72 Q54 152 52 126 Z" class="c-goat" />
+  <path d="M86 94 Q72 72 82 48 Q92 30 108 42 Q130 48 136 72 L128 108 L116 142 H88 Z" class="c-goat" />
+  <path d="M84 54 Q62 34 70 18 Q88 28 94 48 M120 52 Q138 30 132 16 Q118 30 112 48" class="c-horn" />
+  <path d="M126 78 Q150 72 168 84 Q174 96 158 102 L130 96 Z" class="c-goat" />
+  <circle cx="116" cy="68" r="4" class="c-eyes" /><ellipse cx="160" cy="90" rx="3" ry="2" class="c-eyes" />
+  <path d="M142 90 Q152 96 160 90" class="c-eyeline" />
+  <path d="M64 144 V180 H78 V146 M112 148 V180 H126 V146" class="c-goat" />
+  <path d="M104 114 Q96 126 104 148 Q112 126 104 114" class="c-whisker" />
+  <ellipse cx="96" cy="54" rx="10" ry="6" class="hi" />
 </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".55">
-        <path d="M77 43 L84 49 M74 34 L82 40 M123 43 L116 49 M126 34 L118 40" />
-        <path d="M94 158 Q100 164 106 158 M96 164 Q100 170 104 164" />
-      </g>
 </svg>

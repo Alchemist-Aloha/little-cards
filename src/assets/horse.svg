@@ -561,25 +561,15 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="101" cy="176" rx="54" ry="7" class="shadow" />
-      <!-- legs sit behind the body so the silhouette reads as a four-legged horse -->
-      <path d="M61 133 L61 169 Q62 174 68 174 L76 174 L76 168 L72 166 L75 133 Z" class="c-horse" />
-      <path d="M88 140 L88 170 Q89 175 95 175 L102 175 L102 169 L98 167 L101 140 Z" class="c-horse" />
-      <path d="M119 138 L122 169 Q123 174 129 174 L136 174 L136 168 L132 166 L132 136 Z" class="c-horse" />
-      <path d="M139 130 L145 165 Q146 170 152 170 L158 170 L157 164 L152 162 L150 126 Z" class="c-horse" />
-      <path d="M47 124 C47 103 67 92 96 96 C125 98 145 112 149 132 C152 150 137 160 111 161 L77 160 C58 157 48 145 47 124 Z" class="c-horse" />
-      <path d="M80 129 C75 106 76 82 87 62 C94 49 111 43 126 50 C138 56 143 68 138 81 L119 105 L118 145 Z" class="c-horse" />
-      <path d="M92 65 C100 51 117 46 132 51 C145 55 154 66 153 76 C152 84 146 89 136 90 L116 87 L101 79 Z" class="c-horse" />
-      <path d="M101 56 L96 30 L113 51 Z" class="c-horse" />
-      <path d="M121 52 L132 28 L137 59 Z" class="c-horse" />
-      <path d="M99 38 L101 52 M131 36 L134 52" fill="none" stroke="var(--c-pink)" stroke-width="3" stroke-linecap="round" />
-      <path d="M132 70 C147 68 161 72 164 79 C166 86 158 92 146 91 L131 86 Z" class="c-horse" />
-      <path d="M78 60 Q66 85 70 119 Q72 130 77 139" class="c-mane" />
-      <path d="M86 58 Q76 85 82 111" class="c-mane" />
-      <circle cx="123" cy="67" r="4" class="c-eyes" />
-      <ellipse cx="151" cy="82" rx="3" ry="2.2" class="c-eyes" />
-      <path d="M140 83 Q146 86 151 83" class="c-eyeline" />
-      <ellipse cx="112" cy="58" rx="12" ry="6" class="hi" />
-      <path d="M53 125 Q62 132 72 131 M126 150 Q137 146 144 138" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5" />
+  <ellipse cx="102" cy="180" rx="68" ry="7" class="shadow" />
+  <path d="M52 112 Q48 90 70 82 Q88 72 116 82 Q142 88 150 112 Q154 138 132 154 H72 Q52 146 52 112 Z" class="c-horse" />
+  <path d="M84 112 Q76 84 84 58 Q92 38 112 42 Q136 46 142 68 L132 94 L126 144 H92 Z" class="c-horse" />
+  <path d="M106 50 L96 26 L116 44 Z M126 48 L142 24 L140 60 Z" class="c-horse" />
+  <path d="M124 66 Q150 60 166 74 Q174 86 158 94 L130 88 Z" class="c-horse" />
+  <path d="M62 142 V178 H76 V144 M92 150 V178 H106 V150 M120 148 V178 H134 V146" class="c-horse" />
+  <path d="M58 96 Q42 108 38 130 Q52 126 62 116" class="c-mane" />
+  <path d="M84 54 Q70 82 78 112 Q82 124 86 134" class="c-mane" />
+  <circle cx="119" cy="64" r="4" class="c-eyes" /><ellipse cx="158" cy="80" rx="3" ry="2.2" class="c-eyes" />
+  <path d="M140 82 Q150 88 158 82" class="c-eyeline" /><ellipse cx="104" cy="54" rx="11" ry="6" class="hi" />
 </g>
 </svg>

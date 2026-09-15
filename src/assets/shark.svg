@@ -559,19 +559,14 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <path d="M45 112 C45 90 75 74 120 74 C155 74 178 92 184 106 C178 118 160 122 135 122 C95 124 60 130 45 112 Z" class="c-hippo"/>
-      <path d="M104 74 L119 46 L137 72 Z" class="c-hippo"/>
-      <path d="M45 112 L20 90 L27 112 L19 134 L45 118 Z" class="c-hippo"/>
-      <ellipse cx="112" cy="112" rx="54" ry="17" class="c-cow"/>
-      <circle cx="164" cy="94" r="4" class="c-eyes"/>
-      <path d="M150 110 Q168 116 184 108" class="c-eyeline"/>
-      <ellipse cx="95" cy="92" rx="16" ry="22" transform="rotate(-15 95 92)" class="hi"/>
-      <path d="M44 170 Q64 164 84 170 T124 170 T164 170" class="c-car-line"/>
-      <path d="M52 180 Q72 174 92 180 T132 180 T172 180" class="c-car-line"/>
-    </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".6">
-        <path d="M142 94 L136 108 M150 96 L144 110 M158 100 L152 112" />
-        <path d="M116 122 Q128 130 140 124" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="101" cy="177" rx="58" ry="7"/>
+    <path class="c-hippo" d="M30 119 Q46 83 94 72 Q147 60 175 91 Q188 105 180 120 Q151 139 100 143 Q55 145 30 119 Z"/>
+    <path class="c-hippo" d="M99 75 L115 37 L137 73 M64 82 L47 54 L47 89"/>
+    <path class="c-hippo" d="M32 118 L12 97 L19 117 L12 138 L36 126 Z"/>
+    <path class="c-cow" d="M90 126 Q129 134 170 113 Q156 141 111 143 Q96 142 90 126 Z"/>
+    <circle class="c-eyes" cx="159" cy="91" r="5"/><path class="c-eyeline" d="M146 107 Q162 117 177 106"/>
+    <path d="M143 112 l5 9 l5 -9 l5 8 l5 -10" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M136 96 L130 111 M147 94 L141 111 M158 96 L152 110" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  </g> </svg>

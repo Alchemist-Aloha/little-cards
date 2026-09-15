@@ -561,19 +561,15 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="176" rx="40" ry="7" class="shadow" />
-      <circle cx="100" cy="122" r="50" class="c-duck" />
-      <circle cx="100" cy="66" r="28" class="c-duck" />
-      <path d="M120 62 Q142 58 144 70 Q142 82 120 76 Z" class="c-beak" />
-      <circle cx="108" cy="60" r="3.5" class="c-eyes" />
-      <path d="M70 118 Q86 142 122 128 Q98 112 70 118 Z" class="c-duck" />
-      <path d="M82 164 L78 178 L92 178 L88 164 Z" class="c-penguin-foot" />
-      <path d="M108 164 L104 178 L118 178 L114 164 Z" class="c-penguin-foot" />
-      <path d="M52 170 Q64 166 76 170 Q88 174 100 170" class="c-car-line" />
-      <ellipse cx="82" cy="100" rx="10" ry="6" class="hi" />
+  <ellipse cx="102" cy="180" rx="56" ry="7" class="shadow" />
+  <path d="M48 130 Q42 104 66 92 Q88 80 116 92 Q140 100 144 128 Q146 152 124 162 H72 Q52 156 48 130 Z" class="c-duck" />
+  <circle cx="108" cy="76" r="32" class="c-duck" />
+  <path d="M130 70 Q162 62 170 78 Q164 94 130 86 Z" class="c-beak" />
+  <circle cx="120" cy="66" r="4" class="c-eyes" />
+  <path d="M64 112 Q88 92 126 116 Q108 146 76 140 Z" class="c-duck" />
+  <path d="M72 158 V178 H88 V158 M112 158 V178 H128 V158" class="c-penguin-foot" />
+  <path d="M62 178 H92 M106 178 H136" class="c-car-line" />
+  <path d="M52 116 Q42 106 36 96" fill="none" stroke="var(--c-duck)" stroke-width="6" stroke-linecap="round" />
+  <ellipse cx="82" cy="96" rx="10" ry="6" class="hi" />
 </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M76 112 Q90 120 98 134 M80 106 Q96 114 106 128" />
-        <path d="M126 106 Q136 112 140 120" />
-      </g>
 </svg>

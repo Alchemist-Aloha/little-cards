@@ -560,16 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g class="c-sun"><circle cx="100" cy="52" r="22"/></g>
-<g class="c-sun-ray"><line x1="130" y1="52" x2="142" y2="52"/><line x1="121" y1="73" x2="130" y2="82"/><line x1="100" y1="82" x2="100" y2="94"/><line x1="79" y1="73" x2="70" y2="82"/><line x1="70" y1="52" x2="58" y2="52"/><line x1="79" y1="31" x2="70" y2="22"/><line x1="100" y1="22" x2="100" y2="10"/><line x1="121" y1="31" x2="130" y2="22"/></g>
-<ellipse class="shadow" cx="100" cy="172" rx="40" ry="7"/>
-<g class="c-tree">
-<circle cx="100" cy="102" r="36"/><circle cx="66" cy="114" r="26"/><circle cx="134" cy="114" r="26"/><circle cx="100" cy="126" r="24"/>
-</g>
-<path class="c-tree-trunk" d="M92 172 C94 140 90 120 88 104 L112 104 C108 122 106 142 110 172 Z"/>
-<path class="c-tree-trunk" d="M96 118 L80 100 M104 116 L122 98" fill="none" stroke-width="6" stroke-linecap="round"/>
-<path class="c-flower-petal" d="M44 164 m0 -7 a7 7 0 1 1 -.1 0 M44 164 m7 0 a7 7 0 1 0 .1 0 M44 164 m0 7 a7 7 0 1 1 -.1 0 M44 164 m-7 0 a7 7 0 1 0 .1 0" stroke-width="0"/>
-<circle cx="44" cy="158" r="6" class="c-flower-petal"/><circle cx="44" cy="170" r="6" class="c-flower-petal"/><circle cx="38" cy="164" r="6" class="c-flower-petal"/><circle cx="50" cy="164" r="6" class="c-flower-petal"/><circle cx="44" cy="164" r="4.5" class="c-flower-center"/>
-  <path d="M49 50 H66 M134 50 H151 M54 40 H66 M134 40 H146" fill="none" stroke="var(--c-sun)" stroke-width="3" opacity=".55" stroke-linecap="round"/>
-  <path d="M72 142 q8 -10 16 0 M112 142 q8 -10 16 0" fill="none" stroke="var(--c-leaf)" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>
+<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><circle cx="100" cy="76" r="42" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3"/><path d="M100 21 V37 M100 115 V131 M45 76 H61 M139 76 H155 M61 37 L72 48 M128 104 L139 115 M139 37 L128 48 M72 104 L61 115" stroke="var(--c-sun)" stroke-width="7" stroke-linecap="round"/><path d="M18 161 Q49 142 80 161 T142 161 T182 158" fill="none" stroke="var(--c-blue)" stroke-width="13" stroke-linecap="round"/><path d="M30 170 Q48 157 66 170 M126 170 Q144 157 162 170" fill="none" stroke="var(--c-sand)" stroke-width="9" stroke-linecap="round"/><circle cx="46" cy="139" r="14" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3"/><path d="M34 139 H58 M46 127 V151" stroke="var(--c-tomato)" stroke-width="3"/><path d="M112 146 Q126 126 140 146" fill="none" stroke="var(--c-tomato)" stroke-width="8" stroke-linecap="round"/><path d="M126 146 V171" stroke="var(--c-line)" stroke-width="3"/>
 </svg>

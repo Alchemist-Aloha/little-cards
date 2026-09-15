@@ -561,22 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-      <ellipse cx="100" cy="172" rx="46" ry="8" class="shadow" />
-      <circle cx="52" cy="128" r="20" class="c-caterpillar" />
-      <circle cx="86" cy="120" r="21" class="c-caterpillar" />
-      <circle cx="122" cy="124" r="20" class="c-caterpillar" />
-      <circle cx="156" cy="132" r="19" class="c-caterpillar" />
-      <circle cx="34" cy="112" r="23" class="c-caterpillar-head" />
-      <circle cx="26" cy="146" r="4" class="c-eyes" />
-      <circle cx="42" cy="146" r="4" class="c-eyes" />
-      <path d="M22 96 C18 84 16 78 12 74" class="c-whisker" />
-      <path d="M30 94 C28 82 28 76 26 70" class="c-whisker" />
-      <circle cx="12" cy="72" r="3" class="c-eyes" />
-      <circle cx="26" cy="68" r="3" class="c-eyes" />
-      <ellipse cx="28" cy="104" rx="7" ry="4" transform="rotate(-30 28 104)" class="hi" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M48 146 L44 158 M58 148 L56 160 M82 140 L78 152 M92 142 L90 154 M118 144 L116 156 M128 144 L130 156 M152 146 L150 158 M162 144 L166 154" />
-        <path d="M62 116 Q72 122 80 116 M96 110 Q106 118 114 112 M130 114 Q140 120 148 114" />
-      </g>
-</svg>
+    <ellipse class="shadow" cx="100" cy="177" rx="58" ry="7"/>
+    <circle class="c-caterpillar" cx="55" cy="130" r="27"/><circle class="c-caterpillar" cx="91" cy="127" r="27"/><circle class="c-caterpillar" cx="127" cy="124" r="27"/><circle class="c-caterpillar" cx="160" cy="119" r="25"/>
+    <circle class="c-caterpillar-head" cx="38" cy="127" r="27"/><circle class="c-eyes" cx="30" cy="123" r="5"/><circle class="c-eyes" cx="46" cy="123" r="5"/><path class="c-eyeline" d="M30 137 Q38 144 46 137"/>
+    <path class="c-whisker" d="M30 103 L22 83 M45 103 L52 83"/><circle class="c-eyes" cx="21" cy="81" r="3"/><circle class="c-eyes" cx="53" cy="81" r="3"/>
+    <path class="c-car-line" d="M48 151 V166 M75 153 V169 M108 150 V167 M141 145 V161 M168 139 V154"/>
+    <circle class="c-tip" cx="88" cy="119" r="4"/><circle class="c-tip" cx="125" cy="116" r="4"/><circle class="c-tip" cx="158" cy="111" r="4"/>
+  </g> </svg>

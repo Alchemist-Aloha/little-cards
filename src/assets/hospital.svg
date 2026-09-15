@@ -559,18 +559,6 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-  <ellipse cx="100" cy="180" rx="64" ry="9" class="shadow" />
-  <rect x="56" y="70" width="88" height="104" class="c-egg" />
-  <g class="c-tomato">
-    <rect x="92" y="40" width="16" height="44" rx="3" />
-    <rect x="78" y="54" width="44" height="16" rx="3" />
-  </g>
-  <rect x="70" y="96" width="22" height="22" class="c-window" />
-  <rect x="108" y="96" width="22" height="22" class="c-window" />
-  <rect x="88" y="138" width="24" height="36" class="c-house-door" />
-</g>
-  <path d="M60 88 H140" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M78 120 V132 M122 120 V132" fill="none" stroke="var(--c-line)" stroke-width="2"/>
-  <circle cx="116" cy="152" r="3" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/>
+</style>
+<ellipse cx="100" cy="181" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M27 173 V78 H173 V173Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><path d="M20 79 H180" stroke="var(--c-blue)" stroke-width="10"/><path d="M91 79 V50 H109 V79 M78 64 H122" fill="none" stroke="var(--c-tomato)" stroke-width="10"/><path d="M85 173 V126 Q85 114 100 114 Q115 114 115 126 V173Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3"/><g fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"><rect x="42" y="98" width="27" height="22" rx="2"/><rect x="131" y="98" width="27" height="22" rx="2"/><rect x="42" y="132" width="27" height="22" rx="2"/><rect x="131" y="132" width="27" height="22" rx="2"/></g><path d="M48 109 H63 M137 109 H152 M48 143 H63 M137 143 H152" stroke="var(--c-egg)" stroke-width="2"/><path d="M145 174 Q151 160 166 162 Q177 164 177 174Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/><circle cx="150" cy="174" r="5" fill="var(--c-wheel)"/><circle cx="169" cy="174" r="5" fill="var(--c-wheel)"/>
 </svg>

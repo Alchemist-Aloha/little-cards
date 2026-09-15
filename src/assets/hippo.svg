@@ -559,22 +559,14 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-      <circle cx="52" cy="58" r="11" class="c-hippo"/>
-      <circle cx="148" cy="58" r="11" class="c-hippo"/>
-      <circle cx="100" cy="98" r="58" class="c-hippo"/>
-      <ellipse cx="100" cy="120" rx="44" ry="34" class="c-mushroom"/>
-      <circle cx="86" cy="114" r="4" class="c-tip"/>
-      <circle cx="114" cy="114" r="4" class="c-tip"/>
-      <circle cx="76" cy="82" r="5" class="c-eyes"/>
-      <circle cx="124" cy="82" r="5" class="c-eyes"/>
-      <circle cx="64" cy="106" r="9" class="c-cheek"/>
-      <circle cx="136" cy="106" r="9" class="c-cheek"/>
-      <path d="M88 138 Q100 148 112 138" class="c-eyeline"/>
-</g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M48 52 Q52 58 56 62 M152 52 Q148 58 144 62" />
-        <path d="M78 132 Q88 138 94 136 M122 136 Q112 138 106 132" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="177" rx="55" ry="7"/>
+    <path class="c-hippo" d="M45 124 Q42 83 70 70 Q100 56 130 70 Q158 83 155 124 Q152 160 122 165 L78 165 Q48 160 45 124 Z"/>
+    <circle class="c-hippo" cx="61" cy="74" r="14"/><circle class="c-hippo" cx="139" cy="74" r="14"/>
+    <ellipse class="c-mushroom" cx="100" cy="125" rx="44" ry="30"/>
+    <circle class="c-eyes" cx="78" cy="94" r="5"/><circle class="c-eyes" cx="122" cy="94" r="5"/>
+    <ellipse class="c-hippo" cx="100" cy="122" rx="30" ry="20"/><circle class="c-tip" cx="89" cy="119" r="5"/><circle class="c-tip" cx="111" cy="119" r="5"/>
+    <path class="c-eyeline" d="M88 138 Q100 146 112 138"/>
+    <path class="c-hippo" d="M61 146 V169 Q61 176 72 176 Q79 173 76 164 L78 150 M122 150 L124 164 Q121 173 129 176 Q140 176 139 169 V146"/>
+  </g> </svg>

@@ -560,17 +560,14 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <defs>
-    <clipPath id="b"><circle cx="100" cy="106" r="60"/></clipPath>
-  </defs>
-  <ellipse cx="100" cy="174" rx="42" ry="7" class="shadow"/>
-  <g clip-path="url(#b)">
-    <circle cx="100" cy="106" r="60" class="c-blue"/>
-    <path d="M40 74 Q100 100 160 74 L160 92 Q100 118 40 92 Z" class="c-red"/>
-    <path d="M40 124 Q100 150 160 124 L160 142 Q100 168 40 142 Z" class="c-yellow"/>
-  </g>
-  <ellipse cx="80" cy="84" rx="14" ry="20" transform="rotate(-22 80 84)" class="hi"/>
-  <path d="M52 58 Q78 82 100 106 Q122 130 148 154" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".75"/>
-  <path d="M54 154 Q78 130 100 106 Q122 82 146 58" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".75"/>
-  <circle cx="100" cy="106" r="5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="174" rx="48" ry="7"/>
+  <circle cx="100" cy="104" r="62" class="c-blue"/>
+  <path d="M38 86 Q72 99 99 87 Q129 74 162 88 L158 109 Q128 96 101 108 Q72 120 42 106 Z" class="c-red"/>
+  <path d="M55 54 Q70 85 101 104 Q126 121 143 151" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M59 153 Q80 126 101 104 Q124 80 143 57" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="101" cy="104" r="11" class="c-egg" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M52 42 Q34 50 30 68 M151 145 Q168 153 173 169" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <ellipse cx="78" cy="74" rx="13" ry="20" transform="rotate(-25 78 74)" class="hi"/>
+</g>
 </svg>

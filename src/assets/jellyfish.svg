@@ -559,20 +559,11 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style><g>
-      <path d="M50 96 A50 50 0 0 1 150 96 Z" class="c-octopus"/>
-      <path d="M70 96 C64 116 76 126 70 148 C66 132 62 122 70 96 Z" class="c-pink"/>
-      <path d="M90 96 C84 118 96 128 90 150 C86 132 82 122 90 96 Z" class="c-pink"/>
-      <path d="M110 96 C104 118 116 128 110 150 C106 132 102 122 110 96 Z" class="c-pink"/>
-      <path d="M130 96 C124 116 136 126 130 148 C126 132 122 122 130 96 Z" class="c-pink"/>
-      <circle cx="86" cy="74" r="3.2" class="c-eyes"/><circle cx="114" cy="74" r="3.2" class="c-eyes"/>
-      <path d="M90 86 Q100 92 110 86" class="c-eyeline"/>
-      <circle cx="60" cy="40" r="4" class="c-bubble"/>
-      <circle cx="150" cy="34" r="3" class="c-bubble"/>
-      <circle cx="140" cy="50" r="2.5" class="c-bubble"/>
-    </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45">
-        <path d="M72 70 Q84 78 96 70 M104 70 Q116 78 128 70" />
-        <path d="M70 110 L70 136 M90 108 L90 140 M110 108 L110 140 M130 110 L130 136" />
-      </g>
-</svg>
+</style>
+  <g>
+    <ellipse class="shadow" cx="100" cy="177" rx="48" ry="7"/>
+    <path class="c-jelly" d="M43 96 A57 57 0 0 1 157 96 Q151 109 143 108 Q136 118 128 108 Q120 119 112 108 Q104 120 96 108 Q88 119 80 108 Q72 118 64 108 Q51 110 43 96 Z"/>
+    <path class="c-pink" d="M62 105 Q52 132 62 162 Q73 141 70 108 M86 107 Q77 139 87 170 Q97 144 94 108 M110 108 Q104 141 114 168 Q123 143 118 107 M134 107 Q129 137 141 160 Q149 136 143 105" fill="none" stroke="var(--c-pink)" stroke-width="10" stroke-linecap="round"/>
+    <circle class="c-eyes" cx="82" cy="80" r="5"/><circle class="c-eyes" cx="118" cy="80" r="5"/><path class="c-eyeline" d="M90 93 Q100 100 110 93"/>
+    <circle class="c-bubble" cx="169" cy="50" r="6"/><circle class="c-bubble" cx="154" cy="32" r="4"/>
+  </g> </svg>

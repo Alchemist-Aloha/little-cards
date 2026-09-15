@@ -176,13 +176,11 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<g>
-      <ellipse cx="101" cy="171" rx="37" ry="7" class="shadow" />
-      <path d="M100 155 V91 M100 130 C83 120 73 129 71 141 M100 139 C118 126 130 134 132 145" class="c-flower-stem" />
-      <path d="M100 126 C83 111 69 122 71 140 C86 141 97 137 100 126 M100 137 C117 121 131 132 132 146 C117 149 105 146 100 137" class="c-flower-leaf" />
-      <ellipse cx="100" cy="70" rx="17" ry="28" class="c-flower-petal" /><ellipse cx="100" cy="70" rx="17" ry="28" transform="rotate(60 100 70)" class="c-flower-petal" /><ellipse cx="100" cy="70" rx="17" ry="28" transform="rotate(120 100 70)" class="c-flower-petal" />
-      <circle cx="100" cy="70" r="15" class="c-flower-center" />
-    </g>
-      <path d="M100 49 V62 M82 59 L91 66 M118 59 L109 66" fill="none" stroke="var(--c-flower)" stroke-width="2.5" opacity=".65" stroke-linecap="round"/>
-      <circle cx="94" cy="70" r="3" fill="var(--c-line)" opacity=".7"/><circle cx="106" cy="70" r="3" fill="var(--c-line)" opacity=".7"/><circle cx="100" cy="76" r="3" fill="var(--c-line)" opacity=".7"/>
+<ellipse cx="100" cy="171" rx="32" ry="6" class="shadow"/>
+  <path d="M100 162 V101" fill="none" stroke="var(--c-tree)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M99 143 Q80 128 70 140 Q84 150 99 148 M101 131 Q120 116 132 128 Q118 138 101 137" class="c-flower-leaf"/>
+  <circle cx="100" cy="83" r="20" class="c-flower-center"/>
+  <ellipse cx="100" cy="51" rx="18" ry="29" class="c-flower-petal"/><ellipse cx="100" cy="115" rx="18" ry="29" class="c-flower-petal"/>
+  <ellipse cx="68" cy="83" rx="29" ry="18" class="c-flower-petal"/><ellipse cx="132" cy="83" rx="29" ry="18" class="c-flower-petal"/>
+  <circle cx="94" cy="77" r="6" class="hi"/>
 </svg>

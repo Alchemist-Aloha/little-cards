@@ -176,13 +176,9 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<g>
-      <ellipse cx="102" cy="167" rx="48" ry="7" class="shadow" />
-      <path d="M48 143 L91 69 L156 103 V143 Z" class="c-cheese" />
-      <path d="M91 69 V108 L156 143 M48 143 L91 108 H156" class="c-cheese-line" />
-      <circle cx="85" cy="126" r="6" class="c-cheese-hole" /><circle cx="118" cy="123" r="5" class="c-cheese-hole" /><circle cx="108" cy="91" r="5" class="c-cheese-hole" />
-      <path d="M62 137 L82 102" class="c-cheese-shine" />
-      <circle cx="68" cy="136" r="3.5" class="c-cheese-hole" /><circle cx="138" cy="133" r="3.5" class="c-cheese-hole" />
-      <path d="M52 143 H156" class="c-cheese-line" />
-    </g>
+<ellipse cx="100" cy="169" rx="57" ry="7" class="shadow"/>
+  <path d="M43 137 L137 137 L158 91 L64 91Z" class="c-cheese"/>
+  <path d="M43 137 V104 L64 91 V125Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="85" cy="111" r="8" class="c-cheese-hole"/><circle cx="118" cy="106" r="6" class="c-cheese-hole"/><circle cx="132" cy="126" r="7" class="c-cheese-hole"/>
+  <path d="M77 99 L137 99" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".7"/>
 </svg>

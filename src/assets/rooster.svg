@@ -561,20 +561,16 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="176" rx="42" ry="7" class="shadow" />
-      <path d="M62 122 Q32 102 36 62 Q58 88 74 106 Z" class="c-cow-spot" />
-      <path d="M68 138 Q40 122 44 88 Q60 108 78 122 Z" class="c-cow-spot" />
-      <path d="M100 68 Q142 88 140 132 Q138 166 100 168 Q62 166 60 132 Q58 88 100 68 Z" class="c-boat" />
-      <path d="M84 66 q-7 -17 8 -13 q0 -15 13 -6 q12 -3 11 11 q9 6 2 15 z" class="c-comb" />
-      <ellipse cx="100" cy="86" rx="6" ry="10" class="c-comb" />
-      <path d="M124 78 L146 82 L124 92 Z" class="c-beak" />
-      <circle cx="112" cy="76" r="3.5" class="c-eyes" />
-      <path d="M86 118 Q98 150 122 140 Q100 118 86 118 Z" class="c-cow-spot" />
-      <ellipse cx="84" cy="96" rx="10" ry="6" class="hi" />
+  <ellipse cx="102" cy="180" rx="58" ry="7" class="shadow" />
+  <path d="M56 130 Q46 104 70 88 Q94 74 122 88 Q146 102 148 136 Q146 160 120 166 H78 Q60 156 56 130 Z" class="c-hen" />
+  <path d="M72 102 Q42 82 34 54 Q60 60 84 86 Z M76 116 Q40 108 28 82 Q56 82 88 100 Z" class="c-cow-spot" />
+  <circle cx="112" cy="76" r="32" class="c-hen" />
+  <path d="M88 55 Q78 36 92 38 Q90 20 104 34 Q114 18 120 36 Q140 30 130 54 Z" class="c-comb" />
+  <path d="M136 74 L166 82 L136 94 Z" class="c-beak" /><circle cx="122" cy="66" r="4" class="c-eyes" />
+  <path d="M82 120 Q102 100 128 122 Q112 148 88 144 Z" class="c-cow-spot" />
+  <path d="M80 160 V180 H94 V160 M116 160 V180 H130 V160" class="c-hen" />
+  <path d="M78 180 H96 M112 180 H134" class="c-car-line" />
+  <path d="M106 96 Q116 102 114 112 Q104 110 102 102 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" />
+  <ellipse cx="92" cy="92" rx="10" ry="6" class="hi" />
 </g>
-      <path d="M102 92 Q112 98 110 108 Q100 106 98 98 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" />
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M84 156 L80 174 M108 158 L112 174 M76 174 L86 174 M108 174 L118 174" />
-        <path d="M62 116 Q74 124 82 134" />
-      </g>
 </svg>

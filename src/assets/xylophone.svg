@@ -561,20 +561,9 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <rect x="40" y="58" width="120" height="9" rx="4" class="c-tip" />
-      <rect x="40" y="133" width="120" height="9" rx="4" class="c-tip" />
-      <rect x="48" y="64" width="104" height="14" rx="3" class="c-xylo-bar-1" />
-      <rect x="48" y="80" width="100" height="14" rx="3" class="c-xylo-bar-2" />
-      <rect x="48" y="96" width="96" height="14" rx="3" class="c-xylo-bar-3" />
-      <rect x="48" y="112" width="92" height="14" rx="3" class="c-xylo-bar-4" />
-      <rect x="48" y="128" width="88" height="14" rx="3" class="c-xylo-bar-5" />
-      <path d="M40 56 L34 96" class="c-mane" />
-      <circle cx="33" cy="98" r="7" class="c-red" />
-      <path d="M160 56 L166 96" class="c-mane" />
-      <circle cx="167" cy="98" r="7" class="c-purple" />
-    </g>
-      <path d="M54 84 H138 M52 100 H136" fill="none" stroke="var(--c-seed)" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
-      <path d="M44 60 L68 150 M156 60 L132 150" fill="none" stroke="var(--c-line)" stroke-width="2"/>
-      <circle cx="74" cy="144" r="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="1.5"/><circle cx="126" cy="144" r="5" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <ellipse class="shadow" cx="100" cy="178" rx="58" ry="7"/>
+  <path d="M39 55 H161 L144 151 H56 Z" fill="var(--c-xylo)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="47" y="60" width="104" height="15" rx="4" class="c-xylo-bar-1"/><rect x="50" y="78" width="98" height="15" rx="4" class="c-xylo-bar-2"/><rect x="53" y="96" width="92" height="15" rx="4" class="c-xylo-bar-3"/><rect x="56" y="114" width="86" height="15" rx="4" class="c-xylo-bar-4"/><rect x="59" y="132" width="80" height="15" rx="4" class="c-xylo-bar-5"/>
+  <path d="M49 61 L58 150 M151 61 L142 150" fill="none" stroke="var(--c-line)" stroke-width="3"/><path d="M168 42 L135 108" class="c-mane" stroke-width="6"/><circle cx="171" cy="37" r="9" class="c-red"/>
+</g>
 </svg>

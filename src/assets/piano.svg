@@ -561,14 +561,11 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M44 64 H156 V150 H44 Z" class="c-piano" />
-      <path d="M52 150 V96 H66 V150 Z M70 150 V96 H84 V150 Z M88 150 V96 H102 V150 Z M106 150 V96 H120 V150 Z M124 150 V96 H138 V150 Z M142 150 V96 H154 V150 Z" class="c-key" />
-      <path d="M58 96 H64 V122 H58 Z M76 96 H82 V122 H76 Z M112 96 H118 V122 H112 Z" class="c-cow-spot" />
-      <path d="M44 64 H156 V80 H44 Z" class="c-key" />
-      <rect x="92" y="40" width="16" height="26" rx="3" class="c-piano" />
-    </g>
-      <path d="M52 92 H148" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-      <path d="M78 150 V160 M100 150 V162 M122 150 V160" fill="none" stroke="var(--c-tip)" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="60" cy="76" r="3" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="7"/>
+  <path d="M41 49 Q100 41 159 49 V143 H41 Z" class="c-piano"/><path d="M47 91 H153 V143 H47 Z" class="c-key"/>
+  <path d="M47 91 H153 M62 91 V143 M77 91 V143 M92 91 V143 M107 91 V143 M122 91 V143 M137 91 V143" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M58 91 H67 V119 H58 Z M88 91 H97 V119 H88 Z M118 91 H127 V119 H118 Z" class="c-piano"/>
+  <path d="M41 49 H159 V66 H41 Z" class="c-key"/><path d="M58 143 V165 M142 143 V165" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M91 49 V66" class="c-line" stroke="var(--c-line)" stroke-width="3"/>
+</g>
 </svg>

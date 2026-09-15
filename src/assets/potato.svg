@@ -561,14 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <ellipse cx="100" cy="116" rx="58" ry="44" class="c-potato" />
-      <circle cx="76" cy="100" r="4" class="c-potato-dot" />
-      <circle cx="122" cy="98" r="3.5" class="c-potato-dot" />
-      <circle cx="100" cy="132" r="4" class="c-potato-dot" />
-      <circle cx="84" cy="132" r="3" class="c-potato-dot" />
-      <circle cx="124" cy="130" r="3" class="c-potato-dot" />
-      <circle cx="90" cy="88" r="3" class="c-potato-dot" /><circle cx="110" cy="118" r="3" class="c-potato-dot" /><circle cx="72" cy="124" r="2.6" class="c-potato-dot" />
-      <path d="M60 116 Q68 136 88 150 M140 116 Q132 138 114 150" class="c-ridge" />
+  <ellipse cx="100" cy="176" rx="47" ry="7" class="shadow" />
+  <path d="M50 112 Q48 84 70 72 Q84 58 104 68 Q130 60 146 80 Q160 96 148 120 Q154 146 130 158 Q108 174 86 162 Q58 164 50 140 Q44 126 50 112 Z" class="c-potato" />
+  <circle cx="74" cy="100" r="5" class="c-potato-dot" /><circle cx="126" cy="92" r="4" class="c-potato-dot" /><circle cx="104" cy="128" r="5" class="c-potato-dot" /><circle cx="78" cy="140" r="3.5" class="c-potato-dot" /><circle cx="130" cy="140" r="3" class="c-potato-dot" />
+  <path d="M62 116 Q70 136 88 150 M140 112 Q132 136 116 152" class="c-ridge" />
+  <ellipse cx="76" cy="84" rx="9" ry="13" transform="rotate(-22 76 84)" class="hi" />
 </g>
 </svg>

@@ -560,13 +560,5 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse class="shadow" cx="100" cy="172" rx="44" ry="7"/>
-<g class="c-pancake"><rect x="42" y="118" width="116" height="22" rx="11"/></g>
-<g class="c-pancake"><rect x="48" y="96" width="104" height="22" rx="11"/></g>
-<g class="c-pancake"><rect x="54" y="74" width="92" height="22" rx="11"/></g>
-<path class="c-pancake-syrup" d="M60 76 h80 v6 q0 6 -8 6 h-64 q-8 0 -8 -6 Z M70 96 v10 q0 5 -5 5 t-5 -5 v-10 M126 96 v12 q0 5 -5 5 t-5 -5 v-12" />
-<rect x="88" y="62" width="24" height="12" rx="3" class="c-sun"/>
-<circle class="c-cherry" cx="76" cy="138" r="4"/><circle class="c-cherry" cx="120" cy="142" r="4"/>
-<circle cx="70" cy="106" r="2" class="c-freckle"/><circle cx="108" cy="84" r="2" class="c-freckle"/><circle cx="132" cy="128" r="2" class="c-freckle"/>
-<path d="M76 126 Q86 130 96 126 M104 104 Q116 108 128 104" class="c-ridge"/>
+<ellipse cx="100" cy="180" rx="68" ry="7" fill="var(--c-shadow)"/><path d="M37 143 Q100 126 163 143 V158 Q100 176 37 158Z" fill="var(--c-pancake)" stroke="var(--c-line)" stroke-width="3"/><path d="M44 123 Q100 108 156 123 V141 Q100 157 44 141Z" fill="var(--c-pancake)" stroke="var(--c-line)" stroke-width="3"/><path d="M51 103 Q100 89 149 103 V121 Q100 137 51 121Z" fill="var(--c-pancake)" stroke="var(--c-line)" stroke-width="3"/><rect x="86" y="91" width="28" height="13" rx="3" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/><path d="M76 105 Q87 111 98 105 M103 127 Q115 133 126 127 M73 148 Q86 154 98 148" fill="none" stroke="var(--c-coffee)" stroke-width="5" stroke-linecap="round"/><path d="M139 102 Q146 111 139 120" fill="none" stroke="var(--c-coffee)" stroke-width="5" stroke-linecap="round"/><circle cx="59" cy="151" r="6" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/><path d="M163 110 L177 95" stroke="var(--c-hair)" stroke-width="4"/><path d="M171 96 L183 89" stroke="var(--c-hair)" stroke-width="3"/><path d="M171 96 L180 103" stroke="var(--c-hair)" stroke-width="3"/>
 </svg>

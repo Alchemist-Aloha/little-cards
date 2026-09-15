@@ -560,10 +560,11 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g>
-      <path class="c-snowflake" d="M100 100 L172.00 100.00 M146.00 100.00 L159.24 107.04 M146.00 100.00 L159.24 92.96 M100 100 L136.00 37.65 M123.00 60.16 L135.72 52.21 M123.00 60.16 L123.52 45.17 M100 100 L64.00 37.65 M77.00 60.16 L76.48 45.17 M77.00 60.16 L64.28 52.21 M100 100 L28.00 100.00 M54.00 100.00 L40.76 92.96 M54.00 100.00 L40.76 107.04 M100 100 L64.00 162.35 M77.00 139.84 L64.28 147.79 M77.00 139.84 L76.48 154.83 M100 100 L136.00 162.35 M123.00 139.84 L123.52 154.83 M123.00 139.84 L135.72 147.79" />
-      <circle cx="100" cy="100" r="6" class="c-cloud" />
-    </g>
-      <path d="M100 52 V69 M100 131 V148 M52 100 H69 M131 100 H148 M66 66 L78 78 M122 122 L134 134 M134 66 L122 78 M78 122 L66 134" fill="none" stroke="var(--c-cloud)" stroke-width="3" opacity=".45" stroke-linecap="round"/>
-      <circle cx="100" cy="31" r="3" fill="var(--c-cloud)" opacity=".75"/><circle cx="169" cy="100" r="3" fill="var(--c-cloud)" opacity=".75"/><circle cx="100" cy="169" r="3" fill="var(--c-cloud)" opacity=".75"/>
+<ellipse cx="100" cy="171" rx="40" ry="6" class="shadow"/>
+  <g fill="none" stroke="var(--c-blue)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 40 V160 M48 70 L152 130 M152 70 L48 130"/>
+    <path d="M100 61 L87 74 M100 61 L113 74 M100 139 L87 126 M100 139 L113 126"/>
+    <path d="M74 85 L75 103 M74 85 L92 88 M126 85 L125 103 M126 85 L108 88 M74 115 L75 97 M74 115 L92 112 M126 115 L125 97 M126 115 L108 112"/>
+  </g>
+  <circle cx="100" cy="100" r="10" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
 </svg>
