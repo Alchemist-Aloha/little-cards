@@ -561,10 +561,26 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="62" ry="7"/>
-    <path class="c-snail-body" d="M35 153 Q40 121 70 133 Q91 143 122 143 Q151 143 164 157 Q172 167 158 173 H45 Q32 169 35 153 Z"/>
-    <circle class="c-snail-shell" cx="91" cy="104" r="54"/>
-    <path class="c-snail-line" d="M91 104 Q116 77 132 98 Q145 116 124 130 Q101 145 78 128 Q59 113 71 92 Q82 72 105 80 Q123 86 121 104 Q119 120 101 119 Q86 118 87 104 Q88 94 99 95" fill="none" stroke-width="6"/>
-    <path class="c-whisker" d="M151 148 L165 116 M164 151 L181 128"/><circle class="c-eyes" cx="165" cy="113" r="4"/><circle class="c-eyes" cx="181" cy="125" r="4"/>
-    <circle class="c-eyes" cx="151" cy="148" r="3"/><path class="c-eyeline" d="M150 158 Q159 164 167 158"/>
-  </g> </svg>
+    <ellipse class="shadow" cx="100" cy="181" rx="62" ry="9"/>
+    <circle class="c-snail-shell" cx="92" cy="108" r="58"/>
+    <path d="M45.8 86.4 L52.8 76.5 L61.8 68.6 L72.3 63.2 L83.7 60.5 L95.2 60.6 L106.2 63.3 L116.0 68.6 L124.2 75.9 L130.3 84.9 L134.1 94.9 L135.3 105.3 L134.0 115.5 L130.4 125.0 L124.7 133.3 L117.3 139.8 L108.7 144.3 L99.5 146.5 L90.1 146.5 L81.2 144.3 L73.2 140.1 L66.6 134.2 L61.7 127.1 L58.7 119.1 L57.7 110.8 L58.7 102.7 L61.6 95.2 L66.1 88.7 L71.8 83.6 L78.5 80.1 L85.7 78.4 L92.9 78.4 L99.7 80.2 L105.8 83.4 L110.8 87.9 L114.4 93.3 L116.6 99.3 L117.3 105.5 L116.5 111.5 L114.3 116.9 L111.0 121.6 L106.8 125.2 L101.9 127.6 L96.8 128.7 L91.8 128.6 L87.0 127.3 L82.9 124.9 L79.6 121.8 L77.3 118.0 L76.0 114.0 L75.7 109.9 L76.4 106.1 L77.9 102.7 L80.2 99.9 L82.9 97.8 L85.9 96.5 L89.0 96.1 L91.9 96.4 L94.5 97.4 L96.7 98.9 L98.2 100.8 L99.2 102.9 L99.6 105.0 L99.4 107.0 L98.7 108.7 L97.7 110.0 L96.5 111.0 L95.2 111.4 L93.9 111.5" fill="none" stroke="var(--c-line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse class="hi" cx="64" cy="72" rx="14" ry="8" transform="rotate(-35 64 72)"/>
+    <path class="c-snail-body" d="M132 118 Q124 148 132 172 L170 172 Q178 146 172 118 Z"/>
+    <path d="M146 94 Q136 72 132 62" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M160 96 Q168 76 172 66" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M146 94 Q136 72 132 62" fill="none" stroke="var(--c-mushroom)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M160 96 Q168 76 172 66" fill="none" stroke="var(--c-mushroom)" stroke-width="7" stroke-linecap="round"/>
+    <ellipse class="c-snail-body" cx="152" cy="114" rx="22" ry="23"/>
+    <circle cx="131" cy="58" r="9" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <circle cx="172" cy="62" r="9" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <circle class="c-eyes" cx="132" cy="59" r="4"/>
+    <circle class="c-eyes" cx="173" cy="63" r="4"/>
+    <circle class="hi" cx="129" cy="55" r="2.2"/>
+    <circle class="hi" cx="170" cy="59" r="2.2"/>
+    <path class="c-eyeline" d="M146 124 Q154 131 162 124" stroke-width="3"/>
+    <ellipse class="c-cheek" cx="140" cy="120" rx="6" ry="4.5"/>
+    <ellipse class="c-cheek" cx="164" cy="120" rx="6" ry="4.5"/>
+    <path class="c-snail-body" d="M26 152 Q22 176 46 178 L152 178 Q180 178 176 158 Q174 148 156 146 L44 146 Q30 146 26 152 Z"/>
+    <path class="c-ridge" d="M48 158 Q58 166 70 158 M92 160 Q102 168 114 160 M134 158 Q144 166 156 158"/>
+  </g>
+</svg>

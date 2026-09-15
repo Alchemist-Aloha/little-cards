@@ -561,10 +561,26 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="48" ry="7"/>
-    <ellipse class="c-dragonfly-wing" cx="57" cy="70" rx="44" ry="18" transform="rotate(-20 57 70)"/><ellipse class="c-dragonfly-wing" cx="143" cy="70" rx="44" ry="18" transform="rotate(20 143 70)"/>
-    <ellipse class="c-dragonfly-wing" cx="55" cy="119" rx="38" ry="15" transform="rotate(19 55 119)"/><ellipse class="c-dragonfly-wing" cx="145" cy="119" rx="38" ry="15" transform="rotate(-19 145 119)"/>
-    <path class="c-dragonfly" d="M100 48 Q114 74 108 104 Q106 130 100 160 Q94 130 92 104 Q86 74 100 48 Z"/>
-    <circle class="c-dragonfly" cx="100" cy="47" r="17"/><circle class="c-eyes" cx="93" cy="45" r="6"/><circle class="c-eyes" cx="107" cy="45" r="6"/>
-    <path class="c-whisker" d="M94 32 Q84 20 75 22 M106 32 Q116 20 125 22"/><path class="c-car-line" d="M96 78 H104 M94 101 H106 M92 124 H108"/>
-  </g> </svg>
+    <ellipse class="shadow" cx="100" cy="181" rx="46" ry="8"/>
+    <ellipse class="c-dragonfly-wing" cx="58" cy="126" rx="42" ry="15" transform="rotate(-16 58 126)"/><path class="c-ridge" d="M88.7 117.2 L22.5 136.2 M62.0 124.8 L40.2 123.6"/><ellipse class="c-dragonfly-wing" cx="142" cy="126" rx="42" ry="15" transform="rotate(16 142 126)"/><path class="c-ridge" d="M172.7 134.8 L106.5 115.8 M146.0 127.2 L124.2 113.4"/><ellipse class="c-dragonfly-wing" cx="62" cy="74" rx="44" ry="16" transform="rotate(14 62 74)"/><path class="c-ridge" d="M94.4 82.1 L24.4 64.6 M66.3 75.1 L43.2 61.3"/><ellipse class="c-dragonfly-wing" cx="138" cy="74" rx="44" ry="16" transform="rotate(-14 138 74)"/><path class="c-ridge" d="M170.4 65.9 L100.4 83.4 M142.3 72.9 L119.2 70.7"/>
+    <g fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round">
+      <path d="M95 88 L87 93"/>
+      <path d="M95 95 L86 100"/>
+      <path d="M95 101 L88 107"/>
+      <path d="M105 88 L113 93"/>
+      <path d="M105 95 L114 100"/>
+      <path d="M105 101 L112 107"/>
+    </g>
+    <path class="c-dragonfly" d="M93 96 Q86 132 94 170 Q100 178 106 170 Q114 132 107 96 Z"/>
+    <path class="c-ridge" d="M93 116 Q100 120 107 116 M93 130 Q100 134 107 130 M93 144 Q100 148 107 144 M94 158 Q100 162 106 158"/>
+    <ellipse class="c-dragonfly" cx="100" cy="88" rx="13" ry="22"/>
+    <ellipse class="c-dragonfly" cx="100" cy="54" rx="24" ry="18"/>
+    <ellipse cx="89" cy="52" rx="10" ry="11" fill="var(--c-eyes)" stroke="var(--c-line)" stroke-width="2"/>
+    <ellipse cx="111" cy="52" rx="10" ry="11" fill="var(--c-eyes)" stroke="var(--c-line)" stroke-width="2"/>
+    <circle class="hi" cx="86" cy="48" r="3"/>
+    <circle class="hi" cx="108" cy="48" r="3"/>
+    <path d="M92 38 Q88 30 84 26" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M108 38 Q112 30 116 26" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M92 66 Q100 71 108 66" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  </g>
+</svg>

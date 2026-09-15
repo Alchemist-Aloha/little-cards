@@ -561,8 +561,18 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="62" ry="7"/>
-    <path class="c-worm" d="M33 141 Q39 112 65 123 Q83 131 98 145 Q113 159 129 145 Q144 132 159 121 Q181 106 190 126 Q197 142 179 151 Q157 160 141 168 Q113 181 88 165 Q65 150 46 160 Q28 168 33 141 Z"/>
-    <circle class="c-worm" cx="42" cy="141" r="24"/><circle class="c-eyes" cx="35" cy="136" r="4"/><circle class="c-eyes" cx="49" cy="136" r="4"/><path class="c-whisker" d="M36 151 Q42 157 49 151"/>
-    <path class="c-car-line" d="M66 129 Q74 140 66 149 M91 142 Q99 153 91 162 M119 149 Q127 159 119 168 M147 135 Q155 145 148 154 M169 121 Q177 131 170 140"/>
-  </g> </svg>
+    <ellipse class="shadow" cx="100" cy="181" rx="62" ry="9"/>
+    <path d="M40 148 Q106 56 160 148" fill="none" stroke="var(--c-line)" stroke-width="49" stroke-linecap="round"/>
+    <path d="M40 148 Q106 56 160 148" fill="none" stroke="var(--c-worm)" stroke-width="44" stroke-linecap="round"/>
+    <path class="c-ridge" d="M43.2 114.1 L70.8 140.3 M64.1 96.0 L85.4 127.5 M87.1 85.2 L97.1 121.8 M111.9 83.7 L106.1 121.2 M135.2 92.4 L115.5 124.9 M155.3 109.2 L127.3 134.9"/>
+    <ellipse class="hi" cx="67" cy="106" rx="14" ry="6" transform="rotate(-36 67 106)"/>
+    <ellipse class="hi" cx="107" cy="94" rx="11" ry="5" transform="rotate(-15 107 94)"/>
+    <circle class="c-eyes" cx="32" cy="143" r="5.5"/>
+    <circle class="c-eyes" cx="48" cy="143" r="5.5"/>
+    <circle class="hi" cx="34" cy="141" r="1.8"/>
+    <circle class="hi" cx="50" cy="141" r="1.8"/>
+    <ellipse class="c-cheek" cx="25" cy="152" rx="6" ry="4.5"/>
+    <ellipse class="c-cheek" cx="55" cy="152" rx="6" ry="4.5"/>
+    <path d="M33 155 Q40 162 47 155" fill="none" stroke="var(--c-eyes)" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -561,10 +561,34 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
   <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="50" ry="7"/>
-    <path class="c-butterfly" d="M94 91 Q61 33 29 45 Q15 52 24 78 Q33 103 76 111 Z"/><path class="c-butterfly" d="M106 91 Q139 33 171 45 Q185 52 176 78 Q167 103 124 111 Z"/>
-    <path class="c-butterfly-wing2" d="M91 104 Q52 99 38 126 Q27 149 49 158 Q75 166 95 125 Z"/><path class="c-butterfly-wing2" d="M109 104 Q148 99 162 126 Q173 149 151 158 Q125 166 105 125 Z"/>
-    <ellipse class="c-cow-spot" cx="100" cy="108" rx="9" ry="48"/><circle class="c-eyes" cx="94" cy="70" r="3"/><circle class="c-eyes" cx="106" cy="70" r="3"/>
-    <path class="c-whisker" d="M96 66 Q88 47 77 40 M104 66 Q112 47 123 40"/><circle class="c-eyes" cx="76" cy="39" r="3"/><circle class="c-eyes" cx="124" cy="39" r="3"/>
-    <path class="c-car-line" d="M96 78 V142 M104 78 V142"/>
-  </g> </svg>
+    <ellipse class="shadow" cx="100" cy="179" rx="50" ry="8"/>
+    <path class="c-butterfly" d="M94 88 C82 60 52 26 30 34 C14 40 16 68 30 88 C46 110 76 110 94 100 Z"/>
+    <path class="c-butterfly" d="M106 88 C118 60 148 26 170 34 C186 40 184 68 170 88 C154 110 124 110 106 100 Z"/>
+    <path class="c-butterfly-wing2" d="M94 112 C78 120 46 132 36 148 C26 164 44 176 60 169 C78 161 92 142 94 124 Z"/>
+    <path class="c-butterfly-wing2" d="M106 112 C122 120 154 132 164 148 C174 164 156 176 140 169 C122 161 108 142 106 124 Z"/>
+    <circle class="c-spot" cx="56" cy="58" r="9"/>
+    <circle class="c-spot" cx="144" cy="58" r="9"/>
+    <circle class="c-seed" cx="56" cy="58" r="3.5"/>
+    <circle class="c-seed" cx="144" cy="58" r="3.5"/>
+    <circle class="c-spot" cx="74" cy="84" r="6"/>
+    <circle class="c-spot" cx="126" cy="84" r="6"/>
+    <circle class="c-seed" cx="58" cy="146" r="6"/>
+    <circle class="c-seed" cx="142" cy="146" r="6"/>
+    <path class="c-ridge" d="M40 52 C50 62 62 74 70 88 M160 52 C150 62 138 74 130 88"/>
+    <path class="c-butterfly" d="M93 112 Q100 122 107 112 Q106 146 100 160 Q94 146 93 112 Z"/>
+    <path class="c-ridge" d="M95 128 Q100 132 105 128 M95 140 Q100 144 105 140"/>
+    <ellipse class="c-butterfly" cx="100" cy="96" rx="10" ry="24"/>
+    <path class="c-ridge" d="M92 84 Q100 89 108 84 M92 96 Q100 101 108 96"/>
+    <ellipse class="hi" cx="97" cy="86" rx="3" ry="9"/>
+    <circle class="c-butterfly" cx="100" cy="66" r="11"/>
+    <circle class="c-eyes" cx="95" cy="64" r="3.5"/>
+    <circle class="c-eyes" cx="105" cy="64" r="3.5"/>
+    <circle class="hi" cx="96" cy="62.5" r="1.5"/>
+    <circle class="hi" cx="106" cy="62.5" r="1.5"/>
+    <path d="M95 72 Q100 76 105 72" fill="none" stroke="var(--c-eyes)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M96 58 Q88 42 78 36" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M104 58 Q112 42 122 36" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round"/>
+    <circle class="c-tip" cx="76" cy="35" r="4.5"/>
+    <circle class="c-tip" cx="124" cy="35" r="4.5"/>
+  </g>
+</svg>
