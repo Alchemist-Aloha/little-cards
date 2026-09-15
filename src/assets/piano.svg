@@ -561,11 +561,29 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="7"/>
-  <path d="M41 49 Q100 41 159 49 V143 H41 Z" class="c-piano"/><path d="M47 91 H153 V143 H47 Z" class="c-key"/>
-  <path d="M47 91 H153 M62 91 V143 M77 91 V143 M92 91 V143 M107 91 V143 M122 91 V143 M137 91 V143" fill="none" stroke="var(--c-line)" stroke-width="2"/>
-  <path d="M58 91 H67 V119 H58 Z M88 91 H97 V119 H88 Z M118 91 H127 V119 H118 Z" class="c-piano"/>
-  <path d="M41 49 H159 V66 H41 Z" class="c-key"/><path d="M58 143 V165 M142 143 V165" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round"/>
-  <path d="M91 49 V66" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="100" cy="184" rx="56" ry="8" class="shadow" />
+  <!-- top lid -->
+  <rect x="26" y="42" width="148" height="16" rx="5" class="c-piano" />
+  <ellipse cx="56" cy="50" rx="24" ry="3.6" class="hi" />
+  <!-- cabinet -->
+  <rect x="32" y="56" width="136" height="112" rx="7" class="c-piano" />
+  <!-- music-desk panel seam -->
+  <rect x="46" y="64" width="108" height="30" rx="4" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" />
+  <!-- keyboard case -->
+  <rect x="34" y="98" width="132" height="36" rx="3" class="c-piano" />
+  <!-- white keys: 14 keys over 120 units, even dividers -->
+  <rect x="40" y="104" width="120" height="26" class="c-key" />
+  <path d="M48.6 104 V130 M57.1 104 V130 M65.7 104 V130 M74.3 104 V130 M82.9 104 V130 M91.4 104 V130 M100 104 V130 M108.6 104 V130 M117.1 104 V130 M125.7 104 V130 M134.3 104 V130 M142.9 104 V130 M151.4 104 V130" fill="none" stroke="var(--c-line)" stroke-width="1.5" />
+  <!-- black keys in 2-3-2-3 groups, at the back edge of the white keys -->
+  <path d="M46 104 h5.2 v16 h-5.2 z M54.5 104 h5.2 v16 h-5.2 z M71.7 104 h5.2 v16 h-5.2 z M80.3 104 h5.2 v16 h-5.2 z M88.8 104 h5.2 v16 h-5.2 z M106 104 h5.2 v16 h-5.2 z M114.5 104 h5.2 v16 h-5.2 z M131.7 104 h5.2 v16 h-5.2 z M140.3 104 h5.2 v16 h-5.2 z M148.8 104 h5.2 v16 h-5.2 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.2" />
+  <!-- lower front panel seam -->
+  <rect x="44" y="138" width="112" height="20" rx="3" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" />
+  <!-- brass pedals hanging from the case -->
+  <rect x="87.5" y="166" width="6.5" height="12" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" />
+  <rect x="96.8" y="166" width="6.5" height="12" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" />
+  <rect x="106.1" y="166" width="6.5" height="12" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" />
+  <!-- casters touching the ground -->
+  <circle cx="56" cy="174" r="7" class="c-wheel" /><circle cx="56" cy="174" r="2.4" class="c-hub" />
+  <circle cx="144" cy="174" r="7" class="c-wheel" /><circle cx="144" cy="174" r="2.4" class="c-hub" />
 </g>
 </svg>

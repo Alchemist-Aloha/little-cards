@@ -561,11 +561,28 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <path d="M97 149 Q70 153 55 132 Q45 116 54 101 Q62 88 76 90 Q88 91 97 101 Q106 91 119 90 Q134 88 142 101 Q151 117 140 133 Q126 153 99 149 Z" class="c-guitar"/>
-  <path d="M98 102 V38" fill="none" stroke="var(--c-tip)" stroke-width="13" stroke-linecap="round"/><rect x="89" y="27" width="18" height="17" rx="4" class="c-tip"/>
-  <circle cx="98" cy="119" r="15" class="c-guitar-hole"/><path d="M82 132 H114" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M92 38 L88 30 M98 38 V27 M104 38 L108 30" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M94 38 V141 M98 38 V141 M102 38 V141" fill="none" stroke="var(--c-seed)" stroke-width="1.5" opacity=".9"/>
+  <ellipse cx="100" cy="184" rx="48" ry="7.5" class="shadow" />
+  <!-- neck with frets, running up to the headstock -->
+  <path d="M92 80 L94 40 H106 L108 80 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+  <path d="M93.7 47 H106.3 M93.3 54 H106.7 M93 60 H107 M92.7 65.5 H107.3 M92.5 70.5 H107.5" fill="none" stroke="var(--c-milk-label)" stroke-width="1.6" opacity=".9" />
+  <rect x="92.5" y="36" width="15" height="4.5" rx="2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.2" />
+  <!-- headstock, 3 + 3 tuning pegs -->
+  <rect x="87" y="15" width="26" height="23" rx="4.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <circle cx="84" cy="20" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="84" cy="27.5" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="84" cy="35" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="116" cy="20" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="116" cy="27.5" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="116" cy="35" r="3.4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <!-- figure-of-8 body with a waist -->
+  <path d="M100 70 C80 70 66 83 66 100 C66 110 70 116 76 120 C70 126 56 136 56 150 C56 168 76 178 100 178 C124 178 144 168 144 150 C144 136 130 126 124 120 C130 116 134 110 134 100 C134 83 120 70 100 70 Z" class="c-guitar" />
+  <circle cx="100" cy="128" r="20.5" fill="none" stroke="var(--c-tip)" stroke-width="2" opacity=".5" />
+  <circle cx="100" cy="128" r="16" class="c-guitar-hole" />
+  <!-- bridge -->
+  <rect x="86" y="156" width="28" height="9" rx="2.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" />
+  <path d="M88 159.5 H112" fill="none" stroke="var(--c-milk-label)" stroke-width="1.6" opacity=".9" />
+  <!-- six strings, bridge to headstock, straight and evenly spaced -->
+  <path d="M95 40 V160 M97 40 V160 M99 40 V160 M101 40 V160 M103 40 V160 M105 40 V160" fill="none" stroke="var(--c-seed)" stroke-width="1.7" opacity=".95" />
+  <ellipse cx="124" cy="150" rx="5.5" ry="12" transform="rotate(22 124 150)" class="hi" />
 </g>
 </svg>

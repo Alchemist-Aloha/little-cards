@@ -568,8 +568,8 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="56" ry="7"/>
-  <g transform="translate(3,12) scale(.94)" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse class="shadow" cx="100" cy="164" rx="58" ry="8"/>
+  <g transform="translate(100,102) rotate(-16) scale(.7717) translate(-108.5,-100.5)" stroke-linecap="round" stroke-linejoin="round">
   <path class="c-trumpet-slide-out" d="M106 92 V108 Q106 114 114 114 Q122 114 122 108 V92"/><path class="c-trumpet-slide" d="M106 92 V108 Q106 114 114 114 Q122 114 122 108 V92"/>
   <path class="c-trumpet-slide-out" d="M124 86 H132 Q146 86 146 104 V122 Q146 140 128 140 H55 Q38 140 38 123 Q38 108 54 108 H96"/>
   <path class="c-trumpet-slide" d="M124 86 H132 Q146 86 146 104 V122 Q146 140 128 140 H55 Q38 140 38 123 Q38 108 54 108 H96"/>

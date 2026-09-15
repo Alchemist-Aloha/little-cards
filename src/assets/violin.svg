@@ -561,10 +561,45 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <path d="M100 48 Q82 49 88 68 Q91 76 82 83 Q73 91 84 99 Q91 105 84 116 Q84 133 100 143 Q116 133 116 116 Q109 105 116 99 Q127 91 118 83 Q109 76 112 68 Q118 49 100 48 Z" class="c-violin"/>
-  <path d="M100 50 V28" class="c-mane"/><circle cx="100" cy="23" r="8" class="c-tip"/><path d="M91 84 Q86 92 93 98 M109 84 Q114 92 107 98" class="c-car-line"/>
-  <path d="M100 78 V147 M96 78 V147 M104 78 V147" fill="none" stroke="var(--c-seed)" stroke-width="1.7"/><path d="M86 116 H114" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M143 45 L174 143" class="c-mane" stroke-width="7"/><path d="M139 44 L147 44 M170 143 L178 143" class="c-antler"/>
+  <ellipse cx="100" cy="182" rx="50" ry="8" class="shadow" />
+  <!-- bow: stick, hair, tip and frog -->
+  <path d="M160 30 Q176 90 164 146" fill="none" stroke="var(--c-line)" stroke-width="7.5" stroke-linecap="round" />
+  <path d="M160 30 Q176 90 164 146" fill="none" stroke="var(--c-bread)" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M155 33 L158 143" fill="none" stroke="var(--c-line)" stroke-width="6.5" stroke-linecap="round" />
+  <path d="M155 33 L158 143" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" />
+  <rect x="153" y="25" width="11" height="6.5" rx="2.5" transform="rotate(-14 158 28)" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2" />
+  <rect x="156" y="140" width="12" height="10" rx="2.5" transform="rotate(4 162 145)" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2" />
+  <!-- neck, behind the fingerboard -->
+  <path d="M93.5 88 L95 44 H105 L106.5 88 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" />
+  <!-- figure-of-8 body -->
+  <path d="M100 84 C84 84 76 90 76 99 C76 107 80 114 84 118 C79 123 70 130 70 143 C70 161 82 174 100 174 C118 174 130 161 130 143 C130 130 121 123 116 118 C120 114 124 107 124 99 C124 90 116 84 100 84 Z" class="c-violin" />
+  <g transform="translate(100,129) scale(.9) translate(-100,-129)">
+    <path d="M100 84 C84 84 76 90 76 99 C76 107 80 114 84 118 C79 123 70 130 70 143 C70 161 82 174 100 174 C118 174 130 161 130 143 C130 130 121 123 116 118 C120 114 124 107 124 99 C124 90 116 84 100 84 Z" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".45" />
+  </g>
+  <!-- mirrored f-holes, either side of the bridge -->
+  <path d="M88 126 C83 132 83 142 88 148" fill="none" stroke="var(--c-line)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M112 126 C117 132 117 142 112 148" fill="none" stroke="var(--c-line)" stroke-width="3.2" stroke-linecap="round" />
+  <circle cx="88" cy="126" r="2.4" class="c-spot" /><circle cx="88" cy="148" r="3" class="c-spot" />
+  <circle cx="112" cy="126" r="2.4" class="c-spot" /><circle cx="112" cy="148" r="3" class="c-spot" />
+  <!-- ebony fingerboard over the body -->
+  <path d="M92.5 112 L94.5 44 H105.5 L107.5 112 Z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" stroke-linejoin="round" />
+  <!-- tailpiece -->
+  <path d="M92 152 H108 L106 172 H94 Z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+  <!-- bridge standing between the f-holes -->
+  <path d="M87 140 Q87 133 90 130 H110 Q113 133 113 140 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+  <!-- four strings running the whole length -->
+  <path d="M96.4 44 V154 M98.8 44 V154 M101.2 44 V154 M103.6 44 V154" fill="none" stroke="var(--c-seed)" stroke-width="1.6" opacity=".95" />
+  <!-- chin rest on the lower-left edge -->
+  <path d="M87 150 Q72 151 70 161 Q69 171 80 170 Q89 168 88 157 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+  <!-- nut, pegbox, four pegs and the scroll -->
+  <rect x="93.5" y="42" width="13" height="4" rx="1.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.2" />
+  <rect x="91.5" y="25" width="17" height="19" rx="3" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" />
+  <circle cx="88" cy="30" r="3.2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="88" cy="38.5" r="3.2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="112" cy="30" r="3.2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="112" cy="38.5" r="3.2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="1.5" />
+  <circle cx="100" cy="21" r="5.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" />
+  <path d="M103.5 18.5 A3.6 3.6 0 1 0 96.7 22.3" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".8" />
+  <ellipse cx="82" cy="96" rx="7" ry="3.5" transform="rotate(-18 82 96)" class="hi" opacity=".55" />
 </g>
 </svg>

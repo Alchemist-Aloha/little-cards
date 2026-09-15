@@ -560,15 +560,56 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="57" ry="7" fill="var(--c-shadow)"/>
-<path d="M63 112 Q64 99 78 96 H122 Q136 99 137 112 L145 170 Q145 176 138 176 H62 Q55 176 55 170 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-<path d="M82 101 L100 119 L118 101 L112 151 H88 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5"/>
-<circle cx="100" cy="69" r="29" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="3"/>
-<path d="M73 67 Q75 38 100 39 Q125 38 127 67 Q116 54 100 57 Q84 54 73 67Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/>
-<circle cx="90" cy="70" r="3.5" fill="var(--c-eyes)"/><circle cx="110" cy="70" r="3.5" fill="var(--c-eyes)"/>
-<path d="M92 84 Q100 89 108 84" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-<path d="M69 112 Q51 121 61 139" fill="none" stroke="var(--c-egg)" stroke-width="12" stroke-linecap="round"/><path d="M131 112 Q149 121 139 139" fill="none" stroke="var(--c-egg)" stroke-width="12" stroke-linecap="round"/>
-<path d="M63 111 Q48 126 61 142" fill="none" stroke="var(--c-line)" stroke-width="2.5"/><path d="M137 111 Q152 126 139 142" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-<path d="M61 123 C70 144 77 148 84 151 C94 155 106 155 116 151 C123 148 130 144 139 123" fill="none" stroke="var(--c-blue)" stroke-width="3"/>
-<circle cx="61" cy="123" r="8" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/><path d="M86 132 H114" stroke="var(--c-line)" stroke-width="2.5"/><path d="M100 124 V140" stroke="var(--c-line)" stroke-width="2.5"/>
+
+<g>
+  <ellipse cx="100" cy="181" rx="54" ry="8" class="shadow"/>
+  <!-- dark trousers and shoes -->
+  <path d="M87 118 L85 165" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M87 118 L85 165" fill="none" stroke="var(--c-cloth-navy)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M113 118 L115 165" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M113 118 L115 165" fill="none" stroke="var(--c-cloth-navy)" stroke-width="15" stroke-linecap="round"/>
+  <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".3">
+    <path d="M80 152 Q86 156 92 152"/><path d="M108 152 Q114 156 120 152"/>
+  </g>
+  <rect x="74" y="160" width="24" height="17" rx="6" fill="var(--c-boots)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M78 171 H94" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".35"/>
+  <rect x="102" y="160" width="24" height="17" rx="6" fill="var(--c-boots)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M106 171 H122" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".35"/>
+  <!-- shirt under the open coat -->
+  <path d="M77 97 Q78 87 90 86 H110 Q122 87 123 97 L126 133 Q126 138 120 138 H80 Q74 138 74 133 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- white coat with a V neckline -->
+  <path d="M77 97 Q78 87 90 86 L100 107 L110 86 Q122 87 123 97 L130 140 Q131 146 124 146 H76 Q69 146 70 140 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- coat buttons, pocket, name tag -->
+  <circle cx="100" cy="120" r="2.6" fill="var(--c-line)" opacity=".5"/>
+  <circle cx="100" cy="131" r="2.6" fill="var(--c-line)" opacity=".5"/>
+  <rect x="77" y="112" width="15" height="11" rx="2" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".55"/>
+  <path d="M112 114 h10 v13 h-10 z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M114 119 h6 M114 124 h6" stroke="var(--c-line)" stroke-width="1.6" opacity=".55"/>
+  <!-- arms, shoulder seams, hands -->
+  <path d="M78 98 Q68 106 68 124" fill="none" stroke="var(--c-line)" stroke-width="17.5" stroke-linecap="round"/>
+  <path d="M78 98 Q68 106 68 124" fill="none" stroke="var(--c-egg)" stroke-width="12.5" stroke-linecap="round"/>
+  <path d="M122 98 Q132 106 132 124" fill="none" stroke="var(--c-line)" stroke-width="17.5" stroke-linecap="round"/>
+  <path d="M122 98 Q132 106 132 124" fill="none" stroke="var(--c-egg)" stroke-width="12.5" stroke-linecap="round"/>
+  <circle cx="78" cy="97" r="6.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="122" cy="97" r="6.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="68" cy="129" r="7" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="132" cy="129" r="7" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- stethoscope: loops the neck, both tubes hang to the chest piece -->
+  <path d="M89 80 Q82 96 90 107 Q100 111 110 107 Q118 96 111 80" fill="none" stroke="var(--c-cloth-navy)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="89" cy="81" r="2.8" fill="var(--c-cloth-navy)"/>
+  <circle cx="111" cy="81" r="2.8" fill="var(--c-cloth-navy)"/>
+  <circle cx="100" cy="110" r="6.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="110" r="2.2" fill="var(--c-line)"/>
+  <rect x="92" y="74" width="16" height="18" rx="5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="76" cy="60" r="5.5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="124" cy="60" r="5.5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="58" r="25" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M75 52 Q74 33 100 33 Q126 33 125 52 Q119 42 100 44 Q81 42 75 52 Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="91" cy="57" r="3.8" class="c-eyes"/><circle cx="109" cy="57" r="3.8" class="c-eyes"/>
+  <path d="M98 60 Q102 62 101 66" fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M91 70 Q100 77 109 70" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="83" cy="67" r="4.5" fill="var(--c-pink)" opacity=".55"/>
+  <circle cx="117" cy="67" r="4.5" fill="var(--c-pink)" opacity=".55"/>
+  <ellipse cx="84" cy="49" rx="7" ry="4.5" class="hi"/>
+</g>
 </svg>

@@ -561,9 +561,31 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <path d="M48 94 H152 V145 Q100 166 48 145 Z" class="c-drum"/><ellipse cx="100" cy="94" rx="52" ry="18" class="c-drum-tip"/><ellipse cx="100" cy="94" rx="40" ry="11" fill="none" stroke="var(--c-line)" stroke-width="3"/>
-  <path d="M65 105 V144 M135 105 V144" class="c-ridge" stroke-width="4"/><path d="M50 144 Q100 163 150 144" fill="none" stroke="var(--c-line)" stroke-width="3"/>
-  <path d="M54 73 L91 92 M146 73 L109 92" fill="none" stroke="var(--c-tip)" stroke-width="8" stroke-linecap="round"/><circle cx="52" cy="71" r="7" class="c-tip"/><circle cx="148" cy="71" r="7" class="c-tip"/>
+  <ellipse cx="100" cy="180" rx="54" ry="8" class="shadow" />
+  <!-- cylindrical shell -->
+  <path d="M46 76 V152 A54 22 0 0 0 154 152 V76 Z" class="c-drum" />
+  <!-- 7 tension lugs, evenly spaced, following the curved rims -->
+  <rect x="55.5" y="92" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="69.5" y="97" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="83.5" y="99" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="97.5" y="100" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="111.5" y="99" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="125.5" y="97" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <rect x="139.5" y="92" width="5" height="72" rx="2.5" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="1.6" />
+  <!-- bottom rim band along the front edge -->
+  <path d="M46 152 A54 22 0 0 0 154 152" fill="none" stroke="var(--c-wheel)" stroke-width="6.5" />
+  <path d="M49 149 A51 19 0 0 0 151 149" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".55" />
+  <!-- top head, rim and a soft sheen -->
+  <ellipse cx="100" cy="76" rx="54" ry="22" class="c-drum-tip" />
+  <ellipse cx="100" cy="76" rx="54" ry="22" fill="none" stroke="var(--c-wheel)" stroke-width="5" />
+  <ellipse cx="100" cy="76" rx="34" ry="13" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".35" />
+  <ellipse cx="76" cy="70" rx="15" ry="5" transform="rotate(-14 76 70)" class="hi" />
+  <!-- two sticks resting on the head -->
+  <path d="M40 48 L116 84" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round" />
+  <path d="M40 48 L116 84" fill="none" stroke="var(--c-bread)" stroke-width="7" stroke-linecap="round" />
+  <path d="M160 46 L84 82" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round" />
+  <path d="M160 46 L84 82" fill="none" stroke="var(--c-bread)" stroke-width="7" stroke-linecap="round" />
+  <circle cx="116" cy="84" r="4.6" class="c-drum-tip" />
+  <circle cx="84" cy="82" r="4.6" class="c-drum-tip" />
 </g>
 </svg>
