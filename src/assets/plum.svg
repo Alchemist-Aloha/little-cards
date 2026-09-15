@@ -561,7 +561,7 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style><g>
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <ellipse cx="100" cy="110" rx="56" ry="54" class="c-plum" />
+      <path d="M100 56 C132 55 157 76 157 109 C157 143 133 166 100 166 C67 166 43 143 43 109 C43 76 68 55 100 56 Z" class="c-plum" />
       <path d="M100 58 C106 90 106 130 100 162 C96 130 96 90 100 58 Z" class="c-moon-crater" />
       <path d="M100 56 C102 48 104 44 103 38" class="c-stem-line" />
       <ellipse cx="114" cy="44" rx="11" ry="6" transform="rotate(-32 114 44)" class="c-leaf" />

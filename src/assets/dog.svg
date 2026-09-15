@@ -178,9 +178,9 @@
 </style>
 <g>
       <ellipse cx="100" cy="174" rx="42" ry="7" class="shadow" />
-      <ellipse cx="46" cy="118" rx="17" ry="36" transform="rotate(14 46 118)" class="c-dog-ear" />
-      <ellipse cx="154" cy="118" rx="17" ry="36" transform="rotate(-14 154 118)" class="c-dog-ear" />
-      <circle cx="100" cy="102" r="56" class="c-dog" />
+      <path d="M59 70 C35 75 32 113 43 143 C50 160 66 157 73 139 L72 87 Z" class="c-dog-ear" />
+      <path d="M141 70 C165 75 168 113 157 143 C150 160 134 157 127 139 L128 87 Z" class="c-dog-ear" />
+      <path d="M100 47 C132 47 158 70 157 105 C156 141 134 164 100 164 C66 164 44 141 43 105 C42 70 68 47 100 47 Z" class="c-dog" />
       <circle cx="76" cy="86" r="18" class="c-dog-patch" />
       <circle cx="76" cy="86" r="5" class="c-eyes" />
       <circle cx="124" cy="86" r="5" class="c-eyes" />

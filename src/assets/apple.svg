@@ -178,8 +178,8 @@
 </style>
 <g>
       <ellipse cx="100" cy="170" rx="34" ry="7" class="shadow" />
-      <path d="M100 154 C145 154 158 130 158 100 C158 80 148 66 134 62 C131 58 127 56 123 56 C113 56 107 60 100 60 C93 60 87 56 77 56 C73 56 69 58 66 62 C52 66 42 80 42 100 C42 130 55 154 100 154 Z" class="c-apple" />
-      <line x1="100" y1="60" x2="100" y2="44" class="c-stem" stroke-width="5" stroke-linecap="round" />
+      <path d="M100 162 C70 162 45 146 42 112 C39 84 54 64 76 61 C86 59 94 65 100 70 C106 65 114 59 124 61 C146 64 161 84 158 112 C155 146 130 162 100 162 Z" class="c-apple" />
+      <path d="M100 70 C99 60 100 51 104 43" fill="none" class="c-stem-line" />
       <ellipse cx="112" cy="41" rx="14" ry="8" transform="rotate(-28 112 41)" class="c-leaf" />
       <ellipse cx="79" cy="81" rx="9" ry="13" transform="rotate(-24 79 81)" class="hi" />
       <path d="M58 108 Q70 116 82 112 M118 141 Q132 136 140 124" class="c-ridge" />

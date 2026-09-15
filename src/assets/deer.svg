@@ -566,8 +566,8 @@ svg {
       <path d="M118 52 L130 26 M126 38 L140 32 M126 44 L114 34" class="c-antler" />
       <ellipse cx="64" cy="70" rx="12" ry="20" transform="rotate(-22 64 70)" class="c-deer" />
       <ellipse cx="136" cy="70" rx="12" ry="20" transform="rotate(22 136 70)" class="c-deer" />
-      <circle cx="100" cy="108" r="50" class="c-deer" />
-      <ellipse cx="100" cy="132" rx="21" ry="17" class="c-potato" />
+      <path d="M100 56 C132 56 151 80 148 112 C145 145 127 166 100 166 C73 166 55 145 52 112 C49 80 68 56 100 56 Z" class="c-deer" />
+      <path d="M77 126 Q100 113 123 126 L121 145 Q100 157 79 145 Z" class="c-potato" />
       <ellipse cx="100" cy="122" rx="6.5" ry="4.5" class="c-tip" />
       <circle cx="80" cy="98" r="5" class="c-eyes" />
       <circle cx="120" cy="98" r="5" class="c-eyes" />

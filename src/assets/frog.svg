@@ -566,12 +566,12 @@ svg {
       <circle cx="122" cy="60" r="17" class="c-egg" />
       <circle cx="78" cy="62" r="7.5" class="c-eyes" />
       <circle cx="122" cy="62" r="7.5" class="c-eyes" />
-      <circle cx="100" cy="116" r="55" class="c-frog" />
+      <path d="M100 66 C133 66 156 87 156 120 C156 151 133 169 100 169 C67 169 44 151 44 120 C44 87 67 66 100 66 Z" class="c-frog" />
       <circle cx="68" cy="112" r="6" class="c-pink" />
       <circle cx="132" cy="112" r="6" class="c-pink" />
       <ellipse cx="66" cy="124" rx="9" ry="6" class="c-cheek" />
       <ellipse cx="134" cy="124" rx="9" ry="6" class="c-cheek" />
-      <path d="M62 122 Q100 162 138 122" class="c-eyeline" />
+      <path d="M58 119 Q100 158 142 119 Q132 148 100 151 Q68 148 58 119 Z" class="c-eyeline" />
       <circle cx="88" cy="134" r="2.2" class="c-tip" />
       <circle cx="112" cy="134" r="2.2" class="c-tip" />
   </g>

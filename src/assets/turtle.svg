@@ -178,9 +178,9 @@
 </style>
 <g>
       <ellipse cx="100" cy="165" rx="53" ry="7" class="shadow" />
-      <ellipse cx="102" cy="111" rx="50" ry="38" class="c-turtle-shell" />
+      <path d="M48 112 C48 83 71 66 103 66 C135 66 158 83 158 112 C158 142 135 158 103 158 C71 158 48 142 48 112 Z" class="c-turtle-shell" />
       <path d="M62 104 L45 91 L48 115 L64 123 M142 104 L159 91 L156 115 L140 123 M77 141 L66 156 L87 150 M126 141 L138 156 L117 150" class="c-turtle-limb" />
-      <path d="M59 111 C43 104 32 113 35 126 C38 138 54 135 63 126 Z" class="c-turtle" />
+      <path d="M58 108 C38 99 24 110 28 127 C31 143 50 143 66 129 L68 115 Z" class="c-turtle" />
       <circle cx="45" cy="119" r="3" class="c-eyes" />
       <path d="M72 90 L102 75 L132 90 L142 112 L124 140 H81 L62 112 Z M102 75 V140 M62 112 H142 M72 90 L124 140 M132 90 L81 140" class="c-shell-line" />
     </g>

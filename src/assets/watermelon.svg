@@ -178,9 +178,10 @@
 </style>
 <g>
       <ellipse cx="101" cy="166" rx="53" ry="7" class="shadow" />
-      <path d="M45 142 Q72 56 145 70 Q166 82 174 142 Z" class="c-watermelon-rind" />
-      <path d="M53 138 Q76 68 143 80 Q157 89 165 138 Z" class="c-watermelon" />
-      <path d="M48 143 H172" class="c-rind-line" />
+      <path d="M38 146 Q58 57 112 58 Q160 60 177 146 Z" class="c-watermelon-rind" />
+      <path d="M47 138 Q65 70 112 70 Q151 72 168 138 Z" class="c-watermelon" />
+      <path d="M40 146 H176" class="c-rind-line" />
+      <path d="M60 137 Q76 82 104 75 M91 138 Q106 82 127 75 M124 139 Q138 88 149 85" class="c-ridge" />
       <ellipse cx="88" cy="105" rx="2.4" ry="4.3" transform="rotate(-20 88 105)" class="c-watermelon-seed" />
       <ellipse cx="116" cy="99" rx="2.4" ry="4.3" transform="rotate(16 116 99)" class="c-watermelon-seed" />
       <ellipse cx="132" cy="121" rx="2.4" ry="4.3" transform="rotate(18 132 121)" class="c-watermelon-seed" />

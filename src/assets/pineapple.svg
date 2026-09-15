@@ -561,10 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style><g>
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <ellipse cx="100" cy="116" rx="44" ry="56" class="c-pineapple" />
+      <path d="M100 57 C132 59 148 82 145 119 C142 153 124 169 100 170 C76 169 58 153 55 119 C52 82 68 59 100 57 Z" class="c-pineapple" />
       <path d="M62 92 L138 100 M60 108 L140 116 M62 124 L138 132 M66 140 L134 146 M70 154 L130 158" class="c-pineapple-line" />
       <path d="M62 140 L138 132 M60 124 L140 116 M62 108 L138 100 M66 92 L134 86 M70 84 L130 80" class="c-pineapple-line" />
-      <path d="M100 64 L98 32 L104 62 Z" class="c-pineleaf" />
+      <path d="M100 65 L94 25 L106 63 Z" class="c-pineleaf" />
       <path d="M96 66 L80 40 L92 64 Z" class="c-pineleaf2" />
       <path d="M90 70 L66 52 L86 70 Z" class="c-pineleaf" />
       <path d="M104 66 L120 40 L108 64 Z" class="c-pineleaf2" />

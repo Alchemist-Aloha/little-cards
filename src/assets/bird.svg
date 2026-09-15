@@ -179,9 +179,9 @@
 <g>
       <ellipse cx="95" cy="162" rx="38" ry="6" class="shadow" />
       <path d="M56 100 L26 84 M56 108 L22 108 M56 116 L26 132" class="c-feather" />
-      <circle cx="95" cy="105" r="52" class="c-bird" />
+      <path d="M46 112 C46 78 69 55 102 56 C133 57 151 77 151 106 C151 136 128 153 94 154 C66 154 46 140 46 112 Z" class="c-bird" />
       <ellipse cx="78" cy="116" rx="17" ry="23" transform="rotate(18 78 116)" class="c-bird-wing" />
-      <path d="M142 96 L164 88 L160 108 Z" class="c-beak" />
+      <path d="M145 96 L170 84 L164 106 L145 106 Z" class="c-beak" />
       <circle cx="126" cy="86" r="5" class="c-eyes" />
       <path d="M104 128 Q112 132 118 126" class="c-eyeline" />
     </g>

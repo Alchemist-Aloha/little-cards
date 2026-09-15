@@ -178,8 +178,8 @@
 </style>
 <g>
       <ellipse cx="100" cy="163" rx="59" ry="7" class="shadow" />
-      <path d="M61 104 L28 76 L37 104 L28 132 L61 115 Z" class="c-fish-fin" />
-      <path d="M53 104 C63 78 96 62 130 67 C153 71 169 85 169 104 C169 123 153 137 130 141 C96 146 63 130 53 104 Z" class="c-fish" />
+      <path d="M55 104 L22 70 L32 104 L22 138 L55 116 Z" class="c-fish-fin" />
+      <path d="M50 104 C62 75 96 59 132 65 C158 69 174 84 174 104 C174 125 157 140 132 144 C96 150 62 132 50 104 Z" class="c-fish" />
       <path d="M83 76 C91 52 113 48 128 69 C112 67 96 69 83 76 Z" class="c-fish-fin" />
       <path d="M98 134 C108 153 129 151 139 136 C123 140 109 140 98 134 Z" class="c-fish-fin" />
       <path d="M129 76 Q116 104 129 132" style="fill:none;stroke:var(--c-line);stroke-width:2.5;opacity:.55" />

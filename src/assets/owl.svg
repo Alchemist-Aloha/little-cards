@@ -564,15 +564,15 @@ svg {
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
       <path d="M72 56 L64 34 L90 50 Z" class="c-owl" />
       <path d="M128 56 L136 34 L110 50 Z" class="c-owl" />
-      <ellipse cx="100" cy="114" rx="53" ry="58" class="c-owl" />
+      <path d="M72 56 L64 34 L90 50 Q100 46 110 50 L136 34 L128 56 C144 72 153 91 151 119 C149 153 129 173 100 173 C71 173 51 153 49 119 C47 91 56 72 72 56 Z" class="c-owl" />
       <ellipse cx="100" cy="126" rx="34" ry="40" class="c-owl-belly" />
       <circle cx="80" cy="100" r="18" class="c-owl-eye" />
       <circle cx="120" cy="100" r="18" class="c-owl-eye" />
       <circle cx="80" cy="102" r="8" class="c-eyes" />
       <circle cx="120" cy="102" r="8" class="c-eyes" />
       <path d="M93 118 L107 118 L100 130 Z" class="c-beak" />
-      <path d="M52 112 Q44 142 58 162" class="c-car-line" />
-      <path d="M148 112 Q156 142 142 162" class="c-car-line" />
+      <path d="M57 119 Q45 142 61 161" class="c-car-line" />
+      <path d="M143 119 Q155 142 139 161" class="c-car-line" />
   </g>
       <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".45">
         <path d="M76 132 Q84 140 90 144 M124 132 Q116 140 110 144" />

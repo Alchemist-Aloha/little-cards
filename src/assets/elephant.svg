@@ -178,11 +178,12 @@
 </style>
 <g>
       <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <circle cx="104" cy="106" r="48" class="c-elephant" />
-      <ellipse cx="66" cy="112" rx="26" ry="32" transform="rotate(12 66 112)" class="c-elephant" />
+      <ellipse cx="104" cy="105" rx="51" ry="49" class="c-elephant" />
+      <ellipse cx="59" cy="108" rx="28" ry="37" transform="rotate(12 59 108)" class="c-elephant" />
+      <ellipse cx="145" cy="108" rx="28" ry="37" transform="rotate(-12 145 108)" class="c-elephant" />
       <path d="M106 142 C 108 164 118 178 132 180 C 144 182 150 172 144 164 C 138 156 130 158 126 150" class="c-trunk-line" />
       <path d="M106 142 C 108 164 118 178 132 180 C 144 182 150 172 144 164 C 138 156 130 158 126 150" class="c-trunk" />
-      <circle cx="126" cy="94" r="5" class="c-eyes" />
+      <circle cx="127" cy="91" r="5" class="c-eyes" /><circle cx="90" cy="91" r="5" class="c-eyes" />
     </g>
       <g fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
         <path d="M82 130 Q70 140 80 150 Q88 145 88 134 Z" />

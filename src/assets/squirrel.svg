@@ -565,8 +565,10 @@ svg {
       <path d="M150 124 Q192 100 176 52 Q164 28 144 46 Q162 72 150 98 Q140 118 150 132 Z" class="c-squirrel-tail" />
       <path d="M74 66 L68 46 L88 62 Z" class="c-squirrel" />
       <path d="M118 66 L124 46 L104 62 Z" class="c-squirrel" />
-      <circle cx="96" cy="108" r="48" class="c-squirrel" />
-      <ellipse cx="96" cy="130" rx="23" ry="27" class="c-squirrel-belly" />
+      <path d="M96 58 C126 58 145 80 143 112 C141 145 123 164 96 164 C69 164 51 145 49 112 C47 80 66 58 96 58 Z" class="c-squirrel" />
+      <ellipse cx="96" cy="128" rx="27" ry="33" class="c-squirrel-belly" />
+      <path d="M78 130 Q96 119 114 130 L110 151 Q96 160 82 151 Z" fill="var(--c-stem)" stroke="var(--c-line)" stroke-width="2.5" />
+      <path d="M78 132 Q96 125 114 132" fill="none" stroke="var(--c-line)" stroke-width="3" />
       <ellipse cx="70" cy="118" rx="8" ry="5" class="c-cheek" />
       <ellipse cx="122" cy="118" rx="8" ry="5" class="c-cheek" />
       <circle cx="80" cy="100" r="5" class="c-eyes" />

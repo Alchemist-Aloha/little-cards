@@ -565,11 +565,11 @@ svg {
       <path d="M90 54 L84 34 L100 50 Z" class="c-parrot" />
       <path d="M110 54 L116 34 L100 50 Z" class="c-parrot" />
       <path d="M150 118 Q186 96 172 52 Q160 30 142 46 Q160 72 150 96 Q142 114 150 120 Z" class="c-parrot" />
-      <circle cx="100" cy="106" r="52" class="c-parrot" />
+      <path d="M101 53 C132 53 151 76 148 108 C145 141 125 162 97 159 C70 156 55 136 58 105 C61 75 76 53 101 53 Z" class="c-parrot" />
       <path d="M118 92 Q150 104 140 142 Q128 150 118 138 Z" class="c-blue" />
       <circle cx="80" cy="98" r="14" class="c-egg" />
       <circle cx="80" cy="98" r="6" class="c-eyes" />
-      <path d="M84 116 Q98 110 104 120 Q98 132 86 128 Q80 122 84 116 Z" class="c-beak" />
+      <path d="M83 113 Q102 105 111 119 Q103 137 87 130 Q78 123 83 113 Z" class="c-beak" />
       <path d="M70 120 Q60 112 72 106" class="c-parrot" />
   </g>
       <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">

@@ -178,7 +178,7 @@
 </style>
 <g>
       <ellipse cx="101" cy="173" rx="32" ry="6" class="shadow" />
-      <path d="M102 57 C84 69 83 89 76 99 C61 120 70 155 100 161 C130 155 139 120 124 99 C117 89 116 69 102 57 Z" class="c-pear" />
+      <path d="M103 54 C84 63 87 88 76 103 C59 126 68 160 100 166 C132 160 141 126 124 103 C113 88 119 63 103 54 Z" class="c-pear" />
       <path d="M102 58 C106 49 108 43 106 36" class="c-stem-line" />
       <ellipse cx="119" cy="43" rx="14" ry="7" transform="rotate(-26 119 43)" class="c-leaf" />
       <ellipse cx="85" cy="113" rx="8" ry="13" transform="rotate(-22 85 113)" class="hi" />

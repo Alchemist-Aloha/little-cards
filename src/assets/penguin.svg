@@ -178,8 +178,8 @@
 </style>
 <g>
       <ellipse cx="100" cy="176" rx="40" ry="7" class="shadow" />
-      <path d="M100 44 C66 44 49 76 53 119 C56 153 73 169 100 169 C127 169 144 153 147 119 C151 76 134 44 100 44 Z" class="c-penguin" />
-      <ellipse cx="100" cy="119" rx="32" ry="43" class="c-penguin-belly" />
+      <path d="M100 40 C62 40 45 75 50 121 C53 157 72 176 100 176 C128 176 147 157 150 121 C155 75 138 40 100 40 Z" class="c-penguin" />
+      <ellipse cx="100" cy="119" rx="36" ry="49" class="c-penguin-belly" />
       <path d="M58 101 C42 112 42 139 61 146 M142 101 C158 112 158 139 139 146" class="c-penguin-wing" />
       <circle cx="86" cy="82" r="4" class="c-eyes" /><circle cx="114" cy="82" r="4" class="c-eyes" />
       <path d="M94 94 L106 94 L100 104 Z" class="c-beak" />

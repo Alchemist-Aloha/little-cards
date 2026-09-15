@@ -178,7 +178,8 @@
 </style>
 <g>
       <ellipse cx="100" cy="162" rx="30" ry="6" class="shadow" />
-      <circle cx="100" cy="104" r="47" class="c-orange" />
+      <path d="M100 56 C126 55 147 72 151 98 C156 126 137 149 103 152 C70 154 48 135 49 105 C50 76 69 58 100 56 Z" class="c-orange" />
+      <ellipse cx="100" cy="61" rx="7" ry="4" class="c-dimple" />
       <line x1="100" y1="57" x2="100" y2="44" class="c-stem" stroke-width="5" stroke-linecap="round" />
       <ellipse cx="112" cy="42" rx="13" ry="7" transform="rotate(-24 112 42)" class="c-leaf" />
       <circle cx="86" cy="90" r="2" class="c-dimple" />

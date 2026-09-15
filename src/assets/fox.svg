@@ -566,8 +566,8 @@ svg {
       <path d="M52 40 L46 24 L76 46 Z" class="c-fox-tip" />
       <path d="M142 64 L154 24 L106 54 Z" class="c-fox" />
       <path d="M148 40 L154 24 L124 46 Z" class="c-fox-tip" />
-      <path d="M52 92 Q52 60 100 62 Q148 60 148 92 L100 162 Z" class="c-fox" />
-      <path d="M72 106 Q100 150 128 106 Q116 150 100 150 Q84 150 72 106 Z" class="c-fox-chest" />
+      <path d="M49 91 Q51 59 100 57 Q149 59 151 91 L100 167 Z" class="c-fox" />
+      <path d="M68 105 Q100 153 132 105 Q120 158 100 158 Q80 158 68 105 Z" class="c-fox-chest" />
       <path d="M93 132 L107 132 L100 142 Z" class="c-tip" />
       <circle cx="80" cy="92" r="5" class="c-eyes" />
       <circle cx="120" cy="92" r="5" class="c-eyes" />

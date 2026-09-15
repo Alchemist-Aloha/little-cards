@@ -178,7 +178,8 @@
 </style>
 <g>
       <ellipse cx="95" cy="164" rx="44" ry="6" class="shadow" />
-      <path d="M146 38 C172 94 150 138 52 152 C86 143 129 124 134 60 C135 47 140 41 146 38 Z" class="c-banana" />
+      <path d="M148 34 C180 88 162 145 51 158 C87 146 133 124 137 63 C138 48 143 39 148 34 Z" class="c-banana" />
+      <path d="M143 51 C156 91 143 119 116 133" class="c-ridge" />
       <circle cx="146" cy="40" r="5" class="c-tip" />
       <circle cx="52" cy="150" r="5" class="c-tip" />
       <path d="M120 76 C110 92 104 100 96 114" class="c-ridge" />

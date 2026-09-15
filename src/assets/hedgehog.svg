@@ -567,8 +567,8 @@ svg {
       <path d="M100 70 L100 40 L116 72 Z" class="c-hedgehog-spike" />
       <path d="M134 78 L140 46 L112 74 Z" class="c-hedgehog-spike" />
       <path d="M152 92 L162 58 L134 84 Z" class="c-hedgehog-spike" />
-      <circle cx="100" cy="114" r="52" class="c-hedgehog" />
-      <ellipse cx="100" cy="130" rx="44" ry="30" class="c-mushroom" />
+      <path d="M48 119 L39 91 L61 101 L57 70 L79 91 L88 57 L101 88 L119 57 L121 91 L146 70 L139 102 L162 91 L151 122 C146 151 126 169 100 169 C74 169 54 151 48 119 Z" class="c-hedgehog" />
+      <ellipse cx="100" cy="134" rx="45" ry="32" class="c-mushroom" />
       <circle cx="82" cy="126" r="4.5" class="c-eyes" />
       <circle cx="118" cy="126" r="4.5" class="c-eyes" />
       <ellipse cx="100" cy="148" rx="5" ry="3.5" class="c-tip" />
