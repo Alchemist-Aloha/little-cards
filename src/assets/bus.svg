@@ -176,11 +176,23 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="169" rx="65" ry="7" class="shadow"/>
-  <path d="M31 137 V79 Q31 64 47 64 H153 Q169 64 169 79 V137Z" class="c-bus"/>
-  <path d="M43 76 H157 V108 H43Z" class="c-bus-window"/>
-  <path d="M66 76 V108 M91 76 V108 M116 76 V108 M141 76 V108" class="c-bus-line"/>
-  <rect x="132" y="113" width="25" height="24" rx="3" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <circle cx="59" cy="140" r="15" class="c-wheel"/><circle cx="141" cy="140" r="15" class="c-wheel"/>
-  <path d="M37 120 H46 M154 120 H163" class="c-bus-line"/>
+<g>
+  <ellipse cx="100" cy="176" rx="64" ry="8" class="shadow"/>
+  <path d="M30 148 V76 Q30 61 45 61 H155 Q170 61 170 76 V148 Z" class="c-bus"/>
+  <path d="M30 108 H170" class="c-bus-line"/>
+  <rect x="40" y="73" width="72" height="31" rx="4" class="c-bus-window"/>
+  <path d="M58 73 V104 M76 73 V104 M94 73 V104" class="c-bus-line"/>
+  <path d="M120 70 H154 Q164 70 164 81 V104 H120 Z" class="c-bus-window"/>
+  <rect x="94" y="112" width="24" height="36" rx="2" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M106 112 V148" class="c-bus-line"/>
+  <circle cx="102" cy="129" r="1.9" fill="var(--c-line)"/>
+  <rect x="30" y="112" width="6" height="11" rx="3" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2"/>
+  <rect x="155" y="112" width="12" height="11" rx="3.5" class="c-headlight"/>
+  <circle cx="58" cy="150" r="18" class="c-wheel"/>
+  <circle cx="140" cy="150" r="18" class="c-wheel"/>
+  <circle cx="58" cy="150" r="8.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="140" cy="150" r="8.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="58" cy="150" r="2.6" fill="var(--c-line)"/>
+  <circle cx="140" cy="150" r="2.6" fill="var(--c-line)"/>
+</g>
 </svg>

@@ -176,11 +176,32 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="170" rx="62" ry="7" class="shadow"/>
-  <path d="M43 132 V72 Q43 59 57 59 H140 Q154 59 154 72 V132Z" class="c-train"/>
-  <path d="M60 72 H138 V105 H60Z" class="c-train-line"/><path d="M86 72 V105 M112 72 V105" class="c-train-line"/>
-  <circle cx="67" cy="119" r="8" class="c-train-light"/><path d="M42 108 H155" class="c-train-line"/>
-  <circle cx="66" cy="139" r="14" class="c-wheel"/><circle cx="132" cy="139" r="14" class="c-wheel"/>
-  <path d="M76 59 V43 H96 V59 M82 43 H101" class="c-train-line"/>
-  <path d="M28 157 H171 M28 166 H171" class="c-track"/>
+<g>
+  <ellipse cx="100" cy="177" rx="66" ry="7" class="shadow"/>
+  <path d="M20 160 H180 M20 169 H180" class="c-track"/>
+  <path d="M42 160 V169 M74 160 V169 M106 160 V169 M138 160 V169 M170 160 V169" class="c-track"/>
+  <rect x="40" y="126" width="116" height="12" rx="3" class="c-train"/>
+  <path d="M126 88 L129 64 H142 L145 88 Z" class="c-train"/>
+  <rect x="123" y="58" width="26" height="8" rx="3" class="c-train"/>
+  <path d="M96 88 Q98 76 108 76 Q116 76 118 88 Z" class="c-train"/>
+  <path d="M68 130 V98 Q68 86 80 86 H140 Q152 86 152 98 V130 Z" class="c-train"/>
+  <path d="M32 130 V74 Q32 62 44 62 H64 Q76 62 76 74 V130 Z" class="c-train"/>
+  <path d="M28 66 H80" class="c-train-line"/>
+  <rect x="40" y="74" width="22" height="20" rx="3" class="c-milk"/>
+  <path d="M92 88 V128 M116 88 V128" class="c-train-line"/>
+  <path d="M128 88 V128" class="c-train-line"/>
+  <circle cx="144" cy="106" r="6.5" class="c-train-light"/>
+  <path d="M142 126 L170 150 H140 Z" class="c-train"/>
+  <path d="M151 130 V148 M159 134 V148" class="c-train-line"/>
+  <path d="M54 147 H126" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="145" r="15" class="c-wheel"/>
+  <circle cx="90" cy="145" r="15" class="c-wheel"/>
+  <circle cx="126" cy="145" r="15" class="c-wheel"/>
+  <circle cx="54" cy="145" r="7" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="90" cy="145" r="7" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="126" cy="145" r="7" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="54" cy="145" r="2.4" fill="var(--c-line)"/>
+  <circle cx="90" cy="145" r="2.4" fill="var(--c-line)"/>
+  <circle cx="126" cy="145" r="2.4" fill="var(--c-line)"/>
+</g>
 </svg>

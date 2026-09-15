@@ -176,9 +176,25 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="170" rx="58" ry="6" class="shadow"/>
-  <circle cx="58" cy="133" r="31" class="c-bike-wheel"/><circle cx="142" cy="133" r="31" class="c-bike-wheel"/>
-  <path d="M58 133 L82 95 L108 133 L58 133 M82 95 L99 95 M108 133 L124 92 L142 133 M108 133 H142" class="c-bike"/>
-  <path d="M124 92 L131 85 H143" class="c-bike"/><circle cx="108" cy="133" r="7" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M82 95 L76 82 H87" class="c-bike"/>
+<g>
+  <ellipse cx="100" cy="173" rx="60" ry="7" class="shadow"/>
+  <circle cx="56" cy="138" r="30" class="c-bike-wheel"/>
+  <circle cx="148" cy="138" r="30" class="c-bike-wheel"/>
+  <circle cx="56" cy="138" r="25" fill="none" stroke="var(--c-milk-label)" stroke-width="2.5"/>
+  <circle cx="148" cy="138" r="25" fill="none" stroke="var(--c-milk-label)" stroke-width="2.5"/>
+  <path d="M88 136 H58 M88 144 H58" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M56 138 L76 92 M76 92 L96 140 M96 140 L56 138" class="c-bike"/>
+  <path d="M96 140 L140 116 M76 92 L134 88 M134 88 L140 116 M140 116 L148 138" class="c-bike"/>
+  <path d="M136 88 L142 74 M126 74 H156" class="c-bike"/>
+  <circle cx="126" cy="74" r="3.8" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="156" cy="74" r="3.8" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="96" cy="140" r="8.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M96 140 L108 150" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <rect x="100" y="147" width="16" height="6" rx="2" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M62 92 Q58 82 70 82 H88 Q98 82 96 88 Q95 92 86 92 Z" class="c-wheel"/>
+  <circle cx="56" cy="138" r="6" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="148" cy="138" r="6" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="56" cy="138" r="2.2" fill="var(--c-line)"/>
+  <circle cx="148" cy="138" r="2.2" fill="var(--c-line)"/>
+</g>
 </svg>
