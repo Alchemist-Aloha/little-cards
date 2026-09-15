@@ -562,11 +562,17 @@ svg {
 </style>
   <g>
     <ellipse class="shadow" cx="101" cy="177" rx="58" ry="7"/>
-    <path class="c-hippo" d="M30 119 Q46 83 94 72 Q147 60 175 91 Q188 105 180 120 Q151 139 100 143 Q55 145 30 119 Z"/>
-    <path class="c-hippo" d="M99 75 L115 37 L137 73 M64 82 L47 54 L47 89"/>
-    <path class="c-hippo" d="M32 118 L12 97 L19 117 L12 138 L36 126 Z"/>
-    <path class="c-cow" d="M90 126 Q129 134 170 113 Q156 141 111 143 Q96 142 90 126 Z"/>
-    <circle class="c-eyes" cx="159" cy="91" r="5"/><path class="c-eyeline" d="M146 107 Q162 117 177 106"/>
-    <path d="M143 112 l5 9 l5 -9 l5 8 l5 -10" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M136 96 L130 111 M147 94 L141 111 M158 96 L152 110" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  </g> </svg>
+    <path class="c-hippo" d="M48 102 C37 88 26 77 16 66 C22 85 28 101 34 116 C31 127 27 138 24 148 C36 143 46 137 52 130 C50 121 48 111 48 102 Z"/>
+    <path class="c-hippo" d="M84 95 C92 76 100 58 112 44 C118 62 124 78 130 88 Z"/>
+    <path class="c-hippo" d="M100 148 L130 147 C128 161 114 169 96 171 C98 163 99 155 100 148 Z"/>
+    <path class="c-hippo" d="M184 112 C170 104 158 97 142 93 C124 88 100 85 80 89 C62 94 50 101 42 109 C38 115 38 123 42 128 C48 134 58 139 70 142 C96 149 124 149 148 141 C152 134 166 122 184 112 Z"/>
+    <path fill="var(--c-milk)" d="M76 138 C98 151 128 150 150 139 C128 142 98 143 76 138 Z"/>
+    <path class="c-hippo" d="M112 147 L134 146 C132 159 122 168 108 170 C110 161 110 153 112 147 Z"/>
+    <path fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" d="M110 99 Q115 115 110 131 M118 98 Q123 114 118 131 M126 97 Q131 113 126 131 M134 96 Q139 113 134 131 M142 96 Q147 112 142 130"/>
+    <path fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" d="M146 120 C154 128 162 123 170 111 C162 114 154 116 146 120 Z"/>
+    <path class="c-seed" d="M150 122.5 L152 118.8 L154 123.8 Z M156 124 L158 116.7 L160 122.6 Z M161 122.6 L163 114.7 L165 119 Z"/>
+    <circle class="c-eyes" cx="155" cy="107" r="4.5"/>
+    <circle class="c-bubble" cx="170" cy="54" r="4.5"/>
+    <circle class="c-bubble" cx="180" cy="34" r="3"/>
+  </g>
+</svg>

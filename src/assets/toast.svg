@@ -563,25 +563,23 @@ svg {
 <g>
   <ellipse cx="100" cy="184" rx="62" ry="8" class="shadow"/>
   <!-- back face of the slice: the bread's thickness -->
-  <path d="M45 152 V100 C45 72 64 54 100 54 C136 54 155 72 155 100 V152 Q155 170 142 170 H58 Q45 170 45 152 Z" transform="translate(6 7)" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- crust -->
-  <path d="M45 152 V100 C45 72 64 54 100 54 C136 54 155 72 155 100 V152 Q155 170 142 170 H58 Q45 170 45 152 Z" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- crumb: the paler toasted middle inside the crust ring -->
-  <path d="M52 145 V102 C52 81 71 64 100 64 C129 64 148 81 148 102 V145 Q148 155 139 155 H61 Q52 155 52 145 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- toasted ring where the crumb browned against the crust -->
-  <path d="M61 142 V102 C61 87 76 76 100 76 C124 76 139 87 139 102 V142" fill="none" stroke="var(--c-autumn)" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  <path d="M34 164 V96 C34 78 56 66 97 66 C138 66 160 78 160 96 V164 Q160 172 152 172 H42 Q34 172 34 164 Z" transform="translate(5 5)" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- crust: a thin, even ring around the squarer slice -->
+  <path d="M34 164 V96 C34 78 56 66 97 66 C138 66 160 78 160 96 V164 Q160 172 152 172 H42 Q34 172 34 164 Z" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- crumb: the toasted middle, the main read at card size -->
+  <path d="M39 162 V97 C39 81 60 71 97 71 C134 71 155 81 155 97 V162 Q155 167 150 167 H44 Q39 167 39 162 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- faint toasted ring where the crumb browned against the crust -->
+  <path d="M49 158 V99 C49 85 68 78 97 78 C126 78 145 85 145 99 V158" fill="none" stroke="var(--c-autumn)" stroke-width="5" stroke-linecap="round" opacity=".25"/>
+  <ellipse cx="68" cy="86" rx="10" ry="3.6" class="hi"/>
   <!-- crumb pores -->
-  <circle cx="86" cy="88" r="2.2" fill="var(--c-line)" opacity=".2"/>
-  <circle cx="118" cy="90" r="1.7" fill="var(--c-line)" opacity=".2"/>
-  <path d="M112 132 C120 126 130 130 129 139 C128 147 118 149 113 144 C108 139 108 136 112 132 Z" fill="var(--c-autumn)" opacity=".4"/>
-  <circle cx="70" cy="126" r="2.4" fill="var(--c-line)" opacity=".2"/>
-  <circle cx="132" cy="132" r="2" fill="var(--c-line)" opacity=".2"/>
-  <circle cx="102" cy="150" r="1.8" fill="var(--c-line)" opacity=".2"/>
-  <!-- butter spread across the middle of the slice -->
-  <path d="M66 110 Q63 98 78 96 Q88 93 100 96 Q114 93 122 97 Q137 98 134 110 Q136 122 120 123 H80 Q64 122 66 110 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M76 103 Q84 101 92 103" fill="none" stroke="var(--c-hi)" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
-  <!-- butter running down the crumb -->
-  <path d="M82 123 Q81 137 89 139 Q96 137 96 123 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M112 123 Q111 131 116 133 Q122 131 121 123 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="66" cy="96" r="2.2" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="131" cy="100" r="1.8" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="56" cy="130" r="2.2" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="74" cy="150" r="1.8" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="106" cy="154" r="2" fill="var(--c-line)" opacity=".2"/>
+  <!-- one quiet patch of browning -->
+  <path d="M126 144 C131 139 138 141 137 147 C136 152 129 154 126 150 C124 147 124 145 126 144 Z" fill="var(--c-autumn)" opacity=".22"/>
+  <!-- small butter pat so the toasted crumb stays the main read -->
+  <path d="M89 112 Q86 112 86 116 V123 Q86 127 90 127 H96 Q100 127 101 129 Q102 132 106 131 Q109 129 108 127 Q110 125 110 121 V116 Q110 112 106 112 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
 </g>
 </svg>

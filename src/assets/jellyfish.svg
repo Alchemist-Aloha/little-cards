@@ -562,8 +562,13 @@ svg {
 </style>
   <g>
     <ellipse class="shadow" cx="100" cy="177" rx="48" ry="7"/>
-    <path class="c-jelly" d="M43 96 A57 57 0 0 1 157 96 Q151 109 143 108 Q136 118 128 108 Q120 119 112 108 Q104 120 96 108 Q88 119 80 108 Q72 118 64 108 Q51 110 43 96 Z"/>
-    <path class="c-pink" d="M62 105 Q52 132 62 162 Q73 141 70 108 M86 107 Q77 139 87 170 Q97 144 94 108 M110 108 Q104 141 114 168 Q123 143 118 107 M134 107 Q129 137 141 160 Q149 136 143 105" fill="none" stroke="var(--c-pink)" stroke-width="10" stroke-linecap="round"/>
-    <circle class="c-eyes" cx="82" cy="80" r="5"/><circle class="c-eyes" cx="118" cy="80" r="5"/><path class="c-eyeline" d="M90 93 Q100 100 110 93"/>
-    <circle class="c-bubble" cx="169" cy="50" r="6"/><circle class="c-bubble" cx="154" cy="32" r="4"/>
-  </g> </svg>
+    <path fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round" d="M50 100 C44 112 56 122 48 138 M70 100 C62 118 78 128 70 148 C67 158 74 160 68 170 M90 100 C83 114 97 124 88 154 M110 100 C118 116 102 130 112 150 C118 158 110 160 114 168 M130 100 C136 112 124 124 133 156 M150 100 C156 110 146 118 155 136"/>
+    <path fill="none" stroke="var(--c-grape)" stroke-width="8.5" stroke-linecap="round" d="M50 100 C44 112 56 122 48 138 M70 100 C62 118 78 128 70 148 C67 158 74 160 68 170 M90 100 C83 114 97 124 88 154 M110 100 C118 116 102 130 112 150 C118 158 110 160 114 168 M130 100 C136 112 124 124 133 156 M150 100 C156 110 146 118 155 136"/>
+    <path class="c-jelly" d="M41 94 A59 59 0 0 1 159 94 Q150 130 140 94 Q130 130 120 94 Q110 130 100 94 Q90 130 80 94 Q70 130 60 94 Q50 130 41 94 Z"/>
+    <path fill="none" stroke="var(--c-hi)" stroke-width="9" stroke-linecap="round" d="M66 78 Q58 60 74 47"/>
+    <circle class="c-eyes" cx="82" cy="74" r="5"/><circle class="c-eyes" cx="118" cy="74" r="5"/>
+    <path class="c-eyeline" d="M86 86 Q100 96 114 86"/>
+    <circle class="c-bubble" cx="169" cy="50" r="6"/>
+    <circle class="c-bubble" cx="154" cy="32" r="4"/>
+  </g>
+</svg>
