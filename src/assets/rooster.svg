@@ -561,16 +561,35 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="102" cy="180" rx="58" ry="7" class="shadow" />
-  <path d="M56 130 Q46 104 70 88 Q94 74 122 88 Q146 102 148 136 Q146 160 120 166 H78 Q60 156 56 130 Z" class="c-hen" />
-  <path d="M72 102 Q42 82 34 54 Q60 60 84 86 Z M76 116 Q40 108 28 82 Q56 82 88 100 Z" class="c-cow-spot" />
-  <circle cx="112" cy="76" r="32" class="c-hen" />
-  <path d="M88 55 Q78 36 92 38 Q90 20 104 34 Q114 18 120 36 Q140 30 130 54 Z" class="c-comb" />
-  <path d="M136 74 L166 82 L136 94 Z" class="c-beak" /><circle cx="122" cy="66" r="4" class="c-eyes" />
-  <path d="M82 120 Q102 100 128 122 Q112 148 88 144 Z" class="c-cow-spot" />
-  <path d="M80 160 V180 H94 V160 M116 160 V180 H130 V160" class="c-hen" />
-  <path d="M78 180 H96 M112 180 H134" class="c-car-line" />
-  <path d="M106 96 Q116 102 114 112 Q104 110 102 102 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" />
-  <ellipse cx="92" cy="92" rx="10" ry="6" class="hi" />
+  <ellipse cx="100" cy="182" rx="58" ry="7" class="shadow" />
+  <!-- arched tail feathers sweeping up and back -->
+  <path d="M78 120 C48 114 22 88 26 42 C34 64 52 90 82 110 Z" fill="var(--c-cow-spot)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M74 122 C50 120 28 102 24 68 C36 88 54 106 80 116 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M72 126 C56 128 38 118 31 100 C44 108 58 114 76 118 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M74 118 C54 110 36 90 32 62 M70 120 C54 114 38 100 32 82" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".35" />
+  <!-- yellow legs with three toes -->
+  <path d="M92 138 L92 172 M92 172 L81 179 M92 172 L103 179 M92 172 L92 180" fill="none" stroke="var(--c-orange)" stroke-width="6" stroke-linecap="round" />
+  <path d="M124 138 L124 172 M124 172 L113 179 M124 172 L135 179 M124 172 L124 180" fill="none" stroke="var(--c-orange)" stroke-width="6" stroke-linecap="round" />
+  <path d="M92 138 L92 172 M92 172 L81 179 M92 172 L103 179 M92 172 L92 180 M124 138 L124 172 M124 172 L113 179 M124 172 L135 179 M124 172 L124 180" fill="none" stroke="var(--c-line)" stroke-width="1.6" stroke-linecap="round" opacity=".35" />
+  <!-- plump body and upright neck -->
+  <path d="M144 96 C148 76 140 58 124 52 C106 46 88 56 78 70 C64 78 54 94 54 110 C50 126 54 142 66 150 C82 160 114 160 132 148 C146 138 148 116 144 96 Z" class="c-hen" />
+  <!-- dark wing -->
+  <path d="M70 108 C84 98 112 100 124 112 C128 130 112 144 90 144 C72 144 66 126 70 108 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M82 116 C94 112 110 116 118 124 M80 128 C92 126 106 130 116 136" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4" />
+  <!-- golden hackle at the neck -->
+  <path d="M96 80 C108 70 134 72 146 88 C142 100 128 108 112 108 C98 108 92 94 96 80 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M104 84 C114 78 130 82 138 92 M100 94 C110 90 124 94 132 100" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4" />
+  <!-- head -->
+  <circle cx="124" cy="72" r="27" class="c-hen" />
+  <!-- big red comb -->
+  <path d="M102 56 C96 40 106 28 114 38 C114 20 128 20 130 34 C138 20 152 26 150 42 C158 42 160 52 152 58 Z" class="c-comb" />
+  <!-- pointed beak -->
+  <path d="M148 68 L176 78 L148 88 Z" class="c-beak" />
+  <!-- red wattle under the beak -->
+  <path d="M142 88 C152 90 158 102 154 114 C144 116 137 104 137 94 Z" class="c-comb" />
+  <!-- face -->
+  <circle cx="126" cy="62" r="4.4" class="c-eyes" />
+  <path d="M118 86 Q128 92 138 86" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round" />
+  <ellipse cx="80" cy="100" rx="11" ry="6" class="hi" />
 </g>
 </svg>

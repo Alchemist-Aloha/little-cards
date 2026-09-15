@@ -561,15 +561,33 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="102" cy="180" rx="56" ry="7" class="shadow" />
-  <path d="M48 130 Q42 104 66 92 Q88 80 116 92 Q140 100 144 128 Q146 152 124 162 H72 Q52 156 48 130 Z" class="c-duck" />
-  <circle cx="108" cy="76" r="32" class="c-duck" />
-  <path d="M130 70 Q162 62 170 78 Q164 94 130 86 Z" class="c-beak" />
-  <circle cx="120" cy="66" r="4" class="c-eyes" />
-  <path d="M64 112 Q88 92 126 116 Q108 146 76 140 Z" class="c-duck" />
-  <path d="M72 158 V178 H88 V158 M112 158 V178 H128 V158" class="c-penguin-foot" />
-  <path d="M62 178 H92 M106 178 H136" class="c-car-line" />
-  <path d="M52 116 Q42 106 36 96" fill="none" stroke="var(--c-duck)" stroke-width="6" stroke-linecap="round" />
-  <ellipse cx="82" cy="96" rx="10" ry="6" class="hi" />
+  <ellipse cx="100" cy="182" rx="56" ry="7" class="shadow" />
+  <!-- short upturned tail feathers at the rear -->
+  <path d="M62 122 C44 118 31 102 30 82 C45 88 58 102 66 118 Z" class="c-duck" />
+  <path d="M64 128 C50 126 37 114 36 98 C48 102 58 114 66 124 Z" class="c-duck" />
+  <path d="M60 114 C50 108 42 98 40 88 M58 124 C50 120 42 112 39 104" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".35" />
+  <!-- far webbed foot: flat, three toes, on the ground -->
+  <path d="M84 154 L84 172" stroke="var(--c-orange)" stroke-width="7" stroke-linecap="round" fill="none" opacity=".72" />
+  <path d="M68 172 C76 169 86 170 93 173 C100 176 103 179 100 181 L72 181 C68 181 66 176 68 172 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" opacity=".72" />
+  <!-- rounded body -->
+  <path d="M44 126 C40 104 56 86 84 82 C114 78 142 92 148 114 C154 136 144 156 120 161 C92 167 52 160 46 144 C43 138 43 132 44 126 Z" class="c-duck" />
+  <!-- short neck -->
+  <path d="M94 112 C92 92 104 76 122 70 L142 92 C130 106 112 116 94 112 Z" class="c-duck" />
+  <!-- near webbed foot -->
+  <path d="M118 154 L118 172" stroke="var(--c-orange)" stroke-width="7" stroke-linecap="round" fill="none" />
+  <path d="M106 172 C114 169 124 170 131 173 C138 176 141 179 138 181 L110 181 C106 181 104 176 106 172 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M117 181 L119 174 M127 181 L129 173" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5" />
+  <!-- head -->
+  <circle cx="116" cy="68" r="29" class="c-duck" />
+  <!-- broad flat rounded bill -->
+  <path d="M137 58 C154 54 172 56 179 63 C184 68 184 76 177 79 C165 84 149 82 139 77 C135 71 134 63 137 58 Z" class="c-beak" />
+  <circle cx="160" cy="66" r="2.2" class="c-eyes" />
+  <path d="M152 75 Q162 81 172 75" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round" />
+  <!-- folded wing -->
+  <path d="M62 118 C76 106 106 106 122 118 C126 134 112 148 90 148 C70 148 60 134 62 118 Z" class="c-duck" />
+  <path d="M76 124 C88 120 104 122 114 130 M74 134 C86 132 100 136 110 142" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4" />
+  <!-- face -->
+  <circle cx="122" cy="60" r="4.2" class="c-eyes" />
+  <ellipse cx="72" cy="104" rx="11" ry="6" class="hi" />
 </g>
 </svg>
