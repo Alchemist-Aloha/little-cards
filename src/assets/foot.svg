@@ -561,21 +561,35 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
-  <!-- five toes along the front, big toe largest + innermost -->
-  <ellipse cx="68" cy="50" rx="13" ry="16" class="c-skin"/>
-  <ellipse cx="90" cy="43" rx="11.5" ry="14" class="c-skin"/>
-  <ellipse cx="109" cy="47" rx="10" ry="12.5" class="c-skin"/>
-  <ellipse cx="124" cy="57" rx="8.5" ry="10.5" class="c-skin"/>
-  <ellipse cx="136" cy="70" rx="7" ry="9" class="c-skin"/>
-  <!-- foot outline: wide ball, arched waist, rounded heel -->
-  <path d="M56 84 Q66 70 76 74 Q88 66 100 68 Q118 68 130 78 Q144 88 144 110 Q142 140 138 152 Q136 170 114 170 Q92 172 72 168 Q54 162 58 140 Q64 126 60 106 Q54 92 56 84 Z" class="c-skin"/>
+  <ellipse class="shadow" cx="106" cy="180" rx="64" ry="8"/>
+  <!-- foot in profile, built like the foot in leg.svg and scaled up: low at the front,
+       ankle rising at the back, flat sole and heel; five toes merged into the toe box
+       at the front, big toe largest with a nail -->
+  <path class="c-skin" d="M66 130
+    C74 116 92 106 112 102
+    C132 98 148 96 158 102
+    C168 110 176 124 178 140
+    C179 154 176 166 168 172
+    C150 176 120 176 92 174
+    C78 173 70 170 66 164 Z"/>
+  <!-- five toes merged into the front of the foot, big toe largest -->
+  <path d="M68 142 L40 136" fill="none" stroke="var(--c-line)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M68 142 L40 136" fill="none" stroke="var(--c-skin)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M68 152 L44 147" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M68 152 L44 147" fill="none" stroke="var(--c-skin)" stroke-width="16.5" stroke-linecap="round"/>
+  <path d="M68 160 L48 156" fill="none" stroke="var(--c-line)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M68 160 L48 156" fill="none" stroke="var(--c-skin)" stroke-width="13.5" stroke-linecap="round"/>
+  <path d="M68 167 L52 164" fill="none" stroke="var(--c-line)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M68 167 L52 164" fill="none" stroke="var(--c-skin)" stroke-width="11.5" stroke-linecap="round"/>
+  <path d="M68 172 L58 170" fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M68 172 L58 170" fill="none" stroke="var(--c-skin)" stroke-width="9.5" stroke-linecap="round"/>
   <!-- big-toe nail -->
-  <ellipse cx="68" cy="44" rx="6" ry="7.5" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
-  <!-- arch and heel definition -->
-  <path d="M70 104 Q66 126 73 148" class="c-ridge"/>
-  <path d="M80 156 Q98 162 118 158" class="c-ridge"/>
-  <!-- soft highlight -->
-  <ellipse cx="86" cy="106" rx="10" ry="15" class="hi"/>
+  <ellipse cx="50" cy="134" rx="6.5" ry="4" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <!-- arch of the sole, heel and ankle definition -->
+  <path d="M92 164 C118 156 146 154 166 160" class="c-ridge"/>
+  <path d="M162 148 C168 158 169 166 165 171" class="c-ridge"/>
+  <path d="M148 114 C156 122 160 132 159 142" class="c-ridge"/>
+  <!-- soft highlight on the instep -->
+  <ellipse cx="112" cy="118" rx="12" ry="9" class="hi"/>
 </g>
 </svg>

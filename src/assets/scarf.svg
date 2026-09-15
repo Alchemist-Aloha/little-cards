@@ -561,34 +561,29 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="8"/>
-  <!-- right end, crossing behind -->
-  <g transform="rotate(-44 102 131)">
-    <rect class="c-scarf" x="90" y="93" width="24" height="76" rx="6"/>
+  <ellipse class="shadow" cx="100" cy="184" rx="52" ry="7"/>
+  <g transform="rotate(-26 100 92)">
+    <!-- knitted scarf folded over, hanging: thick tapered band, both ends down at
+         different lengths -->
+    <path class="c-scarf" d="M55 132
+      L52 86 A48 48 0 0 1 148 86 L144 152
+      A19 19 0 0 1 108 156 L108 86
+      A8 8 0 0 0 92 86 L93 132
+      A19 19 0 0 1 55 132 Z"/>
+    <!-- knit ribbing running across the band -->
+    <path class="c-ridge" d="M92.3 83.9 L53.6 73.6 M94.3 80.3 L66.1 52.1 M97.9 78.3 L87.6 39.6 M102.1 78.3 L112.4 39.6 M105.7 80.3 L133.9 52.1 M107.7 83.9 L146.4 73.6"/>
+    <path class="c-ridge" d="M53 110 H92 M54 126 H93 M109 110 H147 M109 132 H146 M109 148 H145"/>
+    <!-- chunky fringe at both tips -->
     <g fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="1.8">
-      <rect x="92" y="158" width="5.5" height="13" rx="2.7"/>
-      <rect x="99" y="158" width="5.5" height="13" rx="2.7"/>
-      <rect x="106" y="158" width="5.5" height="13" rx="2.7"/>
+      <rect x="57" y="146" width="8" height="16" rx="4"/>
+      <rect x="69" y="147" width="8" height="16" rx="4"/>
+      <rect x="81" y="146" width="8" height="16" rx="4"/>
+      <rect x="111" y="170" width="8" height="16" rx="4"/>
+      <rect x="122" y="171" width="8" height="16" rx="4"/>
+      <rect x="133" y="170" width="8" height="16" rx="4"/>
     </g>
+    <!-- soft sheen on the fold -->
+    <path d="M74 62 C82 46 96 40 112 42" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round"/>
   </g>
-  <!-- left end, crossing in front -->
-  <g transform="rotate(44 98 131)">
-    <rect class="c-scarf" x="86" y="93" width="24" height="76" rx="6"/>
-    <g fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="1.8">
-      <rect x="88" y="158" width="5.5" height="13" rx="2.7"/>
-      <rect x="95" y="158" width="5.5" height="13" rx="2.7"/>
-      <rect x="102" y="158" width="5.5" height="13" rx="2.7"/>
-    </g>
-  </g>
-  <!-- the wrap that goes around the neck -->
-  <path class="c-scarf" d="M62 108 C62 62 78 34 100 34 C122 34 138 62 138 108 L120 108 C120 74 112 50 100 50 C88 50 80 74 80 108 Z"/>
-  <!-- knitted stripes on the wrap -->
-  <path class="c-ridge" d="M70 104 C70 68 84 44 100 42"/>
-  <path class="c-ridge" d="M78 106 C78 78 88 54 100 50"/>
-  <!-- stripes on the ends -->
-  <path class="c-ridge" d="M88 112 H110 M88 130 H110" transform="rotate(44 98 131)"/>
-  <path class="c-ridge" d="M92 112 H114 M92 130 H114" transform="rotate(-44 102 131)"/>
-  <!-- soft sheen on the wrap -->
-  <path d="M70 100 C70 70 82 50 98 44" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round"/>
 </g>
 </svg>
