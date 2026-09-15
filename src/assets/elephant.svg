@@ -177,19 +177,31 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <ellipse cx="104" cy="105" rx="51" ry="49" class="c-elephant" />
-      <ellipse cx="59" cy="108" rx="28" ry="37" transform="rotate(12 59 108)" class="c-elephant" />
-      <ellipse cx="145" cy="108" rx="28" ry="37" transform="rotate(-12 145 108)" class="c-elephant" />
-      <path d="M106 142 C 108 164 118 178 132 180 C 144 182 150 172 144 164 C 138 156 130 158 126 150" class="c-trunk-line" />
-      <path d="M106 142 C 108 164 118 178 132 180 C 144 182 150 172 144 164 C 138 156 130 158 126 150" class="c-trunk" />
-      <circle cx="127" cy="91" r="5" class="c-eyes" /><circle cx="90" cy="91" r="5" class="c-eyes" />
+      <ellipse cx="100" cy="178" rx="50" ry="8" class="shadow" />
+      <path d="M58 130 Q40 130 38 142 Q37 152 47 153" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round" />
+      <path d="M58 130 Q40 130 38 142 Q37 152 47 153" fill="none" stroke="var(--c-elephant)" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M44 148 Q53 152 49 161 Q40 158 38 151 Z" fill="var(--c-tip)" />
+      <rect x="56" y="128" width="30" height="50" rx="13" class="c-elephant" />
+      <rect x="114" y="128" width="30" height="50" rx="13" class="c-elephant" />
+      <ellipse cx="100" cy="110" rx="52" ry="44" class="c-elephant" />
+      <ellipse cx="55" cy="88" rx="25" ry="33" transform="rotate(14 55 88)" class="c-elephant" />
+      <ellipse cx="145" cy="88" rx="25" ry="33" transform="rotate(-14 145 88)" class="c-elephant" />
+      <path d="M50 72 Q58 98 54 122" class="c-ridge" />
+      <path d="M150 72 Q142 98 146 122" class="c-ridge" />
+      <circle cx="100" cy="74" r="42" class="c-elephant" />
+      <rect x="66" y="146" width="30" height="32" rx="13" class="c-elephant" />
+      <rect x="104" y="146" width="30" height="32" rx="13" class="c-elephant" />
+      <path d="M76 168 V176 M87 168 V176" class="c-ridge" />
+      <path d="M113 168 V176 M124 168 V176" class="c-ridge" />
+      <path d="M80 106 Q72 120 74 134 Q84 130 88 112 Z" class="c-egg" />
+      <path d="M120 106 Q128 120 126 134 Q116 130 112 112 Z" class="c-egg" />
+      <path d="M100 100 C100 124 88 138 92 154 C96 168 110 170 118 160" class="c-trunk-line" />
+      <path d="M100 100 C100 124 88 138 92 154 C96 168 110 170 118 160" class="c-trunk" />
+      <path d="M90 118 Q99 123 108 118 M84 134 Q93 139 102 134" class="c-ridge" />
+      <circle cx="84" cy="70" r="5.5" class="c-eyes" />
+      <circle cx="116" cy="70" r="5.5" class="c-eyes" />
+      <circle cx="86" cy="68" r="1.8" class="hi" />
+      <circle cx="118" cy="68" r="1.8" class="hi" />
+      <ellipse cx="74" cy="46" rx="13" ry="8" transform="rotate(-18 74 46)" class="hi" />
     </g>
-      <g fill="var(--c-milk)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
-        <path d="M82 130 Q70 140 80 150 Q88 145 88 134 Z" />
-        <path d="M119 143 Q130 153 125 162 Q117 157 115 148 Z" />
-      </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5">
-        <path d="M119 134 Q126 140 132 140 M122 141 Q130 147 136 146" />
-      </g>
 </svg>

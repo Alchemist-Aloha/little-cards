@@ -561,22 +561,34 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <circle cx="78" cy="60" r="17" class="c-egg" />
-      <circle cx="122" cy="60" r="17" class="c-egg" />
-      <circle cx="78" cy="62" r="7.5" class="c-eyes" />
-      <circle cx="122" cy="62" r="7.5" class="c-eyes" />
-      <path d="M100 66 C133 66 156 87 156 120 C156 151 133 169 100 169 C67 169 44 151 44 120 C44 87 67 66 100 66 Z" class="c-frog" />
-      <circle cx="68" cy="112" r="6" class="c-pink" />
-      <circle cx="132" cy="112" r="6" class="c-pink" />
-      <ellipse cx="66" cy="124" rx="9" ry="6" class="c-cheek" />
-      <ellipse cx="134" cy="124" rx="9" ry="6" class="c-cheek" />
-      <path d="M58 119 Q100 158 142 119 Q132 148 100 151 Q68 148 58 119 Z" class="c-eyeline" />
-      <circle cx="88" cy="134" r="2.2" class="c-tip" />
-      <circle cx="112" cy="134" r="2.2" class="c-tip" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M74 82 Q82 88 88 84 M112 84 Q118 88 126 82" />
-        <path d="M62 150 L54 157 M70 154 L64 162 M138 150 L146 157 M130 154 L136 162" />
-      </g>
+      <ellipse cx="100" cy="180" rx="48" ry="8" class="shadow" />
+      <ellipse cx="50" cy="136" rx="19" ry="27" transform="rotate(-14 50 136)" class="c-frog" />
+      <ellipse cx="150" cy="136" rx="19" ry="27" transform="rotate(14 150 136)" class="c-frog" />
+      <path d="M52 156 Q32 162 22 174 Q30 180 42 177 Q52 181 60 176 Q70 180 76 171 Q64 159 52 156 Z" class="c-frog" />
+      <path d="M148 156 Q168 162 178 174 Q170 180 158 177 Q148 181 140 176 Q130 180 124 171 Q136 159 148 156 Z" class="c-frog" />
+      <path d="M40 172 L44 178 M54 174 L54 180 M64 172 L62 178 M160 172 L156 178 M146 174 L146 180 M136 172 L138 178" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45" />
+      <path d="M100 78 C142 78 160 106 160 132 C160 160 136 172 100 172 C64 172 40 160 40 132 C40 106 58 78 100 78 Z" class="c-frog" />
+      <circle cx="52" cy="116" r="7" class="c-cow-spot" />
+      <circle cx="148" cy="116" r="7" class="c-cow-spot" />
+      <circle cx="66" cy="94" r="5.5" class="c-cow-spot" />
+      <circle cx="134" cy="94" r="5.5" class="c-cow-spot" />
+      <ellipse cx="100" cy="150" rx="27" ry="18" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2" />
+      <path d="M84 154 V174" fill="none" stroke="var(--c-line)" stroke-width="17" stroke-linecap="round" />
+      <path d="M84 154 V174" fill="none" stroke="var(--c-frog)" stroke-width="12" stroke-linecap="round" />
+      <path d="M116 154 V174" fill="none" stroke="var(--c-line)" stroke-width="17" stroke-linecap="round" />
+      <path d="M116 154 V174" fill="none" stroke="var(--c-frog)" stroke-width="12" stroke-linecap="round" />
+      <path d="M77 175 L80 169 M84 177 L84 170 M91 175 L89 169 M109 175 L111 169 M116 177 L116 170 M123 175 L120 169" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45" />
+      <circle cx="78" cy="60" r="18" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" />
+      <circle cx="122" cy="60" r="18" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" />
+      <circle cx="78" cy="62" r="8" class="c-eyes" />
+      <circle cx="122" cy="62" r="8" class="c-eyes" />
+      <circle cx="80.5" cy="59" r="2.6" class="hi" />
+      <circle cx="124.5" cy="59" r="2.6" class="hi" />
+      <path d="M62 108 Q100 136 138 108" class="c-eyeline" />
+      <circle cx="94" cy="100" r="2" class="c-tip" />
+      <circle cx="106" cy="100" r="2" class="c-tip" />
+      <ellipse cx="66" cy="122" rx="9" ry="6" class="c-cheek" />
+      <ellipse cx="134" cy="122" rx="9" ry="6" class="c-cheek" />
+      <ellipse cx="100" cy="74" rx="11" ry="7" class="hi" />
+    </g>
 </svg>

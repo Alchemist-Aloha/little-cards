@@ -561,21 +561,31 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <circle cx="68" cy="60" r="19" class="c-bear" />
-      <circle cx="68" cy="60" r="10" class="c-potato" />
-      <circle cx="132" cy="60" r="19" class="c-bear" />
-      <circle cx="132" cy="60" r="10" class="c-potato" />
-      <path d="M100 52 C134 52 158 77 158 112 C158 147 135 169 100 169 C65 169 42 147 42 112 C42 77 66 52 100 52 Z" class="c-bear" />
-      <ellipse cx="100" cy="126" rx="21" ry="17" class="c-bear-muzzle" />
-      <ellipse cx="100" cy="116" rx="6.5" ry="4.5" class="c-tip" />
-      <circle cx="82" cy="99" r="5" class="c-eyes" /><circle cx="118" cy="99" r="5" class="c-eyes" />
-      <ellipse cx="66" cy="122" rx="9" ry="6" class="c-cheek" />
-      <ellipse cx="134" cy="122" rx="9" ry="6" class="c-cheek" />
-      <ellipse cx="100" cy="162" rx="13" ry="9" class="c-bear-paw" />
-  </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M92 158 L96 164 M100 157 L100 165 M108 158 L104 164" />
-        <path d="M62 108 Q68 112 72 116 M138 108 Q132 112 128 116" />
-      </g>
+      <ellipse cx="100" cy="174" rx="52" ry="8" class="shadow" />
+      <circle cx="70" cy="52" r="18" class="c-bear" />
+      <circle cx="70" cy="52" r="9" class="c-potato" />
+      <circle cx="130" cy="52" r="18" class="c-bear" />
+      <circle cx="130" cy="52" r="9" class="c-potato" />
+      <circle cx="152" cy="150" r="11" class="c-bear" />
+      <rect x="52" y="128" width="32" height="46" rx="15" class="c-bear" />
+      <rect x="116" y="128" width="32" height="46" rx="15" class="c-bear" />
+      <path d="M100 96 C138 96 154 120 154 140 C154 160 132 174 100 174 C68 174 46 160 46 140 C46 120 62 96 100 96 Z" class="c-bear" />
+      <rect x="68" y="130" width="28" height="44" rx="13" class="c-bear" />
+      <rect x="104" y="130" width="28" height="44" rx="13" class="c-bear" />
+      <path d="M76 164 V172 M87 164 V172 M113 164 V172 M124 164 V172" class="c-ridge" />
+      <path d="M61 164 V171 M70 164 V172 M130 164 V172 M139 164 V171" class="c-ridge" />
+      <circle cx="100" cy="72" r="44" class="c-bear" />
+      <path d="M92 40 L96 54 M100 36 L100 52 M108 40 L104 54" class="c-ridge" />
+      <ellipse cx="78" cy="48" rx="13" ry="8" transform="rotate(-16 78 48)" class="hi" />
+      <ellipse cx="100" cy="124" rx="24" ry="18" class="c-bear-muzzle" />
+      <ellipse cx="100" cy="114" rx="8" ry="5.5" class="c-tip" />
+      <path d="M100 120 Q100 126 92 127 M100 120 Q100 126 108 127" class="c-eyeline" />
+      <circle cx="82" cy="96" r="5" class="c-eyes" />
+      <circle cx="118" cy="96" r="5" class="c-eyes" />
+      <circle cx="84" cy="94" r="1.8" class="hi" />
+      <circle cx="120" cy="94" r="1.8" class="hi" />
+      <ellipse cx="64" cy="118" rx="10" ry="7" class="c-cheek" />
+      <ellipse cx="136" cy="118" rx="10" ry="7" class="c-cheek" />
+      <path d="M80 106 Q84 110 88 112 M120 106 Q116 110 112 112" class="c-ridge" />
+    </g>
 </svg>
