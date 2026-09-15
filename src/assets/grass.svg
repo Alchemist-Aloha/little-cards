@@ -560,5 +560,31 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="177" rx="78" ry="8" fill="var(--c-shadow)"/><path d="M22 171 Q27 133 39 108 Q37 143 47 171 Q54 128 65 96 Q63 143 74 171 Q84 122 96 86 Q95 143 102 171 Q111 124 126 99 Q119 144 130 171 Q139 133 158 111 Q147 148 155 171 Q166 142 180 128" fill="none" stroke="var(--c-green)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 171 H180" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/><g fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"><circle cx="48" cy="122" r="6"/><circle cx="128" cy="123" r="6"/><circle cx="158" cy="139" r="6"/></g><circle cx="154" cy="50" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <ellipse cx="100" cy="179" rx="68" ry="7" class="shadow"/>
+  <!-- soil mound at the base of the clump -->
+  <path d="M30 172 Q100 156 170 172 Z" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- back blades, darker -->
+  <g fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
+    <path d="M30 172 C28 156 24 144 24 132 C30 146 36 158 40 172 Z"/>
+    <path d="M62 172 C58 150 54 132 54 116 C62 134 68 152 72 172 Z"/>
+    <path d="M92 172 C92 152 94 126 98 104 C102 128 104 152 102 172 Z"/>
+    <path d="M122 172 C124 152 130 128 140 110 C136 134 134 156 132 172 Z"/>
+    <path d="M154 172 C156 160 164 150 172 140 C168 152 166 162 164 172 Z"/>
+  </g>
+  <!-- front blades, lighter, taller -->
+  <g fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
+    <path d="M24 172 C22 160 18 150 18 140 C26 152 30 164 34 172 Z"/>
+    <path d="M44 172 C40 144 34 120 36 96 C46 124 52 148 56 172 Z"/>
+    <path d="M58 172 C56 156 52 140 52 124 C60 142 66 158 68 172 Z"/>
+    <path d="M72 172 C70 140 66 106 66 78 C76 108 82 142 84 172 Z"/>
+    <path d="M84 172 C84 154 88 136 96 120 C92 140 90 158 92 172 Z"/>
+    <path d="M96 172 C96 134 98 92 100 62 C106 96 110 136 110 172 Z"/>
+    <path d="M118 172 C120 142 126 108 134 84 C130 112 128 144 130 172 Z"/>
+    <path d="M138 172 C140 156 148 140 160 124 C150 142 146 158 148 172 Z"/>
+  </g>
+  <path d="M18 172 H182" fill="none" stroke="var(--c-line)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="160" cy="44" r="13" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
+
 </svg>

@@ -560,5 +560,32 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="166" rx="78" ry="27" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3"/><path d="M42 161 Q74 145 105 160 T163 158" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/><path d="M59 167 Q100 188 141 167" fill="none" stroke="var(--c-blue)" stroke-width="4" opacity=".65"/><path d="M72 91 V139 Q72 149 82 149 H96 Q106 149 106 139 V91" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="3"/><path d="M106 91 Q113 84 120 91 V139 Q120 149 110 149" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M66 91 H101" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round"/><path d="M111 91 H122" stroke="var(--c-line)" stroke-width="7" stroke-linecap="round"/><path d="M55 61 q-8 10 0 20 M100 48 q-8 10 0 20 M145 61 q-8 10 0 20" fill="none" stroke="var(--c-blue)" stroke-width="4" stroke-linecap="round"/>
+<g>
+  <!-- flat patch of wet ground, seen slightly from above -->
+  <ellipse cx="100" cy="150" rx="84" ry="40" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- grass tufts at the edge of the patch -->
+  <g fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
+    <path d="M44 132 C42 122 38 116 36 112 C44 118 48 124 50 132 Z"/>
+    <path d="M52 134 C52 124 50 118 48 112 C56 120 58 126 58 134 Z"/>
+    <path d="M28 152 C26 142 22 136 20 132 C28 138 32 144 34 152 Z"/>
+    <path d="M148 132 C146 122 142 116 140 112 C148 118 152 124 154 132 Z"/>
+    <path d="M158 136 C158 126 156 120 154 114 C162 122 164 128 164 136 Z"/>
+    <path d="M172 152 C170 142 166 136 164 132 C172 138 176 144 178 152 Z"/>
+    <path d="M60 172 C58 164 54 158 52 154 C60 160 64 166 66 172 Z"/>
+    <path d="M144 172 C142 164 138 158 136 154 C144 160 148 166 150 172 Z"/>
+  </g>
+  <!-- flat puddle: irregular closed blob -->
+  <path d="M40 148 C42 132 58 122 74 126 C86 118 112 118 124 126 C140 120 160 130 163 146 C165 162 148 174 130 172 C114 182 86 182 70 172 C52 174 38 162 40 148 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- reflective highlights, inside the outline -->
+  <ellipse cx="72" cy="140" rx="20" ry="7" class="hi"/>
+  <ellipse cx="146" cy="156" rx="12" ry="5" class="hi"/>
+  <!-- ripples -->
+  <ellipse cx="104" cy="152" rx="24" ry="9.5" fill="none" stroke="var(--c-milk)" stroke-width="3.5"/>
+  <ellipse cx="104" cy="153" rx="11" ry="4.5" fill="none" stroke="var(--c-milk)" stroke-width="3"/>
+  <!-- raindrops -->
+  <path d="M66 62 C72 70 74 74 74 79 A 8 8 0 0 1 58 79 C58 74 60 70 66 62 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M100 46 C106 54 108 58 108 63 A 8 8 0 0 1 92 63 C92 58 94 54 100 46 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M134 62 C140 70 142 74 142 79 A 8 8 0 0 1 126 79 C126 74 128 70 134 62 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
+</g>
+
 </svg>

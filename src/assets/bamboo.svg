@@ -560,5 +560,36 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="73" ry="7" fill="var(--c-shadow)"/><path d="M49 174 L58 53 M82 174 L89 35 M116 174 L113 50 M148 174 L143 65" fill="none" stroke="var(--c-green)" stroke-width="15" stroke-linecap="round"/><g fill="none" stroke="var(--c-line)" stroke-width="3"><path d="M51 143 H80 M54 107 H86 M56 72 H87 M82 139 H119 M85 99 H117 M87 62 H115 M111 145 H151 M113 111 H147 M115 80 H145"/></g><path d="M59 71 Q33 51 25 72 Q43 82 59 79Z M89 53 Q112 27 125 47 Q107 64 89 62Z M143 85 Q169 62 180 83 Q162 96 143 94Z" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="3"/><circle cx="163" cy="39" r="13" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <ellipse cx="100" cy="182" rx="66" ry="7" class="shadow"/>
+  <!-- short culm behind, on the right -->
+  <path d="M160 180 L172 180 L176 112 Q172 106 168 112 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- culm A: left -->
+  <path d="M46 180 L62 180 L73.5 64 Q68 56 62.5 64 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- culm C: right -->
+  <path d="M124 180 L140 180 L143.5 76 Q138 68 132.5 76 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- culm B: tallest, centre -->
+  <path d="M87 180 L105 180 L102 32 Q96 24 90 32 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- nodes: evenly spaced rings on every culm -->
+  <g fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round">
+    <path d="M60 82 H72 M56 106 H69 M53 130 H67 M50 154 H65"/>
+    <path d="M89.5 56 H102.5 M89 86 H103 M88 116 H104 M88 146 H104"/>
+    <path d="M131 94 H143 M129 118 H142 M127 142 H141 M125 166 H140"/>
+    <path d="M166 128 H175 M163 152 H174 M160 176 H172"/>
+  </g>
+  <!-- leaf blades sprouting at the nodes -->
+  <g fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round">
+    <path d="M100 56 C112 44 126 44 134 50 C124 60 110 62 100 56 Z"/>
+    <path d="M92 60 C80 48 66 48 58 54 C68 64 82 66 92 60 Z"/>
+    <path d="M143 96 C155 84 168 84 176 90 C166 100 152 102 143 96 Z"/>
+    <path d="M56 108 C44 96 30 96 22 102 C32 112 46 114 56 108 Z"/>
+    <path d="M88 118 C74 112 60 114 50 122 C64 128 78 126 88 118 Z"/>
+    <path d="M141 144 C153 138 166 140 174 146 C162 154 148 152 141 144 Z"/>
+  </g>
+  <!-- small tufts at the base -->
+  <path d="M34 180 C32 170 28 164 26 160 C34 166 38 172 40 180 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M152 180 C150 172 146 166 144 162 C152 168 156 174 158 180 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="166" cy="38" r="12" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
+
 </svg>

@@ -560,5 +560,34 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="62" ry="7" fill="var(--c-shadow)"/><path d="M44 60 Q44 49 55 49 H145 Q156 49 156 60 V157 Q156 168 145 168 H55 Q44 168 44 157Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/><path d="M51 69 H149 V151 Q149 160 140 160 H60 Q51 160 51 151Z" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5"/><g fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="2"><rect x="61" y="80" width="32" height="27" rx="3"/><rect x="101" y="80" width="32" height="27" rx="3"/><rect x="61" y="116" width="32" height="27" rx="3"/><rect x="101" y="116" width="32" height="27" rx="3"/></g><path d="M68 87 H86 M108 87 H126" stroke="var(--c-egg)" stroke-width="3" opacity=".55"/><path d="M68 123 H86 M108 123 H126" stroke="var(--c-egg)" stroke-width="3" opacity=".55"/><path d="M31 96 Q22 107 31 118 M169 96 Q178 107 169 118" fill="none" stroke="var(--c-tomato)" stroke-width="5" stroke-linecap="round"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="172" rx="76" ry="8"/>
+  <!-- bar: rounded slab, 3 x 4 moulded squares -->
+  <rect x="44" y="34" width="112" height="118" rx="12" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <g fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2">
+    <rect x="52" y="42" width="29" height="24" rx="4"/>
+    <rect x="85.5" y="42" width="29" height="24" rx="4"/>
+    <rect x="119" y="42" width="29" height="24" rx="4"/>
+    <rect x="52" y="70" width="29" height="24" rx="4"/>
+    <rect x="85.5" y="70" width="29" height="24" rx="4"/>
+    <rect x="119" y="70" width="29" height="24" rx="4"/>
+    <rect x="52" y="98" width="29" height="24" rx="4"/>
+    <rect x="85.5" y="98" width="29" height="24" rx="4"/>
+    <rect x="119" y="98" width="29" height="24" rx="4"/>
+    <rect x="52" y="126" width="29" height="24" rx="4"/>
+    <rect x="85.5" y="126" width="29" height="24" rx="4"/>
+  </g>
+  <!-- the empty slot the broken square came out of -->
+  <rect x="119" y="126" width="29" height="24" rx="4" fill="var(--c-line)" opacity=".28"/>
+  <!-- gloss on the top row -->
+  <path d="M57 47 H76 M90.5 47 H109.5 M124 47 H143" fill="none" stroke="var(--c-hi)" stroke-width="4" stroke-linecap="round"/>
+  <!-- broken-off square: leaning on the bar's right face, resting on the ground -->
+  <g transform="rotate(20 174 166)">
+    <rect x="145" y="140" width="29" height="26" rx="3" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5"/>
+  </g>
+  <!-- crumbs -->
+  <circle cx="78" cy="164" r="3.5" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <circle cx="90" cy="168" r="2.5" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <path d="M66 168 l6 -4 l5 4 z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
 </svg>

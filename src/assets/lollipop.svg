@@ -560,5 +560,14 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="48" ry="6" fill="var(--c-shadow)"/><path d="M101 117 L104 174" stroke="var(--c-egg)" stroke-width="8" stroke-linecap="round"/><path d="M101 117 L104 174" stroke="var(--c-line)" stroke-width="2"/><circle cx="100" cy="79" r="43" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="3"/><path d="M100 43 C73 46 72 75 97 78 C124 81 126 107 100 115" fill="none" stroke="var(--c-egg)" stroke-width="8" stroke-linecap="round"/><path d="M100 43 C73 46 72 75 97 78 C124 81 126 107 100 115" fill="none" stroke="var(--c-tomato)" stroke-width="3" stroke-linecap="round"/><circle cx="85" cy="62" r="5" fill="var(--c-egg)" opacity=".7"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="176" rx="46" ry="7"/>
+  <!-- stick: vertical, centred on the disc, reaching the ground line -->
+  <rect x="94.5" y="106" width="11" height="66" rx="5.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- disc -->
+  <circle cx="100" cy="74" r="54" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- continuous 2-turn swirl -->
+  <path d="M100.0 67.0 L103.4 66.4 L107.1 67.6 L110.3 70.7 L112.0 75.3 L111.5 80.7 L108.6 85.8 L103.3 89.5 L96.4 90.8 L89.2 88.9 L83.0 83.8 L79.2 76.2 L78.9 67.1 L82.6 58.3 L89.9 51.4 L100.0 48.0 L111.1 49.1 L121.2 54.9 L128.3 64.8 L130.9 77.2 L128.0 90.2 L119.7 101.2 L107.2 108.1 L92.5 109.3 L78.0 104.3 L66.5 93.3 L60.3 78.2 L60.8 61.3 L68.4 45.6 L82.2 34.0 L100.0 29.0" fill="none" stroke="var(--c-egg)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse class="hi" cx="76" cy="50" rx="11" ry="14" transform="rotate(-28 76 50)"/>
+</g>
 </svg>

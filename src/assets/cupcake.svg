@@ -560,5 +560,27 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="57" ry="7" fill="var(--c-shadow)"/><path d="M51 108 H149 L138 169 Q100 179 62 169Z" fill="var(--c-pancake)" stroke="var(--c-line)" stroke-width="3"/><path d="M62 116 L69 168 M82 113 L86 174 M103 113 V176 M124 113 L117 173 M142 116 L132 168" stroke="var(--c-orange)" stroke-width="4"/><path d="M52 110 Q52 88 73 88 Q67 66 87 66 Q91 43 108 61 Q126 48 132 69 Q153 67 146 91 Q157 99 148 111Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><circle cx="101" cy="58" r="9" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2"/><path d="M82 93 Q100 103 118 93" fill="none" stroke="var(--c-egg)" stroke-width="5" stroke-linecap="round"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="182" rx="58" ry="8"/>
+  <!-- fluted paper case: narrower at the bottom -->
+  <path d="M44 106 L64 170 Q100 180 136 170 L156 106 Z" fill="var(--c-pancake)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M50 108 Q58 142 68 174 M66 108 Q72 142 78 174 M82 108 Q85 142 88 174 M100 108 V176 M118 108 Q115 142 112 174 M134 108 Q128 142 122 174 M150 108 Q142 142 132 174" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <!-- domed frosting, wider than the case and overhanging its rim -->
+  <path d="M34 120 Q20 98 46 86 Q40 62 64 66 Q68 44 90 52 Q98 30 100 34 Q102 30 110 52 Q132 44 136 66 Q160 62 154 86 Q180 98 166 120 Q147 136 131 120 Q100 134 69 120 Q53 136 34 120 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- seams of the piped swirl -->
+  <path d="M48 92 Q100 106 152 92" fill="none" stroke="var(--c-egg)" stroke-width="4" opacity=".75" stroke-linecap="round"/>
+  <path d="M64 72 Q100 86 136 72" fill="none" stroke="var(--c-egg)" stroke-width="4" opacity=".75" stroke-linecap="round"/>
+  <ellipse class="hi" cx="58" cy="104" rx="7" ry="9" transform="rotate(-25 58 104)"/>
+  <!-- sprinkles -->
+  <g stroke="var(--c-line)" stroke-width="1.5" stroke-linejoin="round">
+    <rect x="68" y="98" width="13" height="4.5" rx="2.2" fill="var(--c-tomato)" transform="rotate(-18 74 100)"/>
+    <rect x="118" y="94" width="13" height="4.5" rx="2.2" fill="var(--c-blue)" transform="rotate(22 124 96)"/>
+    <rect x="78" y="70" width="12" height="4.5" rx="2.2" fill="var(--c-sun)" transform="rotate(14 84 72)"/>
+    <rect x="112" y="62" width="12" height="4.5" rx="2.2" fill="var(--c-tomato)" transform="rotate(-28 118 64)"/>
+  </g>
+  <!-- cherry on top -->
+  <path d="M100 23 Q107 16 113 21" fill="none" stroke="var(--c-stem)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="30" r="9.5" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="96.5" cy="26.5" r="2.6" fill="var(--c-hi)"/>
+</g>
 </svg>

@@ -560,5 +560,30 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<path d="M18 178 Q53 153 82 158 Q112 164 139 137 Q159 118 182 125 V180Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3"/><path d="M18 107 L58 55 L97 108 L125 76 L180 132" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M57 55 L43 75 L58 69 L68 82 L79 73 L97 108" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/><path d="M30 145 Q58 133 82 142 M105 157 Q132 145 160 151" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/><path d="M28 174 V129 M38 174 V140" stroke="var(--c-tree-trunk)" stroke-width="5"/><circle cx="33" cy="123" r="16" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2"/><circle cx="164" cy="47" r="14" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <!-- meadow -->
+  <path d="M16 34 Q100 16 184 34 L184 186 L16 186 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- soil banks hugging the water -->
+  <path d="M62 30 C58 76 34 124 18 186 L182 186 C162 124 122 76 118 30 Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- river: narrow at the top, wide at the bottom -->
+  <path d="M76 30 C72 78 50 126 36 186 L164 186 C148 126 112 78 108 30 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- flow lines -->
+  <path d="M84 62 Q94 74 88 90" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 110 Q90 122 84 138" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M78 156 Q94 166 86 178" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M126 96 Q136 108 130 124" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M124 146 Q138 156 132 170" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
+  <!-- pebble on the bank -->
+  <ellipse cx="42" cy="132" rx="8" ry="5.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+  <!-- bushes and tufts on the meadow -->
+  <circle cx="32" cy="56" r="13" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="47" cy="64" r="9" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="164" cy="52" r="12" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="176" cy="62" r="8" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M52 74 q-6 0 -4 -6 M56 76 q-6 0 -4 -6" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 80 q-6 0 -4 -6 M154 82 q-6 0 -4 -6" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="60" cy="70" r="4.5" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="146" cy="72" r="4.5" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+</g>
+
 </svg>

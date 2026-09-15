@@ -560,5 +560,20 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="68" ry="7" fill="var(--c-shadow)"/><path d="M61 101 L30 76 L35 124 L66 109 M139 101 L170 76 L165 124 L134 109" fill="var(--c-candy)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M62 78 Q100 61 138 78 V123 Q100 140 62 123Z" fill="var(--c-candy)" stroke="var(--c-line)" stroke-width="3"/><path d="M78 75 L91 128 M109 71 L122 127" stroke="var(--c-egg)" stroke-width="8"/><path d="M45 89 L59 101 L45 113 M155 89 L141 101 L155 113" fill="none" stroke="var(--c-line)" stroke-width="3"/><path d="M82 100 Q100 115 118 100" fill="none" stroke="var(--c-line)" stroke-width="3"/><path d="M42 151 H158" stroke="var(--c-candy)" stroke-width="11" stroke-linecap="round"/><path d="M42 151 H158" stroke="var(--c-line)" stroke-width="2" stroke-dasharray="4 8"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="166" rx="66" ry="8.5"/>
+  <!-- twisted wrapper ends, mirrored about x=100 -->
+  <path d="M60 88 L22 70 Q10 112 22 154 L60 136 Z" fill="var(--c-candy)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M140 88 L178 70 Q190 112 178 154 L140 136 Z" fill="var(--c-candy)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pleats radiating out of the twist -->
+  <path d="M56 96 L26 80 M58 112 L17 112 M56 128 L26 144" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <path d="M144 96 L174 80 M142 112 L183 112 M144 128 L174 144" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <!-- pinched crimp where the twist meets the sweet -->
+  <path d="M58 90 Q44 112 58 134" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <path d="M142 90 Q156 112 142 134" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+  <!-- hard candy centre -->
+  <ellipse cx="100" cy="112" rx="47" ry="47" fill="var(--c-candy)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M80 75 V149 M100 68 V156 M120 75 V149" fill="none" stroke="var(--c-egg)" stroke-width="8" opacity=".9" stroke-linecap="round"/>
+  <ellipse class="hi" cx="78" cy="90" rx="10" ry="13" transform="rotate(-24 78 90)"/>
+</g>
 </svg>

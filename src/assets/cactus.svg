@@ -560,5 +560,36 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="52" ry="7" fill="var(--c-shadow)"/><path d="M62 145 Q62 133 74 133 H82 V104 Q82 92 94 92 Q106 92 106 104 V133 H112 V113 Q112 101 124 101 Q136 101 136 113 V153 Q136 169 119 172 H81 Q62 169 62 145Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3"/><path d="M50 171 Q60 159 70 171 L68 181 H52Z" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="3"/><path d="M74 111 V158 M94 105 V160 M125 114 V151" stroke="var(--c-egg)" stroke-width="3" stroke-linecap="round"/><path d="M44 139 Q49 126 56 139 M144 124 Q149 111 156 124" fill="none" stroke="var(--c-pink)" stroke-width="5" stroke-linecap="round"/><circle cx="158" cy="48" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+<g>
+  <ellipse cx="100" cy="184" rx="48" ry="7" class="shadow"/>
+  <!-- left arm: elbow rising from the column -->
+  <path d="M88 140 L58 140 Q46 140 46 128 V100 Q46 86 60 86 Q74 86 74 100 V124 Q74 132 88 132 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- right arm -->
+  <path d="M112 140 L142 140 Q154 140 154 128 V100 Q154 86 140 86 Q126 86 126 100 V124 Q126 132 112 132 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- main column with rounded top -->
+  <path d="M78 176 V78 Q78 54 100 54 Q122 54 122 78 V176 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- ribs -->
+  <path d="M89 72 V168 M100 64 V170 M111 72 V168" class="c-ridge"/>
+  <path d="M60 102 V132 M140 102 V132" class="c-ridge"/>
+  <!-- spines -->
+  <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round">
+    <path d="M79 74 L73 70 M79 92 L73 88"/>
+    <path d="M121 74 L127 70 M121 92 L127 88"/>
+    <path d="M46 106 L40 102 M46 118 L40 114"/>
+    <path d="M154 106 L160 102 M154 118 L160 114"/>
+    <path d="M54 87 L52 81 M146 87 L148 81"/>
+  </g>
+  <!-- flower on the right arm -->
+  <circle cx="140" cy="69" r="4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="147" cy="75" r="4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="136" cy="75" r="4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="144" cy="82" r="4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="133" cy="82" r="4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="140" cy="77" r="3.5" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+  <!-- terracotta pot -->
+  <rect x="68" y="154" width="64" height="12" rx="3" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M73 166 L127 166 L122 184 Q121 188 116 188 H84 Q79 188 78 184 Z" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="168" cy="42" r="12" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
+
 </svg>

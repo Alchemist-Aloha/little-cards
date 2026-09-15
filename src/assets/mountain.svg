@@ -560,5 +560,23 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="80" ry="7" fill="var(--c-shadow)"/><path d="M12 171 L67 64 L101 115 L132 79 L188 171Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M67 64 L48 102 L66 94 L77 107 L88 94 L101 115Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M132 79 L115 111 L130 103 L141 116 L152 102 L170 141" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><path d="M79 171 Q100 147 120 171" fill="none" stroke="var(--c-blue)" stroke-width="8" stroke-linecap="round"/><circle cx="161" cy="43" r="15" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/><path d="M30 150 q10 -14 20 0 M151 154 q10 -14 20 0" fill="none" stroke="var(--c-tree)" stroke-width="5"/>
+<g>
+  <ellipse cx="100" cy="182" rx="78" ry="8" class="shadow"/>
+  <!-- far foothill behind the main peak -->
+  <path d="M110 172 L150 86 L184 172 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- main peak: lit left face -->
+  <path d="M94 34 L16 172 L158 172 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- shaded right face, split by the ridge line -->
+  <path d="M94 34 L116 172 L158 172 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- snow cap: jagged boundary runs down both slopes and meets at the summit -->
+  <path d="M70 76 L80 94 L88 74 L96 96 L104 74 L113 92 L123 96 L94 34 L70 76 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M40 150 Q54 116 72 88" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+  <!-- small pines at the foot -->
+  <path d="M24 172 L35 146 L46 172 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M34 172 V177" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M146 172 L157 148 L168 172 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M157 172 V177" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="170" cy="36" r="12" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+</g>
+
 </svg>
