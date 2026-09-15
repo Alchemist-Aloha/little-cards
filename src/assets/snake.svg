@@ -562,6 +562,9 @@ svg {
 </style>
 <g>
     <ellipse class="shadow" cx="100" cy="180" rx="56" ry="8"/>
+    <g transform="translate(-25.5,0)">
+
+    
     <!-- outline pass, tapering from the neck to the tail tip -->
     <g fill="none" stroke="var(--c-line)" stroke-linecap="round" stroke-linejoin="round">
       <path d="M136 62 Q118 70 104 82" stroke-width="34"/>
@@ -598,5 +601,6 @@ svg {
     <!-- forked tongue flicking out -->
     <path d="M164 62 Q172 68 178 62 M178 62 l6 -4 M178 62 l6 5" fill="none" stroke="var(--c-red)" stroke-width="2.5" stroke-linecap="round"/>
     <ellipse cx="142" cy="38" rx="11" ry="4.5" class="hi"/>
-  </g>
+    </g>
+</g>
 </svg>

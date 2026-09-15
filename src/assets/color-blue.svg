@@ -176,9 +176,7 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="171" rx="43" ry="7" class="shadow"/>
-  <path d="M100 42 C100 42 53 96 53 125 C53 151 74 166 100 166 C126 166 147 151 147 125 C147 96 100 42 100 42Z" class="c-blue" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M100 57 C88 76 69 100 67 120" fill="none" stroke="var(--c-hi)" stroke-width="8" stroke-linecap="round" opacity=".7"/>
-  <path d="M72 137 Q100 157 128 137" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".45"/>
-  <circle cx="119" cy="126" r="5" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
+<ellipse cx="100" cy="178" rx="58" ry="8" class="shadow"/>
+  <rect x="24" y="20" width="152" height="152" rx="36" class="c-blue" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="69" cy="59" rx="11" ry="19" transform="rotate(-38 69 59)" class="hi"/>
 </svg>
