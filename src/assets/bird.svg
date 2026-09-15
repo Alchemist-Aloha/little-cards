@@ -177,16 +177,21 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <g>
-      <ellipse cx="95" cy="162" rx="38" ry="6" class="shadow" />
-      <path d="M56 100 L26 84 M56 108 L22 108 M56 116 L26 132" class="c-feather" />
-      <path d="M46 112 C46 78 69 55 102 56 C133 57 151 77 151 106 C151 136 128 153 94 154 C66 154 46 140 46 112 Z" class="c-bird" />
-      <ellipse cx="78" cy="116" rx="17" ry="23" transform="rotate(18 78 116)" class="c-bird-wing" />
-      <path d="M145 96 L170 84 L164 106 L145 106 Z" class="c-beak" />
-      <circle cx="126" cy="86" r="5" class="c-eyes" />
-      <path d="M104 128 Q112 132 118 126" class="c-eyeline" />
+      <ellipse cx="100" cy="179" rx="44" ry="8" class="shadow" />
+      <path d="M60 92 Q36 82 24 96 Q38 108 58 104 Z" class="c-bird" />
+      <path d="M60 106 Q30 102 18 120 Q34 134 56 126 Z" class="c-bird" />
+      <path d="M58 124 Q30 124 20 146 Q40 154 58 138 Z" class="c-bird" />
+      <path d="M56 98 Q40 96 30 104 M54 116 Q38 116 28 126" class="c-ridge" />
+      <path d="M93 140 L93 166 M93 166 L84 173 M93 166 L93 174 M93 166 L102 173 M111 140 L111 166 M111 166 L102 173 M111 166 L111 174 M111 166 L120 173" fill="none" stroke="var(--c-orange)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M102 52 C132 52 152 75 152 103 C152 133 130 152 98 152 C70 152 52 136 52 108 C52 78 74 52 102 52 Z" class="c-bird" />
+      <path d="M120 78 Q146 92 144 116 Q142 142 116 151 Q128 116 120 78 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2" />
+      <path d="M84 84 Q108 88 108 112 Q108 134 92 142 Q76 146 72 130 Q68 112 70 96 Q73 86 84 84 Z" class="c-bird-wing" />
+      <path d="M80 100 Q94 106 100 104 M78 112 Q92 119 100 117 M80 124 Q92 130 98 128" class="c-ridge" />
+      <path d="M92 60 Q100 56 108 60 M88 68 Q100 63 112 68" class="c-ridge" />
+      <path d="M146 76 L180 88 L146 98 Z" class="c-beak" />
+      <path d="M148 88 L176 88" fill="none" stroke="var(--c-line)" stroke-width="1.8" opacity=".5" />
+      <circle cx="130" cy="78" r="6" class="c-eyes" />
+      <circle cx="132" cy="76" r="2" class="hi" />
+      <path d="M96 156 L94 166 M110 157 L112 166" fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round" opacity=".45" />
     </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M68 104 Q80 111 86 126 M65 114 Q76 121 81 133" />
-        <path d="M86 156 L84 166 M102 157 L104 166 M80 166 L88 166 M100 166 L108 166" />
-      </g>
 </svg>
