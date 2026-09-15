@@ -566,6 +566,6 @@ svg {
   <path d="M47 91 H153 M62 91 V143 M77 91 V143 M92 91 V143 M107 91 V143 M122 91 V143 M137 91 V143" fill="none" stroke="var(--c-line)" stroke-width="2"/>
   <path d="M58 91 H67 V119 H58 Z M88 91 H97 V119 H88 Z M118 91 H127 V119 H118 Z" class="c-piano"/>
   <path d="M41 49 H159 V66 H41 Z" class="c-key"/><path d="M58 143 V165 M142 143 V165" fill="none" stroke="var(--c-tip)" stroke-width="6" stroke-linecap="round"/>
-  <path d="M91 49 V66" class="c-line" stroke="var(--c-line)" stroke-width="3"/>
+  <path d="M91 49 V66" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
 </g>
 </svg>

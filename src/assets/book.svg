@@ -565,6 +565,6 @@ svg {
   <path d="M39 55 Q67 44 98 58 V157 Q68 143 39 154 Z" class="c-book"/><path d="M101 58 Q133 44 161 55 V154 Q132 143 101 157 Z" class="c-book"/>
   <path d="M99 58 V157" fill="none" stroke="var(--c-line)" stroke-width="4"/>
   <path d="M53 76 Q73 68 88 76 M53 91 Q72 84 88 91 M53 106 Q73 99 88 106 M111 76 Q129 68 147 76 M111 91 Q130 84 147 91 M111 106 Q130 99 147 106" fill="none" stroke="var(--c-egg)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M94 47 V91 L100 85 L106 91 V47" class="c-cloth-yellow"/>
+  <path d="M94 47 V91 L100 85 L106 91 V47" fill="var(--c-cloth-yellow)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
 </g>
 </svg>

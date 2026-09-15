@@ -562,7 +562,7 @@ svg {
 </style>
 <ellipse cx="100" cy="169" rx="52" ry="7" class="shadow"/>
   <path d="M100 51 C66 51 48 70 48 102 C48 135 68 153 100 153 C132 153 152 135 152 102 C152 70 134 51 100 51Z" class="c-donut"/>
-  <ellipse cx="100" cy="102" rx="17" ry="13" fill="var(--c-card)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="102" rx="17" ry="13" fill="var(--card)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
   <path d="M54 94 C62 70 83 61 105 62 C126 63 141 75 146 92 C130 83 115 80 99 82 C82 80 67 84 54 94Z" fill="var(--c-icecream)" opacity=".9" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
   <path d="M76 72 L78 80 M99 66 L99 76 M122 72 L120 80 M133 86 L128 90" fill="none" stroke="var(--c-sun)" stroke-width="4" stroke-linecap="round"/>
 </svg>
