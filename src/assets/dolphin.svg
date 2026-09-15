@@ -560,11 +560,15 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="101" cy="176" rx="47" ry="7"/>
-    <path class="c-dolphin" d="M95 151 Q64 134 64 99 Q64 72 91 57 Q112 46 140 54 L165 43 L151 63 Q139 76 126 82 Q126 109 115 130 Q107 145 95 151 Z"/>
-    <path class="c-dolphin" d="M92 61 Q97 35 110 51 L120 68 M91 111 Q69 116 56 132 Q76 128 93 124 M107 87 Q128 91 138 105 Q119 102 105 98"/>
-    <path class="c-dolphin" d="M67 101 Q45 91 34 76 Q39 103 57 116 Q42 120 32 134 Q55 131 71 119 Z"/>
-    <circle class="c-eyes" cx="136" cy="65" r="4"/><path class="c-eyeline" d="M146 68 Q156 74 165 67"/>
-    <path class="c-crescent" d="M34 165 Q62 149 89 166 Q113 182 166 160 Q132 190 96 176 Q63 162 34 165 Z"/>
-  </g> </svg>
+<g>
+    <ellipse class="shadow" cx="104" cy="178" rx="54" ry="7"/>
+    <path class="c-dolphin" d="M102 78 C99 56 106 40 121 34 C121 50 123 66 126 80 Z"/>
+    <path class="c-dolphin" d="M30 84 C36 80 42 80 48 82 C52 74 52 66 60 58 C72 48 88 48 98 52 C120 58 140 72 152 88 C156 92 160 94 164 96 C158 104 152 108 146 111 C126 124 106 130 84 128 C66 127 56 120 52 108 C50 102 48 98 46 96 C38 93 33 90 30 84 Z"/>
+    <path class="c-dolphin" d="M140 78 Q152 84 162 92 Q172 78 184 68 Q186 86 176 94 Q168 100 160 99 Q150 97 143 88 Q140 82 140 78 Z"/>
+    <path class="c-dolphin" d="M58 114 Q76 124 92 140 Q74 142 62 130 Q54 122 58 114 Z"/>
+    <circle class="c-eyes" cx="58" cy="78" r="4.5"/>
+    <path fill="none" stroke="var(--c-eyes)" stroke-width="2.6" stroke-linecap="round" d="M33 86 Q40 89 46 87"/>
+    <circle class="c-bubble" cx="30" cy="58" r="4"/>
+    <circle class="c-bubble" cx="48" cy="40" r="3"/>
+  </g>
+</svg>

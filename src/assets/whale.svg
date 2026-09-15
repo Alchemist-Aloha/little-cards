@@ -560,13 +560,20 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="102" cy="177" rx="58" ry="7"/>
-    <path class="c-whale" d="M33 117 Q33 77 79 67 Q132 55 166 88 Q179 101 182 118 Q169 136 143 143 Q100 158 58 145 Q36 138 33 117 Z"/>
-    <path class="c-whale" d="M165 102 Q185 82 198 83 Q189 96 183 102 Q198 108 198 122 Q184 115 169 115 Z"/>
-    <path class="c-milk" d="M55 126 Q98 143 146 124 Q133 150 96 148 Q67 146 55 126 Z"/>
-    <path class="c-whale" d="M107 142 Q101 159 84 165 Q94 147 101 137 M123 139 Q132 153 148 156 Q134 143 130 133"/>
-    <circle class="c-eyes" cx="62" cy="102" r="5"/><path class="c-eyeline" d="M48 118 Q57 126 67 118"/>
-    <path class="c-blue" d="M74 67 Q73 47 82 34 Q84 51 91 64 Q95 44 104 37 Q105 55 101 68 Z"/>
-    <circle class="c-bubble" cx="88" cy="28" r="4"/><circle class="c-bubble" cx="104" cy="20" r="3"/>
-  </g> </svg>
+<g>
+    <ellipse class="shadow" cx="104" cy="178" rx="56" ry="7"/>
+    <path fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" d="M76 60 C70 46 66 36 58 24 C68 30 74 38 79 45 C84 34 92 27 100 22 C94 34 88 48 84 60 Z"/>
+    <circle class="c-milk-drop" cx="54" cy="18" r="3.5"/>
+    <circle class="c-milk-drop" cx="104" cy="18" r="3"/>
+    <path class="c-whale" d="M104 64 Q110 38 126 32 Q134 46 132 66 Z"/>
+    <path class="c-whale" d="M26 120 C22 92 38 68 68 61 C98 54 128 60 144 74 C150 80 157 84 162 88 C156 95 150 96 144 99 C128 116 108 130 84 138 C62 146 34 140 26 120 Z"/>
+    <path fill="var(--c-milk)" d="M44 126 C54 138 68 144 86 140 C104 134 116 128 124 119 C116 114 102 123 80 129 C64 133 52 131 44 126 Z"/>
+    <path class="c-whale" d="M136 70 Q148 76 160 82 Q172 66 184 54 Q188 74 178 84 Q170 92 160 93 Q150 93 143 85 Q137 77 136 70 Z"/>
+    <path class="c-whale" d="M62 130 Q76 138 90 144 Q80 154 66 148 Q56 142 62 130 Z"/>
+    <path class="c-ridge" d="M56 132 Q68 139 82 136"/>
+    <circle class="c-eyes" cx="50" cy="104" r="5"/>
+    <path class="c-eyeline" d="M38 118 Q50 128 64 120"/>
+    <circle class="c-bubble" cx="176" cy="48" r="5"/>
+    <circle class="c-bubble" cx="164" cy="26" r="3"/>
+  </g>
+</svg>
