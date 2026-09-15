@@ -177,12 +177,22 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <g>
-      <ellipse cx="100" cy="170" rx="34" ry="7" class="shadow" />
-      <path d="M100 162 C70 162 45 146 42 112 C39 84 54 64 76 61 C86 59 94 65 100 70 C106 65 114 59 124 61 C146 64 161 84 158 112 C155 146 130 162 100 162 Z" class="c-apple" />
-      <path d="M100 70 C99 60 100 51 104 43" fill="none" class="c-stem-line" />
-      <ellipse cx="112" cy="41" rx="14" ry="8" transform="rotate(-28 112 41)" class="c-leaf" />
-      <ellipse cx="79" cy="81" rx="9" ry="13" transform="rotate(-24 79 81)" class="hi" />
-      <path d="M58 108 Q70 116 82 112 M118 141 Q132 136 140 124" class="c-ridge" />
-      <circle cx="112" cy="96" r="2" class="c-freckle" /><circle cx="126" cy="112" r="1.8" class="c-freckle" /><circle cx="92" cy="139" r="1.6" class="c-freckle" />
+      <ellipse cx="100" cy="180" rx="42" ry="8" class="shadow" />
+      <path d="M100 72 C92 62 82 57 70 59 C48 63 38 86 40 112 C42 145 63 168 100 168 C137 168 158 145 160 112 C162 86 152 63 130 59 C118 57 108 62 100 72 Z" class="c-apple" />
+      <ellipse cx="100" cy="70" rx="9" ry="5" class="c-dimple" />
+      <path d="M100 71 C99 61 101 51 105 43" class="c-stem-line" />
+      <ellipse cx="106" cy="41" rx="4.5" ry="3.6" class="c-tip" />
+      <path d="M105 45 Q130.3 49.5 152 30 Q123.9 29.5 105 45 Z" class="c-leaf" />
+            <path d="M110.6 43.2 L147.3 31.5" class="c-ridge" />
+      <ellipse cx="70" cy="93" rx="10" ry="16" class="hi" transform="rotate(-22 70 93)" />
+      <path d="M76 122 C78 143 88 157 100 162 M124 122 C122 143 112 157 100 162" class="c-ridge" />
+      <circle cx="120" cy="88" r="2.2" class="c-freckle" />
+      <circle cx="132" cy="104" r="1.8" class="c-freckle" />
+      <circle cx="124" cy="126" r="2.0" class="c-freckle" />
+      <circle cx="110" cy="146" r="1.7" class="c-freckle" />
+      <circle cx="88" cy="152" r="1.9" class="c-freckle" />
+      <circle cx="64" cy="124" r="1.8" class="c-freckle" />
+      <circle cx="58" cy="100" r="1.6" class="c-freckle" />
+      <circle cx="86" cy="78" r="1.7" class="c-freckle" />
     </g>
 </svg>

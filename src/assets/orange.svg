@@ -177,18 +177,44 @@
 .num-dot { fill: var(--num-ink); }
 </style>
 <g>
-      <ellipse cx="100" cy="162" rx="30" ry="6" class="shadow" />
-      <path d="M100 56 C126 55 147 72 151 98 C156 126 137 149 103 152 C70 154 48 135 49 105 C50 76 69 58 100 56 Z" class="c-orange" />
-      <ellipse cx="100" cy="61" rx="7" ry="4" class="c-dimple" />
-      <line x1="100" y1="57" x2="100" y2="44" class="c-stem" stroke-width="5" stroke-linecap="round" />
-      <ellipse cx="112" cy="42" rx="13" ry="7" transform="rotate(-24 112 42)" class="c-leaf" />
-      <circle cx="86" cy="90" r="2" class="c-dimple" />
-      <circle cx="118" cy="92" r="2" class="c-dimple" />
-      <circle cx="99" cy="120" r="2" class="c-dimple" />
-      <circle cx="74" cy="112" r="2" class="c-dimple" />
-      <circle cx="122" cy="104" r="2" class="c-dimple" />
-      <ellipse cx="78" cy="84" rx="8" ry="11" transform="rotate(-25 78 84)" class="hi" />
-      <path d="M100 61 Q86 82 84 104 Q86 126 100 147 M100 61 Q114 82 116 104 Q114 126 100 147" class="c-ridge" />
-      <circle cx="104" cy="78" r="2" class="c-dimple" /><circle cx="94" cy="132" r="2" class="c-dimple" /><circle cx="130" cy="120" r="1.8" class="c-dimple" />
+      <ellipse cx="100" cy="180" rx="44" ry="8" class="shadow" />
+      <ellipse cx="100.0" cy="107.0" rx="62.0" ry="61.0" class="c-orange" />
+      <ellipse cx="100" cy="53" rx="10" ry="6" class="c-dimple" />
+      <ellipse cx="100" cy="52" rx="5" ry="3" class="c-dimple" />
+      <line x1="100" y1="49" x2="100" y2="38" class="c-stem" stroke-width="5" stroke-linecap="round" />
+      <ellipse cx="101" cy="36" rx="4.2" ry="3.4" class="c-tip" />
+      <path d="M103 44 Q127.2 47.5 148 29 Q121.0 29.0 103 44 Z" class="c-leaf" />
+            <path d="M108.4 42.2 L143.5 30.5" class="c-ridge" />
+      <path d="M100 55 Q82.7 128.2 53.3 131.5" class="c-ridge" />
+      <path d="M100 55 Q92.6 132.2 77.2 157.3" class="c-ridge" />
+      <path d="M100 55 Q107.4 132.2 122.8 157.3" class="c-ridge" />
+      <path d="M100 55 Q117.3 128.2 146.7 131.5" class="c-ridge" />
+      <circle cx="95.1" cy="68.1" r="2.1" class="c-dimple" />
+      <circle cx="111.6" cy="66.8" r="1.7" class="c-dimple" />
+      <circle cx="131.2" cy="70.3" r="1.7" class="c-dimple" />
+      <circle cx="90.0" cy="82.4" r="1.7" class="c-dimple" />
+      <circle cx="103.1" cy="83.5" r="1.7" class="c-dimple" />
+      <circle cx="123.7" cy="84.0" r="2.1" class="c-dimple" />
+      <circle cx="139.1" cy="85.8" r="2.8" class="c-dimple" />
+      <circle cx="63.3" cy="104.6" r="1.7" class="c-dimple" />
+      <circle cx="81.2" cy="100.9" r="2.1" class="c-dimple" />
+      <circle cx="97.1" cy="99.2" r="1.7" class="c-dimple" />
+      <circle cx="113.4" cy="104.1" r="2.8" class="c-dimple" />
+      <circle cx="128.4" cy="99.1" r="1.7" class="c-dimple" />
+      <circle cx="146.3" cy="104.6" r="1.7" class="c-dimple" />
+      <circle cx="53.8" cy="121.9" r="2.8" class="c-dimple" />
+      <circle cx="70.5" cy="119.4" r="2.1" class="c-dimple" />
+      <circle cx="89.7" cy="117.6" r="1.7" class="c-dimple" />
+      <circle cx="103.9" cy="116.1" r="2.8" class="c-dimple" />
+      <circle cx="123.5" cy="116.7" r="2.1" class="c-dimple" />
+      <circle cx="140.2" cy="116.1" r="2.8" class="c-dimple" />
+      <circle cx="61.1" cy="137.4" r="2.1" class="c-dimple" />
+      <circle cx="79.5" cy="135.3" r="2.8" class="c-dimple" />
+      <circle cx="96.5" cy="134.3" r="2.5" class="c-dimple" />
+      <circle cx="116.2" cy="138.8" r="2.5" class="c-dimple" />
+      <circle cx="134.0" cy="133.1" r="2.1" class="c-dimple" />
+      <circle cx="104.0" cy="151.8" r="1.7" class="c-dimple" />
+      <circle cx="119.4" cy="151.3" r="2.1" class="c-dimple" />
+      <ellipse cx="72" cy="86" rx="9" ry="14" class="hi" transform="rotate(-25 72 86)" />
     </g>
 </svg>
