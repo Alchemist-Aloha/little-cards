@@ -560,11 +560,23 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
+
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="54" ry="7"/>
-  <path d="M36 82 Q100 72 164 82 L158 102 Q100 112 42 102 Z" class="c-table"/>
-  <path d="M48 101 L58 166 M152 101 L142 166 M78 106 L83 166 M122 106 L117 166" fill="none" stroke="var(--c-table)" stroke-width="10" stroke-linecap="round"/>
-  <path d="M42 92 Q100 102 158 92" fill="none" stroke="var(--c-line)" stroke-width="3"/>
-  <path d="M52 162 H86 M114 162 H148" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <ellipse class="shadow" cx="100" cy="181" rx="62" ry="8"/>
+  <!-- far legs: set back, drawn shorter, faded -->
+  <g opacity=".55">
+    <path d="M60 100 L56 158 M140 100 L144 158" fill="none" stroke="var(--c-stem)" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <!-- near legs, reaching the ground -->
+  <path d="M40 114 L36 176 M160 114 L164 176" fill="none" stroke="var(--c-stem)" stroke-width="9" stroke-linecap="round"/>
+  <!-- cross-brace between the legs -->
+  <path d="M40 152 H160" fill="none" stroke="var(--c-stem)" stroke-width="7" stroke-linecap="round"/>
+  <!-- apron under the top -->
+  <rect x="54" y="117" width="92" height="12" rx="4" fill="var(--c-stem)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- table top: far edge higher + shorter, near edge lower + longer -->
+  <path d="M50 84 H150 L170 106 H30 Z" class="c-table"/>
+  <ellipse cx="64" cy="93" rx="15" ry="5" class="hi"/>
+  <!-- visible top thickness / edge -->
+  <rect x="30" y="106" width="140" height="11" rx="3" class="c-table"/>
 </g>
 </svg>

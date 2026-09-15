@@ -560,13 +560,29 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
+
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
-  <path d="M39 91 L100 38 L161 91 Z" class="c-house-roof"/><rect x="52" y="88" width="96" height="76" rx="4" class="c-house"/>
-  <rect x="87" y="119" width="27" height="45" rx="4" class="c-house-door"/><circle cx="106" cy="142" r="3" class="c-sun"/>
-  <rect x="61" y="104" width="25" height="25" rx="3" class="c-window"/><rect x="114" y="104" width="25" height="25" rx="3" class="c-window"/>
-  <path d="M73 104 V129 M61 116 H86 M126 104 V129 M114 116 H139" class="c-car-line"/>
-  <path d="M127 65 V40 H143 V78" class="c-house-roof"/>
-  <path d="M44 91 H156" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
+  <ellipse class="shadow" cx="100" cy="181" rx="60" ry="8"/>
+  <!-- chimney sits near the roof ridge, behind the roof surface -->
+  <rect x="106" y="22" width="20" height="48" rx="3" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="100" y="15" width="32" height="10" rx="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M107 31 H125" fill="none" stroke="var(--c-seed)" stroke-width="2" opacity=".5"/>
+  <!-- walls -->
+  <rect x="46" y="90" width="108" height="84" rx="4" class="c-house"/>
+  <!-- windows: frame + crossbars, set inside the wall -->
+  <rect x="52" y="106" width="34" height="36" rx="3" class="c-window"/>
+  <rect x="114" y="106" width="34" height="36" rx="3" class="c-window"/>
+  <path d="M69 106 V142 M52 124 H86 M131 106 V142 M114 124 H148" class="c-car-line"/>
+  <rect x="49" y="140" width="38" height="8" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="113" y="140" width="38" height="8" rx="3" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <!-- front door, down to the ground -->
+  <rect x="86" y="130" width="28" height="44" rx="4" class="c-house-door"/>
+  <path d="M100 134 V172" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
+  <circle cx="108" cy="154" r="2.8" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <ellipse cx="93" cy="150" rx="3.4" ry="9" class="hi"/>
+  <!-- pitched roof overhanging the walls, with its eave board -->
+  <path d="M32 100 L100 34 L168 100 Z" class="c-house-roof"/>
+  <path d="M52 86 L58 90 M74 64 L80 68 M148 86 L142 90 M126 64 L120 68" class="c-ridge"/>
+  <rect x="28" y="96" width="144" height="9" rx="4" class="c-house-roof"/>
 </g>
 </svg>

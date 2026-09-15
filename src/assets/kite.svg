@@ -560,13 +560,22 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g>
-  <ellipse class="shadow" cx="100" cy="178" rx="42" ry="7"/>
-  <path d="M100 24 L151 91 L100 151 L49 91 Z" class="c-kite"/>
-  <path d="M100 24 V151 M49 91 H151" class="c-kite-line"/>
-  <path d="M100 151 Q81 166 101 176 Q120 186 101 198" class="c-kite-line"/>
-  <path d="M91 157 Q80 166 89 173 Q98 179 105 170 Q112 178 121 171 Q130 164 113 156" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M62 91 H138 M100 36 V140" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
-  <circle cx="100" cy="91" r="6" class="c-egg" stroke="var(--c-line)" stroke-width="2"/><ellipse cx="83" cy="61" rx="11" ry="18" transform="rotate(-25 83 61)" class="hi"/>
+  <g>
+  <ellipse class="shadow" cx="100" cy="184" rx="36" ry="7"/>
+  <path d="M100 22 L152 78 L100 134 L48 78 Z" class="c-red"/>
+  <path d="M100 22 L152 78 L100 78 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M100 134 L48 78 L100 78 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M100 22 V134 M48 78 H152" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7" stroke-linecap="round"/>
+  <ellipse cx="76" cy="56" rx="7" ry="11" transform="rotate(-30 76 56)" class="hi"/>
+  <path d="M100 134 C126 150 74 164 100 182" fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M95.1 134.6 L107.1 141.6 L95.1 148.6 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M119.1 134.6 L107.1 141.6 L119.1 148.6 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="107.1" cy="141.6" r="2.8" fill="var(--c-tip)"/>
+  <path d="M88.0 150.2 L100.0 157.2 L88.0 164.2 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M112.0 150.2 L100.0 157.2 L112.0 164.2 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="100.0" cy="157.2" r="2.8" fill="var(--c-tip)"/>
+  <path d="M80.9 166.6 L92.9 173.6 L80.9 180.6 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M104.9 166.6 L92.9 173.6 L104.9 180.6 Z" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="92.9" cy="173.6" r="2.8" fill="var(--c-tip)"/>
 </g>
 </svg>

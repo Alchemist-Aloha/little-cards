@@ -560,13 +560,20 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <path d="M43 123 L101 109 L157 124 L99 139 Z" class="c-red" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M43 123 V165 L99 180 V139 Z" class="c-blue" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M99 139 L157 124 V166 L99 180 Z" class="c-yellow" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M54 78 L101 66 L146 79 L100 92 Z" class="c-circle"/>
-  <path d="M54 78 V123 L100 139 V92 Z" class="c-green" stroke="var(--c-line)" stroke-width="2.5"/><path d="M100 92 L146 79 V124 L100 139 Z" class="c-purple" stroke="var(--c-line)" stroke-width="2.5"/>
-  <path d="M70 35 L101 24 L132 35 L101 47 Z" class="c-triangle"/><path d="M70 35 V78 L101 92 V47 Z" class="c-yellow" stroke="var(--c-line)" stroke-width="2.5"/><path d="M101 47 L132 35 V79 L101 92 Z" class="c-red" stroke="var(--c-line)" stroke-width="2.5"/>
+  <g>
+  <ellipse class="shadow" cx="100" cy="174" rx="63" ry="9"/>
+  <path d="M100 95 L162 116 L100 137 L38 116 Z" class="c-yellow"/>
+  <path d="M38 116 L100 137 L100 179 L38 158 Z" class="c-red"/>
+  <path d="M100 137 L162 116 L162 158 L100 179 Z" class="c-blue"/>
+  <path d="M59.5 160 L69 134.5 L78.5 160 M63.5 152 H74.5" fill="none" stroke="var(--c-seed)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 68 L148 84 L100 100 L52 84 Z" class="c-green"/>
+  <path d="M52 84 L100 100 L100 132 L52 116 Z" class="c-egg"/>
+  <path d="M100 100 L148 84 L148 116 L100 132 Z" class="c-purple"/>
+  <path d="M69 97 V119 M69 97 H79 A7 7 0 0 1 79 111 H69 M79 111 A7.5 7.5 0 0 1 79 119 H69" fill="none" stroke="var(--c-line)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 49 L135 61 L100 73 L65 61 Z" class="c-red"/>
+  <path d="M65 61 L100 73 L100 96 L65 84 Z" class="c-yellow"/>
+  <path d="M100 73 L135 61 L135 84 L100 96 Z" class="c-green"/>
+  <path d="M90.5 73 A8 8 0 1 0 90.5 87" fill="none" stroke="var(--c-line)" stroke-width="4.2" stroke-linecap="round"/>
+  <ellipse cx="87" cy="57" rx="6.5" ry="3.6" transform="rotate(-30 87 57)" class="hi"/>
 </g>
 </svg>
