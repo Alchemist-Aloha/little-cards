@@ -563,7 +563,6 @@ svg {
 <g>
   <ellipse cx="100" cy="174" rx="44" ry="7" class="shadow" />
   <circle cx="100" cy="100" r="72" class="c-circle" />
-  <path d="M29 100 Q100 132 171 100" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".45" />
   <circle cx="86" cy="105" r="4.5" class="c-eyes" /><circle cx="114" cy="105" r="4.5" class="c-eyes" />
   <path d="M90 119 Q100 129 110 119" class="c-eyeline" />
   <ellipse cx="71" cy="82" rx="8" ry="12" transform="rotate(-24 71 82)" class="hi" />
