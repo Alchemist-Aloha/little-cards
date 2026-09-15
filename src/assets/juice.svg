@@ -561,20 +561,14 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse class="shadow" cx="100" cy="172" rx="42" ry="7"/>
-  <path d="M72 58 L128 58 L124 158 Q124 164 118 164 L82 164 Q76 164 76 158 Z" class="c-glass" />
-  <path d="M76 86 L124 86 L121 157 L79 157 Z" class="c-juice" />
-  <rect x="103" y="38" width="9" height="120" rx="4" class="c-straw" transform="rotate(14 107 97)" />
-  <circle cx="130" cy="58" r="12" class="c-lemon" />
-  <ellipse cx="130" cy="58" rx="3" ry="5" class="c-seed" />
-  <path d="M130 49 V67 M121 58 H139" class="c-lemon-line" />
-  <path d="M107 36 Q100 28 108 24 Q116 28 109 36 Z" class="c-leaf" />
-  <circle cx="92" cy="120" r="4" class="c-bubble" />
-  <circle cx="108" cy="138" r="3" class="c-bubble" />
-  <circle cx="100" cy="106" r="3" class="c-bubble" />
-  <path d="M84 72 V150" class="c-milk-shine" />
-  <ellipse cx="88" cy="82" rx="6" ry="10" transform="rotate(-18 88 82)" class="hi" />
-  <path d="M78 92 Q100 98 122 92" class="c-ridge" />
-  <circle cx="88" cy="132" r="2" class="c-dimple" /><circle cx="116" cy="120" r="2" class="c-dimple" /><circle cx="96" cy="146" r="1.8" class="c-dimple" />
+  <ellipse class="shadow" cx="100" cy="176" rx="48" ry="7" />
+  <path d="M60 58 Q100 66 140 58 L132 160 Q100 174 68 160 Z" class="c-glass" />
+  <path d="M66 92 Q100 102 134 92 L129 156 Q100 166 71 156 Z" class="c-juice" />
+  <path d="M104 138 L104 42 L112 24 Q116 18 122 22" fill="none" stroke="var(--c-straw)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M130 60 A17 17 0 1 0 130 94 A17 17 0 0 0 130 60 Z" class="c-lemon" />
+  <path d="M130 63 V91 M116 77 H144" class="c-lemon-line" />
+  <circle cx="88" cy="124" r="4" class="c-bubble" /><circle cx="112" cy="142" r="3" class="c-bubble" /><circle cx="98" cy="108" r="3" class="c-bubble" />
+  <path d="M78 78 V150" class="c-milk-shine" />
+  <ellipse cx="82" cy="84" rx="7" ry="11" transform="rotate(-18 82 84)" class="hi" />
 </g>
 </svg>

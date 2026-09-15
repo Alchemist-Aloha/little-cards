@@ -561,21 +561,14 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="174" rx="44" ry="7" class="shadow" />
-      <path d="M60 64 L46 30 L86 54 Z" class="c-pig" />
-      <path d="M140 64 L154 30 L114 54 Z" class="c-pig" />
-      <circle cx="100" cy="112" r="56" class="c-pig" />
-      <ellipse cx="66" cy="124" rx="9" ry="6" class="c-cheek" />
-      <ellipse cx="134" cy="124" rx="9" ry="6" class="c-cheek" />
-      <ellipse cx="100" cy="124" rx="28" ry="21" class="c-cow-muzzle" />
-      <path d="M70 98 Q80 88 90 98" class="c-eyeline" />
-      <path d="M110 98 Q120 88 130 98" class="c-eyeline" />
-      <circle cx="90" cy="124" r="3.2" class="c-eyes" />
-      <circle cx="110" cy="124" r="3.2" class="c-eyes" />
-      <ellipse cx="82" cy="86" rx="11" ry="6" class="hi" />
+  <ellipse cx="104" cy="178" rx="66" ry="7" class="shadow" />
+  <path d="M50 112 Q40 94 52 76 L70 88 Q88 72 116 80 Q142 86 150 110 Q166 108 172 120 Q164 132 148 128 Q140 158 116 162 H78 Q54 154 50 132 Z" class="c-pig" />
+  <path d="M62 92 L50 62 L78 78 Z M126 84 L146 58 L148 92 Z" class="c-pig" />
+  <ellipse cx="146" cy="119" rx="22" ry="17" class="c-cow-muzzle" />
+  <circle cx="140" cy="117" r="3" class="c-eyes" /><circle cx="153" cy="117" r="3" class="c-eyes" />
+  <circle cx="110" cy="103" r="4" class="c-eyes" />
+  <path d="M92 160 V178 H106 V160 M120 160 V178 H134 V158" class="c-pig" />
+  <path d="M52 112 Q30 106 34 92 Q50 94 58 104" fill="none" stroke="var(--c-pig)" stroke-width="8" stroke-linecap="round" />
+  <path d="M78 98 Q88 90 98 98" class="c-eyeline" /><ellipse cx="82" cy="88" rx="10" ry="6" class="hi" />
 </g>
-      <g fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round" opacity=".5">
-        <path d="M60 56 Q70 64 80 58 M140 56 Q130 64 120 58" />
-        <path d="M86 140 Q100 148 114 140" />
-      </g>
 </svg>

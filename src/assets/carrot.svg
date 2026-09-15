@@ -561,15 +561,11 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-<ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M84 72 C90 68 110 68 116 72 L106 156 L100 162 L94 156 Z" class="c-carrot" />
-      <path d="M100 70 C98 46 96 34 100 30 C104 34 102 46 100 70 Z" class="c-leaf" />
-      <path d="M100 70 C92 52 80 44 74 48 C82 58 90 66 100 70 Z" class="c-leaf" />
-      <path d="M100 70 C108 52 120 44 126 48 C118 58 110 66 100 70 Z" class="c-leaf" />
-      <path d="M90 82 Q100 88 110 82" class="c-carrot-line" />
-      <path d="M91 96 Q100 101 109 96" class="c-carrot-line" />
-      <path d="M93 110 Q100 114 107 110" class="c-carrot-line" />
-      <circle cx="91" cy="90" r="2" class="c-freckle" /><circle cx="109" cy="104" r="2" class="c-freckle" /><circle cx="96" cy="136" r="1.8" class="c-freckle" />
-      <path d="M78 74 Q88 68 100 70 Q112 68 122 74" class="c-ridge" />
+  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
+  <path d="M72 68 Q100 58 128 68 L116 136 Q111 164 100 170 Q89 164 84 136 Z" class="c-carrot" />
+  <path d="M100 68 Q91 42 96 25 Q107 39 104 68 Z M98 66 Q76 48 61 52 Q75 70 98 73 Z M104 66 Q124 45 142 49 Q128 70 104 73 Z M100 66 Q100 43 111 29 Q114 48 104 69 Z" class="c-leaf" />
+  <path d="M82 88 Q100 96 118 88 M84 108 Q100 115 116 108 M88 130 Q100 136 112 130" class="c-carrot-line" />
+  <circle cx="88" cy="98" r="2.5" class="c-freckle" /><circle cx="112" cy="120" r="2.5" class="c-freckle" /><circle cx="98" cy="148" r="2" class="c-freckle" />
+  <path d="M76 72 Q100 62 124 72" class="c-ridge" />
 </g>
 </svg>
