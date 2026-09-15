@@ -560,8 +560,15 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="170" rx="52" ry="6" class="shadow"/>
-  <path d="M43 95 Q43 73 67 70 Q78 47 105 58 Q124 38 145 58 Q159 68 157 87 Q173 91 171 108 Q169 124 150 127 H64 Q43 124 43 95Z" class="c-cloud"/>
-  <path d="M69 139 L62 158 M94 139 L87 158 M119 139 L112 158 M144 139 L137 158" fill="none" stroke="var(--c-blue)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M65 83 Q76 68 90 72" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+<g>
+  <ellipse cx="100" cy="170" rx="52" ry="6" class="shadow"/>
+  <path d="M58 124 A24 24 0 1 1 66 77.4 A34 34 0 0 1 133.8 72.7 A26 26 0 1 1 140 124 Z" class="c-cloud"/>
+  <path d="M72 58 Q84 44 102 47" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(56 148)"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(73.6 148)"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(91.2 148)"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(108.8 148)"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(126.4 148)"/>
+  <path d="M0 -13 C4 -4 8.5 0 8.5 3.5 A8.5 8.5 0 0 1 -8.5 3.5 C-8.5 0 -4 -4 0 -13 Z" class="c-rain" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" transform="translate(144 148)"/>
+</g>
 </svg>

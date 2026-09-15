@@ -176,8 +176,12 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="169" rx="45" ry="7" class="shadow"/>
-  <path d="M128 43 C92 45 70 71 70 103 C70 136 96 157 128 153 C104 143 94 124 94 101 C94 76 106 56 128 43Z" class="c-moon"/>
-  <circle cx="82" cy="91" r="6" class="c-moon-crater"/><circle cx="84" cy="122" r="9" class="c-moon-crater"/><circle cx="111" cy="65" r="5" class="c-moon-crater"/>
-  <path d="M48 59 l3 8 l8 3 l-8 3 l-3 8 l-3-8 l-8-3 l8-3Z M145 105 l3 8 l8 3 l-8 3 l-3 8 l-3-8 l-8-3 l8-3Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
+<g>
+  <ellipse cx="100" cy="169" rx="47" ry="7" class="shadow"/>
+  <path d="M82.8 34.8 A64 64 0 1 0 159.4 115.1 A55.5 55.5 0 1 1 82.8 34.8 Z" class="c-moon"/>
+  <circle cx="68" cy="118" r="8" class="c-moon-crater"/>
+  <circle cx="56" cy="90" r="5" class="c-moon-crater"/>
+  <circle cx="100" cy="140" r="6" class="c-moon-crater"/>
+  <path d="M48 39 L51.5 46.5 L59 50 L51.5 53.5 L48 61 L44.5 53.5 L37 50 L44.5 46.5 Z M154 142 L156.6 147.4 L162 150 L156.6 152.6 L154 158 L151.4 152.6 L146 150 L151.4 147.4 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
 </svg>

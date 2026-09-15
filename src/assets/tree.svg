@@ -176,9 +176,26 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="173" rx="54" ry="7" class="shadow"/>
-  <path d="M83 164 L87 111 L68 94 L91 106 L100 66 L109 106 L135 91 L113 115 L119 164Z" class="c-tree-trunk"/>
-  <circle cx="70" cy="82" r="30" class="c-tree"/><circle cx="104" cy="63" r="37" class="c-tree"/><circle cx="137" cy="87" r="29" class="c-tree"/><circle cx="101" cy="101" r="37" class="c-tree"/>
-  <circle cx="77" cy="103" r="6" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/><circle cx="128" cy="73" r="6" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M82 66 Q92 55 103 57" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+<g>
+  <ellipse cx="100" cy="176" rx="56" ry="8" class="shadow"/>
+  <!-- branches (drawn first, trunk covers the joint) -->
+  <path d="M98 150 L74 104" fill="none" stroke="var(--c-line)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M98 150 L74 104" fill="none" stroke="var(--c-tree-trunk)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M102 150 L126 100" fill="none" stroke="var(--c-line)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M102 150 L126 100" fill="none" stroke="var(--c-tree-trunk)" stroke-width="12" stroke-linecap="round"/>
+  <!-- trunk: wider at the base, root flare -->
+  <path d="M90 143 C87 155 83 165 78 176 L71 180 C80 183 120 183 129 180 L122 176 C117 165 113 155 110 143 Z" class="c-tree-trunk"/>
+  <path d="M95 149 Q93 158 95 166 M104 160 Q106 168 104 176" class="c-ridge"/>
+  <circle cx="100" cy="68" r="40" class="c-tree"/>
+  <circle cx="62" cy="84" r="29" class="c-tree"/>
+  <circle cx="138" cy="84" r="29" class="c-tree"/>
+  <circle cx="78" cy="48" r="27" class="c-tree"/>
+  <circle cx="122" cy="50" r="26" class="c-tree"/>
+  <circle cx="100" cy="92" r="29" class="c-leaf"/>
+  <circle cx="58" cy="86" r="9" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M58 77 Q59 72 63 70" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="142" cy="84" r="9" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M142 75 Q143 70 147 68" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M74 46 Q86 32 102 30" fill="none" stroke="var(--c-hi)" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+</g>
 </svg>

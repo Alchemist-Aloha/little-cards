@@ -176,11 +176,25 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="171" rx="32" ry="6" class="shadow"/>
-  <path d="M100 162 V101" fill="none" stroke="var(--c-tree)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M99 143 Q80 128 70 140 Q84 150 99 148 M101 131 Q120 116 132 128 Q118 138 101 137" class="c-flower-leaf"/>
-  <circle cx="100" cy="83" r="20" class="c-flower-center"/>
-  <ellipse cx="100" cy="51" rx="18" ry="29" class="c-flower-petal"/><ellipse cx="100" cy="115" rx="18" ry="29" class="c-flower-petal"/>
-  <ellipse cx="68" cy="83" rx="29" ry="18" class="c-flower-petal"/><ellipse cx="132" cy="83" rx="29" ry="18" class="c-flower-petal"/>
-  <circle cx="94" cy="77" r="6" class="hi"/>
+<g>
+  <ellipse cx="100" cy="172" rx="34" ry="7" class="shadow"/>
+  <path d="M100 168 L100 88" class="c-flower-stem"/>
+  <path d="M99 136 Q81 117 61 124 Q80 149 99 144 Z" class="c-flower-leaf"/>
+  <path d="M97 137 Q83 129 68 127" class="c-ridge"/>
+  <path d="M101 118 Q119 99 139 106 Q120 131 101 126 Z" class="c-flower-leaf"/>
+  <path d="M103 119 Q117 111 132 109" class="c-ridge"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(0 100 74)"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(60 100 74)"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(120 100 74)"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(180 100 74)"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(240 100 74)"/>
+  <ellipse cx="100" cy="48" rx="13" ry="25" class="c-flower-petal" transform="rotate(300 100 74)"/>
+  <circle cx="100" cy="74" r="17" class="c-flower-center"/>
+  <circle cx="100" cy="66" r="2.6" class="c-seed"/>
+  <circle cx="107.6" cy="71.5" r="2.6" class="c-seed"/>
+  <circle cx="104.7" cy="80.5" r="2.6" class="c-seed"/>
+  <circle cx="95.3" cy="80.5" r="2.6" class="c-seed"/>
+  <circle cx="92.4" cy="71.5" r="2.6" class="c-seed"/>
+  <ellipse cx="94" cy="68" rx="6.5" ry="4.2" class="hi"/>
+</g>
 </svg>

@@ -176,10 +176,14 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="170" rx="48" ry="6" class="shadow"/>
-  <path d="M100 30 V48 M100 152 V170 M30 100 H48 M152 100 H170 M51 51 L64 64 M136 136 L149 149 M149 51 L136 64 M64 136 L51 149" class="c-sun-ray"/>
-  <circle cx="100" cy="100" r="48" class="c-sun"/>
-  <circle cx="82" cy="88" r="5" fill="var(--c-line)"/><circle cx="118" cy="88" r="5" fill="var(--c-line)"/>
-  <path d="M80 109 Q100 128 120 109" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
-  <ellipse cx="84" cy="73" rx="10" ry="6" class="hi"/>
+<g>
+  <ellipse cx="100" cy="170" rx="48" ry="6" class="shadow"/>
+  <circle cx="100" cy="94" r="55" fill="none" stroke="var(--c-sun)" stroke-width="5" opacity=".3"/>
+  <path d="M119.2 49.4 L118.1 26.4 L105.7 45.8 Z M138.9 65 L149.5 44.5 L129 55.1 Z M148.2 88.3 L167.6 75.9 L144.6 74.8 Z M144.6 113.2 L167.6 112.1 L148.2 99.7 Z M129 132.9 L149.5 143.5 L138.9 123 Z M105.7 142.2 L118.1 161.6 L119.2 138.6 Z M80.8 138.6 L81.9 161.6 L94.3 142.2 Z M61.1 123 L50.5 143.5 L71 132.9 Z M51.8 99.7 L32.4 112.1 L55.4 113.2 Z M55.4 74.8 L32.4 75.9 L51.8 88.3 Z M71 55.1 L50.5 44.5 L61.1 65 Z M94.3 45.8 L81.9 26.4 L80.8 49.4 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="100" cy="94" r="44" class="c-sun"/>
+  <circle cx="80" cy="86" r="5.5" fill="var(--c-line)"/>
+  <circle cx="120" cy="86" r="5.5" fill="var(--c-line)"/>
+  <path d="M79 106 Q100 125 121 106" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="79" cy="70" rx="10" ry="6" class="hi"/>
+</g>
 </svg>

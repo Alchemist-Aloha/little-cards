@@ -560,8 +560,9 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="159" rx="58" ry="7" class="shadow"/>
-  <path d="M44 132 Q44 109 68 106 Q76 78 104 87 Q119 65 143 83 Q154 91 154 108 Q171 111 171 130 Q171 145 152 148 H62 Q44 148 44 132Z" class="c-cloud"/>
-  <path d="M67 119 Q76 102 91 105 M112 101 Q125 84 140 101" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".7"/>
-  <path d="M71 137 H131" fill="none" stroke="var(--c-line)" stroke-width="3" opacity=".35"/>
+<g>
+  <path d="M60 146 A24 24 0 0 1 58.1 98.1 A36 36 0 0 1 124.1 76.3 A28 28 0 0 1 155.5 98.6 A24 24 0 0 1 150 146 Z" class="c-cloud"/>
+  <path d="M70 80 Q82 62 100 62" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  <path d="M124 88 Q134 80 146 84" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+</g>
 </svg>
