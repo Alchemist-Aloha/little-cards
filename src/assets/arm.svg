@@ -562,11 +562,27 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="174" rx="52" ry="7"/>
-  <path d="M42 136 Q39 120 51 111 L82 86 Q91 78 100 87 L108 96 Q114 104 105 113 L83 134 Q77 140 69 148 Z" class="c-skin"/>
-  <circle cx="102" cy="99" r="19" class="c-skin"/>
-  <path d="M112 95 Q131 77 143 70 Q151 65 156 72 Q160 79 153 85 L136 101 L157 92 Q165 89 169 97 Q171 104 163 108 L139 119 L157 116 Q166 115 168 123 Q169 131 160 134 L128 140 Q114 141 106 130 L95 115" class="c-skin"/>
-  <path d="M64 119 Q76 126 84 135" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M116 101 Q128 111 137 119 M139 101 L153 85 M143 119 L160 108" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M53 125 Q64 112 77 102" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  <!-- upper arm (shoulder -> elbow) -->
+  <path d="M34.3 65.8 L73.2 141.4 A21.0 21.0 0 0 0 110.8 122.6 L73.7 46.2 A22.0 22.0 0 0 0 34.3 65.8 Z" class="c-skin"/>
+  <!-- forearm (elbow -> wrist): slightly shorter, narrower at the wrist -->
+  <path d="M104.5 145.1 L164.1 103.2 A15.5 15.5 0 0 0 147.9 76.8 L83.5 110.9 A20.0 20.0 0 0 0 104.5 145.1 Z" class="c-skin"/>
+  <!-- elbow joint over the seam -->
+  <circle cx="92" cy="130" r="21.5" class="c-skin"/>
+  <!-- hand: palm + hinted fingers + thumb -->
+  <path d="M141 74 Q141 54 158 54 Q174 54 174 72 L174 84 Q174 95 158 95 Q141 95 141 80 Z" class="c-skin"/>
+  <path d="M146 62 V48" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M146 62 V48" fill="none" stroke="var(--c-skin)" stroke-width="9.5" stroke-linecap="round"/>
+  <path d="M157 60 V40" fill="none" stroke="var(--c-line)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M157 60 V40" fill="none" stroke="var(--c-skin)" stroke-width="10.5" stroke-linecap="round"/>
+  <path d="M168 62 V45" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M168 62 V45" fill="none" stroke="var(--c-skin)" stroke-width="9.5" stroke-linecap="round"/>
+  <path d="M141 74 L127 62" fill="none" stroke="var(--c-line)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M141 74 L127 62" fill="none" stroke="var(--c-skin)" stroke-width="12" stroke-linecap="round"/>
+  <!-- elbow fold, wrist and palm creases -->
+  <path d="M104 112 Q114 108 124 98" class="c-ridge"/>
+  <path d="M150 82 L162 98" class="c-ridge"/>
+  <path d="M147 66 Q158 71 169 66" class="c-ridge"/>
+  <!-- soft highlight -->
+  <ellipse cx="62" cy="80" rx="8" ry="13" class="hi"/>
 </g>
 </svg>

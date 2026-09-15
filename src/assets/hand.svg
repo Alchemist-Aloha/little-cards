@@ -562,9 +562,30 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="176" rx="48" ry="7"/>
-  <path d="M60 92 L58 54 Q58 44 66 43 Q74 43 75 53 L77 82 L78 43 Q78 33 86 33 Q94 33 95 43 L96 82 L98 38 Q98 28 106 28 Q114 28 114 39 L113 83 L117 48 Q118 38 126 39 Q134 40 133 51 L129 89 L140 68 Q145 60 152 65 Q158 70 153 79 L136 111 Q132 121 135 133 Q138 150 124 159 Q103 172 79 161 Q58 151 54 128 L48 103 Q45 92 54 88 Q58 86 60 92 Z" class="c-skin"/>
-  <path d="M76 83 Q90 94 103 84 M112 84 Q123 94 130 87" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M71 121 Q100 137 126 120 M78 143 Q101 153 119 143" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M68 49 V76 M86 40 V76 M105 36 V76 M123 48 V76" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <!-- thumb: off the SIDE of the palm, angled, reaching only mid-finger -->
+  <path d="M96 132 L52 88" fill="none" stroke="var(--c-line)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M96 132 L52 88" fill="none" stroke="var(--c-skin)" stroke-width="21" stroke-linecap="round"/>
+  <!-- four fingers: middle longest, index to pinky decreasing, pinky lowest -->
+  <path d="M89 130 V56" fill="none" stroke="var(--c-line)" stroke-width="23" stroke-linecap="round"/>
+  <path d="M89 130 V56" fill="none" stroke="var(--c-skin)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M110 126 V50" fill="none" stroke="var(--c-line)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M110 126 V50" fill="none" stroke="var(--c-skin)" stroke-width="19" stroke-linecap="round"/>
+  <path d="M132 126 V60" fill="none" stroke="var(--c-line)" stroke-width="23" stroke-linecap="round"/>
+  <path d="M132 126 V60" fill="none" stroke="var(--c-skin)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M151 130 V76" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M151 130 V76" fill="none" stroke="var(--c-skin)" stroke-width="15" stroke-linecap="round"/>
+  <!-- palm, tapering to the wrist -->
+  <path d="M69 124 Q69 106 86 103 Q99 99 110 97 Q122 99 136 103 Q153 106 163 114 L162 132 Q160 148 150 154 Q140 160 120 160 L102 160 Q84 158 75 150 Q69 144 69 132 Z" class="c-skin"/>
+  <!-- nails -->
+  <rect x="84.5" y="51" width="9" height="11" rx="4" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <rect x="105" y="44" width="10" height="12" rx="4.5" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <rect x="127.5" y="55" width="9" height="11" rx="4" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <rect x="147.5" y="71" width="7" height="10" rx="3.2" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <!-- knuckle + palm creases -->
+  <path d="M84 113 Q92 119 100 113 M103 110 Q111 116 119 110 M124 113 Q132 119 140 113" class="c-ridge"/>
+  <path d="M78 136 Q98 148 122 142" class="c-ridge"/>
+  <path d="M64 116 Q72 124 68 136" class="c-ridge"/>
+  <!-- soft highlight -->
+  <ellipse cx="80" cy="122" rx="11" ry="7.5" class="hi"/>
 </g>
 </svg>

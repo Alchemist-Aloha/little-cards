@@ -562,11 +562,12 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="174" rx="52" ry="7"/>
-  <path d="M28 100 Q100 36 172 100 Q100 164 28 100 Z" class="c-egg"/>
-  <ellipse cx="112" cy="100" rx="32" ry="38" class="c-blue"/>
-  <ellipse cx="112" cy="100" rx="15" ry="23" class="c-eyes"/>
-  <circle cx="106" cy="91" r="6" class="hi"/>
-  <path d="M28 100 Q100 36 172 100" class="c-eyeline"/>
-  <path d="M48 66 L40 53 M65 52 L60 38 M84 44 L82 30" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <path class="c-egg" d="M26 100 Q100 -36 174 100 Q100 236 26 100 Z"/>
+  <circle cx="100" cy="100" r="34" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="26" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".28"/>
+  <circle cx="100" cy="100" r="15" fill="var(--c-eyes)"/>
+  <circle cx="89" cy="89" r="6" fill="var(--c-hi)"/>
+  <path class="c-eyeline" d="M26 100 Q100 -36 174 100"/>
+  <path d="M56 57 L48 43 M78 38 L74 23 M122 38 L126 23 M144 57 L152 43" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
 </g>
 </svg>

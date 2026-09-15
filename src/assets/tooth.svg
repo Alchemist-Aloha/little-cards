@@ -562,9 +562,12 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="174" rx="42" ry="7"/>
-  <path d="M57 60 Q66 42 86 49 Q100 55 114 49 Q134 42 143 60 Q148 80 137 105 Q130 121 122 131 Q116 139 113 154 Q110 164 102 155 L100 146 L97 155 Q90 164 87 154 Q84 139 78 131 Q70 121 63 105 Q52 80 57 60 Z" class="c-egg"/>
-  <path d="M67 65 Q76 53 89 59 M111 59 Q124 53 133 65" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M73 73 Q68 94 78 112 M127 73 Q132 94 122 112" class="c-milk-shine"/>
-  <path d="M91 122 Q100 128 109 122" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M30 130 C30 110 42 98 58 102 C72 106 84 112 100 112 C116 112 128 106 142 102 C158 98 170 110 170 130 C170 154 166 170 158 176 L42 176 C34 170 30 154 30 130 Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path class="c-egg" d="M70 112 C63 138 65 158 74 170 C80 178 92 175 93 163 C95 146 92 128 90 112 Z"/>
+  <path class="c-egg" d="M130 112 C137 138 135 158 126 170 C120 178 108 175 107 163 C105 146 108 128 110 112 Z"/>
+  <path class="c-egg" d="M60 82 C60 58 74 48 90 54 C95 56 98 60 100 60 C102 60 105 56 110 54 C126 48 140 58 140 82 C140 98 136 110 130 120 L70 120 C64 110 60 98 60 82 Z"/>
+  <path d="M100 62 V80" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <path d="M80 66 C76 78 77 90 80 98 M120 66 C124 78 123 90 120 98" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+  <ellipse class="hi" cx="74" cy="74" rx="8" ry="6"/>
 </g>
 </svg>

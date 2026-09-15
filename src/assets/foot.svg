@@ -562,9 +562,20 @@ svg {
 </style>
 <g>
   <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
-  <path d="M58 52 Q75 46 86 61 L91 96 Q96 111 126 119 Q150 125 153 139 Q155 153 137 159 L70 159 Q45 157 42 142 Q39 128 52 122 Q65 116 64 98 L58 52 Z" class="c-skin"/>
-  <circle cx="62" cy="125" r="12" class="c-skin"/><circle cx="76" cy="121" r="12" class="c-skin"/><circle cx="90" cy="121" r="11" class="c-skin"/><circle cx="103" cy="125" r="10" class="c-skin"/><circle cx="114" cy="131" r="9" class="c-skin"/>
-  <path d="M59 145 Q94 151 137 143" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M71 65 Q80 82 76 102" class="c-milk-shine"/>
+  <!-- five toes along the front, big toe largest + innermost -->
+  <ellipse cx="68" cy="50" rx="13" ry="16" class="c-skin"/>
+  <ellipse cx="90" cy="43" rx="11.5" ry="14" class="c-skin"/>
+  <ellipse cx="109" cy="47" rx="10" ry="12.5" class="c-skin"/>
+  <ellipse cx="124" cy="57" rx="8.5" ry="10.5" class="c-skin"/>
+  <ellipse cx="136" cy="70" rx="7" ry="9" class="c-skin"/>
+  <!-- foot outline: wide ball, arched waist, rounded heel -->
+  <path d="M56 84 Q66 70 76 74 Q88 66 100 68 Q118 68 130 78 Q144 88 144 110 Q142 140 138 152 Q136 170 114 170 Q92 172 72 168 Q54 162 58 140 Q64 126 60 106 Q54 92 56 84 Z" class="c-skin"/>
+  <!-- big-toe nail -->
+  <ellipse cx="68" cy="44" rx="6" ry="7.5" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="1.5"/>
+  <!-- arch and heel definition -->
+  <path d="M70 104 Q66 126 73 148" class="c-ridge"/>
+  <path d="M80 156 Q98 162 118 158" class="c-ridge"/>
+  <!-- soft highlight -->
+  <ellipse cx="86" cy="106" rx="10" ry="15" class="hi"/>
 </g>
 </svg>
