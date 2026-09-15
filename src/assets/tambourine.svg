@@ -561,20 +561,9 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <circle cx="100" cy="100" r="52" class="c-tambourine" />
-      <circle cx="100" cy="100" r="22" class="c-tip" />
-      <circle cx="100" cy="100" r="10" class="c-tambourine" />
-      <circle cx="100" cy="52" r="4" class="c-jingle" />
-      <circle cx="134" cy="66" r="4" class="c-jingle" />
-      <circle cx="148" cy="100" r="4" class="c-jingle" />
-      <circle cx="134" cy="134" r="4" class="c-jingle" />
-      <circle cx="100" cy="148" r="4" class="c-jingle" />
-      <circle cx="66" cy="134" r="4" class="c-jingle" />
-      <circle cx="52" cy="100" r="4" class="c-jingle" />
-      <circle cx="66" cy="66" r="4" class="c-jingle" />
-    </g>
-      <circle cx="100" cy="100" r="34" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
-      <path d="M70 100 H130 M100 70 V130" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7"/>
-      <path d="M86 148 L78 168 M114 148 L122 168" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <ellipse class="shadow" cx="100" cy="178" rx="44" ry="7"/>
+  <path d="M100 39 A61 61 0 1 0 100 161 A61 61 0 0 0 100 39 Z M100 61 A39 39 0 1 1 100 139 A39 39 0 0 1 100 61 Z" fill="var(--c-tambourine)" fill-rule="evenodd" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="40" r="9" class="c-jingle"/><circle cx="143" cy="58" r="9" class="c-jingle"/><circle cx="160" cy="100" r="9" class="c-jingle"/><circle cx="143" cy="142" r="9" class="c-jingle"/><circle cx="100" cy="160" r="9" class="c-jingle"/><circle cx="57" cy="142" r="9" class="c-jingle"/><circle cx="40" cy="100" r="9" class="c-jingle"/><circle cx="57" cy="58" r="9" class="c-jingle"/>
+  <path d="M72 72 Q100 57 128 72" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" opacity=".8"/><path d="M84 159 L78 176 M116 159 L122 176" fill="none" stroke="var(--c-tip)" stroke-width="5" stroke-linecap="round"/>
+</g>
 </svg>

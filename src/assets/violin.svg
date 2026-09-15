@@ -561,16 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <path d="M100 52 C84 52 80 70 88 80 C78 86 78 96 88 100 C80 108 86 124 100 132 C114 124 120 108 112 100 C122 96 122 86 112 80 C120 70 116 52 100 52 Z" class="c-violin" />
-      <path d="M92 84 q-4 6 0 12 M108 84 q4 6 0 12" class="c-car-line" />
-      <path d="M100 52 L100 30" class="c-mane" />
-      <circle cx="100" cy="26" r="7" class="c-tip" />
-      <path d="M92 90 L92 130 M108 90 L108 130" class="c-car-line" />
-      <path d="M150 50 L178 130" class="c-mane" />
-      <path d="M148 50 L152 50 M176 130 L180 130" class="c-antler" />
-    </g>
-      <path d="M100 82 V142 M96 82 V142 M104 82 V142" fill="none" stroke="var(--c-seed)" stroke-width="1.5" opacity=".85"/>
-      <path d="M88 116 H112" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
-      <path d="M92 138 Q100 144 108 138" fill="none" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
+  <path d="M100 48 Q82 49 88 68 Q91 76 82 83 Q73 91 84 99 Q91 105 84 116 Q84 133 100 143 Q116 133 116 116 Q109 105 116 99 Q127 91 118 83 Q109 76 112 68 Q118 49 100 48 Z" class="c-violin"/>
+  <path d="M100 50 V28" class="c-mane"/><circle cx="100" cy="23" r="8" class="c-tip"/><path d="M91 84 Q86 92 93 98 M109 84 Q114 92 107 98" class="c-car-line"/>
+  <path d="M100 78 V147 M96 78 V147 M104 78 V147" fill="none" stroke="var(--c-seed)" stroke-width="1.7"/><path d="M86 116 H114" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M143 45 L174 143" class="c-mane" stroke-width="7"/><path d="M139 44 L147 44 M170 143 L178 143" class="c-antler"/>
+</g>
 </svg>

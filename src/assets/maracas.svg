@@ -561,17 +561,11 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <ellipse cx="100" cy="172" rx="42" ry="7" class="shadow" />
-      <ellipse cx="72" cy="64" rx="22" ry="28" class="c-maracas" transform="rotate(-18 72 64)" />
-      <ellipse cx="128" cy="64" rx="22" ry="28" class="c-maracas" transform="rotate(18 128 64)" />
-      <rect x="66" y="86" width="12" height="48" rx="6" class="c-maracas-handle" transform="rotate(-18 72 100)" />
-      <rect x="122" y="86" width="12" height="48" rx="6" class="c-maracas-handle" transform="rotate(18 128 100)" />
-      <circle cx="66" cy="56" r="3" class="c-tip" transform="rotate(-18 72 64)" />
-      <circle cx="78" cy="64" r="3" class="c-tip" transform="rotate(-18 72 64)" />
-      <circle cx="134" cy="56" r="3" class="c-tip" transform="rotate(18 128 64)" />
-      <circle cx="122" cy="64" r="3" class="c-tip" transform="rotate(18 128 64)" />
-    </g>
-      <path d="M52 62 H82 M118 62 H148" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="66" cy="78" r="3" fill="var(--c-line)"/><circle cx="134" cy="78" r="3" fill="var(--c-line)"/>
-      <path d="M66 136 H78 M122 136 H134" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="7"/>
+  <path d="M58 72 Q53 43 76 34 Q101 25 106 52 Q109 69 93 84 L79 96 Q65 96 58 72 Z" class="c-maracas"/><path d="M142 72 Q147 43 124 34 Q99 25 94 52 Q91 69 107 84 L121 96 Q135 96 142 72 Z" class="c-maracas"/>
+  <path d="M77 84 L65 155 M123 84 L135 155" fill="none" stroke="var(--c-tip)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M59 58 Q78 68 97 57 M103 57 Q122 68 141 58" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="75" cy="70" r="4" class="c-tip"/><circle cx="87" cy="62" r="4" class="c-tip"/><circle cx="125" cy="62" r="4" class="c-tip"/><circle cx="137" cy="70" r="4" class="c-tip"/>
+  <path d="M48 104 Q36 110 45 120 M152 104 Q164 110 155 120" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+</g>
 </svg>

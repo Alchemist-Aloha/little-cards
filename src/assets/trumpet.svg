@@ -561,18 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-      <rect x="38" y="90" width="86" height="20" rx="10" class="c-trumpet" />
-      <path d="M120 84 Q150 80 162 82 L162 118 Q150 120 120 116 Z" class="c-trumpet" />
-      <ellipse cx="162" cy="100" rx="8" ry="20" class="c-trumpet" />
-      <circle cx="38" cy="100" r="7" class="c-tip" />
-      <rect x="92" y="70" width="8" height="22" rx="3" class="c-tip" />
-      <rect x="104" y="70" width="8" height="22" rx="3" class="c-tip" />
-      <rect x="116" y="70" width="8" height="22" rx="3" class="c-tip" />
-      <circle cx="150" cy="52" r="7" class="c-bubble" />
-      <circle cx="170" cy="66" r="5" class="c-bubble" />
-      <path d="M150 81 v27 M153 81 v27" class="c-bubble" />
-    </g>
-      <path d="M82 98 H128" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-      <circle cx="92" cy="100" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/><circle cx="108" cy="100" r="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="1.5"/>
-      <path d="M144 44 Q160 52 164 68 M148 48 Q158 56 160 68" fill="none" stroke="var(--c-seed)" stroke-width="3" stroke-linecap="round"/>
+  <ellipse class="shadow" cx="100" cy="176" rx="56" ry="7"/>
+  <path d="M32 95 H111 Q123 95 129 86 L143 69" fill="none" stroke="var(--c-trumpet)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 84 Q143 77 165 83 L165 117 Q143 123 120 116 Z" class="c-trumpet"/><ellipse cx="164" cy="100" rx="10" ry="22" class="c-trumpet"/>
+  <circle cx="31" cy="95" r="8" class="c-tip"/><path d="M82 95 V72 M99 95 V72 M116 95 V76" fill="none" stroke="var(--c-tip)" stroke-width="7" stroke-linecap="round"/><circle cx="82" cy="69" r="5" class="c-egg"/><circle cx="99" cy="69" r="5" class="c-egg"/><circle cx="116" cy="73" r="5" class="c-egg"/>
+  <path d="M173 70 Q188 78 190 91 M178 56 Q196 65 199 80" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
+</g>
 </svg>
