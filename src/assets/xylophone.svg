@@ -559,11 +559,25 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style>
-<g>
-  <ellipse class="shadow" cx="100" cy="178" rx="58" ry="7"/>
-  <path d="M39 55 H161 L144 151 H56 Z" fill="var(--c-xylo)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <rect x="47" y="60" width="104" height="15" rx="4" class="c-xylo-bar-1"/><rect x="50" y="78" width="98" height="15" rx="4" class="c-xylo-bar-2"/><rect x="53" y="96" width="92" height="15" rx="4" class="c-xylo-bar-3"/><rect x="56" y="114" width="86" height="15" rx="4" class="c-xylo-bar-4"/><rect x="59" y="132" width="80" height="15" rx="4" class="c-xylo-bar-5"/>
-  <path d="M49 61 L58 150 M151 61 L142 150" fill="none" stroke="var(--c-line)" stroke-width="3"/><path d="M168 42 L135 108" class="c-mane" stroke-width="6"/><circle cx="171" cy="37" r="9" class="c-red"/>
+</style><g>
+  <ellipse class="shadow" cx="100" cy="180" rx="58" ry="8"/>
+  <!-- wooden frame: two sloping side rails and a bottom cross member, both resting on the ground -->
+  <path d="M34 174 L64 38 M166 174 L136 38" fill="none" stroke="var(--c-line)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M34 174 L64 38 M166 174 L136 38" fill="none" stroke="var(--c-bread)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M34 170 H166" fill="none" stroke="var(--c-line)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M34 170 H166" fill="none" stroke="var(--c-bread)" stroke-width="9" stroke-linecap="round"/>
+  <!-- six bars, strictly decreasing in length from the bottom (longest) to the top, one colour each -->
+  <rect x="38" y="150" width="124" height="16" rx="5" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="44" y="128" width="112" height="16" rx="5" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="50" y="106" width="100" height="16" rx="5" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="56" y="84" width="88" height="16" rx="5" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="62" y="62" width="76" height="16" rx="5" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="68" y="40" width="64" height="16" rx="5" fill="var(--c-purple)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- soft sheen along the left rail -->
+  <path d="M37 164 L60 58" fill="none" stroke="var(--c-hi)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- one mallet: head resting on the third bar, handle leaning up and out past the frame -->
+  <path d="M66 95.5 L25 45" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M66 95.5 L25 45" fill="none" stroke="var(--c-bread)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="66" cy="95.5" r="10.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
 </g>
 </svg>

@@ -559,13 +559,27 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style>
-<g>
-  <ellipse class="shadow" cx="100" cy="178" rx="52" ry="7"/>
-  <path d="M58 72 Q53 43 76 34 Q101 25 106 52 Q109 69 93 84 L79 96 Q65 96 58 72 Z" class="c-maracas"/><path d="M142 72 Q147 43 124 34 Q99 25 94 52 Q91 69 107 84 L121 96 Q135 96 142 72 Z" class="c-maracas"/>
-  <path d="M77 84 L65 155 M123 84 L135 155" fill="none" stroke="var(--c-tip)" stroke-width="13" stroke-linecap="round"/>
-  <path d="M59 58 Q78 68 97 57 M103 57 Q122 68 141 58" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="75" cy="70" r="4" class="c-tip"/><circle cx="87" cy="62" r="4" class="c-tip"/><circle cx="125" cy="62" r="4" class="c-tip"/><circle cx="137" cy="70" r="4" class="c-tip"/>
-  <path d="M48 104 Q36 110 45 120 M152 104 Q164 110 155 120" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+</style><g>
+  <ellipse class="shadow" cx="100" cy="179" rx="56" ry="8"/>
+  <!-- left maraca -->
+  <g transform="translate(90 176) rotate(-12)">
+    <rect x="-5.5" y="-116" width="11" height="116" rx="5.5" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <path d="M0 -150 C17 -150 27 -136 27 -122 C27 -102 15 -86 0 -86 C-15 -86 -27 -102 -27 -122 C-27 -136 -17 -150 0 -150 Z" fill="var(--c-maracas)"/>
+    <rect x="-25.5" y="-130" width="51" height="16" fill="var(--c-red)"/>
+    <rect x="-25.5" y="-110" width="51" height="7" fill="var(--c-seed)"/>
+    <path d="M0 -150 C17 -150 27 -136 27 -122 C27 -102 15 -86 0 -86 C-15 -86 -27 -102 -27 -122 C-27 -136 -17 -150 0 -150 Z" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-8.5" y="-95" width="17" height="11" rx="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+    <ellipse cx="-10" cy="-132" rx="6.5" ry="9" class="hi"/>
+  </g>
+  <!-- right maraca: exact mirror of the left one -->
+  <g transform="translate(110 176) rotate(12) scale(-1 1)">
+    <rect x="-5.5" y="-116" width="11" height="116" rx="5.5" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <path d="M0 -150 C17 -150 27 -136 27 -122 C27 -102 15 -86 0 -86 C-15 -86 -27 -102 -27 -122 C-27 -136 -17 -150 0 -150 Z" fill="var(--c-maracas)"/>
+    <rect x="-25.5" y="-130" width="51" height="16" fill="var(--c-red)"/>
+    <rect x="-25.5" y="-110" width="51" height="7" fill="var(--c-seed)"/>
+    <path d="M0 -150 C17 -150 27 -136 27 -122 C27 -102 15 -86 0 -86 C-15 -86 -27 -102 -27 -122 C-27 -136 -17 -150 0 -150 Z" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="-8.5" y="-95" width="17" height="11" rx="4" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+    <ellipse cx="-10" cy="-132" rx="6.5" ry="9" class="hi"/>
+  </g>
 </g>
 </svg>

@@ -560,8 +560,74 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="181" rx="64" ry="7" fill="var(--c-shadow)"/>
-<path d="M62 108 Q64 98 80 96 H120 Q136 98 138 108 L144 175 H56 Z" fill="var(--c-cloth-green)" stroke="var(--c-line)" stroke-width="3"/><path d="M83 101 L100 117 L117 101 L112 154 H88Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
-<circle cx="100" cy="69" r="28" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="3"/><path d="M73 64 Q76 39 100 39 Q124 39 127 64 Q112 54 100 57 Q88 54 73 64Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/><circle cx="90" cy="71" r="3.5" fill="var(--c-eyes)"/><circle cx="110" cy="71" r="3.5" fill="var(--c-eyes)"/><path d="M92 84 Q100 89 108 84" fill="none" stroke="var(--c-line)" stroke-width="2.5"/><path d="M63 112 Q47 126 60 145 M137 112 Q153 126 140 145" fill="none" stroke="var(--c-cloth-green)" stroke-width="12" stroke-linecap="round"/><path d="M63 112 Q47 126 60 145 M137 112 Q153 126 140 145" fill="none" stroke="var(--c-line)" stroke-width="2.5"/>
-<circle cx="116" cy="132" r="17" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="3"/><path d="M103 121 L94 110 L107 116 M129 121 L138 110 L125 116" fill="var(--c-dog-ear)" stroke="var(--c-line)" stroke-width="2.5"/><circle cx="110" cy="130" r="2.5" fill="var(--c-eyes)"/><circle cx="122" cy="130" r="2.5" fill="var(--c-eyes)"/><ellipse cx="116" cy="137" rx="4" ry="3" fill="var(--c-line)"/><path d="M73 125 C65 139 74 150 86 149" fill="none" stroke="var(--c-blue)" stroke-width="3"/>
+
+<g>
+  <ellipse cx="100" cy="181" rx="58" ry="8" class="shadow"/>
+  <!-- navy trousers, white shoes -->
+  <path d="M87 118 L85 164" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M87 118 L85 164" fill="none" stroke="var(--c-cloth-navy)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M113 118 L115 164" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M113 118 L115 164" fill="none" stroke="var(--c-cloth-navy)" stroke-width="15" stroke-linecap="round"/>
+  <g fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".3">
+    <path d="M80 150 Q86 154 92 150"/><path d="M108 150 Q114 154 120 150"/>
+  </g>
+  <rect x="74" y="160" width="24" height="17" rx="6" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M78 171 H94" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+  <rect x="102" y="160" width="24" height="17" rx="6" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M106 171 H122" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+  <!-- blue scrubs top, worn under the coat -->
+  <path d="M77 97 Q78 87 90 86 H110 Q122 87 123 97 L128 143 Q129 149 122 149 H78 Q71 149 72 143 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- green vet coat with a V neckline over the scrubs -->
+  <path d="M77 97 Q78 87 90 86 L100 107 L110 86 Q122 87 123 97 L130 140 Q131 146 124 146 H76 Q69 146 70 140 Z" fill="var(--c-cloth-green)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M100 107 Q96 126 95 146" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
+  <circle cx="99" cy="116" r="2.5" fill="var(--c-line)" opacity=".5"/>
+  <circle cx="99" cy="128" r="2.5" fill="var(--c-line)" opacity=".5"/>
+  <path d="M77 111 h14 v12 h-14 z" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5"/>
+  <path d="M109 111 h14 v12 h-14 z" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".5"/>
+  <path d="M82 130 V138 M78 134 H86" fill="none" stroke="var(--c-egg)" stroke-width="3" stroke-linecap="round"/>
+  <!-- stethoscope looping the neck down to the chest piece -->
+  <path d="M89 80 Q82 96 90 107 Q100 111 110 107 Q118 96 111 80" fill="none" stroke="var(--c-wheel)" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="89" cy="81" r="2.8" fill="var(--c-wheel)"/>
+  <circle cx="111" cy="81" r="2.8" fill="var(--c-wheel)"/>
+  <circle cx="100" cy="110" r="6.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="110" r="2.2" fill="var(--c-line)"/>
+  <!-- green sleeves and hands -->
+  <path d="M78 98 Q68 106 68 124" fill="none" stroke="var(--c-line)" stroke-width="17.5" stroke-linecap="round"/>
+  <path d="M78 98 Q68 106 68 124" fill="none" stroke="var(--c-cloth-green)" stroke-width="12.5" stroke-linecap="round"/>
+  <path d="M122 98 Q132 106 132 124" fill="none" stroke="var(--c-line)" stroke-width="17.5" stroke-linecap="round"/>
+  <path d="M122 98 Q132 106 132 124" fill="none" stroke="var(--c-cloth-green)" stroke-width="12.5" stroke-linecap="round"/>
+  <circle cx="78" cy="97" r="6.5" fill="var(--c-cloth-green)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="122" cy="97" r="6.5" fill="var(--c-cloth-green)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- the patient: a puppy standing on the ground at the vet's side -->
+  <path d="M155 158 Q165 152 163 141" fill="none" stroke="var(--c-dog)" stroke-width="6.5" stroke-linecap="round"/>
+  <rect x="127" y="164" width="7" height="13" rx="3" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2" opacity=".72"/>
+  <rect x="145" y="164" width="7" height="13" rx="3" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2" opacity=".72"/>
+  <ellipse cx="138" cy="162" rx="19" ry="10" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="132" cy="146" r="13" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M126 138 L116 124 L131 132 Z" fill="var(--c-dog-ear)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M138 138 L148 124 L133 132 Z" fill="var(--c-dog-ear)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M120 156 Q132 164 144 156" fill="none" stroke="var(--c-tomato)" stroke-width="4.5" stroke-linecap="round"/>
+  <ellipse cx="132" cy="153" rx="7.5" ry="5.5" fill="var(--c-dog-patch)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="132" cy="150" rx="3.6" ry="2.7" fill="var(--c-tip)"/>
+  <path d="M128 156 Q132 160 136 156" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="126" cy="143" r="2.8" class="c-eyes"/><circle cx="138" cy="143" r="2.8" class="c-eyes"/>
+  <ellipse cx="152" cy="152" rx="5.5" ry="3.5" class="hi"/>
+  <rect x="122" y="166" width="8" height="12" rx="3" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <rect x="142" y="166" width="8" height="12" rx="3" fill="var(--c-dog)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- right hand resting on the puppy's head -->
+  <circle cx="132" cy="129" r="7" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="68" cy="129" r="7" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- neck, head, hair, face -->
+  <rect x="92" y="74" width="16" height="18" rx="5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="76" cy="60" r="5.5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="124" cy="60" r="5.5" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="58" r="25" fill="var(--c-skin)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M75 52 Q74 33 100 33 Q126 33 125 52 Q119 42 100 44 Q81 42 75 52 Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="91" cy="57" r="3.8" class="c-eyes"/><circle cx="109" cy="57" r="3.8" class="c-eyes"/>
+  <path d="M98 60 Q102 62 101 66" fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M91 70 Q100 77 109 70" fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="83" cy="67" r="4.5" fill="var(--c-pink)" opacity=".55"/>
+  <circle cx="117" cy="67" r="4.5" fill="var(--c-pink)" opacity=".55"/>
+  <ellipse cx="84" cy="49" rx="7" ry="4.5" class="hi"/>
+</g>
 </svg>

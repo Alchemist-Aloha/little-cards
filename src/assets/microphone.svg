@@ -559,14 +559,24 @@ svg {
 .c-pancake { fill: var(--c-pancake); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
-</style>
-<g>
-  <ellipse class="shadow" cx="100" cy="178" rx="48" ry="7"/>
-  <rect x="72" y="35" width="56" height="83" rx="27" class="c-mic"/>
-  <path d="M84 51 Q100 62 116 51 M80 67 Q100 80 120 67 M80 84 Q100 97 120 84 M84 101 Q100 111 116 101" fill="none" stroke="var(--c-line)" stroke-width="3"/>
-  <path d="M64 91 V106 Q64 137 100 137 Q136 137 136 106 V91" fill="none" stroke="var(--c-mic)" stroke-width="10" stroke-linecap="round"/>
-  <path d="M100 137 V161 M78 169 H122" fill="none" stroke="var(--c-tip)" stroke-width="8" stroke-linecap="round"/>
-  <path d="M72 34 Q100 22 128 34" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round" opacity=".8"/>
-  <path d="M53 64 Q42 75 53 86 M147 64 Q158 75 147 86" fill="none" stroke="var(--c-line)" stroke-width="4" stroke-linecap="round"/>
+</style><g>
+  <ellipse class="shadow" cx="100" cy="180" rx="54" ry="8"/>
+  <!-- cable leaving the stand base and curving away along the ground -->
+  <path d="M114 173 C 130 182 142 180 150 172" fill="none" stroke="var(--c-tip)" stroke-width="5" stroke-linecap="round"/>
+  <!-- stand: shaft and flared foot resting on the ground -->
+  <path d="M100 138 V170" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M100 138 V170" fill="none" stroke="var(--c-mic)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="80" y="166" width="40" height="13" rx="6.5" fill="var(--c-mic)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- tapered body -->
+  <path d="M80 84 H120 L113 142 H87 Z" fill="var(--c-mic)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- collar where the head meets the body -->
+  <rect x="77" y="83" width="46" height="9" rx="4.5" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2"/>
+  <!-- ball head -->
+  <circle cx="100" cy="60" r="33" fill="var(--c-mic)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <!-- grille mesh: latitude rows and meridian lines wrapping the ball's curvature -->
+  <path d="M73.8 40 Q100 50 126.2 40 M67.2 56 Q100 67 132.8 56 M69.3 72 Q100 81 130.7 72" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7"/>
+  <path d="M100 28 V84 M100 29 Q79 58 100 84 M100 29 Q121 58 100 84" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".7"/>
+  <!-- soft sheen on the upper-left of the head -->
+  <ellipse cx="82" cy="44" rx="10" ry="7" transform="rotate(-28 82 44)" class="hi"/>
 </g>
 </svg>
