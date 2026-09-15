@@ -4,7 +4,7 @@
 Usage: python3 tools/render_groups.py <assets_dir> <group_file> <out_dir> [cell]
 Each line: sheetname: name1,name2,...   (leading '# name' comment allowed)
 """
-import sys, os, subprocess, html
+import sys, os, subprocess, html, tempfile
 
 assets, groupfile, out = sys.argv[1], sys.argv[2], sys.argv[3]
 CELL = int(sys.argv[4]) if len(sys.argv) > 4 else 300
@@ -36,8 +36,11 @@ figcaption{{font-size:14px;color:#333}}
     hp = os.path.join(work, f'{title}.html')
     open(hp, 'w').write(page)
     png = os.path.join(out, f'{title}.png')
+    profile = tempfile.mkdtemp(prefix='cr-profile-')
     subprocess.run(['/usr/bin/chromium', '--headless=new', '--no-sandbox', '--hide-scrollbars',
+                    f'--user-data-dir={profile}',
                     '--force-device-scale-factor=1', '--default-background-color=FFFFFFFF',
+                    '--run-all-compositor-stages-before-draw', '--virtual-time-budget=15000',
                     f'--window-size={cols * CELL},{rows * CELL + 36}',
                     f'--screenshot={png}', f'file://{hp}'], check=True, capture_output=True)
     index[title] = names

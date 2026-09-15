@@ -5,7 +5,7 @@ Usage: python3 tools/show.py cat dog bunny            # one big row
        python3 tools/show.py --grid a b c d e f        # wrap after 4
        python3 tools/show.py -o /tmp/x.png --size 420 a b
 """
-import subprocess, html, sys, os
+import subprocess, html, sys, os, tempfile
 
 args = sys.argv[1:]
 out = '/tmp/show.png'
@@ -39,8 +39,11 @@ page = (f'<!doctype html><meta charset="utf-8"><body style="margin:0;background:
         f'img{{width:{size}px;height:{size}px}}figcaption{{font-size:15px;color:#333}}</style>')
 html_path = out.replace('.png', '.html')
 open(html_path, 'w').write(page)
+profile = tempfile.mkdtemp(prefix='cr-profile-')
 subprocess.run(['/usr/bin/chromium', '--headless=new', '--no-sandbox', '--hide-scrollbars',
+                f'--user-data-dir={profile}',
                 '--force-device-scale-factor=1', '--default-background-color=FFFFFFFF',
+                '--run-all-compositor-stages-before-draw', '--virtual-time-budget=15000',
                 f'--window-size={w},{h}', f'--screenshot={out}', f'file://{html_path}'],
                check=True, capture_output=True)
 print(out, f'{w}x{h}', len(names), 'icons')

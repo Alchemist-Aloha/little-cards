@@ -1,0 +1,29 @@
+# one contact sheet per line: <sheet name>: <asset>,<asset>,...
+# consumed by tools/render_groups.py (npm run render:sheets)
+numbers: number-1,number-2,number-3,number-4,number-5,number-6,number-7,number-8,number-9,number-10
+fruits: apple,banana,orange,strawberry,grape,pear,watermelon,peach,lemon,mango,cherry,pineapple,kiwi,coconut,plum
+animals: cat,dog,bunny,bird,fish,elephant,turtle,penguin,bear,fox,frog,owl,parrot,squirrel,hedgehog,deer
+colors: color-red,color-blue,color-yellow,color-green,color-purple
+food: bread,egg,milk,cheese,pizza,burger,donut,icecream,cookie,noodles,soup,sandwich
+vehicles: car,bus,train,bicycle,plane,boat,rocket,helicopter,tractor,truck
+nature: tree,flower,sun,moon,cloud,rain,snowflake,rainbow,wind,lightning,leaf
+shapes: circle,square,triangle,star,heart,diamond,oval,rectangle,crescent,arrow
+vegetables: carrot,tomato,broccoli,corn,pumpkin,cucumber,mushroom,eggplant,pepper,potato,onion,garlic
+drinks: juice,water,tea,lemonade,coffee
+farm: pig,cow,hen,sheep,horse,duck,rooster,goat
+wild: monkey,panda,lion,giraffe,zebra,snake,hippo,tiger,koala,camel
+sea: whale,dolphin,octopus,crab,starfish,shark,jellyfish,shell
+bugs: butterfly,ladybug,bee,snail,caterpillar,dragonfly,ant,worm
+clothes: shirt,pants,dress,hat,socks,shoes,scarf,glove,sweater,boots
+body: eye,ear,nose,mouth,tooth,hand,foot,tongue,arm,leg
+toys: ball,teddy,kite,balloon,doll,blocks,slide,swing,puppet,robot,puzzle
+home: house,bed,chair,table,lamp,book,cup,plate,spoon,sofa,mirror
+music: piano,guitar,drum,trumpet,violin,tambourine,flute,maracas,xylophone,microphone
+helpers: doctor,nurse,police,firefighter,teacher,chef,farmer,pilot,builder,vet
+places: park,zoo,beach,school,hospital,store,market,playground,cinema,library
+seasons: spring,summer,autumn,winter
+days: monday,tuesday,wednesday,thursday,friday,saturday,sunday
+emotions: happy,sad,angry,sleepy
+breakfast: pancake,toast,jam
+nature2: mountain,river,grass,cactus,bamboo,puddle
+sweets: candy,lollipop,chocolate,cupcake,honey,popcorn

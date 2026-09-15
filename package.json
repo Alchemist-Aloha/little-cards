@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "validate": "node scripts/validate-cards.mjs",
+    "check:assets": "python3 tools/check_preamble.py",
+    "render:sheets": "python3 tools/render_groups.py src/assets scripts/category-groups.txt /tmp/cardsheets 320",
     "build": "npm run validate && vite build",
     "preview": "vite preview"
   },
