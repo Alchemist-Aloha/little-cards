@@ -176,9 +176,9 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n2"/>
-  <text x="100" y="110" text-anchor="middle" class="num-digit">2</text>
-  <rect x="31" y="126" width="138" height="52" rx="14" fill="none" stroke="var(--num-ink)" stroke-width="2.5" opacity=".42"/>
-  <path d="M38 158 H162" fill="none" stroke="var(--num-ink)" stroke-width="2" opacity=".28"/>
-  <circle class="num-dot" cx="50" cy="148" r="8"/><circle class="num-dot" cx="75" cy="148" r="8"/>
+  <rect x="14" y="14" width="172" height="172" rx="40" class="num-bg n2"/>
+  <text x="100" y="102" text-anchor="middle" class="num-digit">2</text>
+  <rect x="31" y="118" width="138" height="56" rx="12" fill="none" stroke="var(--num-ink)" stroke-width="2.5" opacity=".42"/>
+  <circle class="num-dot" cx="86" cy="146" r="8"/>
+  <circle class="num-dot" cx="114" cy="146" r="8"/>
 </svg>
