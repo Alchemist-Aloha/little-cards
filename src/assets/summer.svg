@@ -560,5 +560,34 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><circle cx="100" cy="76" r="42" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3"/><path d="M100 21 V37 M100 115 V131 M45 76 H61 M139 76 H155 M61 37 L72 48 M128 104 L139 115 M139 37 L128 48 M72 104 L61 115" stroke="var(--c-sun)" stroke-width="7" stroke-linecap="round"/><path d="M18 161 Q49 142 80 161 T142 161 T182 158" fill="none" stroke="var(--c-blue)" stroke-width="13" stroke-linecap="round"/><path d="M30 170 Q48 157 66 170 M126 170 Q144 157 162 170" fill="none" stroke="var(--c-sand)" stroke-width="9" stroke-linecap="round"/><circle cx="46" cy="139" r="14" fill="var(--c-yellow)" stroke="var(--c-line)" stroke-width="3"/><path d="M34 139 H58 M46 127 V151" stroke="var(--c-tomato)" stroke-width="3"/><path d="M112 146 Q126 126 140 146" fill="none" stroke="var(--c-tomato)" stroke-width="8" stroke-linecap="round"/><path d="M126 146 V171" stroke="var(--c-line)" stroke-width="3"/>
+<g>
+  <!-- bright summer sun, sitting behind the tree -->
+  <circle cx="157" cy="40" r="16" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M177 40 H183 M157 60 V66 M137 40 H131 M157 20 V14 M171.1 54.1 L175.4 58.4 M142.9 54.1 L138.6 58.4 M142.9 25.9 L138.6 21.6 M171.1 25.9 L175.4 21.6" fill="none" stroke="var(--c-sun)" stroke-width="5" stroke-linecap="round"/>
+  <!-- ground: same line and shape in all four seasons -->
+  <path d="M14 158 Q46 152 76 156 Q100 160 128 155 Q158 150 186 157 L186 190 L14 190 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="174" rx="44" ry="8" class="shadow"/>
+  <!-- same tree in every season: branches behind, trunk in front -->
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M90 136 C88 148 86 158 81 164 L73 170 C83 174 117 174 127 170 L119 164 C114 158 112 148 110 136 Z" class="c-tree-trunk"/>
+  <path d="M95 144 Q93 154 95 162 M105 154 Q107 162 105 168" class="c-ridge"/>
+  <!-- canopy in full leaf -->
+  <circle cx="100" cy="80" r="36" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="66" cy="94" r="26" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="134" cy="92" r="26" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="78" cy="58" r="24" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="122" cy="60" r="24" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="102" r="25" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M70 76 Q82 62 100 58 M104 60 Q118 66 126 78" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+  <path d="M92 108 Q100 112 110 108 M72 92 Q78 100 86 104" class="c-ridge"/>
+  <!-- beach ball left on the grass -->
+  <circle cx="152" cy="168" r="15" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M152 153 A15 15 0 0 0 152 183 A10 15 0 0 1 152 153 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M152 153 A15 15 0 0 1 152 183 A10 15 0 0 0 152 153 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M152 153 A10 15 0 0 0 152 183 A10 15 0 0 0 152 153 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="145" cy="161" rx="4.6" ry="2.6" fill="var(--c-hi)" transform="rotate(-38 145 161)"/>
+</g>
 </svg>

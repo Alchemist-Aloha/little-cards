@@ -561,10 +561,10 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="56" ry="7"/>
-  <ellipse cx="100" cy="108" rx="72" ry="43" class="c-plate"/>
-  <ellipse cx="100" cy="108" rx="53" ry="27" fill="none" stroke="var(--c-line)" stroke-width="3"/>
-  <ellipse cx="100" cy="108" rx="38" ry="17" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".85"/>
-  <path d="M48 110 H35 M152 110 H165" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <ellipse class="shadow" cx="100" cy="149" rx="70" ry="8.5"/>
+  <ellipse cx="100" cy="106" rx="84" ry="37" class="c-plate"/>
+  <ellipse cx="100" cy="106" rx="60" ry="26.5" fill="none" stroke="var(--c-line)" stroke-width="2.4" opacity=".5"/>
+  <ellipse cx="100" cy="111" rx="44" ry="18.5" fill="var(--c-sand)" stroke="var(--c-line)" stroke-width="2" opacity=".5"/>
+  <path d="M44 99 Q50 91 61 88" fill="none" stroke="var(--c-hi)" stroke-width="4.5" stroke-linecap="round"/>
 </g>
 </svg>

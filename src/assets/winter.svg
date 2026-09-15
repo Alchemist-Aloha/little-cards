@@ -560,43 +560,63 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
+<g>
   <defs>
-    <g id="winter-flake" fill="none" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round">
-      <path d="M0 -14 V14 M-12.1 -7 L12.1 7 M-12.1 7 L12.1 -7"/>
-      <path d="M0 -8.4 L3.9 -13 M0 -8.4 L-3.9 -13 M0 8.4 L3.9 13 M0 8.4 L-3.9 13"/>
-      <path d="M7.3 -4.2 L13.2 -5.2 M7.3 -4.2 L9.3 1.4 M-7.3 4.2 L-13.2 5.2 M-7.3 4.2 L-9.3 -1.4"/>
-      <path d="M-7.3 -4.2 L-9.3 1.4 M-7.3 -4.2 L-13.2 -5.2 M7.3 4.2 L9.3 -1.4 M7.3 4.2 L13.2 5.2"/>
+    <g id="wn-flake" fill="none" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round">
+      <path d="M0 -13 V13 M-11.3 -6.5 L11.3 6.5 M-11.3 6.5 L11.3 -6.5"/>
+      <path d="M0 -7.8 L3.6 -12 M0 -7.8 L-3.6 -12 M0 7.8 L3.6 12 M0 7.8 L-3.6 12"/>
     </g>
   </defs>
-  <!-- Twig arms sit behind the body so the joints stay clean. -->
-  <g fill="none" stroke="var(--c-tree-trunk)" stroke-width="5" stroke-linecap="round">
-    <path d="M74 116 Q58 108 46 99 M56 106 L50 97 M48 100 L42 98"/>
-    <path d="M126 116 Q142 108 154 99 M144 106 L150 97 M152 100 L158 98"/>
-  </g>
-  <circle cx="100" cy="122" r="30" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/>
-  <circle cx="100" cy="70" r="24" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3"/>
-  <g fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round">
-    <rect x="-5.5" y="0" width="11" height="34" rx="3.5" transform="translate(118 97) rotate(-18)"/>
-    <path d="M76 92 Q100 84 124 92 L124 100 Q100 92 76 100 Z"/>
-  </g>
-  <path d="M124.7 130.5 L125.9 134.3 M128.5 129.3 L129.7 133.1 M132.3 128.1 L133.5 131.9" fill="none" stroke="var(--c-cloth-red)" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- Knitted beanie with a folded cuff and pompom. -->
-  <path d="M77 58 Q73 27 100 25 Q127 27 123 58 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M87 56 Q84 42 87 36 M100 55 V29 M113 56 Q116 42 113 36" fill="none" stroke="var(--c-line)" stroke-width="1.5" stroke-linecap="round" opacity=".35"/>
-  <path d="M76 57 Q100 48 124 57 L124 65 Q100 56 76 65 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
-  <circle cx="100" cy="22" r="5.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
-  <!-- Face: coal eyes, carrot nose, and a small smile. -->
-  <circle cx="92" cy="68" r="3.2" fill="var(--c-eyes)"/><circle cx="108" cy="68" r="3.2" fill="var(--c-eyes)"/>
-  <path d="M95 72 H105 L100 82 Z" fill="var(--c-carrot)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M97 74 V79 M103 74 V79" fill="none" stroke="var(--c-line)" stroke-width="1.2" opacity=".4"/>
-  <path d="M92 84 Q100 89 108 84" fill="none" stroke="var(--c-eyes)" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="100" cy="112" r="3.2" fill="var(--c-eyes)"/><circle cx="100" cy="126" r="3.2" fill="var(--c-eyes)"/><circle cx="100" cy="140" r="3.2" fill="var(--c-eyes)"/>
-  <path d="M80 102 Q74 116 82 130" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".8"/>
-  <path d="M124 108 Q130 126 114 138" fill="none" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round" opacity=".5"/>
-  <!-- The drift is drawn last so its crest laps over the base of the snowman. -->
-  <path d="M12 186 Q40 170 66 152 Q86 143 116 146 Q150 149 188 180 L188 194 L12 194 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M34 180 Q64 166 100 160 Q138 164 170 178" fill="none" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round" opacity=".45"/>
-  <use href="#winter-flake" transform="translate(50 58) scale(1.1)" opacity=".85"/>
-  <use href="#winter-flake" transform="translate(170 78) scale(.8)" opacity=".85"/>
-  <use href="#winter-flake" transform="translate(140 36) scale(.55)" opacity=".85"/>
+  <!-- ground: same line and shape in all four seasons, here under snow -->
+  <path d="M14 158 Q46 152 76 156 Q100 160 128 155 Q158 150 186 157 L186 190 L14 190 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M20 160 Q46 155 76 159 Q100 163 128 158 Q158 153 182 159" fill="none" stroke="var(--c-blue)" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+  <ellipse cx="100" cy="174" rx="44" ry="8" class="shadow"/>
+  <!-- same tree in every season, bare in winter: branches behind, trunk in front -->
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M90 136 C88 148 86 158 81 164 L73 170 C83 174 117 174 127 170 L119 164 C114 158 112 148 110 136 Z" class="c-tree-trunk"/>
+  <path d="M95 144 Q93 154 95 162 M105 154 Q107 162 105 168" class="c-ridge"/>
+  <!-- every branch forks on into bare twigs -->
+  <path d="M77 105 Q64 92 54 82 M77 105 Q64 106 54 102 M123 101 Q136 88 146 78 M123 101 Q138 102 148 98" fill="none" stroke="var(--c-line)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M77 105 Q64 92 54 82 M77 105 Q64 106 54 102 M123 101 Q136 88 146 78 M123 101 Q138 102 148 98" fill="none" stroke="var(--c-tree-trunk)" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M64 92 L56 87 M62 105 L55 110 M136 88 L143 84 M138 101 L145 106" fill="none" stroke="var(--c-line)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 92 L56 87 M62 105 L55 110 M136 88 L143 84 M138 101 L145 106" fill="none" stroke="var(--c-tree-trunk)" stroke-width="3" stroke-linecap="round"/>
+  <!-- snow lying along the tops of the branches -->
+  <ellipse cx="86" cy="122" rx="10" ry="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" transform="rotate(62 86 122)"/>
+  <ellipse cx="114" cy="122" rx="10" ry="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" transform="rotate(-63 114 122)"/>
+  <ellipse cx="67" cy="95" rx="8" ry="3.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" transform="rotate(45 67 95)"/>
+  <ellipse cx="135" cy="88" rx="8" ry="3.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" transform="rotate(-45 135 88)"/>
+  <!-- drifted snow piled against the trunk -->
+  <path d="M56 170 Q70 158 86 166 Q100 173 114 165 Q128 157 142 170 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- snowman beside the tree -->
+  <ellipse cx="152" cy="170" rx="26" ry="7" class="shadow"/>
+  <circle cx="150" cy="148" r="21" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="150" cy="120" r="14" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M133 141 Q123 137 118 131" fill="none" stroke="var(--c-line)" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M133 141 Q123 137 118 131" fill="none" stroke="var(--c-tree-trunk)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M167 141 Q177 133 180 126" fill="none" stroke="var(--c-line)" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M167 141 Q177 133 180 126" fill="none" stroke="var(--c-tree-trunk)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M156 134 L168 138 L165 152 L157 148 Z" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M129 136 Q150 128 171 136 L171 143 Q150 136 129 143 Z" fill="var(--c-cloth-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M139 112 Q137 100 150 98 Q163 100 161 112 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M138 111 Q150 103 162 111 L162 117 Q150 109 138 117 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="150" cy="96" r="5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="144" cy="117" r="2.2" fill="var(--c-eyes)"/>
+  <circle cx="156" cy="117" r="2.2" fill="var(--c-eyes)"/>
+  <path d="M146 121 H154 L150 128 Z" fill="var(--c-carrot)" stroke="var(--c-line)" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M145 131 Q150 135 155 131" fill="none" stroke="var(--c-eyes)" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="150" cy="151" r="2.4" fill="var(--c-eyes)"/>
+  <circle cx="150" cy="159" r="2.4" fill="var(--c-eyes)"/>
+  <circle cx="150" cy="167" r="2.4" fill="var(--c-eyes)"/>
+  <!-- snow coming down over the bare tree -->
+  <use href="#wn-flake" transform="translate(40 40) scale(1)"/>
+  <use href="#wn-flake" transform="translate(84 26) scale(.85)"/>
+  <use href="#wn-flake" transform="translate(112 62) scale(.6)"/>
+  <use href="#wn-flake" transform="translate(146 30) scale(.7)"/>
+  <use href="#wn-flake" transform="translate(24 92) scale(.7)"/>
+  <use href="#wn-flake" transform="translate(172 76) scale(.7)"/>
+  <use href="#wn-flake" transform="translate(30 122) scale(.6)"/>
+</g>
 </svg>

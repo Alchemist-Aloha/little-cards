@@ -560,5 +560,38 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="58" ry="7" fill="var(--c-shadow)"/><path d="M61 76 H139 L136 159 Q135 171 124 174 H76 Q65 171 64 159Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3"/><path d="M68 95 H132 V148 H68Z" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5"/><path d="M61 76 H139 V93 H61Z" fill="var(--c-hair)" stroke="var(--c-line)" stroke-width="3"/><path d="M76 116 Q100 102 124 116 Q100 132 76 116Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/><path d="M85 116 Q100 108 115 116" fill="none" stroke="var(--c-tomato)" stroke-width="3"/><path d="M151 111 L177 82" stroke="var(--c-hair)" stroke-width="6" stroke-linecap="round"/><circle cx="180" cy="79" r="10" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"/><circle cx="77" cy="139" r="3" fill="var(--c-tomato)"/><circle cx="124" cy="136" r="3" fill="var(--c-tomato)"/>
+<g>
+  <ellipse cx="100" cy="184" rx="62" ry="8" class="shadow"/>
+  <!-- jar body, filled with jam -->
+  <path d="M78 68 H122 L134 100 V162 Q134 172 124 172 H76 Q66 172 66 162 V100 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- headspace above the jam, with the fill line across the jar -->
+  <path d="M78 70 H122 L132.6 100 Q100 105 67.4 100 Z" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M67 100 Q100 105 133 100" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".75"/>
+  <!-- fruit and seeds showing through the glass -->
+  <circle cx="86" cy="112" r="2.4" fill="var(--c-tip)" opacity=".4"/>
+  <circle cx="114" cy="108" r="2" fill="var(--c-tip)" opacity=".4"/>
+  <circle cx="124" cy="114" r="2.4" fill="var(--c-tip)" opacity=".4"/>
+  <circle cx="80" cy="158" r="2.4" fill="var(--c-tip)" opacity=".4"/>
+  <circle cx="120" cy="160" r="2" fill="var(--c-tip)" opacity=".4"/>
+  <!-- label band -->
+  <path d="M67 118 H133 V150 H67 Z" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M84 126 H116 M88 134 H112 M84 142 H116" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round" opacity=".3"/>
+  <!-- glass shine -->
+  <path d="M76 110 Q73 132 76 154" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+  <path d="M126 114 Q128 130 126 144" fill="none" stroke="var(--c-hi)" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <!-- lid: rim wider than the jar mouth, ribbed cap -->
+  <path d="M70 72 V60 Q70 51 79 50 H121 Q130 51 130 60 V72 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M86 54 V70 M100 52 V70 M114 54 V70" fill="none" stroke="var(--c-line)" stroke-width="1.6" stroke-linecap="round" opacity=".35"/>
+  <path d="M86 56 Q100 51 114 56" fill="none" stroke="var(--c-hi)" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <path d="M64 72 H136 V80 Q136 84 132 84 H68 Q64 84 64 80 Z" fill="var(--c-cloth-blue)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- strawberry against the base of the jar -->
+  <path d="M58 152 C53 143 60 135 69 135 C78 135 85 143 80 152 C75 162 69 168 69 168 C69 168 63 162 58 152 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M69 138 Q59 134 56 139 Q63 144 69 141 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M69 138 Q79 134 82 139 Q75 144 69 141 Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M69 138 V131" fill="none" stroke="var(--c-tree)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="63" cy="147" r="1.6" fill="var(--c-seed)"/>
+  <circle cx="75" cy="146" r="1.6" fill="var(--c-seed)"/>
+  <circle cx="66" cy="157" r="1.6" fill="var(--c-seed)"/>
+  <circle cx="76" cy="156" r="1.6" fill="var(--c-seed)"/>
+</g>
 </svg>

@@ -560,5 +560,51 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="78" ry="7" fill="var(--c-shadow)"/><path d="M100 176 C95 140 100 114 100 84" fill="none" stroke="var(--c-tree-trunk)" stroke-width="11"/><path d="M100 124 L64 93 M100 111 L137 84" fill="none" stroke="var(--c-tree-trunk)" stroke-width="7" stroke-linecap="round"/><g fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="3"><circle cx="64" cy="79" r="22"/><circle cx="94" cy="60" r="27"/><circle cx="127" cy="78" r="23"/><circle cx="48" cy="108" r="16"/><circle cx="148" cy="108" r="16"/></g><path d="M39 151 Q48 141 57 151 Q48 162 39 151Z M145 145 Q154 135 163 145 Q154 156 145 145Z M75 133 Q84 123 93 133 Q84 144 75 133Z" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2"/><path d="M28 174 Q45 159 62 174" fill="none" stroke="var(--c-sand)" stroke-width="8"/><path d="M140 174 Q157 159 174 174" fill="none" stroke="var(--c-sand)" stroke-width="8"/><path d="M107 169 Q107 149 125 149 Q143 149 143 169Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="3"/><path d="M125 149 Q125 139 132 135" fill="none" stroke="var(--c-green)" stroke-width="4"/>
+<g>
+  <!-- ground: same line and shape in all four seasons -->
+  <path d="M14 158 Q46 152 76 156 Q100 160 128 155 Q158 150 186 157 L186 190 L14 190 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="174" rx="44" ry="8" class="shadow"/>
+  <!-- same tree in every season: branches behind, trunk in front -->
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M90 136 C88 148 86 158 81 164 L73 170 C83 174 117 174 127 170 L119 164 C114 158 112 148 110 136 Z" class="c-tree-trunk"/>
+  <path d="M95 144 Q93 154 95 162 M105 154 Q107 162 105 168" class="c-ridge"/>
+  <!-- bare twigs showing where the leaves have gone -->
+  <path d="M86 62 L70 46" fill="none" stroke="var(--c-line)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M86 62 L70 46" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M118 58 L128 44" fill="none" stroke="var(--c-line)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 58 L128 44" fill="none" stroke="var(--c-tree-trunk)" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- canopy turned: orange, red and brown leaves -->
+  <circle cx="100" cy="80" r="33" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="68" cy="94" r="23" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="132" cy="92" r="23" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="82" cy="60" r="21" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="120" cy="62" r="21" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="23" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M76 74 Q88 64 102 60" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+  <!-- leaves tumbling down around the tree -->
+  <path d="M44 90 Q52 82 60 90 Q52 99 44 90 Z" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M47 90 Q52 88 57 90" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M154 94 Q162 86 170 94 Q162 103 154 94 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M157 94 Q162 92 167 94" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M48 122 Q56 114 64 122 Q56 131 48 122 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M51 122 Q56 120 61 122" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M136 116 Q144 108 152 116 Q144 125 136 116 Z" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M139 116 Q144 114 149 116" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M60 142 Q68 134 76 142 Q68 151 60 142 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M63 142 Q68 140 73 142" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <!-- drift of leaves gathered on the grass -->
+  <path d="M38 160 Q46 152 54 160 Q46 169 38 160 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M41 160 Q46 158 51 160" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M60 170 Q68 162 76 170 Q68 179 60 170 Z" fill="var(--c-autumn)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M63 170 Q68 168 73 170" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <path d="M84 148 Q92 140 100 148 Q92 157 84 148 Z" fill="var(--c-red)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M87 148 Q92 146 97 148" fill="none" stroke="var(--c-line)" stroke-width="1.5" opacity=".5"/>
+  <!-- pumpkin sat on the grass -->
+  <path d="M133 154 Q133 145 142 143 Q151 141 158 145 Q167 150 167 158 Q167 168 158 171 Q147 174 138 170 Q133 167 133 158 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M150 143 Q150 152 150 172 M141 144 Q138 156 140 169 M159 145 Q162 156 160 169" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".45"/>
+  <path d="M148 142 Q149 134 155 132" fill="none" stroke="var(--c-tree)" stroke-width="4" stroke-linecap="round"/>
+</g>
 </svg>

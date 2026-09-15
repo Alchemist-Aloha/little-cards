@@ -560,5 +560,50 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="77" ry="7" fill="var(--c-shadow)"/><path d="M100 174 C94 132 98 108 100 80" fill="none" stroke="var(--c-tree-trunk)" stroke-width="10"/><path d="M100 124 L69 97 M100 110 L130 88" fill="none" stroke="var(--c-tree-trunk)" stroke-width="6" stroke-linecap="round"/><g fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2"><circle cx="62" cy="92" r="10"/><circle cx="74" cy="103" r="10"/><circle cx="132" cy="83" r="10"/><circle cx="144" cy="94" r="10"/></g><g fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2"><circle cx="100" cy="61" r="11"/><circle cx="54" cy="151" r="7"/><circle cx="149" cy="156" r="7"/></g><path d="M28 164 Q42 150 56 164 M144 164 Q158 150 172 164" fill="none" stroke="var(--c-green)" stroke-width="7" stroke-linecap="round"/><path d="M44 62 Q52 53 60 62 M128 57 Q136 48 144 57" fill="none" stroke="var(--c-blue)" stroke-width="3"/>
+<g>
+  <!-- ground: same line and shape in all four seasons -->
+  <path d="M14 158 Q46 152 76 156 Q100 160 128 155 Q158 150 186 157 L186 190 L14 190 Z" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="174" rx="44" ry="8" class="shadow"/>
+  <!-- same tree in every season: branches behind, trunk in front -->
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 150 L76 104" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-line)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 148 L124 100" fill="none" stroke="var(--c-tree-trunk)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M90 136 C88 148 86 158 81 164 L73 170 C83 174 117 174 127 170 L119 164 C114 158 112 148 110 136 Z" class="c-tree-trunk"/>
+  <path d="M95 144 Q93 154 95 162 M105 154 Q107 162 105 168" class="c-ridge"/>
+  <!-- canopy: fresh spring green -->
+  <circle cx="100" cy="80" r="34" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="68" cy="94" r="24" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="132" cy="92" r="24" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="80" cy="60" r="22" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="120" cy="62" r="22" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="24" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2.5"/>
+  <path d="M74 78 Q86 66 102 62" fill="none" stroke="var(--c-hi)" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+  <!-- blossom clusters on the new growth -->
+  <g fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2.5">
+    <circle cx="58" cy="84" r="8"/><circle cx="74" cy="50" r="7"/><circle cx="104" cy="44" r="7"/>
+    <circle cx="130" cy="50" r="7"/><circle cx="146" cy="86" r="8"/><circle cx="52" cy="102" r="6"/>
+  </g>
+  <g fill="var(--c-tomato)">
+    <circle cx="58" cy="84" r="2.2"/><circle cx="74" cy="50" r="2"/><circle cx="104" cy="44" r="2"/>
+    <circle cx="130" cy="50" r="2"/><circle cx="146" cy="86" r="2.2"/><circle cx="52" cy="102" r="1.8"/>
+  </g>
+  <!-- petals drifting down past the trunk -->
+  <ellipse cx="52" cy="126" rx="5.5" ry="3.4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" transform="rotate(-24 52 126)"/>
+  <ellipse cx="150" cy="120" rx="5.5" ry="3.4" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" transform="rotate(20 150 120)"/>
+  <ellipse cx="62" cy="140" rx="5" ry="3" fill="var(--c-pink)" stroke="var(--c-line)" stroke-width="2" transform="rotate(-10 62 140)"/>
+  <!-- new flower in the grass -->
+  <path d="M38 158 Q36 146 38 136" fill="none" stroke="var(--c-tree)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M38 150 Q30 146 27 152 Q34 155 38 152 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M38 144 Q46 140 49 146 Q42 149 38 146 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M31 136 Q31 126 38 126 Q45 126 45 136 Q45 141 38 141 Q31 141 31 136 Z" fill="var(--c-flower)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M38 126 Q38 133 31 134 M38 126 Q38 133 45 134" fill="none" stroke="var(--c-line)" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- butterfly up in the warm air -->
+  <path d="M166 44 C158 34 150 36 152 46 C153 52 160 54 166 50 Z" fill="var(--c-butterfly)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M166 44 C174 34 182 36 180 46 C179 52 172 54 166 50 Z" fill="var(--c-butterfly)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M166 46 C160 50 158 54 160 58 C164 58 167 54 167 49 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M166 46 C172 50 174 54 172 58 C168 58 165 54 165 49 Z" fill="var(--c-blue)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M166 44 V58" fill="none" stroke="var(--c-line)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M166 44 L162 37 M166 44 L170 37" fill="none" stroke="var(--c-line)" stroke-width="1.8" stroke-linecap="round"/>
+</g>
 </svg>

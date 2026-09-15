@@ -560,5 +560,28 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="180" rx="60" ry="7" fill="var(--c-shadow)"/><path d="M55 161 V89 Q55 62 78 54 Q100 47 122 54 Q145 62 145 89 V161 Q145 171 135 171 H65 Q55 171 55 161Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="3"/><path d="M68 151 V91 Q68 72 83 67 Q100 61 117 67 Q132 72 132 91 V151 Q132 158 125 158 H75 Q68 158 68 151Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="3"/><path d="M81 84 Q100 73 119 84 M81 102 Q100 91 119 102 M81 120 Q100 109 119 120" fill="none" stroke="var(--c-orange)" stroke-width="4" stroke-linecap="round"/><path d="M43 155 L31 143" stroke="var(--c-hair)" stroke-width="4" stroke-linecap="round"/><path d="M31 143 L24 135 M31 143 L22 145 M31 143 L27 152" stroke="var(--c-hair)" stroke-width="3" stroke-linecap="round"/>
+<g>
+  <ellipse cx="100" cy="184" rx="62" ry="8" class="shadow"/>
+  <!-- back face of the slice: the bread's thickness -->
+  <path d="M45 152 V100 C45 72 64 54 100 54 C136 54 155 72 155 100 V152 Q155 170 142 170 H58 Q45 170 45 152 Z" transform="translate(6 7)" fill="var(--c-coffee)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- crust -->
+  <path d="M45 152 V100 C45 72 64 54 100 54 C136 54 155 72 155 100 V152 Q155 170 142 170 H58 Q45 170 45 152 Z" fill="var(--c-tree-trunk)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- crumb: the paler toasted middle inside the crust ring -->
+  <path d="M52 145 V102 C52 81 71 64 100 64 C129 64 148 81 148 102 V145 Q148 155 139 155 H61 Q52 155 52 145 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- toasted ring where the crumb browned against the crust -->
+  <path d="M61 142 V102 C61 87 76 76 100 76 C124 76 139 87 139 102 V142" fill="none" stroke="var(--c-autumn)" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  <!-- crumb pores -->
+  <circle cx="86" cy="88" r="2.2" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="118" cy="90" r="1.7" fill="var(--c-line)" opacity=".2"/>
+  <path d="M112 132 C120 126 130 130 129 139 C128 147 118 149 113 144 C108 139 108 136 112 132 Z" fill="var(--c-autumn)" opacity=".4"/>
+  <circle cx="70" cy="126" r="2.4" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="132" cy="132" r="2" fill="var(--c-line)" opacity=".2"/>
+  <circle cx="102" cy="150" r="1.8" fill="var(--c-line)" opacity=".2"/>
+  <!-- butter spread across the middle of the slice -->
+  <path d="M66 110 Q63 98 78 96 Q88 93 100 96 Q114 93 122 97 Q137 98 134 110 Q136 122 120 123 H80 Q64 122 66 110 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M76 103 Q84 101 92 103" fill="none" stroke="var(--c-hi)" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <!-- butter running down the crumb -->
+  <path d="M82 123 Q81 137 89 139 Q96 137 96 123 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M112 123 Q111 131 116 133 Q122 131 121 123 Z" fill="var(--c-sun)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+</g>
 </svg>

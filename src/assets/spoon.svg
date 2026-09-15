@@ -560,11 +560,16 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<g transform="rotate(-25 100 105)">
-  <ellipse class="shadow" cx="100" cy="176" rx="34" ry="7"/>
-  <ellipse cx="100" cy="59" rx="25" ry="32" class="c-spoon"/>
-  <path d="M89 86 Q87 123 96 169 Q100 176 104 169 Q113 123 111 86 Z" class="c-spoon"/>
-  <ellipse cx="100" cy="57" rx="14" ry="20" fill="none" stroke="var(--c-seed)" stroke-width="3" opacity=".8"/>
-  <path d="M97 92 Q100 119 103 145" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+<g>
+  <ellipse class="shadow" cx="100" cy="170" rx="52" ry="8"/>
+  <g transform="rotate(-23 100 104)">
+    <!-- handle: widest at the neck, tapering to a narrow round tip -->
+    <path d="M90 88 C88 116 90 144 93 160 C94 170 96.5 175 100 175 C103.5 175 106 170 107 160 C110 144 112 116 110 88 Z" class="c-spoon"/>
+    <path d="M100 92 V160" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".3" stroke-linecap="round"/>
+    <!-- bowl at the other end, egg-shaped, with its shallow basin -->
+    <path d="M100 26 C114 26 119 40 119 56 C119 76 113 96 100 96 C87 96 81 76 81 56 C81 40 86 26 100 26 Z" class="c-spoon"/>
+    <ellipse cx="100" cy="62" rx="12.5" ry="18" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.2"/>
+    <ellipse cx="84.5" cy="58" rx="3.6" ry="10" class="hi" transform="rotate(-10 84.5 58)"/>
+  </g>
 </g>
 </svg>
