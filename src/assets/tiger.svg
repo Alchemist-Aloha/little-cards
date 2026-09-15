@@ -560,12 +560,64 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
-    <circle class="c-tiger" cx="100" cy="108" r="61"/>
-    <path class="c-tiger" d="M52 72 L49 38 L76 57 M148 72 L151 38 L124 57"/>
-    <path class="c-tiger-stripe" d="M83 52 L94 58 L86 80 L76 73 Z M105 58 L117 52 L124 73 L114 80 Z M48 91 L72 95 L69 106 L47 102 Z M128 95 L152 91 L153 102 L131 106 Z M49 119 L73 113 L76 124 L53 131 Z M127 113 L151 119 L147 131 L124 124 Z"/>
-    <ellipse class="c-mushroom" cx="100" cy="125" rx="32" ry="25"/><circle class="c-eyes" cx="81" cy="100" r="5"/><circle class="c-eyes" cx="119" cy="100" r="5"/>
-    <ellipse class="c-tip" cx="100" cy="118" rx="8" ry="6"/><path class="c-eyeline" d="M88 133 Q100 143 112 133"/>
-    <path class="c-tiger" d="M69 147 L64 168 Q63 176 75 176 Q83 173 82 163 L86 149 M131 149 L135 163 Q135 173 144 176 Q156 176 151 168 L146 147"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="182" rx="56" ry="8"/>
+  <!-- banded tail, attached at the rump, curling up on the right -->
+  <path d="M130 152 C162 150 176 130 164 112 C158 103 146 106 147 117" fill="none" stroke="var(--c-line)" stroke-width="23" stroke-linecap="round"/>
+  <path d="M130 152 C162 150 176 130 164 112 C158 103 146 106 147 117" fill="none" stroke="var(--c-tiger)" stroke-width="17" stroke-linecap="round"/>
+  <path d="M130 152 C162 150 176 130 164 112 C158 103 146 106 147 117" fill="none" stroke="var(--c-cow-spot)" stroke-width="17" stroke-dasharray="7 15"/>
+  <!-- hind legs -->
+  <ellipse cx="64" cy="150" rx="19" ry="22" class="c-tiger"/>
+  <ellipse cx="136" cy="150" rx="19" ry="22" class="c-tiger"/>
+  <ellipse cx="64" cy="174" rx="15" ry="9" class="c-tiger"/>
+  <ellipse cx="136" cy="174" rx="15" ry="9" class="c-tiger"/>
+  <!-- stocky body -->
+  <ellipse cx="100" cy="148" rx="45" ry="34" class="c-tiger"/>
+  <!-- stripes on the flanks, curving with the body -->
+  <g fill="none" stroke="var(--c-cow-spot)" stroke-width="8" stroke-linecap="round">
+    <path d="M69 124 Q58 146 64 162" />
+    <path d="M82 118 Q72 142 78 158" />
+    <path d="M131 124 Q142 146 136 162" />
+    <path d="M118 118 Q128 142 122 158" />
+  </g>
+  <!-- front legs with white paws -->
+  <path d="M79 144 V170 Q79 179 87 179 Q95 179 95 170 V144 Z" class="c-tiger"/>
+  <path d="M105 144 V170 Q105 179 113 179 Q121 179 121 170 V144 Z" class="c-tiger"/>
+  <ellipse cx="87" cy="173" rx="7.5" ry="5.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/>
+  <ellipse cx="113" cy="173" rx="7.5" ry="5.5" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M82 172 V178 M87 171 V179 M92 172 V178 M108 172 V178 M113 171 V179 M118 172 V178" class="c-ridge"/>
+  <!-- rounded ears -->
+  <circle cx="68" cy="52" r="18" class="c-tiger"/>
+  <circle cx="132" cy="52" r="18" class="c-tiger"/>
+  <circle cx="68" cy="52" r="9" class="c-egg"/>
+  <circle cx="132" cy="52" r="9" class="c-egg"/>
+  <!-- big head -->
+  <circle cx="100" cy="88" r="47" class="c-tiger"/>
+  <ellipse cx="74" cy="58" rx="12" ry="6.5" class="hi"/>
+  <!-- forehead stripes -->
+  <g fill="none" stroke="var(--c-cow-spot)" stroke-width="7" stroke-linecap="round">
+    <path d="M88 46 Q93 56 88 66" />
+    <path d="M100 41 Q100 53 100 64" />
+    <path d="M112 46 Q107 56 112 66" />
+  </g>
+  <!-- cheek stripes -->
+  <g fill="none" stroke="var(--c-cow-spot)" stroke-width="7" stroke-linecap="round">
+    <path d="M57 74 Q68 78 78 74" />
+    <path d="M54 96 Q66 100 76 98" />
+    <path d="M58 114 Q66 118 72 120" />
+    <path d="M143 74 Q132 78 122 74" />
+    <path d="M146 96 Q134 100 124 98" />
+    <path d="M142 114 Q134 118 128 120" />
+  </g>
+  <circle cx="80" cy="87" r="6" class="c-eyes"/>
+  <circle cx="120" cy="87" r="6" class="c-eyes"/>
+  <circle cx="78" cy="85" r="2" class="hi"/>
+  <circle cx="118" cy="85" r="2" class="hi"/>
+  <!-- white muzzle -->
+  <ellipse cx="100" cy="116" rx="26" ry="18" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.4"/>
+  <path d="M92 107 Q100 102 108 107 Q105 116 100 116 Q95 116 92 107 Z" class="c-tip"/>
+  <path d="M100 116 V122 M100 122 Q94 129 87 123 M100 122 Q106 129 113 123" class="c-eyeline"/>
+  <path d="M76 110 L46 104 M76 117 L44 117 M76 124 L46 130" class="c-whisker"/>
+  <path d="M124 110 L154 104 M124 117 L156 117 M124 124 L154 130" class="c-whisker"/>
+</g>
+</svg>

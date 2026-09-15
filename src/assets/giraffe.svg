@@ -560,13 +560,73 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="52" ry="7"/>
-    <path class="c-giraffe" d="M68 162 Q69 118 75 91 L75 61 L125 61 L125 91 Q131 118 132 162 Z"/>
-    <ellipse class="c-giraffe" cx="100" cy="68" rx="34" ry="28"/>
-    <path class="c-tip" d="M80 47 V27 H88 V47 M112 47 V27 H120 V47"/><circle class="c-tip" cx="84" cy="27" r="6"/><circle class="c-tip" cx="116" cy="27" r="6"/>
-    <path class="c-giraffe" d="M67 66 Q51 54 45 69 Q54 80 72 79 M133 66 Q149 54 155 69 Q146 80 128 79"/>
-    <path class="c-giraffe-spot" d="M82 58 h12 v11 H82z M105 48 h12 v12 H105z M91 82 h15 v14 H91z M76 113 h14 v15 H76z M108 120 h15 v15 H108z M89 145 h14 v14 H89z"/>
-    <circle class="c-eyes" cx="86" cy="68" r="4"/><circle class="c-eyes" cx="114" cy="68" r="4"/><ellipse class="c-tip" cx="100" cy="82" rx="13" ry="7"/><path class="c-eyeline" d="M94 92 Q100 97 106 92"/>
-    <path class="c-line" d="M81 158 V174 M119 158 V174" fill="none" stroke="var(--c-line)" stroke-width="9" stroke-linecap="round"/>
-  </g> </svg>
+<g>
+    <ellipse class="shadow" cx="100" cy="181" rx="54" ry="8"/>
+    <!-- far legs, dimmed -->
+    <g opacity=".7">
+      <path class="c-giraffe" d="M68 122 c-3 14 -3 32 0 46 h13 c3 -14 3 -32 0 -46 z"/>
+      <path class="c-giraffe" d="M126 120 c-3 14 -3 34 0 48 h13 c3 -14 3 -34 0 -48 z"/>
+      <path d="M68 166 h13 v3 q0 7 -6.5 7 q-6.5 0 -6.5 -7 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2"/>
+      <path d="M126 166 h13 v3 q0 7 -6.5 7 q-6.5 0 -6.5 -7 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2"/>
+    </g>
+    <!-- near legs -->
+    <path class="c-giraffe" d="M52 120 c-3 16 -3 34 0 48 h15 c3 -16 3 -34 0 -48 z"/>
+    <path class="c-giraffe" d="M104 118 c-3 16 -3 36 0 50 h15 c3 -16 3 -36 0 -50 z"/>
+    <path d="M52 166 h15 v3 q0 7 -7.5 7 q-7.5 0 -7.5 -7 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <path d="M104 166 h15 v3 q0 7 -7.5 7 q-7.5 0 -7.5 -7 z" fill="var(--c-wheel)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <!-- tail with dark tuft -->
+    <path d="M52 112 C42 122 38 134 38 146" fill="none" stroke="var(--c-giraffe)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M52 112 C42 122 38 134 38 146" fill="none" stroke="var(--c-line)" stroke-width="2" stroke-linecap="round" opacity=".45"/>
+    <path d="M38 146 C34 152 34 162 37 168 C43 166 46 156 43 147 Z" class="c-tip" stroke="var(--c-line)" stroke-width="2"/>
+    <!-- body + long neck, one shell -->
+    <path class="c-giraffe" d="M46 140
+             C42 128 45 112 59 106
+             C76 98 108 99 122 112
+             C124 92 128 68 134 46
+             L154 55
+             C149 76 145 100 145 118
+             C147 137 138 147 122 150
+             C104 154 66 154 52 148
+             C47 146 46 144 46 140 Z"/>
+    <!-- irregular patches on body and neck -->
+    <g class="c-giraffe-spot">
+      <path d="M57 117 C65 111 77 113 79 123 C81 133 71 141 61 139 C53 137 51 123 57 117 Z"/>
+      <path d="M92 109 C100 105 110 109 111 119 C112 129 102 135 94 132 C87 129 85 114 92 109 Z"/>
+      <path d="M118 117 C126 111 138 115 138 125 C138 135 126 139 118 135 C111 131 112 121 118 117 Z"/>
+      <path d="M129 83 C136 79 143 83 142 92 C141 100 132 103 127 98 C123 93 125 86 129 83 Z"/>
+      <path d="M134 59 C139 55 146 57 145 65 C145 72 137 74 133 70 C130 66 131 62 134 59 Z"/>
+      <path d="M53 139 C58 136 63 139 62 147 C61 154 54 155 51 150 C49 146 50 141 53 139 Z"/>
+      <path d="M106 141 C111 138 116 141 115 149 C114 156 107 157 104 152 C102 148 103 143 106 141 Z"/>
+      <path d="M66 126 C71 123 77 126 76 133 C75 140 68 141 65 136 C63 132 63 128 66 126 Z"/>
+    </g>
+    <!-- short mane down the back of the neck -->
+    <g fill="none" stroke="var(--c-bread)" stroke-width="3.5" stroke-linecap="round">
+      <path d="M133 52 L126 48 M131 66 L124 62 M129 80 L122 76 M127 94 L120 90 M125 108 L118 104"/>
+    </g>
+    <!-- head -->
+    <path class="c-giraffe" d="M131 46 C131 35 141 27 155 28 C171 29 183 38 183 48 C183 58 171 64 155 63 C140 62 131 56 131 46 Z"/>
+    <!-- ears -->
+    <path class="c-giraffe" d="M168 31 C174 23 181 23 183 27 C181 34 174 36 168 34 Z"/>
+    <path class="c-giraffe-spot" d="M169 32 C174 27 179 27 180 29 C178 33 174 34 170 33 Z"/>
+    <path class="c-giraffe" d="M137 45 C125 37 115 39 113 46 C119 55 131 57 139 52 Z"/>
+    <path class="c-giraffe-spot" d="M133 46 C125 41 119 42 117 46 C121 51 129 52 135 50 Z"/>
+    <!-- ossicones (little horns with knobs) -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M151 34 C147 29 145 24 146 20" stroke="var(--c-line)" stroke-width="7"/>
+      <path d="M151 34 C147 29 145 24 146 20" stroke="var(--c-giraffe)" stroke-width="4"/>
+      <path d="M163 33 C162 27 162 23 163 19" stroke="var(--c-line)" stroke-width="7"/>
+      <path d="M163 33 C162 27 162 23 163 19" stroke="var(--c-giraffe)" stroke-width="4"/>
+    </g>
+    <circle class="c-giraffe" cx="146" cy="19" r="5.5"/>
+    <circle class="c-giraffe" cx="163" cy="18" r="5.5"/>
+    <!-- muzzle + face -->
+    <ellipse cx="170" cy="50" rx="10.5" ry="8" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2"/>
+    <circle cx="166" cy="48" r="2" class="c-eyes"/><circle cx="175" cy="51" r="2" class="c-eyes"/>
+    <circle cx="146" cy="42" r="4.6" class="c-eyes"/><circle cx="159" cy="39" r="4.6" class="c-eyes"/>
+    <circle cx="147.7" cy="40.4" r="1.6" class="hi"/><circle cx="160.7" cy="37.4" r="1.6" class="hi"/>
+    <path d="M164 58 Q172 64 179 57" fill="none" stroke="var(--c-eyes)" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="148" cy="55" rx="6" ry="4" class="c-cheek"/>
+    <!-- soft highlight on the back -->
+    <ellipse cx="80" cy="116" rx="14" ry="6.5" class="hi"/>
+  </g>
+</svg>

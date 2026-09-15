@@ -560,17 +560,41 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="176" rx="51" ry="7"/>
-    <ellipse class="c-cow" cx="100" cy="125" rx="48" ry="45"/>
-    <circle class="c-cow-spot" cx="68" cy="65" r="20"/><circle class="c-cow-spot" cx="132" cy="65" r="20"/>
-    <circle class="c-cow" cx="100" cy="98" r="52"/>
-    <ellipse class="c-cow-spot" cx="79" cy="96" rx="13" ry="20" transform="rotate(30 79 96)"/>
-    <ellipse class="c-cow-spot" cx="121" cy="96" rx="13" ry="20" transform="rotate(-30 121 96)"/>
-    <circle class="c-eyes" cx="81" cy="98" r="5"/><circle class="c-eyes" cx="119" cy="98" r="5"/>
-    <ellipse class="c-cow-muzzle" cx="100" cy="119" rx="20" ry="14"/><circle class="c-eyes" cx="93" cy="118" r="3"/><circle class="c-eyes" cx="107" cy="118" r="3"/>
-    <path class="c-eyeline" d="M91 133 Q100 140 109 133"/>
-    <ellipse class="c-penguin-belly" cx="100" cy="142" rx="25" ry="23"/>
-    <path class="c-cow-spot" d="M59 126 Q45 131 49 147 Q53 156 68 148 Z M141 126 Q155 131 151 147 Q147 156 132 148 Z"/>
-    <path class="c-cow-spot" d="M78 164 Q78 174 89 174 Q96 173 94 164 Z M122 164 Q122 174 111 174 Q104 173 106 164 Z"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="181" rx="55" ry="8"/>
+  <!-- white body, sitting -->
+  <ellipse cx="100" cy="144" rx="44" ry="37" class="c-cow"/>
+  <!-- black shoulder yoke joining the front legs -->
+  <path d="M60 132 C60 116 78 106 100 106 C122 106 140 116 140 132 C140 142 132 150 124 146 C112 138 88 138 76 146 C68 150 60 142 60 132 Z" class="c-cow-spot"/>
+  <!-- front legs, all black -->
+  <path d="M74 128 C62 140 56 154 58 168" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M74 128 C62 140 56 154 58 168" fill="none" stroke="var(--c-cow-spot)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M126 128 C138 140 144 154 142 168" fill="none" stroke="var(--c-line)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M126 128 C138 140 144 154 142 168" fill="none" stroke="var(--c-cow-spot)" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="58" cy="172" rx="11" ry="8.5" class="c-cow-spot"/>
+  <ellipse cx="142" cy="172" rx="11" ry="8.5" class="c-cow-spot"/>
+  <!-- hind feet, black, forward under the belly -->
+  <ellipse cx="86" cy="174" rx="14" ry="8.5" class="c-cow-spot"/>
+  <ellipse cx="114" cy="174" rx="14" ry="8.5" class="c-cow-spot"/>
+  <path d="M78 174 V179 M86 173 V180 M94 174 V179 M106 174 V179 M114 173 V180 M122 174 V179" class="c-ridge"/>
+  <!-- black ears, on top of the head -->
+  <circle cx="64" cy="50" r="18" class="c-cow-spot"/>
+  <circle cx="136" cy="50" r="18" class="c-cow-spot"/>
+  <!-- big white head -->
+  <circle cx="100" cy="84" r="44" class="c-cow"/>
+  <ellipse cx="82" cy="56" rx="9" ry="5" class="hi"/>
+  <!-- angled black eye patches -->
+  <ellipse cx="79" cy="85" rx="12.5" ry="16" transform="rotate(-22 79 85)" class="c-cow-spot"/>
+  <ellipse cx="121" cy="85" rx="12.5" ry="16" transform="rotate(22 121 85)" class="c-cow-spot"/>
+  <circle cx="79" cy="86" r="5.4" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="1.6"/>
+  <circle cx="121" cy="86" r="5.4" fill="var(--c-cow)" stroke="var(--c-line)" stroke-width="1.6"/>
+  <circle cx="80" cy="87" r="3" class="c-eyes"/>
+  <circle cx="122" cy="87" r="3" class="c-eyes"/>
+  <circle cx="78" cy="84" r="1.3" class="hi"/>
+  <circle cx="120" cy="84" r="1.3" class="hi"/>
+  <!-- muzzle, nose, smile -->
+  <ellipse cx="100" cy="116" rx="19" ry="13" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2.2"/>
+  <path d="M92 110 Q100 105 108 110 Q106 119 100 119 Q94 119 92 110 Z" class="c-cow-spot"/>
+  <path d="M100 119 Q100 126 92 127 M100 119 Q100 126 108 127" class="c-eyeline"/>
+</g>
+</svg>

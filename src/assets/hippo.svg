@@ -560,13 +560,39 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="55" ry="7"/>
-    <path class="c-hippo" d="M45 124 Q42 83 70 70 Q100 56 130 70 Q158 83 155 124 Q152 160 122 165 L78 165 Q48 160 45 124 Z"/>
-    <circle class="c-hippo" cx="61" cy="74" r="14"/><circle class="c-hippo" cx="139" cy="74" r="14"/>
-    <ellipse class="c-mushroom" cx="100" cy="125" rx="44" ry="30"/>
-    <circle class="c-eyes" cx="78" cy="94" r="5"/><circle class="c-eyes" cx="122" cy="94" r="5"/>
-    <ellipse class="c-hippo" cx="100" cy="122" rx="30" ry="20"/><circle class="c-tip" cx="89" cy="119" r="5"/><circle class="c-tip" cx="111" cy="119" r="5"/>
-    <path class="c-eyeline" d="M88 138 Q100 146 112 138"/>
-    <path class="c-hippo" d="M61 146 V169 Q61 176 72 176 Q79 173 76 164 L78 150 M122 150 L124 164 Q121 173 129 176 Q140 176 139 169 V146"/>
-  </g> </svg>
+<g>
+    <ellipse class="shadow" cx="100" cy="181" rx="62" ry="8"/>
+    <!-- four short stubby legs: far pair dimmed -->
+    <g opacity=".7">
+      <rect x="78" y="144" width="22" height="28" rx="10" class="c-hippo"/>
+      <rect x="100" y="144" width="22" height="28" rx="10" class="c-hippo"/>
+      <path d="M84 162 v9 M91 162 v9 M106 162 v9 M113 162 v9" class="c-ridge"/>
+    </g>
+    <rect x="48" y="136" width="30" height="36" rx="13" class="c-hippo"/>
+    <rect x="122" y="136" width="30" height="36" rx="13" class="c-hippo"/>
+    <path d="M56 161 v11 M63 161 v11 M70 161 v11 M130 161 v11 M137 161 v11 M144 161 v11" class="c-ridge"/>
+    <!-- small round ears, tucked behind the head -->
+    <circle cx="58" cy="44" r="11" class="c-hippo"/>
+    <circle cx="142" cy="44" r="11" class="c-hippo"/>
+    <ellipse cx="57" cy="39" rx="4.5" ry="3.5" class="c-cheek"/>
+    <ellipse cx="143" cy="39" rx="4.5" ry="3.5" class="c-cheek"/>
+    <!-- barrel body -->
+    <path class="c-hippo" d="M100 84 C130 84 150 98 154 118 C157 132 152 142 142 146 C130 151 116 152 100 152 C84 152 70 151 58 146 C48 142 43 132 46 118 C50 98 70 84 100 84 Z"/>
+    <!-- head -->
+    <path class="c-hippo" d="M100 44 C126 44 144 56 148 74 C151 88 140 96 100 96 C60 96 49 88 52 74 C56 56 74 44 100 44 Z"/>
+    <!-- huge muzzle -->
+    <ellipse cx="100" cy="116" rx="42" ry="26" fill="var(--c-mushroom)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <ellipse cx="84" cy="104" rx="8" ry="6" fill="var(--c-eyes)" transform="rotate(-12 84 104)"/>
+    <ellipse cx="116" cy="104" rx="8" ry="6" fill="var(--c-eyes)" transform="rotate(12 116 104)"/>
+    <rect x="70" y="118" width="9" height="14" rx="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2" transform="rotate(-8 74 125)"/>
+    <rect x="121" y="118" width="9" height="14" rx="4" fill="var(--c-egg)" stroke="var(--c-line)" stroke-width="2" transform="rotate(8 125 125)"/>
+    <path d="M68 128 Q100 146 132 128" fill="none" stroke="var(--c-eyes)" stroke-width="3" stroke-linecap="round"/>
+    <!-- eyes set high on the head -->
+    <circle cx="72" cy="65" r="6.4" class="c-eyes"/><circle cx="128" cy="65" r="6.4" class="c-eyes"/>
+    <circle cx="74.2" cy="63" r="2.2" class="hi"/><circle cx="130.2" cy="63" r="2.2" class="hi"/>
+    <path d="M62 52 Q72 46 82 52 M118 52 Q128 46 138 52" class="c-ridge"/>
+    <ellipse cx="54" cy="88" rx="8" ry="5" class="c-cheek"/>
+    <ellipse cx="146" cy="88" rx="8" ry="5" class="c-cheek"/>
+    <ellipse cx="66" cy="112" rx="12" ry="7" class="hi"/>
+  </g>
+</svg>

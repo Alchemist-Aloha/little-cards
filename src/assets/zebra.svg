@@ -6,36 +6,71 @@
     .stripe { fill: var(--stripe); }
     .detail { fill: none; stroke: var(--stripe); stroke-width: 1.3; stroke-linecap: round; }
   </style>
+<g>
+  <ellipse cx="100" cy="181" rx="62" ry="7.5" fill="#786b5e" opacity=".13"/>
   <defs>
-    <path id="zebra-silhouette" d="M38 108 C36 92 44 81 59 79 C76 76 93 84 112 80 C120 72 124 52 135 44 C141 40 148 44 150 51 L148 72 C144 84 145 100 137 117 C130 131 111 136 91 133 L62 129 C47 128 40 120 38 108 Z"/>
-    <clipPath id="zebra-coat"><use href="#zebra-silhouette"/></clipPath>
+    <clipPath id="zb-clip"><path d="M44 142 C34 132 32 112 42 100 C52 88 72 84 92 84 C112 84 128 88 136 96 C138 84 140 68 144 54 L168 60 C162 78 156 98 154 114 C154 132 144 142 124 144 C104 148 62 148 50 144 Z"/></clipPath>
+    <clipPath id="zb-head"><path d="M142 46 C152 36 168 36 176 46 C184 56 182 70 172 78 C162 86 148 84 143 74 C138 65 138 54 142 46 Z"/></clipPath>
   </defs>
-  <ellipse cx="99" cy="177" rx="68" ry="5" fill="#786b5e" opacity=".13"/>
-  <!-- Far legs and the long, tufted tail. -->
-  <path class="coat" d="M57 118 L76 123 L70 142 L75 168 L72 173 L65 173 L64 146 L54 132 Z M118 119 L130 119 L128 143 L139 167 L138 173 L130 173 L118 144 Z" style="fill:var(--shade)"/>
-  <path class="stripe" d="M65 167 L75 167 L75 174 L64 174 Z M129 167 L139 167 L141 174 L129 174 Z"/>
-  <path d="M40 92 C27 105 34 124 24 140" fill="none" stroke="var(--line)" stroke-width="3" stroke-linecap="round"/>
-  <path class="stripe" d="M24 135 C17 139 16 147 18 153 L22 150 L24 154 C28 147 29 140 24 135 Z"/>
-  <!-- A short upright mane follows the back of the neck. -->
-  <path class="stripe" d="M111 82 L116 70 L119 70 L119 61 L123 61 L124 53 L128 53 L130 46 L134 46 L137 40 L143 43 C130 53 128 72 120 86 Z"/>
-  <use href="#zebra-silhouette" class="coat"/>
-  <g clip-path="url(#zebra-coat)" class="stripe">
-    <path d="M45 79 C35 100 49 107 58 112 C48 99 48 90 53 77 Z M58 77 C48 97 59 113 71 127 C64 107 58 97 66 78 Z M73 78 C64 98 75 120 81 135 L87 136 C82 115 73 95 81 80 Z M89 81 C82 99 92 123 94 135 L102 136 C96 113 91 97 97 82 Z M105 80 C97 102 109 119 110 135 L117 132 C117 112 105 100 113 80 Z M120 78 C111 97 123 114 121 132 L129 129 C135 107 117 95 130 72 Z"/>
-    <path d="M37 108 C49 111 55 122 58 132 L49 130 C47 119 40 118 35 118 Z M41 96 C47 99 52 103 58 104 C50 105 42 103 38 101 Z M125 59 C134 60 139 67 150 66 L151 60 C140 61 136 54 130 52 Z M120 72 C132 73 136 79 147 78 L149 72 C137 74 131 65 123 66 Z M117 86 C128 85 134 91 146 90 L147 84 C135 87 129 78 120 80 Z M128 47 C139 49 142 54 151 54 L150 48 L136 42 Z"/>
-    <path d="M42 116 C63 135 106 141 135 118 C125 143 65 151 42 116 Z" opacity=".12"/>
+  <!-- tufted tail -->
+  <path d="M46 112 C36 124 31 138 31 150" fill="none" stroke="var(--line)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M31 148 C25 152 24 160 27 167 C33 164 35 154 31 148 Z" fill="var(--stripe)"/>
+  <!-- far legs, held back with the shade tone -->
+  <path d="M70 128 c-2 14 -2 26 0 38 h13 c2 -10 2 -24 0 -38 z" fill="var(--shade)" stroke="var(--line)" stroke-width="2.2"/>
+  <path d="M136 128 c-2 14 -2 26 0 38 h13 c2 -10 2 -24 0 -38 z" fill="var(--shade)" stroke="var(--line)" stroke-width="2.2"/>
+  <path d="M70 164 h13 v4 q0 8 -6.5 8 q-6.5 0 -6.5 -8 z" fill="var(--stripe)" stroke="var(--line)" stroke-width="2"/>
+  <path d="M136 164 h13 v4 q0 8 -6.5 8 q-6.5 0 -6.5 -8 z" fill="var(--stripe)" stroke="var(--line)" stroke-width="2"/>
+  <g fill="var(--stripe)">
+    <path d="M71 150 l11 1 v5 l-11 -1 z M72 160 l10 1 v5 l-10 -1 z"/>
+    <path d="M137 150 l11 1 v5 l-11 -1 z M138 160 l10 1 v5 l-10 -1 z"/>
   </g>
-  <!-- Near legs: hock, slender cannon bones, and flat dark hooves. -->
-  <path class="coat" d="M49 116 C49 128 57 134 61 140 L54 157 L53 171 L61 172 L64 158 L72 141 L68 126 M116 124 L117 145 L115 171 L124 172 L128 145 L131 120"/>
-  <path class="stripe" d="M53 126 L69 130 L70 135 L56 132 Z M60 140 L69 145 L67 150 L58 146 Z M55 154 L64 157 L63 161 L54 159 Z M53 168 L62 169 L63 176 L51 176 Z M117 134 L129 132 L128 138 L117 139 Z M117 147 L127 147 L126 152 L117 152 Z M116 158 L125 158 L125 162 L116 162 Z M115 168 L125 169 L127 176 L114 176 Z"/>
-  <!-- Rounded ears and a long, tapered equine face. -->
-  <path class="coat" d="M138 47 C131 43 128 30 133 27 C138 26 144 39 144 45 Z M145 46 C143 36 148 24 153 26 C158 30 153 43 150 48 Z"/>
-  <path class="stripe" d="M136 41 Q132 32 134 31 Q139 34 140 43 Z M148 42 Q148 31 152 30 Q153 36 150 43 Z"/>
-  <path class="coat" d="M135 52 C136 43 148 42 154 48 C158 53 160 60 166 64 L181 75 C187 80 183 89 177 91 C169 92 163 84 157 82 L145 77 C135 73 131 62 135 52 Z"/>
-  <path class="stripe" d="M139 46 Q139 56 150 65 Q145 54 146 44 Z M150 46 Q148 58 161 72 L166 75 Q158 59 156 52 Z M134 59 Q139 69 151 72 L150 76 Q137 74 133 65 Z M137 51 L139 55 L135 58 Z"/>
-  <path class="stripe" d="M174 70 C180 73 186 77 184 83 C183 91 177 93 171 88 L167 84 C171 81 174 76 174 70 Z"/>
-  <ellipse cx="145" cy="58" rx="2.7" ry="3" fill="#272b2f"/>
-  <circle cx="145.8" cy="57.1" r=".8" fill="#fffdf7"/>
-  <path class="detail" d="M142 53 Q145 51 148 54 M157 79 Q160 82 164 82"/>
-  <ellipse cx="179" cy="79" rx="1.8" ry="2.4" fill="#202428" transform="rotate(-30 179 79)"/>
-  <path d="M175 86 Q179 87 182 84" fill="none" stroke="#96958f" stroke-width="1" stroke-linecap="round"/>
+<!-- near legs with bands and dark hooves -->
+  <path d="M50 132 c-2 14 -2 26 0 34 h15 c2 -8 2 -20 0 -34 z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4"/>
+  <path d="M118 132 c-2 14 -2 26 0 34 h15 c2 -8 2 -20 0 -34 z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4"/>
+  <g fill="var(--stripe)">
+    <path d="M51 141 l13 1 v5 l-13 -1 z M52 152 l12 1 v5 l-12 -1 z M53 163 l11 1 v5 l-11 -1 z"/>
+    <path d="M119 141 l13 1 v5 l-13 -1 z M120 152 l12 1 v5 l-12 -1 z M121 163 l11 1 v5 l-11 -1 z"/>
+  </g>
+  <path d="M50 164 h15 v4 q0 8 -7.5 8 q-7.5 0 -7.5 -8 z" fill="var(--stripe)" stroke="var(--line)" stroke-width="2.2"/>
+  <path d="M118 164 h15 v4 q0 8 -7.5 8 q-7.5 0 -7.5 -8 z" fill="var(--stripe)" stroke="var(--line)" stroke-width="2.2"/>
+  <!-- body and neck over the leg tops -->
+  <path d="M44 142 C34 132 32 112 42 100 C52 88 72 84 92 84 C112 84 128 88 136 96 C138 84 140 68 144 54 L168 60 C162 78 156 98 154 114 C154 132 144 142 124 144 C104 148 62 148 50 144 Z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- bold stripes following the barrel and the neck -->
+  <g clip-path="url(#zb-clip)" fill="var(--stripe)">
+    <path d="M52 66 C50 96 47 128 43 176 L55 176 C58 128 60 96 63 66 Z"/>
+    <path d="M70 66 C68 96 65 126 61 176 L71 176 C73 126 75 96 77 66 Z"/>
+    <path d="M84 66 C82 100 79 132 75 176 L87 176 C89 132 91 100 93 66 Z"/>
+    <path d="M98 66 C96 100 93 136 89 176 L98 176 C100 136 102 100 104 66 Z"/>
+    <path d="M112 66 C110 100 107 140 103 176 L114 176 C116 140 118 100 121 66 Z"/>
+    <path d="M128 70 C126 90 124 110 121 140 L130 140 C133 110 135 90 138 68 Z"/>
+    <path d="M138 40 C134 62 132 80 130 100 L139 98 C141 78 143 60 147 40 Z"/>
+    <path d="M152 42 C148 62 146 80 143 100 L151 98 C154 78 156 60 160 44 Z"/>
+    <path d="M162 50 C158 66 156 78 154 92 L161 90 C164 76 166 62 168 52 Z"/>
+    <path d="M143 92 C141 108 139 128 137 150 L147 148 C149 128 151 110 154 94 Z"/>
+  </g>
+<!-- head -->
+  <path d="M142 46 C152 36 168 36 176 46 C184 56 182 70 172 78 C162 86 148 84 143 74 C138 65 138 54 142 46 Z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4" stroke-linejoin="round"/>
+  <g clip-path="url(#zb-head)" fill="none" stroke="var(--stripe)" stroke-width="6" stroke-linecap="round">
+    <path d="M143 50 Q149 54 144 68"/>
+    <path d="M156 40 Q163 48 158 62"/>
+  </g>
+  <!-- ears -->
+  <path d="M152 40 C150 30 155 24 161 27 C164 31 160 37 159 42 Z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4"/>
+  <path d="M169 40 C170 31 175 26 180 30 C182 35 176 39 173 43 Z" fill="var(--coat)" stroke="var(--line)" stroke-width="2.4"/>
+  <path d="M154 38 Q153 32 157 30" fill="none" stroke="var(--stripe)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M171 38 Q173 32 177 32" fill="none" stroke="var(--stripe)" stroke-width="3" stroke-linecap="round"/>
+  <!-- upright mane on the back of the neck -->
+  <g fill="var(--stripe)">
+    <path d="M134 99 L137 89 L126 93 Z"/>
+    <path d="M136 86 L139 76 L128 80 Z"/>
+    <path d="M138 73 L141 63 L130 67 Z"/>
+    <path d="M140 60 L143 50 L132 54 Z"/>
+  </g>
+  <!-- dark muzzle, eye, nostril and mouth -->
+  <ellipse cx="172" cy="72" rx="12" ry="9" fill="var(--stripe)" stroke="var(--line)" stroke-width="2"/>
+  <path d="M164 79 Q172 84 180 79" fill="none" stroke="var(--shade)" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="155" cy="55" r="4.6" fill="var(--stripe)"/>
+  <circle cx="156.6" cy="53.4" r="1.6" fill="#fffdf7"/>
+  <ellipse cx="74" cy="106" rx="14" ry="7" fill="#fffdf7" opacity=".45"/>
+  </g>
 </svg>

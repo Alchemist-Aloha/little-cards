@@ -560,11 +560,43 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="176" rx="55" ry="7"/>
-    <path class="c-snake" d="M42 151 Q42 121 72 124 Q96 127 101 145 Q106 162 131 158 Q160 154 158 128 Q156 105 132 106 Q108 107 106 88 Q104 66 130 57" fill="none" stroke="var(--c-line)" stroke-width="30" stroke-linecap="round"/>
-    <path class="c-snake" d="M42 151 Q42 121 72 124 Q96 127 101 145 Q106 162 131 158 Q160 154 158 128 Q156 105 132 106 Q108 107 106 88 Q104 66 130 57" fill="none" stroke="var(--c-snake)" stroke-width="23" stroke-linecap="round"/>
-    <path class="c-snake-spot" d="M53 137 l13 -7 l8 11 l-13 8z M83 133 l13 7 l-4 11 l-13 -7z M119 151 l10 -9 l10 9 l-11 8z M143 119 l12 2 l-1 11 l-12 -2z"/>
-    <circle class="c-snake" cx="130" cy="55" r="20"/><circle class="c-eyes" cx="123" cy="51" r="4"/><circle class="c-eyes" cx="138" cy="51" r="4"/>
-    <path class="c-eyeline" d="M123 64 Q130 69 138 63"/><path d="M130 72 V83 M130 83 l-7 6 M130 83 l7 6" fill="none" stroke="var(--c-red)" stroke-width="2.5" stroke-linecap="round"/>
-  </g> </svg>
+<g>
+    <ellipse class="shadow" cx="100" cy="180" rx="56" ry="8"/>
+    <!-- outline pass, tapering from the neck to the tail tip -->
+    <g fill="none" stroke="var(--c-line)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M136 62 Q118 70 104 82" stroke-width="34"/>
+      <path d="M104 82 Q82 104 80 126" stroke-width="29"/>
+      <path d="M80 126 Q80 150 100 158" stroke-width="24"/>
+      <path d="M100 158 Q126 166 148 154" stroke-width="19"/>
+      <path d="M148 154 Q168 142 164 120" stroke-width="13"/>
+      <path d="M164 120 Q160 106 150 98" stroke-width="8"/>
+    </g>
+    <!-- colour pass -->
+    <g fill="none" stroke="var(--c-snake)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M136 62 Q118 70 104 82" stroke-width="29"/>
+      <path d="M104 82 Q82 104 80 126" stroke-width="24"/>
+      <path d="M80 126 Q80 150 100 158" stroke-width="19"/>
+      <path d="M100 158 Q126 166 148 154" stroke-width="14"/>
+      <path d="M148 154 Q168 142 164 120" stroke-width="8.5"/>
+      <path d="M164 120 Q160 106 150 98" stroke-width="4"/>
+    </g>
+    <!-- diamond markings along the body -->
+    <g class="c-snake-spot">
+      <path d="M120 82 l9 -5 l7 8 l-9 5 z"/>
+      <path d="M92 108 l8 -5 l7 8 l-8 5 z"/>
+      <path d="M92 146 l9 -4 l6 8 l-9 5 z"/>
+      <path d="M130 152 l9 -4 l6 8 l-9 5 z"/>
+      <path d="M154 134 l8 -5 l7 8 l-9 5 z"/>
+      <path d="M156 104 l7 -4 l6 7 l-8 5 z"/>
+    </g>
+    <!-- head -->
+    <ellipse class="c-snake" cx="146" cy="52" rx="27" ry="20"/>
+    <circle cx="138" cy="44" r="5" class="c-eyes"/><circle cx="160" cy="46" r="5" class="c-eyes"/>
+    <circle cx="139.6" cy="42.4" r="1.7" class="hi"/><circle cx="161.6" cy="44.4" r="1.7" class="hi"/>
+    <path d="M136 60 Q148 68 160 60" fill="none" stroke="var(--c-eyes)" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M166 54 l4 0 M166 60 l3 1" fill="none" stroke="var(--c-eyes)" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
+    <!-- forked tongue flicking out -->
+    <path d="M164 62 Q172 68 178 62 M178 62 l6 -4 M178 62 l6 5" fill="none" stroke="var(--c-red)" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="142" cy="38" rx="11" ry="4.5" class="hi"/>
+  </g>
+</svg>

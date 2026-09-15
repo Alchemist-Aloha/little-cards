@@ -560,14 +560,55 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="176" rx="52" ry="7"/>
-    <circle class="c-lion-mane" cx="100" cy="103" r="67"/>
-    <circle class="c-lion" cx="100" cy="104" r="49"/>
-    <path class="c-lion-mane" d="M48 68 Q35 53 50 48 L61 61 M152 68 Q165 53 150 48 L139 61"/>
-    <ellipse class="c-mushroom" cx="100" cy="120" rx="31" ry="24"/>
-    <circle class="c-eyes" cx="82" cy="98" r="5"/><circle class="c-eyes" cx="118" cy="98" r="5"/>
-    <ellipse class="c-tip" cx="100" cy="114" rx="8" ry="6"/><path class="c-eyeline" d="M87 128 Q100 140 113 128"/>
-    <path class="c-mane" d="M56 93 L67 88 M144 93 L133 88 M62 123 L72 126 M138 123 L128 126"/>
-    <path class="c-lion" d="M72 143 L67 166 Q66 175 78 175 Q86 173 85 163 L88 148 M128 148 L131 163 Q130 173 139 175 Q151 175 146 166 L141 143"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="182" rx="56" ry="8"/>
+  <!-- tufted tail, attached at the rump, hanging to the right -->
+  <path d="M134 140 C156 142 168 152 168 164" fill="none" stroke="var(--c-line)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M134 140 C156 142 168 152 168 164" fill="none" stroke="var(--c-lion)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M168 163 C177 166 177 181 168 186 C159 181 159 166 168 163 Z" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- hind legs -->
+  <ellipse cx="64" cy="150" rx="19" ry="22" class="c-lion"/>
+  <ellipse cx="136" cy="150" rx="19" ry="22" class="c-lion"/>
+  <ellipse cx="64" cy="174" rx="15" ry="9" class="c-lion"/>
+  <ellipse cx="136" cy="174" rx="15" ry="9" class="c-lion"/>
+  <!-- stocky body -->
+  <ellipse cx="100" cy="148" rx="45" ry="34" class="c-lion"/>
+  <!-- front legs, feet on the ground line -->
+  <path d="M79 144 V170 Q79 179 87 179 Q95 179 95 170 V144 Z" class="c-lion"/>
+  <path d="M105 144 V170 Q105 179 113 179 Q121 179 121 170 V144 Z" class="c-lion"/>
+  <path d="M82 171 V178 M87 170 V179 M92 171 V178 M108 171 V178 M113 170 V179 M118 171 V178" class="c-ridge"/>
+  <path d="M56 171 V178 M63 170 V179 M70 171 V178 M130 171 V178 M137 170 V179 M144 171 V178" class="c-ridge"/>
+  <!-- mane: soft brown mass with a ring of tufts all the way around -->
+  <g fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round">
+    <circle cx="100" cy="88" r="58"/>
+    <circle cx="158" cy="88" r="13"/><circle cx="150.2" cy="117" r="13"/><circle cx="129" cy="138.2" r="13"/>
+    <circle cx="100" cy="146" r="13"/><circle cx="71" cy="138.2" r="13"/><circle cx="49.8" cy="117" r="13"/>
+    <circle cx="42" cy="88" r="13"/><circle cx="49.8" cy="59" r="13"/><circle cx="71" cy="37.8" r="13"/>
+    <circle cx="100" cy="30" r="13"/><circle cx="129" cy="37.8" r="13"/><circle cx="150.2" cy="59" r="13"/>
+  </g>
+  <!-- fur radiating out from the face -->
+  <g fill="none" stroke="var(--c-hair)" stroke-width="4.5" stroke-linecap="round" opacity=".3">
+    <path d="M146 88 L164 88 M139.8 111 L154 119.5 M123 127.8 L131.5 142.5 M100 134 L100 151"/>
+    <path d="M77 127.8 L68.5 142.5 M60.2 111 L46 119.5 M54 88 L36 88 M60.2 65 L46 56.5"/>
+    <path d="M77 48.2 L68.5 33.5 M100 42 L100 25 M123 48.2 L131.5 33.5 M139.8 65 L154 56.5"/>
+  </g>
+  <!-- ears on top of the mane -->
+  <circle cx="72" cy="46" r="11" class="c-lion"/>
+  <circle cx="128" cy="46" r="11" class="c-lion"/>
+  <ellipse cx="72" cy="46" rx="5" ry="6" class="c-hair"/>
+  <ellipse cx="128" cy="46" rx="5" ry="6" class="c-hair"/>
+  <!-- face -->
+  <circle cx="100" cy="88" r="47" class="c-lion"/>
+  <ellipse cx="80" cy="68" rx="9" ry="5" class="hi"/>
+  <path d="M70 72 Q80 66 90 72 M110 72 Q120 66 130 72" class="c-ridge"/>
+  <circle cx="80" cy="86" r="6" class="c-eyes"/>
+  <circle cx="120" cy="86" r="6" class="c-eyes"/>
+  <circle cx="78" cy="84" r="2" class="hi"/>
+  <circle cx="118" cy="84" r="2" class="hi"/>
+  <ellipse cx="100" cy="112" rx="27" ry="19" class="c-mushroom"/>
+  <path d="M92 103 Q100 98 108 103 Q105 112 100 112 Q95 112 92 103 Z" class="c-tip"/>
+  <path d="M100 112 V118 M100 118 Q94 125 87 119 M100 118 Q106 125 113 119" class="c-eyeline"/>
+  <path d="M75 108 L47 102 M75 114 L45 114 M75 120 L47 126" class="c-whisker"/>
+  <path d="M125 108 L153 102 M125 114 L155 114 M125 120 L153 126" class="c-whisker"/>
+</g>
+</svg>

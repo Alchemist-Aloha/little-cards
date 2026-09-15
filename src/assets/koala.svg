@@ -560,12 +560,58 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-  <g>
-    <ellipse class="shadow" cx="100" cy="177" rx="48" ry="7"/>
-    <ellipse class="c-hippo" cx="100" cy="123" rx="43" ry="50"/>
-    <circle class="c-hippo" cx="56" cy="78" r="29"/><circle class="c-hippo" cx="144" cy="78" r="29"/>
-    <circle class="c-mushroom" cx="56" cy="78" r="15"/><circle class="c-mushroom" cx="144" cy="78" r="15"/>
-    <circle class="c-hippo" cx="100" cy="99" r="48"/><ellipse class="c-mushroom" cx="100" cy="145" rx="25" ry="30"/>
-    <ellipse class="c-wheel" cx="100" cy="108" rx="15" ry="22"/><circle class="c-eyes" cx="82" cy="93" r="5"/><circle class="c-eyes" cx="118" cy="93" r="5"/><path class="c-eyeline" d="M91 132 Q100 139 109 132"/>
-    <path class="c-hippo" d="M72 140 L59 159 Q54 167 63 172 Q72 175 77 164 L86 150 M128 140 L141 159 Q146 167 137 172 Q128 175 123 164 L114 150"/>
-  </g> </svg>
+<g>
+  <ellipse class="shadow" cx="100" cy="182" rx="54" ry="8"/>
+  <!-- far arm, gripping -->
+  <path d="M74 126 C62 136 56 150 58 162" fill="none" stroke="var(--c-line)" stroke-width="19" stroke-linecap="round" opacity=".72"/>
+  <path d="M74 126 C62 136 56 150 58 162" fill="none" stroke="var(--c-hippo)" stroke-width="13" stroke-linecap="round" opacity=".72"/>
+  <!-- rounded body -->
+  <ellipse cx="100" cy="150" rx="45" ry="34" class="c-hippo"/>
+  <!-- paler tummy -->
+  <ellipse cx="100" cy="156" rx="27" ry="24" class="c-mushroom"/>
+  <!-- hind legs and feet -->
+  <ellipse cx="68" cy="158" rx="18" ry="19" class="c-hippo"/>
+  <ellipse cx="132" cy="158" rx="18" ry="19" class="c-hippo"/>
+  <ellipse cx="76" cy="174" rx="15" ry="9" class="c-hippo"/>
+  <ellipse cx="124" cy="174" rx="15" ry="9" class="c-hippo"/>
+  <g fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round" opacity=".55">
+    <path d="M68 172 V179 M74 171 V180 M80 172 V179 M120 172 V179 M126 171 V180 M132 172 V179"/>
+  </g>
+  <!-- near arm -->
+  <path d="M126 126 C138 136 144 150 142 162" fill="none" stroke="var(--c-line)" stroke-width="19" stroke-linecap="round"/>
+  <path d="M126 126 C138 136 144 150 142 162" fill="none" stroke="var(--c-hippo)" stroke-width="13" stroke-linecap="round"/>
+  <ellipse cx="58" cy="168" rx="11" ry="9" class="c-hippo"/>
+  <ellipse cx="142" cy="168" rx="11" ry="9" class="c-hippo"/>
+  <!-- claws, two to a paw -->
+  <g fill="none" stroke="var(--c-line)" stroke-width="2.2" stroke-linecap="round" opacity=".7">
+    <path d="M53 175 Q51 180 52 183 M62 176 Q61 181 62 184"/>
+    <path d="M137 175 Q135 180 136 183 M147 176 Q146 181 147 184"/>
+  </g>
+  <!-- huge fluffy ears -->
+  <g class="c-hippo">
+    <circle cx="57" cy="76" r="30"/>
+    <circle cx="143" cy="76" r="30"/>
+    <circle cx="28.8" cy="65.7" r="8.5"/><circle cx="28.8" cy="86.3" r="8.5"/>
+    <circle cx="46.7" cy="47.8" r="8.5"/><circle cx="67.3" cy="47.8" r="8.5"/>
+    <circle cx="46.7" cy="104.2" r="8.5"/><circle cx="67.3" cy="104.2" r="8.5"/>
+    <circle cx="171.2" cy="65.7" r="8.5"/><circle cx="171.2" cy="86.3" r="8.5"/>
+    <circle cx="153.3" cy="47.8" r="8.5"/><circle cx="132.7" cy="47.8" r="8.5"/>
+    <circle cx="153.3" cy="104.2" r="8.5"/><circle cx="132.7" cy="104.2" r="8.5"/>
+  </g>
+  <ellipse cx="57" cy="76" rx="17" ry="19" class="c-mushroom"/>
+  <ellipse cx="143" cy="76" rx="17" ry="19" class="c-mushroom"/>
+  <!-- head -->
+  <circle cx="100" cy="88" r="43" class="c-hippo"/>
+  <ellipse cx="76" cy="58" rx="11" ry="6" class="hi"/>
+  <!-- big leathery nose -->
+  <ellipse cx="100" cy="117" rx="14" ry="19" class="c-cow-spot"/>
+  <ellipse cx="94" cy="109" rx="4" ry="5.5" class="hi"/>
+  <!-- sleepy half-lidded eyes -->
+  <circle cx="77" cy="97" r="6" class="c-eyes"/>
+  <circle cx="123" cy="97" r="6" class="c-eyes"/>
+  <path d="M70.5 97 A6.5 6.5 0 0 1 83.5 97 Z" fill="var(--c-hippo)"/>
+  <path d="M116.5 97 A6.5 6.5 0 0 1 129.5 97 Z" fill="var(--c-hippo)"/>
+  <path d="M70.5 97 A6.5 6.5 0 0 1 83.5 97 M116.5 97 A6.5 6.5 0 0 1 129.5 97" fill="none" stroke="var(--c-eyes)" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M92 141 Q100 149 108 141" class="c-eyeline"/>
+</g>
+</svg>
