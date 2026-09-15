@@ -561,12 +561,20 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
-  <path d="M70 52 Q100 40 130 52 L134 138 Q132 166 100 170 Q68 166 66 138 Z" class="c-cucumber" />
-  <path d="M80 58 L80 150 M94 52 L94 162 M108 52 L108 162 M122 58 L122 150" class="c-cucumber-line" />
-  <path d="M75 82 L88 88 M112 86 L126 80 M74 112 L88 118 M112 118 L128 110 M82 144 L94 148 M108 148 L122 142" class="c-cucumber-line" />
-  <circle cx="76" cy="68" r="4" class="c-dimple" /><circle cx="124" cy="68" r="4" class="c-dimple" /><circle cx="78" cy="140" r="3" class="c-dimple" /><circle cx="122" cy="132" r="3" class="c-dimple" />
-  <ellipse cx="84" cy="76" rx="7" ry="15" transform="rotate(-12 84 76)" class="hi" />
-  <path d="M76 54 Q100 44 124 54" class="c-ridge" />
+  <ellipse cx="100" cy="178" rx="52" ry="8" class="shadow" />
+  <path d="M146 40 C152 32 158 28 162 30 C166 33 163 40 154 46 Z" fill="var(--c-tree)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round" />
+  <path d="M58.0 164.0 C60.6 159.5 67.8 146.2 73.7 137.1 C79.6 128.0 86.3 119.0 93.5 109.2 C100.7 99.5 108.6 89.7 117.1 78.8 C125.5 67.9 139.5 49.8 144.0 44.0" fill="none" stroke="var(--c-line)" stroke-width="40" stroke-linecap="round" />
+  <path d="M58.0 164.0 C60.6 159.5 67.8 146.2 73.7 137.1 C79.6 128.0 86.3 119.0 93.5 109.2 C100.7 99.5 108.6 89.7 117.1 78.8 C125.5 67.9 139.5 49.8 144.0 44.0" fill="none" stroke="var(--c-cucumber)" stroke-width="35" stroke-linecap="round" />
+  <path class="c-cucumber-line" d="M52.5 149.8 C53.7 147.8 57.0 142.0 59.4 138.0 C61.9 134.1 64.4 130.2 67.1 126.3 C69.7 122.4 72.5 118.4 75.4 114.4 C78.2 110.4 81.2 106.4 84.3 102.3 C87.4 98.2 90.6 94.1 93.9 89.8 C97.1 85.6 100.5 81.3 104.0 76.8 C107.5 72.4 111.0 67.8 114.7 63.1 C118.3 58.5 124.1 51.1 125.9 48.7" />
+  <path class="c-cucumber-line" d="M59.5 153.7 C60.6 151.8 63.9 146.1 66.2 142.3 C68.6 138.4 71.1 134.6 73.7 130.8 C76.3 126.9 79.0 123.1 81.9 119.1 C84.7 115.2 87.6 111.2 90.7 107.1 C93.8 103.1 96.9 99.0 100.2 94.7 C103.5 90.5 106.8 86.2 110.3 81.7 C113.8 77.3 117.3 72.8 121.0 68.1 C124.7 63.4 130.4 56.0 132.3 53.6" />
+  <path class="c-cucumber-line" d="M66.5 157.6 C67.6 155.7 70.7 150.2 73.0 146.5 C75.3 142.8 77.8 139.1 80.3 135.3 C82.9 131.5 85.6 127.7 88.3 123.8 C91.1 119.9 94.1 116.0 97.1 112.0 C100.1 107.9 103.3 103.8 106.5 99.6 C109.8 95.4 113.1 91.1 116.6 86.7 C120.1 82.2 123.6 77.7 127.3 73.0 C131.0 68.3 136.7 60.9 138.6 58.5" />
+  <path class="c-cucumber-line" d="M73.0 161.2 C74.1 159.4 77.1 154.1 79.4 150.4 C81.6 146.8 84.0 143.2 86.5 139.5 C89.0 135.8 91.7 132.0 94.4 128.2 C97.2 124.4 100.1 120.5 103.1 116.5 C106.1 112.5 109.2 108.4 112.5 104.2 C115.7 100.0 119.0 95.7 122.5 91.3 C126.0 86.9 129.5 82.3 133.2 77.6 C136.9 72.9 142.6 65.5 144.5 63.0" />
+  <path class="c-cucumber-line" d="M50 150 L60 156 M70 128 L80 134 M94 106 L104 112 M118 80 L128 86 M141 56 L151 62" />
+  <path class="c-cucumber-line" d="M64 152 L56 144 M86 122 L78 114 M108 94 L100 86 M130 66 L122 58" />
+  <circle cx="56" cy="164" r="3.6" class="c-dimple" /><circle cx="74" cy="142" r="3.2" class="c-dimple" />
+  <circle cx="86" cy="166" r="3.6" class="c-dimple" /><circle cx="100" cy="146" r="3.2" class="c-dimple" />
+  <circle cx="112" cy="120" r="3.2" class="c-dimple" /><circle cx="128" cy="100" r="3" class="c-dimple" />
+  <circle cx="134" cy="76" r="3" class="c-dimple" /><circle cx="68" cy="118" r="2.8" class="c-dimple" />
+  <ellipse cx="88" cy="106" rx="6" ry="16" transform="rotate(-40 88 106)" class="hi" />
 </g>
 </svg>

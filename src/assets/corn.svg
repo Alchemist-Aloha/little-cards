@@ -561,11 +561,25 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="176" rx="45" ry="7" class="shadow" />
-  <path d="M72 70 Q100 58 128 70 L130 144 Q126 168 100 172 Q74 168 70 144 Z" class="c-corn" />
-  <path d="M85 72 V158 M100 68 V164 M115 72 V158 M75 96 H125 M72 118 H128 M74 140 H126" class="c-corn-line" />
-  <g class="c-dimple"><circle cx="84" cy="86" r="3" /><circle cx="100" cy="82" r="3" /><circle cx="116" cy="86" r="3" /><circle cx="84" cy="108" r="3" /><circle cx="100" cy="104" r="3" /><circle cx="116" cy="108" r="3" /><circle cx="84" cy="130" r="3" /><circle cx="100" cy="126" r="3" /><circle cx="116" cy="130" r="3" /></g>
-  <path d="M80 76 Q52 58 48 74 Q54 104 78 126 L90 112 Z M120 76 Q148 58 152 74 Q146 104 122 126 L110 112 Z" class="c-leaf" />
-  <ellipse cx="84" cy="92" rx="8" ry="13" transform="rotate(-18 84 92)" class="hi" />
+  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
+  <path d="M100 54 C96 42 88 32 78 28" fill="none" stroke="var(--c-stem)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M100 54 C99 40 100 28 104 18" fill="none" stroke="var(--c-stem)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M100 54 C103 42 111 32 121 28" fill="none" stroke="var(--c-stem)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M100 54 C94 48 84 46 76 48" fill="none" stroke="var(--c-stem)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M100 54 C106 48 116 46 124 48" fill="none" stroke="var(--c-stem)" stroke-width="3.2" stroke-linecap="round" />
+  <path class="c-leaf" d="M100 166 C84 158 68 140 58 116 C49 96 40 78 35 70 C28 76 30 92 39 110 C50 132 72 155 100 166 Z" />
+  <path class="c-leaf" d="M100 166 C116 158 132 140 142 116 C151 96 160 78 165 70 C172 76 170 92 161 110 C150 132 128 155 100 166 Z" />
+  <path class="c-ridge" d="M88 156 C70 138 55 114 46 88" />
+  <path class="c-ridge" d="M112 156 C130 138 145 114 154 88" />
+  <path class="c-corn" d="M100 44 C110 44 118 52 120 64 C126 88 128 116 125 142 C122 160 112 172 100 172 C88 172 78 160 75 142 C72 116 74 88 80 64 C82 52 90 44 100 44 Z" />
+  <path class="c-corn-line" d="M85 76 Q100 82 115 76" />
+  <path class="c-corn-line" d="M79 100 Q100 107 121 100" />
+  <path class="c-corn-line" d="M77 124 Q100 131 123 124" />
+  <path class="c-corn-line" d="M80 148 Q100 155 120 148" />
+  <path class="c-corn-line" d="M85 68 Q83 116 86 160" />
+  <path class="c-corn-line" d="M100 60 L100 166" />
+  <path class="c-corn-line" d="M115 68 Q117 116 114 160" />
+  <path class="c-corn-line" d="M92.5 78 V100 M107.5 100 V124 M92.5 124 V148 M107.5 148 V158" />
+  <ellipse cx="84" cy="94" rx="7" ry="13" transform="rotate(-16 84 94)" class="hi" />
 </g>
 </svg>

@@ -561,11 +561,12 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
-  <path d="M100 58 C126 66 154 92 154 126 C154 158 130 174 100 174 C70 174 46 158 46 126 C46 92 74 66 100 58 Z" class="c-eggplant" />
-  <path d="M100 62 L82 44 L96 54 L100 40 L106 54 L122 44 L110 64 Z" class="c-leaf" />
-  <path d="M100 62 Q88 84 88 138 M100 62 V154 M100 62 Q112 84 112 138" class="c-ridge" />
-  <ellipse cx="73" cy="104" rx="9" ry="17" transform="rotate(-18 73 104)" class="hi" />
-  <path d="M76 152 Q100 166 124 152" fill="none" stroke="var(--c-line)" stroke-width="2" opacity=".35" />
+  <ellipse cx="100" cy="176" rx="48" ry="8" class="shadow" />
+  <path class="c-eggplant" d="M100 52 C109 52 115 62 118 80 C132 96 150 110 150 134 C150 158 128 174 100 174 C72 174 50 158 50 134 C50 110 68 96 82 80 C85 62 91 52 100 52 Z" />
+  <path class="c-ridge" d="M84 92 C78 118 80 146 92 163" />
+  <path class="c-ridge" d="M116 92 C122 118 120 146 108 163" />
+  <path class="c-stem2" d="M94 48 C93 38 97 30 104 26 C110 22 116 27 111 33 C107 38 105 42 105 50 Z" />
+  <path class="c-leaf" d="M100 46 C110 48 116 56 118 64 C119 72 113 77 107 74 C105 82 102 88 100 90 C98 88 95 82 93 74 C87 77 81 72 82 64 C84 56 90 48 100 46 Z" />
+  <ellipse cx="76" cy="112" rx="9" ry="17" transform="rotate(-16 76 112)" class="hi" />
 </g>
 </svg>

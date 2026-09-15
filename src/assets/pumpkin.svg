@@ -561,11 +561,16 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse cx="100" cy="176" rx="47" ry="7" class="shadow" />
-  <path d="M100 70 C82 62 64 72 58 88 C38 90 34 116 48 132 C46 154 68 168 86 160 C96 174 104 174 114 160 C132 168 154 154 152 132 C166 116 162 90 142 88 C136 72 118 62 100 70 Z" class="c-pumpkin" />
-  <path d="M100 70 V164 M78 76 Q62 112 76 158 M122 76 Q138 112 124 158 M58 94 Q48 120 62 142 M142 94 Q152 120 138 142" class="c-pumpkin-line" />
-  <path d="M100 70 Q98 52 107 46 Q118 40 118 54 Q116 64 108 66" class="c-stem-line" />
-  <path d="M108 54 Q130 46 140 58 Q126 68 108 64" class="c-leaf" />
-  <ellipse cx="68" cy="96" rx="9" ry="14" transform="rotate(-22 68 96)" class="hi" />
+  <ellipse cx="100" cy="176" rx="50" ry="8" class="shadow" />
+  <path class="c-pumpkin" d="M80 74 C72 58 50 62 44 80 C35 94 35 122 43 138 C52 158 66 172 80 158 C88 172 112 172 120 158 C134 172 148 158 156 138 C164 122 164 96 154 82 C150 62 128 58 120 74 C112 83 88 83 80 74 Z" />
+  <path class="c-pumpkin-line" d="M80 78 C72 112 72 138 80 156" />
+  <path class="c-pumpkin-line" d="M120 78 C128 112 128 138 120 156" />
+  <path class="c-pumpkin-line" d="M56 84 C47 106 47 128 56 146" />
+  <path class="c-pumpkin-line" d="M144 84 C153 106 153 128 144 146" />
+  <path class="c-pumpkin-line" d="M88 82 Q100 90 112 82" />
+  <path d="M95 84 C93 64 98 48 107 38 C114 30 124 34 122 42 C119 50 112 56 110 64 C108 72 108 78 108 84 Z" fill="var(--c-stem)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round" />
+  <ellipse cx="116" cy="39" rx="8" ry="4.5" transform="rotate(-34 116 39)" fill="var(--c-tip)" stroke="var(--c-line)" stroke-width="2" />
+  <path class="c-leaf" d="M110 56 C122 42 140 36 154 38 C146 54 126 62 110 56 Z" />
+  <ellipse cx="66" cy="102" rx="9" ry="15" transform="rotate(-20 66 102)" class="hi" />
 </g>
 </svg>

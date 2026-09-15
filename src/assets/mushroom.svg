@@ -562,11 +562,14 @@ svg {
 </style>
 <g>
   <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
-  <path d="M72 104 Q72 150 80 164 Q100 174 120 164 Q128 150 128 104 Z" class="c-mushroom" />
-  <path d="M42 106 Q44 62 100 54 Q156 62 158 106 Q142 118 128 108 Q114 118 100 108 Q86 118 72 108 Q58 118 42 106 Z" class="c-mushroom-cap" />
-  <path d="M72 106 Q86 98 100 106 Q114 98 128 106" fill="none" stroke="var(--c-line)" stroke-width="2.5" opacity=".55" />
-  <circle cx="70" cy="88" r="7" class="c-seed" /><circle cx="100" cy="72" r="6" class="c-seed" /><circle cx="130" cy="88" r="7" class="c-seed" />
-  <path d="M84 112 V150 M96 112 V158 M108 112 V158 M120 112 V150" class="c-ridge" />
-  <ellipse cx="70" cy="78" rx="8" ry="11" transform="rotate(-20 70 78)" class="hi" />
+  <path class="c-mushroom" d="M86 86 C86 118 83 146 81 158 C79 169 121 169 119 158 C117 146 114 118 114 86 Z" />
+  <path class="c-mushroom" d="M30 90 C30 54 62 34 100 34 C138 34 170 54 170 90 C162 108 132 116 100 116 C68 116 38 108 30 90 Z" />
+  <path class="c-mushroom-cap" d="M32 92 C32 56 64 36 100 36 C136 36 168 56 168 92 C158 100 130 104 100 104 C70 104 42 100 32 92 Z" />
+  <path class="c-ridge" d="M46 100 L44 93 M60 105 L57 97 M74 109 L71 100" />
+  <path class="c-ridge" d="M154 100 L156 93 M140 105 L143 97 M126 109 L129 100" />
+  <circle cx="72" cy="62" r="7.5" class="c-seed" /><circle cx="100" cy="50" r="8.5" class="c-seed" />
+  <circle cx="130" cy="62" r="7" class="c-seed" /><circle cx="57" cy="82" r="5.5" class="c-seed" />
+  <circle cx="145" cy="82" r="5.5" class="c-seed" /><circle cx="88" cy="78" r="4.5" class="c-seed" />
+  <ellipse cx="60" cy="62" rx="9" ry="12" transform="rotate(-22 60 62)" class="hi" />
 </g>
 </svg>

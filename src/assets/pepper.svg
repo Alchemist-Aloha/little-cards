@@ -562,11 +562,15 @@ svg {
 </style>
 <g>
   <ellipse cx="100" cy="176" rx="46" ry="7" class="shadow" />
-  <path d="M58 74 Q68 58 84 64 Q100 52 116 64 Q132 58 142 74 L138 132 Q132 164 100 170 Q68 164 62 132 Z" class="c-cucumber" />
-  <path d="M82 66 Q88 48 100 52 Q112 48 118 66 Q100 76 82 66 Z" class="c-leaf" />
-  <path d="M100 52 Q100 38 110 32 Q116 30 116 38 Q114 46 106 52" class="c-stem2" />
-  <path d="M78 72 Q70 106 78 146 M100 68 V158 M122 72 Q130 106 122 146" class="c-ridge" />
-  <ellipse cx="76" cy="86" rx="8" ry="14" transform="rotate(-20 76 86)" class="hi" />
-  <path d="M70 130 Q80 140 90 146 M130 130 Q120 140 110 146" class="c-cucumber-line" />
+  <path class="c-cucumber" d="M100 66 C110 58 124 56 134 62 C146 68 152 84 151 106 C151 132 148 152 140 162 C136 172 124 176 114 168 C110 161 106 163 100 172 C94 163 90 161 86 168 C76 176 64 172 60 162 C52 152 49 132 49 106 C48 84 54 68 66 62 C76 56 90 58 100 66 Z" />
+  <path class="c-ridge" d="M88 70 C80 100 80 134 89 165" />
+  <path class="c-ridge" d="M112 70 C120 100 120 134 111 165" />
+  <path class="c-ridge" d="M68 74 C61 104 62 136 72 160" />
+  <path class="c-ridge" d="M132 74 C139 104 138 136 128 160" />
+  <path class="c-cucumber-line" d="M78 64 Q100 78 122 64" />
+  <path class="c-stem2" d="M96 62 C94 46 98 34 106 26 C113 20 120 26 114 34 C108 42 106 52 106 64 Z" />
+  <path class="c-leaf" d="M82 62 C86 52 96 60 100 66 C104 60 114 52 118 62 C118 70 110 75 100 75 C90 75 82 70 82 62 Z" />
+  <path class="c-leaf" d="M110 38 C120 26 138 20 152 22 C146 38 126 48 110 42 Z" />
+  <ellipse cx="70" cy="94" rx="8" ry="16" transform="rotate(-18 70 94)" class="hi" />
 </g>
 </svg>
