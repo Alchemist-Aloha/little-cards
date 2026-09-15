@@ -561,29 +561,17 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <g>
-  <ellipse class="shadow" cx="100" cy="176" rx="42" ry="7"/>
-  <g transform="rotate(-6 100 100)">
-    <!-- ear outline: wide over the helix, tapering to the lobe -->
-    <path class="c-skin" d="M100 24 C130 24 150 42 152 72 C154 100 148 124 137 143
-      C127 160 112 172 96 170 C80 168 70 156 67 136 C63 112 66 86 72 64
-      C78 42 84 24 100 24 Z"/>
-    <!-- helix: rim parallel to the outer edge, from the front edge down to the lobe -->
-    <path d="M72 92 C68 62 82 32 106 31 C130 30 144 50 145 74 C146 98 140 122 131 138
-      C127 145 122 150 116 154"
-      fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-    <!-- antihelix: stem above the concha, forking clear of the hollow -->
-    <path d="M104 94 C100 82 101 68 109 58 M109 58 C105 53 99 51 93 53 M109 58 C116 53 124 53 129 58"
-      fill="none" stroke="var(--c-line)" stroke-width="2.5" stroke-linecap="round"/>
-    <!-- concha hollow with the ear canal oval inside it -->
-    <ellipse cx="92" cy="112" rx="19" ry="21" class="c-skin-shade"/>
-    <path d="M76 96 C71 112 75 130 86 141" class="c-ridge"/>
-    <ellipse cx="94" cy="115" rx="7" ry="9.5" fill="var(--c-eyes)"/>
-    <!-- antitragus crease above the lobe -->
-    <path d="M80 139 C88 135 98 135 106 139" class="c-ridge"/>
-    <!-- rounded lobe pad below the concha -->
-    <ellipse class="c-skin" cx="98" cy="154" rx="22" ry="13"/>
-    <!-- soft highlight on the upper rim -->
-    <ellipse class="hi" cx="86" cy="60" rx="5" ry="12"/>
-  </g>
+  <ellipse class="shadow" cx="100" cy="177" rx="43" ry="7"/>
+  <!-- natural outer ear: broad upper rim, narrower middle and soft lobe -->
+  <path class="c-skin" d="M102 22 C132 22 151 44 152 75 C153 103 145 126 132 146 C122 162 108 173 94 171 C77 169 68 156 67 137 C65 116 69 94 72 73 C76 45 84 22 102 22 Z"/>
+  <!-- helix follows the outer edge without crossing the concha -->
+  <path d="M73 91 C71 61 83 31 105 30 C128 29 143 49 144 75 C145 99 138 121 127 138 C121 147 114 153 105 157" fill="none" stroke="var(--c-line)" stroke-width="3" stroke-linecap="round"/>
+  <!-- antihelix forks naturally above a small ear canal -->
+  <path d="M87 137 C77 127 76 111 83 99 C91 87 101 84 103 72 C104 64 100 58 94 54 M103 72 C108 61 118 54 128 59" fill="none" stroke="var(--c-line)" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M84 101 C95 93 109 96 113 108 C116 118 109 129 98 131 C89 133 81 125 82 116" class="c-ridge"/>
+  <ellipse cx="95" cy="116" rx="6" ry="8" fill="var(--c-hair)" opacity=".72"/>
+  <!-- tragus and lobe details -->
+  <path d="M78 110 Q88 114 90 124 M82 145 Q96 138 110 143" class="c-ridge"/>
+  <ellipse class="hi" cx="87" cy="55" rx="5" ry="12"/>
 </g>
 </svg>
