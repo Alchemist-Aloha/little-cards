@@ -565,8 +565,8 @@ svg {
   <!-- continuous bent-arm silhouette with a clear shoulder, elbow and tapered wrist -->
   <path class="c-skin" d="M31 54 C38 36 61 34 70 50 L91 96 C95 104 101 106 109 101 L137 80 C144 74 154 77 160 85 C166 94 163 104 155 110 L119 139 C102 151 82 145 74 128 L29 76 C25 68 26 61 31 54 Z"/>
   <!-- compact open hand: palm, four rounded fingers and side thumb -->
-  <path class="c-skin" d="M134 83 L134 51 C134 43 140 39 146 42 C150 44 151 48 151 54 L151 39 C151 31 157 27 163 30 C168 32 169 37 169 43 L169 55 C169 48 174 45 179 48 C184 51 184 56 183 63 L181 84 C180 98 172 108 158 111 C147 112 138 103 134 83 Z"/>
-  <path d="M142 55 V78 M158 43 V76 M174 58 L172 80" class="c-ridge"/>
+  <path class="c-skin" d="M132 84 L132 54 C132 46 138 42 144 45 C148 47 149 51 149 57 L149 40 C149 32 155 28 161 31 C166 33 167 38 167 44 L167 49 C167 41 173 37 178 41 C182 44 181 50 181 57 C182 52 185 54 184 61 L185 85 C185 100 176 109 160 112 C147 113 136 103 132 84 Z"/>
+  <path d="M140 58 V79 M156 44 V77 M173 51 L172 79 M184 61 L181 81" class="c-ridge"/>
   <path d="M139 88 Q151 83 163 88 M150 99 Q160 104 170 98" class="c-ridge"/>
   <path d="M136 85 L124 72" fill="none" stroke="var(--c-line)" stroke-width="15" stroke-linecap="round"/>
   <path d="M136 85 L124 72" fill="none" stroke="var(--c-skin)" stroke-width="10" stroke-linecap="round"/>
