@@ -176,12 +176,15 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="171" rx="37" ry="7" class="shadow"/>
-  <path d="M72 60 H128 L136 79 V158 H64 V79Z" class="c-milk"/>
-  <path d="M72 60 L87 39 H113 L128 60Z" class="c-milk-top"/>
-  <path d="M64 82 H136" class="c-milk-line"/>
-  <rect x="73" y="96" width="54" height="45" rx="6" class="c-milk-label"/>
-  <path d="M100 101 C87 116 89 130 100 134 C111 130 113 116 100 101Z" class="c-milk-drop"/>
-  <path d="M84 71 V149" class="c-milk-shine"/>
-  <path d="M87 39 V57 M113 39 V57" class="c-milk-line"/>
+  <ellipse cx="100" cy="182" rx="44" ry="8" class="shadow"/>
+  <path d="M64 172 V86 L88 58 H112 L136 86 V172 Z" class="c-milk"/>
+  <path d="M88 58 L94 46 H106 L112 58 Z" class="c-milk"/>
+  <path d="M64 86 H136 M100 58 V86" class="c-milk-line"/>
+  <g transform="rotate(40 120 67)">
+    <rect x="112" y="50" width="16" height="17" rx="4" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+    <ellipse cx="120" cy="50" rx="8" ry="3.5" fill="var(--c-milk-label)" stroke="var(--c-line)" stroke-width="2.5"/>
+  </g>
+  <rect x="64" y="112" width="72" height="34" class="c-milk-label"/>
+  <path d="M100 116 C92 126 92 134 100 138 C108 134 108 126 100 116 Z" class="c-milk-drop"/>
+  <path d="M74 94 V160" class="c-milk-shine"/>
 </svg>

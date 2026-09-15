@@ -560,11 +560,19 @@ svg {
 .c-pancake-syrup { fill: var(--c-coffee); }
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
-<ellipse cx="100" cy="171" rx="57" ry="7" class="shadow"/>
-  <path d="M46 93 C48 66 70 52 100 52 C130 52 152 66 154 93Z" class="c-bread"/>
-  <path d="M51 88 Q100 103 149 88" fill="none" stroke="var(--c-stem)" stroke-width="4"/>
-  <path d="M48 101 H152 V114 H48Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M46 115 Q100 106 154 115 L150 133 Q100 143 50 133Z" fill="var(--c-burger-patty)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M50 136 H150 L143 151 H57Z" class="c-cheese"/>
-  <path d="M64 70 L72 73 M91 64 L98 66 M121 67 L128 70" fill="none" stroke="var(--c-seed)" stroke-width="4" stroke-linecap="round"/>
+  <g>
+    <ellipse cx="100" cy="184" rx="62" ry="8" class="shadow"/>
+    <path d="M52 150 H148 V156 C148 170 132 178 100 178 C68 178 52 170 52 156 Z" class="c-burger"/>
+    <path d="M50 148 C50 140 62 136 100 136 C138 136 150 140 150 148 C150 154 138 158 100 158 C62 158 50 154 50 148 Z" class="c-burger-patty"/>
+    <path d="M42 134 L100 119 L158 134 L100 149 Z" class="c-cheese"/>
+    <path d="M46 122 L154 122 L154 128 C148 136 140 136 134 127 C128 136 118 136 112 127 C106 136 96 136 90 127 C84 136 74 136 68 127 C62 136 52 135 46 128 Z" class="c-leaf"/>
+    <path d="M46 122 C46 84 68 62 100 62 C132 62 154 84 154 122 Z" class="c-burger"/>
+    <ellipse cx="72" cy="88" rx="3.5" ry="2.2" class="c-seed" transform="rotate(-20 72 88)"/>
+    <ellipse cx="95" cy="76" rx="3.5" ry="2.2" class="c-seed" transform="rotate(-5 95 76)"/>
+    <ellipse cx="120" cy="80" rx="3.5" ry="2.2" class="c-seed" transform="rotate(15 120 80)"/>
+    <ellipse cx="140" cy="96" rx="3.5" ry="2.2" class="c-seed" transform="rotate(30 140 96)"/>
+    <ellipse cx="84" cy="104" rx="3.5" ry="2.2" class="c-seed" transform="rotate(-30 84 104)"/>
+    <ellipse cx="112" cy="104" rx="3.5" ry="2.2" class="c-seed" transform="rotate(20 112 104)"/>
+    <ellipse cx="76" cy="84" rx="11" ry="7" class="hi" transform="rotate(-28 76 84)" opacity=".8"/>
+  </g>
 </svg>

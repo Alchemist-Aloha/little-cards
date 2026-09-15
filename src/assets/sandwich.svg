@@ -561,9 +561,17 @@ svg {
 .c-candy { fill: var(--c-candy); stroke: var(--c-line); stroke-width: 2.5; stroke-linejoin: round; }
 </style>
 <ellipse cx="100" cy="170" rx="56" ry="7" class="shadow"/>
-  <path d="M48 73 L151 105 L151 151 L48 119Z" class="c-bread"/>
-  <path d="M48 73 L151 105 L151 119 L48 87Z" fill="var(--c-seed)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M48 88 L151 120 L151 130 L48 98Z" fill="var(--c-green)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M48 99 L151 131 L151 143 L48 111Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M61 76 L135 100" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <path d="M132 50 L132 104" fill="none" stroke="var(--c-stem)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M46 152 L152 152 L152 134 L66 134 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M72 146 L146 146" fill="none" stroke="var(--c-stem)" stroke-width="3.5" stroke-linecap="round" opacity=".45"/>
+  <path d="M62 134 C68 140 76 136 84 139 C92 142 100 137 108 139 C116 141 124 137 132 138 C140 139 146 135 152 132 L152 120 L78 120 Z" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M80 120 L152 120 A7 7 0 0 0 152 106 L95 106 Z" fill="var(--c-tomato)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M92 106 L156 106 L156 94 L107 94 Z" fill="var(--c-cheese)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="140" cy="101" r="3.5" class="c-cheese-hole"/>
+  <circle cx="128" cy="102" r="2.5" class="c-cheese-hole"/>
+  <path d="M110 94 L152 94 L152 56 Z" fill="var(--c-bread)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M124 84 L146 68" fill="none" stroke="var(--c-stem)" stroke-width="3.5" stroke-linecap="round" opacity=".45"/>
+  <path d="M120 86 Q131 78 143 69" fill="none" stroke="var(--c-hi)" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <circle cx="132" cy="46" r="7.5" fill="var(--c-leaf)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="132" cy="46" r="2.6" fill="var(--c-line)" opacity=".5"/>
 </svg>

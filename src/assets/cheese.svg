@@ -176,9 +176,15 @@
 .num-digit { fill: var(--num-ink); font-size: 84px; font-weight: 800; }
 .num-dot { fill: var(--num-ink); }
 </style>
-<ellipse cx="100" cy="169" rx="57" ry="7" class="shadow"/>
-  <path d="M43 137 L137 137 L158 91 L64 91Z" class="c-cheese"/>
-  <path d="M43 137 V104 L64 91 V125Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="3" stroke-linejoin="round"/>
-  <circle cx="85" cy="111" r="8" class="c-cheese-hole"/><circle cx="118" cy="106" r="6" class="c-cheese-hole"/><circle cx="132" cy="126" r="7" class="c-cheese-hole"/>
-  <path d="M77 99 L137 99" fill="none" stroke="var(--c-hi)" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <ellipse cx="102" cy="182" rx="62" ry="8" class="shadow"/>
+  <path d="M44 172 L150 172 L150 126 Z" class="c-cheese"/>
+  <path d="M44 172 L150 126 L172 102 L66 148 Z" class="c-cheese"/>
+  <path d="M150 172 L150 126 L172 102 L172 148 Z" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="90" cy="145" r="7" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="120" cy="132" r="7" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="146" cy="120" r="6" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="108" cy="160" r="7" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="134" cy="148" r="6" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <circle cx="90" cy="166" r="5" fill="var(--c-orange)" stroke="var(--c-line)" stroke-width="2"/>
+  <path d="M120 156 L138 143" class="c-cheese-shine"/>
 </svg>
